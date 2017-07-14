@@ -127,10 +127,7 @@ public class DictionaryPage extends PageObject {
     	 if(ele==1)
     	{
     		Assert.assertTrue(true);
-    		//waitABit(1000);
-//    		WebElementFacade ele3 = find(By.xpath("//div[@class='u02w1']//div[@class='u02search']//input[@class='u02"+input+"bttn']"));
-//    		Actions builder = new Actions(getDriver());
-//    		builder.doubleClick(ele3).perform();
+    		
         	
     	}
     	 else
