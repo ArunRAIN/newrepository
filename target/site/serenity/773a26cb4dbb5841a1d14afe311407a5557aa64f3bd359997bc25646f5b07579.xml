@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Country List" name="Test case -Country List" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="12213" timestamp="2017-07-14T17:57:09.963+05:30" session-id="eae95f6edfca7dd0b5b063d2ac4abae7">
+<acceptance-test-run title="Test case -Country List" name="Test case -Country List" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="22214" timestamp="2017-07-14T23:54:51.246+05:30" session-id="c79fbedb1cb2e16396f67fa964d4e1a7">
   <user-story id="g" name="G" path="stories/consult_dictionary/g.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -8,7 +8,7 @@
     <screenshots>
       <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7145">
+    <test-step result="SUCCESS" duration="16953">
       <screenshots>
         <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
       </screenshots>
@@ -19,7 +19,7 @@
     <screenshots>
       <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1873">
+    <test-step result="SUCCESS" duration="1800">
       <screenshots>
         <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
       </screenshots>
@@ -30,13 +30,13 @@
     <screenshots>
       <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="703">
+    <test-step result="SUCCESS" duration="743">
       <screenshots>
         <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
       </screenshots>
       <description>Region panel display</description>
     </test-step>
-    <test-step result="SUCCESS" duration="753">
+    <test-step result="SUCCESS" duration="820">
       <screenshots>
         <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
       </screenshots>

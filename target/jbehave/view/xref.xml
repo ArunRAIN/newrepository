@@ -264,13 +264,13 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>12833</durationInMillis>
+                  <durationInMillis>47957</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User verifies Menu bar should not Move while pageload</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-                  <durationInMillis>737</durationInMillis>
+                  <durationInMillis>761</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User verifies left Header contains:&#xd;
@@ -284,7 +284,7 @@ eta:@skip</localizedNarrative>
 | Logo   |&#xd;
 | Search |&#xd;
 |  Menu  |?</parametrisedStep>
-                  <durationInMillis>3490</durationInMillis>
+                  <durationInMillis>3679</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User verifies right Header contains:&#xd;
@@ -298,7 +298,7 @@ eta:@skip</localizedNarrative>
 | Account|&#xd;
 | Country|&#xd;
 | Call   |?</parametrisedStep>
-                  <durationInMillis>8447</durationInMillis>
+                  <durationInMillis>8606</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -404,7 +404,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>28160</durationInMillis>
+        <durationInMillis>63726</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -654,19 +654,19 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>7150</durationInMillis>
+                  <durationInMillis>16959</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User Hover over on &apos;Country&apos; text</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-                  <durationInMillis>1886</durationInMillis>
+                  <durationInMillis>1811</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User can see the  panel showing Regions and their countries with two column</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User can see the  panel showing Regions and their countries with two column</parametrisedStep>
-                  <durationInMillis>1458</durationInMillis>
+                  <durationInMillis>1564</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -763,7 +763,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>12215</durationInMillis>
+        <durationInMillis>22217</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1049,31 +1049,31 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>7255</durationInMillis>
+                  <durationInMillis>11613</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User Signed In</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Signed In</parametrisedStep>
-                  <durationInMillis>15196</durationInMillis>
+                  <durationInMillis>25292</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User see the Text &apos;Account&apos; must be displayed</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>727</durationInMillis>
+                  <durationInMillis>733</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User Hover Over &apos;Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-                  <durationInMillis>1784</durationInMillis>
+                  <durationInMillis>1785</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>736</durationInMillis>
+                  <durationInMillis>776</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User verify Oracle account must have options:
@@ -1087,7 +1087,7 @@ eta:@skip</localizedNarrative>
 |Sign Out         |
 |Account          |
 |Help             |?</parametrisedStep>
-                  <durationInMillis>2099</durationInMillis>
+                  <durationInMillis>2258</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User verify Cloud account must have only option:
@@ -1097,7 +1097,7 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User verify Cloud account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-                  <durationInMillis>718</durationInMillis>
+                  <durationInMillis>759</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User Click on Cloud account each links:
@@ -1107,7 +1107,7 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User Click on Cloud account each links:
 ?|Option  |Link             |appropriate page        |
 |Account |Sign in          |Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>12513</durationInMillis>
+                  <durationInMillis>18271</durationInMillis>
                 </successful>
                 <failed>
                   <step>Then User Click on Oracle account each links:
@@ -1129,25 +1129,25 @@ eta:@skip</localizedNarrative>
                         <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
                         <trace>com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)</trace>
                         <trace>com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$page$2(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$page$2(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.page(&lt;generated&gt;)</trace>
                         <trace>com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$is_page$3(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$is_page$0(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.is_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.is_page(&lt;generated&gt;)</trace>
                         <trace>com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -1197,14 +1197,14 @@ eta:@skip</localizedNarrative>
                       <c class="list"/>
                       <list/>
                     </suppressedExceptions>
-                    <uuid>d99d5f76-81b3-4c10-929e-58d063752828</uuid>
+                    <uuid>e68e41d4-72cd-4c76-a179-6ca9d75843fe</uuid>
                   </throwable>
                   <parametrisedStep>Then User Click on Oracle account each links:
 ?|Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
 |Account|Sign Out         |Single Sign off          |?</parametrisedStep>
-                  <durationInMillis>148338</durationInMillis>
+                  <durationInMillis>69969</durationInMillis>
                 </failed>
               </results>
             </steps>
@@ -1319,7 +1319,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>195024</durationInMillis>
+        <durationInMillis>138268</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1573,31 +1573,31 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>8354</durationInMillis>
+                  <durationInMillis>15299</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User click inside the search box must show the cursor</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-                  <durationInMillis>2695</durationInMillis>
+                  <durationInMillis>2754</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-                  <durationInMillis>1597</durationInMillis>
+                  <durationInMillis>1647</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</parametrisedStep>
-                  <durationInMillis>3071</durationInMillis>
+                  <durationInMillis>3184</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>12063</durationInMillis>
+                  <durationInMillis>18242</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -1696,7 +1696,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>30984</durationInMillis>
+        <durationInMillis>44328</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1843,14 +1843,16 @@ eta:@skip</iWantTo>
               <string>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</string>
+|Create an account|
+|Help             |</string>
               <string>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</string>
               <string>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</string>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</string>
               <string>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</string>
@@ -1864,7 +1866,7 @@ As a n Tester
 I want to verify Global Nav application
 eta:@skip</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -1950,14 +1952,16 @@ eta:@skip</localizedNarrative>
               <string>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</string>
+|Create an account|
+|Help             |</string>
               <string>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</string>
               <string>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</string>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</string>
               <string>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</string>
@@ -1978,76 +1982,153 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>6498</durationInMillis>
+                  <durationInMillis>13985</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User Not signed In</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Not signed In</parametrisedStep>
-                  <durationInMillis>757</durationInMillis>
+                  <durationInMillis>783</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>712</durationInMillis>
+                  <durationInMillis>710</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User Hover over &apos;Sign In&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-                  <durationInMillis>1766</durationInMillis>
+                  <durationInMillis>2219</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>726</durationInMillis>
+                  <durationInMillis>859</durationInMillis>
                 </successful>
-                <successful>
+                <failed>
                   <step>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</step>
-                  <type>SUCCESSFUL</type>
+|Create an account|
+|Help             |</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Then User verify Oracle Account must have options:
+|option           |
+|Sign in          |
+|Create an account|
+|Help             |</detailMessage>
+                    <cause class="java.lang.AssertionError">
+                      <stackTrace>
+                        <trace>org.junit.Assert.fail(Assert.java:86)</trace>
+                        <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
+                        <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
+                        <trace>com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)</trace>
+                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)</trace>
+                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581.CGLIB$Expected_oracle_account_option$6(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581$$FastClassByCGLIB$$3a030f0d.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581.Expected_oracle_account_option(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>dc700bbd-2075-4ea1-a20e-db5e2358141e</uuid>
+                  </throwable>
                   <parametrisedStep>Then User verify Oracle Account must have options:
 ?|option           |
 |Sign in          |
-|Create an account|?</parametrisedStep>
-                  <durationInMillis>1435</durationInMillis>
-                </successful>
-                <successful>
+|Create an account|
+|Help             |?</parametrisedStep>
+                  <durationInMillis>2336</durationInMillis>
+                </failed>
+                <notPerformed>
                   <step>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User verify Cloud Account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-                  <durationInMillis>698</durationInMillis>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</step>
-                  <type>SUCCESSFUL</type>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</step>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Click on Oracle Account each links:
 ?|Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |?</parametrisedStep>
-                  <durationInMillis>19895</durationInMillis>
-                </successful>
-                <successful>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|?</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>12568</durationInMillis>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -2138,14 +2219,16 @@ eta:@skip</localizedNarrative>
                 <string>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</string>
+|Create an account|
+|Help             |</string>
                 <string>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</string>
                 <string>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</string>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</string>
                 <string>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</string>
@@ -2153,13 +2236,13 @@ eta:@skip</localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>51200</durationInMillis>
+        <durationInMillis>24490</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2411,25 +2494,25 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>9426</durationInMillis>
+                  <durationInMillis>14065</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User hover on Menu Bar shows primary panel with categories</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-                  <durationInMillis>3665</durationInMillis>
+                  <durationInMillis>3689</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User hover on primary categories panel shows secondary panel</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-                  <durationInMillis>3588</durationInMillis>
+                  <durationInMillis>3585</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-                  <durationInMillis>5667</durationInMillis>
+                  <durationInMillis>6886</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -2527,7 +2610,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>24888</durationInMillis>
+        <durationInMillis>30836</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2783,37 +2866,37 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>34856</durationInMillis>
+                  <durationInMillis>18254</durationInMillis>
                 </successful>
                 <successful>
                   <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-                  <durationInMillis>3772</durationInMillis>
+                  <durationInMillis>3754</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-                  <durationInMillis>3587</durationInMillis>
+                  <durationInMillis>3642</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>40032</durationInMillis>
+                  <durationInMillis>41112</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>32098</durationInMillis>
+                  <durationInMillis>10774</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-                  <durationInMillis>7674</durationInMillis>
+                  <durationInMillis>8758</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -2913,7 +2996,7 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>126021</durationInMillis>
+        <durationInMillis>92189</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -3023,13 +3106,13 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>12833</durationInMillis>
+              <durationInMillis>47957</durationInMillis>
             </successful>
             <successful>
               <step>When User verifies Menu bar should not Move while pageload</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-              <durationInMillis>737</durationInMillis>
+              <durationInMillis>761</durationInMillis>
             </successful>
             <successful>
               <step>Then User verifies left Header contains:&#xd;
@@ -3043,7 +3126,7 @@ eta:@skip</localizedNarrative>
 | Logo   |&#xd;
 | Search |&#xd;
 |  Menu  |?</parametrisedStep>
-              <durationInMillis>3490</durationInMillis>
+              <durationInMillis>3679</durationInMillis>
             </successful>
             <successful>
               <step>Then User verifies right Header contains:&#xd;
@@ -3057,7 +3140,7 @@ eta:@skip</localizedNarrative>
 | Account|&#xd;
 | Country|&#xd;
 | Call   |?</parametrisedStep>
-              <durationInMillis>8447</durationInMillis>
+              <durationInMillis>8606</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -3254,19 +3337,19 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>7150</durationInMillis>
+              <durationInMillis>16959</durationInMillis>
             </successful>
             <successful>
               <step>When User Hover over on &apos;Country&apos; text</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-              <durationInMillis>1886</durationInMillis>
+              <durationInMillis>1811</durationInMillis>
             </successful>
             <successful>
               <step>Then User can see the  panel showing Regions and their countries with two column</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User can see the  panel showing Regions and their countries with two column</parametrisedStep>
-              <durationInMillis>1458</durationInMillis>
+              <durationInMillis>1564</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -3472,31 +3555,31 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>7255</durationInMillis>
+              <durationInMillis>11613</durationInMillis>
             </successful>
             <successful>
               <step>When User Signed In</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Signed In</parametrisedStep>
-              <durationInMillis>15196</durationInMillis>
+              <durationInMillis>25292</durationInMillis>
             </successful>
             <successful>
               <step>Then User see the Text &apos;Account&apos; must be displayed</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-              <durationInMillis>727</durationInMillis>
+              <durationInMillis>733</durationInMillis>
             </successful>
             <successful>
               <step>When User Hover Over &apos;Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-              <durationInMillis>1784</durationInMillis>
+              <durationInMillis>1785</durationInMillis>
             </successful>
             <successful>
               <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>736</durationInMillis>
+              <durationInMillis>776</durationInMillis>
             </successful>
             <successful>
               <step>Then User verify Oracle account must have options:
@@ -3510,7 +3593,7 @@ eta:@skip</localizedNarrative>
 |Sign Out         |
 |Account          |
 |Help             |?</parametrisedStep>
-              <durationInMillis>2099</durationInMillis>
+              <durationInMillis>2258</durationInMillis>
             </successful>
             <successful>
               <step>Then User verify Cloud account must have only option:
@@ -3520,7 +3603,7 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User verify Cloud account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-              <durationInMillis>718</durationInMillis>
+              <durationInMillis>759</durationInMillis>
             </successful>
             <successful>
               <step>Then User Click on Cloud account each links:
@@ -3530,7 +3613,7 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User Click on Cloud account each links:
 ?|Option  |Link             |appropriate page        |
 |Account |Sign in          |Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>12513</durationInMillis>
+              <durationInMillis>18271</durationInMillis>
             </successful>
             <failed>
               <step>Then User Click on Oracle account each links:
@@ -3552,25 +3635,25 @@ eta:@skip</localizedNarrative>
                     <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
                     <trace>com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)</trace>
                     <trace>com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$page$2(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$page$2(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.page(&lt;generated&gt;)</trace>
                     <trace>com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$is_page$3(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$is_page$0(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.is_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.is_page(&lt;generated&gt;)</trace>
                     <trace>com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -3620,14 +3703,14 @@ eta:@skip</localizedNarrative>
                   <c class="list"/>
                   <list/>
                 </suppressedExceptions>
-                <uuid>d99d5f76-81b3-4c10-929e-58d063752828</uuid>
+                <uuid>e68e41d4-72cd-4c76-a179-6ca9d75843fe</uuid>
               </throwable>
               <parametrisedStep>Then User Click on Oracle account each links:
 ?|Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
 |Account|Sign Out         |Single Sign off          |?</parametrisedStep>
-              <durationInMillis>148338</durationInMillis>
+              <durationInMillis>69969</durationInMillis>
             </failed>
           </results>
         </steps>
@@ -3835,31 +3918,31 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>8354</durationInMillis>
+              <durationInMillis>15299</durationInMillis>
             </successful>
             <successful>
               <step>When User click inside the search box must show the cursor</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-              <durationInMillis>2695</durationInMillis>
+              <durationInMillis>2754</durationInMillis>
             </successful>
             <successful>
               <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-              <durationInMillis>1597</durationInMillis>
+              <durationInMillis>1647</durationInMillis>
             </successful>
             <successful>
               <step>Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</parametrisedStep>
-              <durationInMillis>3071</durationInMillis>
+              <durationInMillis>3184</durationInMillis>
             </successful>
             <successful>
               <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>12063</durationInMillis>
+              <durationInMillis>18242</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -4037,14 +4120,16 @@ eta:@skip</localizedNarrative>
           <string>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</string>
+|Create an account|
+|Help             |</string>
           <string>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</string>
           <string>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</string>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</string>
           <string>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</string>
@@ -4065,76 +4150,153 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>6498</durationInMillis>
+              <durationInMillis>13985</durationInMillis>
             </successful>
             <successful>
               <step>When User Not signed In</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Not signed In</parametrisedStep>
-              <durationInMillis>757</durationInMillis>
+              <durationInMillis>783</durationInMillis>
             </successful>
             <successful>
               <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-              <durationInMillis>712</durationInMillis>
+              <durationInMillis>710</durationInMillis>
             </successful>
             <successful>
               <step>When User Hover over &apos;Sign In&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-              <durationInMillis>1766</durationInMillis>
+              <durationInMillis>2219</durationInMillis>
             </successful>
             <successful>
               <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>726</durationInMillis>
+              <durationInMillis>859</durationInMillis>
             </successful>
-            <successful>
+            <failed>
               <step>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</step>
-              <type>SUCCESSFUL</type>
+|Create an account|
+|Help             |</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Then User verify Oracle Account must have options:
+|option           |
+|Sign in          |
+|Create an account|
+|Help             |</detailMessage>
+                <cause class="java.lang.AssertionError">
+                  <stackTrace>
+                    <trace>org.junit.Assert.fail(Assert.java:86)</trace>
+                    <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
+                    <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
+                    <trace>com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)</trace>
+                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)</trace>
+                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581.CGLIB$Expected_oracle_account_option$6(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581$$FastClassByCGLIB$$3a030f0d.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$12e60581.Expected_oracle_account_option(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>dc700bbd-2075-4ea1-a20e-db5e2358141e</uuid>
+              </throwable>
               <parametrisedStep>Then User verify Oracle Account must have options:
 ?|option           |
 |Sign in          |
-|Create an account|?</parametrisedStep>
-              <durationInMillis>1435</durationInMillis>
-            </successful>
-            <successful>
+|Create an account|
+|Help             |?</parametrisedStep>
+              <durationInMillis>2336</durationInMillis>
+            </failed>
+            <notPerformed>
               <step>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User verify Cloud Account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-              <durationInMillis>698</durationInMillis>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</step>
-              <type>SUCCESSFUL</type>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</step>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Click on Oracle Account each links:
 ?|Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |?</parametrisedStep>
-              <durationInMillis>19895</durationInMillis>
-            </successful>
-            <successful>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|?</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>12568</durationInMillis>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -4225,14 +4387,16 @@ eta:@skip</localizedNarrative>
             <string>Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
-|Create an account|</string>
+|Create an account|
+|Help             |</string>
             <string>Then User verify Cloud Account must have only option:
 |option |
 |Sign in|</string>
             <string>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
-|Sign In|Create an account|Create Account           |</string>
+|Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|</string>
             <string>Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |</string>
@@ -4240,7 +4404,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -4338,25 +4502,25 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>9426</durationInMillis>
+              <durationInMillis>14065</durationInMillis>
             </successful>
             <successful>
               <step>When User hover on Menu Bar shows primary panel with categories</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-              <durationInMillis>3665</durationInMillis>
+              <durationInMillis>3689</durationInMillis>
             </successful>
             <successful>
               <step>Then User hover on primary categories panel shows secondary panel</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-              <durationInMillis>3588</durationInMillis>
+              <durationInMillis>3585</durationInMillis>
             </successful>
             <successful>
               <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-              <durationInMillis>5667</durationInMillis>
+              <durationInMillis>6886</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -4548,37 +4712,37 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>34856</durationInMillis>
+              <durationInMillis>18254</durationInMillis>
             </successful>
             <successful>
               <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-              <durationInMillis>3772</durationInMillis>
+              <durationInMillis>3754</durationInMillis>
             </successful>
             <successful>
               <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-              <durationInMillis>3587</durationInMillis>
+              <durationInMillis>3642</durationInMillis>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>40032</durationInMillis>
+              <durationInMillis>41112</durationInMillis>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>32098</durationInMillis>
+              <durationInMillis>10774</durationInMillis>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-              <durationInMillis>7674</durationInMillis>
+              <durationInMillis>8758</durationInMillis>
             </successful>
           </results>
         </steps>

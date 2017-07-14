@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Signed-In" name="Test case -Signed-In" steps="12" successful="11" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="194932" timestamp="2017-07-14T17:57:23.129+05:30" session-id="df362f6a8d9114e82e77b6f8d65e86ba">
+<acceptance-test-run title="Test case -Signed-In" name="Test case -Signed-In" steps="12" successful="11" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="138161" timestamp="2017-07-14T23:55:14.473+05:30" session-id="b1f81c74a00422fce2e96d17a7592992">
   <user-story id="e" name="E" path="stories/consult_dictionary/e.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -8,7 +8,7 @@
     <screenshots>
       <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="7252">
+    <test-step result="SUCCESS" duration="11610">
       <screenshots>
         <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
       </screenshots>
@@ -19,7 +19,7 @@
     <screenshots>
       <screenshot image="08472b34e35debd88d948b2b3fa40538.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="15188">
+    <test-step result="SUCCESS" duration="25281">
       <screenshots>
         <screenshot image="08472b34e35debd88d948b2b3fa40538.png"/>
       </screenshots>
@@ -30,7 +30,7 @@
     <screenshots>
       <screenshot image="08472b34e35debd88d948b2b3fa40538.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="725">
+    <test-step result="SUCCESS" duration="731">
       <screenshots>
         <screenshot image="08472b34e35debd88d948b2b3fa40538.png"/>
       </screenshots>
@@ -41,9 +41,9 @@
     <screenshots>
       <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1782">
+    <test-step result="SUCCESS" duration="1783">
       <screenshots>
-        <screenshot image="8d636c95dac392af4f5ee708b0556919.png"/>
+        <screenshot image="378257424f759abaab01fd3ddcb6bfb9.png"/>
       </screenshots>
       <description>Hover on signin: Account</description>
     </test-step>
@@ -52,7 +52,7 @@
     <screenshots>
       <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="734">
+    <test-step result="SUCCESS" duration="773">
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
@@ -63,19 +63,19 @@
     <screenshots>
       <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="701">
+    <test-step result="SUCCESS" duration="705">
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
       <description>Expected oracle account option: Sign Out</description>
     </test-step>
-    <test-step result="SUCCESS" duration="693">
+    <test-step result="SUCCESS" duration="722">
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
       <description>Expected oracle account option: Account</description>
     </test-step>
-    <test-step result="SUCCESS" duration="702">
+    <test-step result="SUCCESS" duration="827">
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
@@ -86,7 +86,7 @@
     <screenshots>
       <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="716">
+    <test-step result="SUCCESS" duration="757">
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
@@ -101,10 +101,10 @@
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4071">
+      <test-step result="SUCCESS" duration="6325">
         <screenshots>
           <screenshot image="2be6df80ad35f322252d7fdef778aee3.png"/>
-          <screenshot image="435c8c0d45f089f36fb69ff3e57b9330.png"/>
+          <screenshot image="c6b3fbaa251b276eec1f0ef8722fb3e6.png"/>
         </screenshots>
         <description>Page: Account, Oracle Cloud</description>
       </test-step>
@@ -118,10 +118,10 @@
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
-      <test-step result="SUCCESS" duration="4295">
+      <test-step result="SUCCESS" duration="7796">
         <screenshots>
           <screenshot image="6f18360a4f85dfa37dc5990794bc545a.png"/>
-          <screenshot image="0a624d8dcd20850fcdea8803a1c621ac.png"/>
+          <screenshot image="24c084516aa46edb14f05453c149df69.png"/>
         </screenshots>
         <description>Page: Account, About Your Oracle Account</description>
       </test-step>
@@ -130,10 +130,10 @@
       <screenshots>
         <screenshot image="42a7748b320737be66d007a190fd76bc.png"/>
       </screenshots>
-      <test-step result="FAILURE" duration="746">
+      <test-step result="FAILURE" duration="763">
         <screenshots>
           <screenshot image="5544fd9339f25ecd646480bf7d17e0cf.png"/>
-          <screenshot image="5544fd9339f25ecd646480bf7d17e0cf.png" source="pagesource90284517622451233.html.txt"/>
+          <screenshot image="5544fd9339f25ecd646480bf7d17e0cf.png" source="pagesource3294824493450685471.html.txt"/>
         </screenshots>
         <description>Page: Account, Update Account</description>
         <error>java.lang.AssertionError</error>

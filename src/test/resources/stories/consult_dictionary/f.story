@@ -14,6 +14,7 @@ Then User verify Oracle Account must have options:
 |option           |
 |Sign in          |
 |Create an account|
+|Help             |
 Then User verify Cloud Account must have only option:
 |option |
 |Sign in|
@@ -21,6 +22,8 @@ Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Sign in          |Single Sign On - Login   |
 |Sign In|Create an account|Create Account           |
+|Account|Help             |About Your Oracle Account|
 Then User Click on Cloud Account each links:
 |Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |
+

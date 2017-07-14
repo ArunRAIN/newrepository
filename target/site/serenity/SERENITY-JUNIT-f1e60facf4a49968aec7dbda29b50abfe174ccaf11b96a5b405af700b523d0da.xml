@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="F" skipped="0" tests="1" time="51.2" timestamp="2017-07-195 06:01:11"><testcase name="Test case -Not Signed-In"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="F" skipped="0" tests="1" time="24.49" timestamp="2017-07-195 11:58:19"><testcase name="Test case -Not Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)&#13;
+com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)&#13;
+com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)&#13;
+</system-err></testcase></testsuite>
