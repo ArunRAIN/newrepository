@@ -1,0 +1,41 @@
+<story path="stories/consult_dictionary/f.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
+  <asA keyword="As a">n Tester</asA>
+  <iWantTo keyword="I want to">verify Global Nav application
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Test case -Not Signed-In">
+<step outcome="successful">Given User on home page</step>
+<step outcome="successful">When User Not signed In</step>
+<step outcome="successful">Then User see the text &apos;Sign In&apos; must be displayed</step>
+<step outcome="successful">When User Hover over &apos;Sign In&apos;</step>
+<step outcome="successful">Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+<step outcome="successful">Then User verify Oracle Account must have options:
+<parameter><parameters>
+<names><name>option</name></names>
+<values><value>Sign in</value></values>
+<values><value>Create an account</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then User verify Cloud Account must have only option:
+<parameter><parameters>
+<names><name>option</name></names>
+<values><value>Sign in</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then User Click on Oracle Account each links:
+<parameter><parameters>
+<names><name>Option</name><name>Link</name><name>appropriate page</name></names>
+<values><value>Sign In</value><value>Sign in</value><value>Single Sign On - Login</value></values>
+<values><value>Sign In</value><value>Create an account</value><value>Create Account</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then User Click on Cloud Account each links:
+<parameter><parameters>
+<names><name>Option</name><name>Link</name><name>appropriate page</name></names>
+<values><value>Sign In</value><value>Sign in</value><value>Oracle Cloud</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+</story>

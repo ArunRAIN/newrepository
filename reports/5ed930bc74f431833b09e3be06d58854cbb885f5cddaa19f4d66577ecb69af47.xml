@@ -1,0 +1,140 @@
+<acceptance-test-run title="Test case -Search Autosuggest" name="Test case -Search Autosuggest" steps="14" successful="14" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="53786" timestamp="2017-07-04T22:11:35.744+05:30" session-id="4f974f57da9d64a99fd91adc8b10341e">
+  <user-story id="d" name="D" path="stories/consult_dictionary/d.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Sample story" type="story"/>
+    <tag name="D" type="story"/>
+  </tags>
+  <test-group name="Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-group name="Is the home page: Oracle | Integrated Cloud Applications and Platform Services" result="SUCCESS">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1618">
+        <screenshots>
+          <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+        </screenshots>
+        <description>Home page: Oracle | Integrated Cloud Applications and Platform Services</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a41f437c6dd3d21bbc7db5d9a6cbe56.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2145">
+      <screenshots>
+        <screenshot image="077ebfe59903008183cd12e8aa559388.png"/>
+        <screenshot image="b8785d5ec51836a03f51b30a44331d3b.png"/>
+      </screenshots>
+      <description>Type keyword: ora</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3394">
+      <screenshots>
+        <screenshot image="ba4e095b23a1aeb97d184845d56682b6.png"/>
+        <screenshot image="6e4173a38ee8351a79c1de5bec910bb4.png"/>
+      </screenshots>
+      <description>Autosuggestion display</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" result="SUCCESS">
+    <screenshots>
+      <screenshot image="70e12183c1b8fc0925a9cbfd97ef1158.png"/>
+      <screenshot image="8a29e43ee804407f949176d6f01820f3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="881">
+      <screenshots>
+        <screenshot image="70e12183c1b8fc0925a9cbfd97ef1158.png"/>
+        <screenshot image="02430c91d49453bdcb3aed3cb59e3384.png"/>
+      </screenshots>
+      <description>Type keyword: jav</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2816">
+      <screenshots>
+        <screenshot image="cf907bdef79fab36e0b3ae946745f266.png"/>
+        <screenshot image="da6503ca7814c64623ec8706398f319b.png"/>
+      </screenshots>
+      <description>Autosuggestion display</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b37a0a8fb1d0418383111e1d273c4196.png"/>
+      <screenshot image="70996ad19ad2ad35911685764db6d42e.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1511">
+      <screenshots>
+        <screenshot image="12d043d0dd3f8a909053bf29666df9ac.png"/>
+        <screenshot image="270cd3061bd47df9fc59178ecf995524.png"/>
+      </screenshots>
+      <description>Type keyword: oracle</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2679">
+      <screenshots>
+        <screenshot image="0147540ce101464a2381e347636e472c.png"/>
+        <screenshot image="18f2e93653a1c0f67c56a7bba1105703.png"/>
+      </screenshots>
+      <description>Press  enter</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2939">
+      <screenshots>
+        <screenshot image="18f2e93653a1c0f67c56a7bba1105703.png"/>
+        <screenshot image="70996ad19ad2ad35911685764db6d42e.png"/>
+      </screenshots>
+      <description>Expected page: Oracle.com Search</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b5c9080578198d5e14e9a29efad27848.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1936">
+      <screenshots>
+        <screenshot image="39199716239ce51d6d94db503ee5260c.png"/>
+      </screenshots>
+      <description>Type keyword: jav</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2872">
+      <screenshots>
+        <screenshot image="159494ac1aa8fb7f4484c985e6b123e5.png"/>
+        <screenshot image="acdc35dfcb9667d0da7c38231457b82e.png"/>
+      </screenshots>
+      <description>Click search icon</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2750">
+      <screenshots>
+        <screenshot image="acdc35dfcb9667d0da7c38231457b82e.png"/>
+        <screenshot image="b5c9080578198d5e14e9a29efad27848.png"/>
+      </screenshots>
+      <description>Expected page: Oracle.com Search</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9db57b958b30723a555801a8b21f6c1f.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1936">
+      <screenshots>
+        <screenshot image="85ae133f0e09cf6927e96b41f31c1c56.png"/>
+      </screenshots>
+      <description>Type keyword: oracle</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5247">
+      <screenshots>
+        <screenshot image="a1a2bb7b5ad73bbfce6b31ef4e31e485.png"/>
+        <screenshot image="feca440045ba24ebf111911e14055756.png"/>
+      </screenshots>
+      <description>Click outside searchbox</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="5018">
+      <screenshots>
+        <screenshot image="6a0e0a01955628b4a86d1d010dca1243.png"/>
+        <screenshot image="c25b8c8b8bc6a33da181efa0965e59fe.png"/>
+      </screenshots>
+      <description>Is  autosuggestion not display</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

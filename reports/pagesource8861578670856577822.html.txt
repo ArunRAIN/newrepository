@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml"><head>
+<title> Single Sign On - Login
+</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="no-cache" http-equiv="Pragma" />
+<meta content="no-cache" http-equiv="cache-control" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+<link href="/mysso/sso_loginui/internal_style.css?v=3.0" type="text/css" rel="stylesheet" />
+<script src="/mysso/sso_loginui/moc_lib.js?v=2.0" language="JavaScript" type="text/javascript"></script>
+<script src="/mysso/sso_loginui/sso_check.js?v=3.0" language="JavaScript" type="text/javascript"></script>
+<script src="/mysso/sso_loginui/jquery.js" type="text/javascript"></script>
+<!--[if lte IE 8]>
+<style type="text/css">
+.terms_condition{
+border:1px solid #ccc;
+}
+</style>
+<![endif]-->
+<script>stripHTML();</script>
+</head>
+<body onload="doLoad(); setFocus();">
+<div class="f01bg"></div>
+<div class="wrapper sso_internal" id="pageone">
+<div class="header">
+<a tabindex="1" alt="Oracle" class="logo" href="%20http://www.oracle.com/index.html%0A"> Oracle
+</a>
+</div>
+<div class="content_part content-part-m">
+<div class="form_holder">
+<h1> Sign In
+</h1>
+<form autocomplete="off" name="LoginForm" action="/oam/server/sso/auth_cred_submit" method="post">
+<ul>
+<input type="hidden" value="v1.4" name="v" />
+<input type="hidden" value="1033519754221755794" name="request_id" />
+<input type="hidden" value="VERSION_4~E7sA7MRZZlIMNvsG%2bALwsrMd4sTHdJuyyRr493pEerBfT%2bdkfJD0yFfHdb4QsgJsSN1ReI7TknyoFslr%2fYVnnhf38FnqkmTaUtLowcTPClwhaEzc4v2tIjRVVBR%2fGZqW3ITSK4apR2mKrkGw30j3SYCebN3O0NlUWb%2bwZqorU5rhX7Zenv%2fmeo0oP8gqhKeI%2fUEiSPFXLfCpTkdp2fzH8iAupu9YTW4O7vl%2by2h3kQYssEFBZskZoNqeFpwBSd4V0NzwiiqvGf%2bo%2b%2b9sSI9dYoztHPXZl6GXPFSUqWaXtsYSFgqhobZjT6K28Xc1OPHgEZ1O1fRNBe6ouv4UbWDNTtm0%2b2utBWi%2bUzgcoPDMGKaT%2b5EGz9%2b%2f3aeDgmOZHfk5ga0Ry0AMv%2f3rWnouZcjG4sRf3dqCnaHDEk8gSGWn0Ft2LJDa2mIY2Zj0rwHK2tkHExBcWxSC8gcE2T0jhp2rOZG26boFVWzuS2MF3al0p0q5prjaLNM3pBhop5zTdyoYvo683qZ6xX2QB2AY9BcXSukYwudMVTf0Zw1jeZ06LVF57cQPtf7SvOkZs55vLNa4xTVf%2fGEPgoBBr2vwSyVx0Dt66VViiwJF7jvzZzQ4sm4H27oVP9%2bnkSbWHNn7hx7Nah5wGtPU6JJ1QneqqjvUNi2yVyy5OvoLlEa6x9M9E%2b5JJd%2fMECmRR9grRNg19JZNmD2KOVKjv0ndxylDes%2fx2KZ66t5Cai2SCWyRPX8EAUrmVkdt%2biyRt5qN%2fGL8DKU9TDSoFsWTicB80r0xvEuT65ozqedcvhG7N%2blCqaQIMA%2fuW5sz%2bYktiad%2f1QR9EQ%2fEHI6hVQC34fTh0gIGSBYRRsKZdL6OIIk3Jrqc3bVVLSdC2CM5iEsE%2bQtumWKEvVxSm71SA9Fu76lnT%2bGXbybM%2fX3y%2fxpuicDyd39l6euy%2fag3RE2Zq4g1wZ6dwnFrrsdANIaaoRNYBKdONqz%2bI55BrA0%2fyOjxiTd9eISbRWx4FeX5QGuGqGSuvPE5RKTwURzbXdp6U4SCelmpP6JLvBbdo0dJu%2fO8lMZAVCVEus9qbiVtZix8YVRUv4uPcETAQsRgJK4OUCAIm%2bSbQ1WVqr9Z%2flj5wvw2JicVx3dqMbEiEyMVEJNtQldRHl47BgVYOw%2fVTQHFu2h9bXYivkBUX97JW9hcPIazbWq%2fX1oO9Pi4J7BUxQVvhR8v4cSV%2b4FfLg5MxVG%2bzWEF27PLDZGbq%2fcMwWPbvpEo04p86Yelj0WR9aXrLgQs6MPniT%2bDmYFveG1xeKAczdplNZTsDZ0OXA2NjpS32qKgKwNdFkhd98JmNrd4AES6j%2bax6%2b5ynT04%2bUuduhxUtAlEj3bR%2fOVAhgsLNNRH5TuYKR%2bzybqMt5PutQlvybqRPPmO0j7v0RnnUpB6tsVz1tSCtA8rhNoP8HAEGL4iRRz%2fMtBBZUcL3W0m9RkrLBLykhtlfsDTHufqJS7DtHLyEVtXme7hY5N%2fTGc8N8xVloeTLrPMIAkK%2buipYQDOYeWg80%2fgt0PghkMu5C%2bU%2fsr9Ub8tDxZu%2bNzDkTkdVkaTDv06unu0L5x4Q3B7TFag6cr52s%2bqDuH20tU7KAfNh8Iq6RqmVzOA3t9EsJkepiIWMcM%2fOqezQLxiaNleyZVSexxUIlxFm9dY%2fGIvJYZnmnQNeVRTeWqzMYZ%2f%2bTAAgGdpkR%2fG1hll4ihymp3AB5tteg1A5VvwmpGSYV06JWUe3IwcSeb4tlpatwby5KWyfUqjB3ygTqeAeFh8e8%2bPW5QSvUpGsVLX4%2fY55FBFCXDeuxLlg%2bKmkaIROVKgYhsPUJWxINIFi4KuYVfEeA8ThoSr0EG3gqFT1JmeyNiKiobBQkqGhF1f27YO4kJZdZ7S%2fuV6rLTE%2by7XQe%2fBlRnNRCe0h9S8iIfQUb2FYN4PmOz86QK3E5%2b%2fPseusAUfWiGLgrI5aqL%2b8O1UIeOcIKMWu16Pn8QYkyQPP%2fMcMQ9EorZDfrs55syyg%2b2PWQ6d9xEqJg%3d%3d" name="OAM_REQ" />
+<input type="hidden" value="v1.2~656BF073~C58B0F31B92FE1558D77B56DC203EE5CB28C6CD21EFB54B4F5CFAC090FB00AF9BCB5B797F37E9B60974A0BC5ED6D6E0562C2B9F6C721584BF39880125FD1AAA1CE56DF561A5C9BE9B5ED6361990998551B3A34D95D026A5522805077559188E14718ABEF19E013288EC945E5DCF92E5557E3ED5D56F910E56E428A8E6DAEBDA46626A403BEFE9B1E81AC296BB5541F9A9FDC97E8B4BC674ABA7DCDFF69D8CFF15FC8B67A0BC517DFD9470F47B0CBA50C22554BFE5D21A2EE926712C3D02A54111422E2B0C0A0806CFE055908B74B5DDEEB13A55EB0038E9A9C10C4A9A40101DBF6C504061D929804DA347BB1BEA287C9" name="site2pstoretoken" />
+<input type="hidden" value="" name="locale" />
+<li>
+<label for="sso_username"> Username
+<span class="hideFromScreen">
+<span class="error-show" id="readerunameerrormsg"></span>
+<span class="error-hide" id="readerunamerequired"> ERROR:
+Please enter your Username and Password
+</span>
+</span>
+</label>
+<input type="text" tabindex="2/" value="" maxlength="80" title=" Please enter a Username
+" name="ssousername" id="sso_username" placeholder=" Your username is usually your email address
+" />
+<div class="clear"></div>
+</li>
+<li>
+<label for="ssopassword"> Password
+<span class="hideFromScreen">
+<span class="error-show" id="readerpwderrormsg"></span>
+<span class="error-hide" id="readerpwdrequired"> ERROR:
+Please enter your Username and Password
+</span>
+</span>
+</label>
+<input type="password" tabindex="3/" class="sf-pwdbox" maxlength="255" value="" title=" Please enter a Password
+" name="password" id="ssopassword" />
+<span class="error-hide" id="required">
+Please enter your Username and Password
+</span>
+<span class="logerror-instruct">
+</span>
+<div class="hint-text">
+<a tabindex="5" href="%20http://my.oracle.com/site/git/1591/index.htm%0A">Forgot password?</a> <span>Reset password via <a tabindex="6" href="%20https://oim.oraclecorp.com%0A">OIM</a> <span>or call the <a tabindex="7" href="%20http://my.oracle.com/site/git/1591/2666/index.html%0A">Oracle Global Service Desk.</a></span></span>
+</div>
+<div class="clear"></div>
+</li>
+<li class="network-policy">
+<a id="network-policy" href="#"> Oracle's Network Use Policy
+</a>
+</li>
+<li class="btn_holder">
+<a tabindex="4" class="submit_btn" title=" Please click here to sign in
+" href="javascript:doLogin(document.LoginForm);"> Sign In
+</a>
+<div class="clear"></div>
+</li>
+</ul>
+</form>
+</div>
+<!-- ************** form holder ends here *************** -->
+<div class="clear"></div>
+</div>
+<div class="terms_condition">
+Use of the Oracle network and applications is intended solely for Oracle's authorized users. By accessing the network and/or applications, you agree that (i) you will comply with Company policies including the <a href="%20http://my.oracle.com/content/web/cnt687132%0A">Code of Conduct</a>, <a href="%20http://my.oracle.com/content/web/CNT796661%0A">Acceptable Use Policy</a>, and <a href="%20http://my.oracle.com/content/web/CNT683990%0A">Information Protection Policy</a>, (ii) Oracle may transfer and store information internationally, including in the United States, and (iii) to the extent consistent with applicable law, Oracle may monitor use of the network and applications and may transfer and disclose information as required for legal and other purposes, as specified in the <a href="%20http://my.oracle.com/content/web/cnt337893%0A">Internal Privacy Policy</a>.
+</div>
+<div class="footer">
+<div class="footer-inner-left">
+<a class="footer_tech" href="%20http://www.oracle.com/us/corporate/index.html%0A"> Integrated Cloud Applications and Platform Services
+</a>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="legal-text-style">
+<div class="wrapper sso_internal" id="pagetwo" data-role="page" style="display: none;">
+<div class="header">
+<a alt="Oracle" class="logo" href="%20http://www.oracle.com/index.html%0A"> Oracle
+</a>
+</div>
+<div class="content_part content-part-m">
+Use of the Oracle network and applications is intended solely for Oracle's authorized users. By accessing the network and/or applications, you agree that (i) you will comply with Company policies including the <a href="%20http://my.oracle.com/content/web/cnt687132%0A">Code of Conduct</a>, <a href="%20http://my.oracle.com/content/web/CNT796661%0A">Acceptable Use Policy</a>, and <a href="%20http://my.oracle.com/content/web/CNT683990%0A">Information Protection Policy</a>, (ii) Oracle may transfer and store information internationally, including in the United States, and (iii) to the extent consistent with applicable law, Oracle may monitor use of the network and applications and may transfer and disclose information as required for legal and other purposes, as specified in the <a href="%20http://my.oracle.com/content/web/cnt337893%0A">Internal Privacy Policy</a>.
+</div>
+<a id="back-previous" href="#"> Back
+</a>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$('#pagetwo').hide();
+$('#network-policy').click(function(){
+$('#pagetwo').show();
+$('#pageone').hide();
+});
+$('#back-previous').click(function(){
+$('#pagetwo').hide();
+$('#pageone').show();
+});
+});
+</script>
+
+
+</body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1268" height="933"></canvas></html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script>
+    <script class="code" type="text/javascript">$(document).ready(function () {
+
+        // Results table
+        $('#tag-list-table').DataTable( {
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 25
+        } );
+
+        $("test-list").tabs();
+    });
+    </script>
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs"><a href="index.html">Home</a>  > Consult Dictionary
+                > Stories
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-07-2017 22:12</span>
+    <br style="clear:left"/>
+</div>
+
+
+
+   <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <table>
+                 <tr>
+                   <td>
+                    <div id="test-list">
+                        <ul>
+                            <li><a href="test-list-1">Stories</a></li>
+                        </ul>
+                    </div>
+                    <div id="test-list-1" class="table">
+                        <div class="test-results">
+                            <table id="tag-list-table">
+                                <thead>
+                                    <tr>
+                                        <th width="30" class="test-results-heading">&nbsp;</th>
+                                        <th width="750" class="test-results-heading">Story</th>
+                                        <th width="70" class="test-results-heading">Tests</th>
+                                        <th width="70" class="test-results-heading">Steps</th>
+                                        <th width="65" class="test-results-heading">Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>A</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="fcc68da83670b089cb70c5bed6dd1df2656373eb19c1fc8a38de75dc7498cf7f.html">A</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">13</td>
+
+                                        <td class="lightgreentext">35.929</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Aa</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="46b1c32be2921bc283379ba9f9e59d39bbfb56188d2c4538b35c35c51194e93e.html">Aa</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">4</td>
+
+                                        <td class="lightgreentext">0.002</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>B</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="e08a86d3b0ce7c2ac0e6c73bbbf361112653034d042a92c2d4adf3c9f6747775.html">B</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">57.753</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Bb</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="47a47735f8eb0f838bc04803f757b1a1cdc0a3b9506bcedded408ac527279d18.html">Bb</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">4</td>
+
+                                        <td class="lightgreentext">0.003</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>C</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="49322c845ae97f090f44fdb3a8aee4fbce6ffbb3d301d9aaac2a6417a2edf329.html">C</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">15</td>
+
+                                        <td class="lightgreentext">29.272</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Cc</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="8f82000a5be585764d151c60d246e2fd6f9577874dee161b2cc685788e565588.html">Cc</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">5</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Lookup a definition</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="7648f4cb40a8db5d4ebca482eb33ec7f5dc20c482f287d07acdb20643122fd5e.html">Lookup A Definition</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">17</td>
+
+                                        <td class="lightgreentext">35.931</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Sample story</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a185d77c0cf939f13a7a201365a6eaa039da8627b0284a692279993c22f98b3a.html">Sample Story</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">27</td>
+
+                                        <td class="lightgreentext">53.786</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>D</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="4c48fd33f63c2f715af33749aafde0f33b9534dacc056c93114815e4f69ab0e1.html">D</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">21</td>
+
+                                        <td class="lightgreentext">53.786</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Dd</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="20bd5ef0d54b0db625a0f58040ea6b2c215ee5d5f183a0e57e33a3c4bab26ca6.html">Dd</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">6</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>E</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a89e5d70e1e106f475f5d6e37f6a5698220df6902e42abb51d1c4ca55cb91d59.html">E</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">16</td>
+
+                                        <td class="lightgreentext">60.612</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Ee</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="927c5f096fd4a1b390d642432acffb13eec239dd0ac5db8c033ef22dd8f53935.html">Ee</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">5</td>
+
+                                        <td class="lightgreentext">0.012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>F</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="5d84ad825990c8f5e51783068b48f05846881a7d1be2ab6e57022c9d8325a24a.html">F</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">22</td>
+
+                                        <td class="lightgreentext">62.772</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Ff</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SKIPPED">
+                                        <td><span class="summary-icon"/><i class='fa fa-fast-forward skipped-icon fa-2x' title='SKIPPED'></i></span><span style="display:none">SKIPPED</span></td>
+                                        <td class="SKIPPED-text"><a href="c88d13f0ee12309fed7ac5ddb1564e72a78baed35d96427014c9f1c60841b502.html">Ff</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">6</td>
+
+                                        <td class="lightgreentext">0.001</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>G</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="c829fef7fe90af37e61d387e6d7f830e742a6370282afb6e89ffc6dc9dd0696d.html">G</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">17.71</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Gg</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="8855f9b1b34f2bc1e4804a84ed092504332e8ea20428a7e8d98d3f084b44e9b7.html">Gg</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">23.204</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   </td>
+                  </tr>
+                 </table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

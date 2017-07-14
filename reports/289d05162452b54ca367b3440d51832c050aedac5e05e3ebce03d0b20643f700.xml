@@ -1,0 +1,86 @@
+<acceptance-test-run title="Test case -Global Nav (Accelerator Global Nav)" name="Test case -Global Nav (Accelerator Global Nav)" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="35929" timestamp="2017-07-04T22:07:05.348+05:30" session-id="d5a33b492c0a14d3c351b2f447d87021">
+  <user-story id="a" name="A" path="stories/consult_dictionary/a.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="A" type="story"/>
+    <tag name="Consult dictionary/Lookup a definition" type="story"/>
+  </tags>
+  <test-group name="Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-group name="Is the home page: Oracle | Integrated Cloud Applications and Platform Services" result="SUCCESS">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1995">
+        <screenshots>
+          <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+        </screenshots>
+        <description>Home page: Oracle | Integrated Cloud Applications and Platform Services</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="When User verifies Menu bar should not Move while pageload" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9f686bd73df2daffcf22acfd95ed041b.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1834">
+      <screenshots>
+        <screenshot image="ec2ed485f6faeafa69a85185364466e5.png"/>
+        <screenshot image="9f686bd73df2daffcf22acfd95ed041b.png"/>
+      </screenshots>
+      <description>Verify  menu bar position</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verifies left Header contains:&#xd;&#xa;［| Header1|&#xd;&#xa;| Logo   |&#xd;&#xa;| Menu   |s&#xd;&#xa;| Search |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b3f768faa4f37fe724bd220620dd4055.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2406">
+      <screenshots>
+        <screenshot image="71bcf6a6b6f1be4caadceb2f33e55da7.png"/>
+      </screenshots>
+      <description>Left hand header contain: Logo</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2998">
+      <screenshots>
+        <screenshot image="71bcf6a6b6f1be4caadceb2f33e55da7.png"/>
+        <screenshot image="62b20d305fba087830d1d1076f7a5a5a.png"/>
+      </screenshots>
+      <description>Left hand header contain: Menu</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2671">
+      <screenshots>
+        <screenshot image="5fed208e446d3e1bd6e08c467efe0566.png"/>
+        <screenshot image="b4f0681365776dcb9d614022492f01f7.png"/>
+      </screenshots>
+      <description>Left hand header contain: Search</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verifies right Header contains:&#xd;&#xa;［| Header2|&#xd;&#xa;| Account|&#xd;&#xa;| Country|&#xd;&#xa;| Call   |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="ac36422dc6f8ce422624df228c00425d.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2461">
+      <screenshots>
+        <screenshot image="9d0b1a2edf65db0be0a605044264d821.png"/>
+      </screenshots>
+      <description>Right hand header contain: Account</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3196">
+      <screenshots>
+        <screenshot image="2e35d2e75ececa93682c3e6c82a21069.png"/>
+        <screenshot image="83f80c48431abce7ac7ed7a18e569363.png"/>
+      </screenshots>
+      <description>Right hand header contain: Country</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="4258">
+      <screenshots>
+        <screenshot image="83f80c48431abce7ac7ed7a18e569363.png"/>
+        <screenshot image="ac36422dc6f8ce422624df228c00425d.png"/>
+      </screenshots>
+      <description>Right hand header contain: Call</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

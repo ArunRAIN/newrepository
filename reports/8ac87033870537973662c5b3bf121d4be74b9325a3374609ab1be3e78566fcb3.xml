@@ -1,0 +1,100 @@
+<acceptance-test-run title="Test case -Signed-In" name="Test case -Signed-In" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="60612" timestamp="2017-07-04T22:08:01.236+05:30" session-id="92117af278eeb17943c571867e259fc8">
+  <user-story id="e" name="E" path="stories/consult_dictionary/e.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="E" type="story"/>
+  </tags>
+  <test-group name="Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-group name="Is the home page: Oracle | Integrated Cloud Applications and Platform Services" result="SUCCESS">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1666">
+        <screenshots>
+          <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+        </screenshots>
+        <description>Home page: Oracle | Integrated Cloud Applications and Platform Services</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="When User signed in, the text &apos;Account&apos; must be displayed in place of Sign In" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9cf0352eb3ca739a712ae16ee86fab5b.png"/>
+    </screenshots>
+    <test-group name="Sign in account" result="SUCCESS">
+      <screenshots>
+        <screenshot image="904508762a36ff5a0f260ab883bf3ae0.png"/>
+        <screenshot image="9cf0352eb3ca739a712ae16ee86fab5b.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1883">
+        <screenshots>
+          <screenshot image="9f686bd73df2daffcf22acfd95ed041b.png"/>
+          <screenshot image="3c6ee49dff920f06b6268e332dc11188.png"/>
+        </screenshots>
+        <description>Hover sign in</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="6971">
+        <screenshots>
+          <screenshot image="f37922c7ecb04be4dd49b94d4103ac98.png"/>
+          <screenshot image="a79000233ce3eb798895534a75313f82.png"/>
+        </screenshots>
+        <description>Click sign in</description>
+      </test-step>
+    </test-group>
+    <test-step result="SUCCESS" duration="1675">
+      <screenshots>
+        <screenshot image="9cf0352eb3ca739a712ae16ee86fab5b.png"/>
+      </screenshots>
+      <description>Is  account display: Account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Hover over on Account must open a panel showing &apos;Oracle Account&apos; and &apos;cloud account&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="d2aa770157baee01703d04c0644b3da1.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2154">
+      <screenshots>
+        <screenshot image="c259ce4cec0d5ff2b7780244b4188d17.png"/>
+        <screenshot image="11a8eeafc7593d18eb90f094a1de7093.png"/>
+      </screenshots>
+      <description>Hover on  account</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1568">
+      <screenshots>
+        <screenshot image="876f1fb600cad33910f4c9f040fe4a18.png"/>
+      </screenshots>
+      <description>Is panel display</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1819">
+      <screenshots>
+        <screenshot image="876f1fb600cad33910f4c9f040fe4a18.png"/>
+      </screenshots>
+      <description>Is option display: Oracle Account, cloud account&apos;</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User check {Account} panel must show &apos;name of the user&apos;, &apos;user email&apos; , &apos;Sign Out&apos; button and links to &apos;Account&apos; and &apos;Help&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="85413a831b766c7342b451963240a5a4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="876">
+      <screenshots>
+        <screenshot image="85413a831b766c7342b451963240a5a4.png"/>
+      </screenshots>
+      <description>Is account option display: name of the user, user email, Sign Out, Account, Help</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Click on each of the links and verify navigation to appropriate page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="22983">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <description>Appropriate page</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

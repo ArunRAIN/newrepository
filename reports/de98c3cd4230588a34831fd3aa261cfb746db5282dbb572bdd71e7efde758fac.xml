@@ -1,0 +1,26 @@
+<acceptance-test-run title="Test case -Search Autosuggest" name="Test case -Search Autosuggest" steps="6" successful="0" failures="0" skipped="6" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="0" timestamp="2017-07-03T22:28:25.152+05:30">
+  <user-story id="Dd" name="Dd" path="stories/consult_dictionary/Dd.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Sample story" type="story"/>
+    <tag name="Dd" type="story"/>
+  </tags>
+  <test-step result="SKIPPED" duration="0">
+    <description>Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</description>
+  </test-step>
+</acceptance-test-run>

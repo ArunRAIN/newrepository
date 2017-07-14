@@ -1,0 +1,136 @@
+<acceptance-test-run title="Test case -Not Signed-In" name="Test case -Not Signed-In" steps="11" successful="11" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="51198" timestamp="2017-07-14T18:01:11.266+05:30" session-id="82aed8c9f7e9bfe6bae96ab394939468">
+  <user-story id="f" name="F" path="stories/consult_dictionary/f.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/F" type="story"/>
+  </tags>
+  <test-group name="Given User on home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="6495">
+      <screenshots>
+        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Not signed In" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="751">
+      <screenshots>
+        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      </screenshots>
+      <description>Is not signin</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User see the text &apos;Sign In&apos; must be displayed" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="711">
+      <screenshots>
+        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      </screenshots>
+      <description>Expected text: Sign In</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Hover over &apos;Sign In&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1764">
+      <screenshots>
+        <screenshot image="ad43511c4141c313f01398cbfc1b782f.png"/>
+      </screenshots>
+      <description>Hover on signin: Sign In</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="724">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <description>Expected option display: Oracle Account, Cloud Account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verify Oracle Account must have options:&#xa;［|option           |&#xa;|Sign in          |&#xa;|Create an account|］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="701">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <description>Expected oracle account option: Sign in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="731">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <description>Expected oracle account option: Create an account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verify Cloud Account must have only option:&#xa;［|option |&#xa;|Sign in|］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="696">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <description>Expected cloud account option: Sign in</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Click on Oracle Account each links:&#xa;［|Option |Link             |appropriate page         |&#xa;|Sign In|Sign in          |Single Sign On - Login   |&#xa;|Sign In|Create an account|Create Account           |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-group name="Is page: Sign In, Sign in, Single Sign On - Login" result="SUCCESS">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4318">
+        <screenshots>
+          <screenshot image="a79000233ce3eb798895534a75313f82.png"/>
+          <screenshot image="67938f7665b193417bbe20025fbb8ebb.png"/>
+        </screenshots>
+        <description>Page: Sign In, Single Sign On - Login</description>
+      </test-step>
+    </test-group>
+    <test-group name="Is page: Sign In, Create an account, Create Account" result="SUCCESS">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="4472">
+        <screenshots>
+          <screenshot image="7c99e9896ac851bd6f543325fd923a42.png"/>
+          <screenshot image="57fc6865b261f6b9b849d5b8a484b8e2.png"/>
+        </screenshots>
+        <description>Page: Sign In, Create Account</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="Then User Click on Cloud Account each links:&#xa;［|Option  |Link             |appropriate page        |&#xa;|Sign In |Sign in          |Oracle Cloud            |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+    </screenshots>
+    <test-group name="Is page: Sign In, Sign in, Oracle Cloud" result="SUCCESS">
+      <screenshots>
+        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="5772">
+        <screenshots>
+          <screenshot image="2be6df80ad35f322252d7fdef778aee3.png"/>
+          <screenshot image="8f870b78413e2d9a7d6dbdff2f9fbf61.png"/>
+        </screenshots>
+        <description>Page: Sign In, Oracle Cloud</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

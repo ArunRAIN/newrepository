@@ -1,0 +1,52 @@
+<acceptance-test-run title="Test case -Country List" name="Test case -Country List" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="17710" timestamp="2017-07-04T22:07:42.476+05:30" session-id="8450ba3a441a43f803d100e37cbdea66">
+  <user-story id="g" name="G" path="stories/consult_dictionary/g.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="G" type="story"/>
+  </tags>
+  <test-group name="Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-group name="Is the home page: Oracle | Integrated Cloud Applications and Platform Services" result="SUCCESS">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1784">
+        <screenshots>
+          <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+        </screenshots>
+        <description>Home page: Oracle | Integrated Cloud Applications and Platform Services</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="When User Hover over on &apos;Country&apos; text" result="SUCCESS">
+    <screenshots>
+      <screenshot image="f567f623b4b7e153f0b21e234c30c6ab.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2950">
+      <screenshots>
+        <screenshot image="904508762a36ff5a0f260ab883bf3ae0.png"/>
+        <screenshot image="f567f623b4b7e153f0b21e234c30c6ab.png"/>
+      </screenshots>
+      <description>Hover on: Country</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User can see the  panel showing Regions and their countries with two column" result="SUCCESS">
+    <screenshots>
+      <screenshot image="a91ed137c2e1a3e61d1e144cdd4bca34.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1286">
+      <screenshots>
+        <screenshot image="8c7e4671d55e959f4ceed28d7a0d5d11.png"/>
+      </screenshots>
+      <description>Region panel display</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="818">
+      <screenshots>
+        <screenshot image="a91ed137c2e1a3e61d1e144cdd4bca34.png"/>
+      </screenshots>
+      <description>Countries panel display</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

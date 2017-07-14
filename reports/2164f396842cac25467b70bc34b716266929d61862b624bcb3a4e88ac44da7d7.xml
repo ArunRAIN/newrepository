@@ -1,0 +1,97 @@
+<acceptance-test-run title="Test case -Search Box" name="Test case -Search Box" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="29272" timestamp="2017-07-04T22:09:02.869+05:30" session-id="e7b52088455f52ece0a033b26321882c">
+  <user-story id="c" name="C" path="stories/consult_dictionary/c.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="C" type="story"/>
+  </tags>
+  <test-group name="Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+    </screenshots>
+    <test-group name="Is the home page: Oracle | Integrated Cloud Applications and Platform Services" result="SUCCESS">
+      <screenshots>
+        <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="1752">
+        <screenshots>
+          <screenshot image="de140cc872caf24c06ae5e364f380fed.png"/>
+        </screenshots>
+        <description>Home page: Oracle | Integrated Cloud Applications and Platform Services</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="When User click inside the search box must show the cursor" result="SUCCESS">
+    <screenshots>
+      <screenshot image="920d64d69d553e53cb8e465f9c453d11.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2282">
+      <screenshots>
+        <screenshot image="13ed9959c47c1cb0f7fb561c009359af.png"/>
+        <screenshot image="58c40c7caea3e682c8a219081c66cb75.png"/>
+      </screenshots>
+      <description>Click on inside  textbox</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2787">
+      <screenshots>
+        <screenshot image="58c40c7caea3e682c8a219081c66cb75.png"/>
+        <screenshot image="e829a5409da7ffed1c64d1e9f649eb0c.png"/>
+      </screenshots>
+      <description>Is focus on  textbox</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" result="SUCCESS">
+    <screenshots>
+      <screenshot image="119ef16021a1f51374896d203d67fdaf.png"/>
+      <screenshot image="aa4290da1aebec92baacfc5fe01670c7.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1182">
+      <screenshots>
+        <screenshot image="d4ee1e03d2a2fc9fcfddda5512dce86b.png"/>
+        <screenshot image="09d74c51638b3c13a14e36867f137bcb.png"/>
+      </screenshots>
+      <description>Click search</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="778">
+      <screenshots>
+        <screenshot image="aa4290da1aebec92baacfc5fe01670c7.png"/>
+      </screenshots>
+      <description>Is display</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User text is type &apos;java me&apos; in the search box options must be displayed to choose" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2947539a3144ff9e398e25981c76b9b2.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="878">
+      <screenshots>
+        <screenshot image="986af38d79479f714172f6bf8934d652.png"/>
+      </screenshots>
+      <description>Type textbox: java me</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2088">
+      <screenshots>
+        <screenshot image="aa982f6aa6f847fff83474fd8594bbb4.png"/>
+        <screenshot image="2947539a3144ff9e398e25981c76b9b2.png"/>
+      </screenshots>
+      <description>Is search option display</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="dfc3c6d865b9c73a4dfc74a874d1fe73.png"/>
+      <screenshot image="20584e10e70b70af7dfdc8f9d05cab78.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="4597">
+      <screenshots>
+        <screenshot image="20584e10e70b70af7dfdc8f9d05cab78.png"/>
+      </screenshots>
+      <description>Click option: java me</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="677">
+      <screenshots>
+        <screenshot image="20584e10e70b70af7dfdc8f9d05cab78.png"/>
+      </screenshots>
+      <description>Is page: Oracle.com Search</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

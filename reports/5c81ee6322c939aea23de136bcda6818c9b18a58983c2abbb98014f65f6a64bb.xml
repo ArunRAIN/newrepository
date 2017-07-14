@@ -1,0 +1,35 @@
+<acceptance-test-run title="Test case -Not Signed-In" name="Test case -Not Signed-In" steps="6" successful="0" failures="0" skipped="6" ignored="0" pending="0" annotated-result="SKIPPED" result="SKIPPED" duration="1" timestamp="2017-07-03T22:28:24.385+05:30">
+  <user-story id="Ff" name="Ff" path="stories/consult_dictionary/Ff.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Ff" type="story"/>
+  </tags>
+  <test-step result="SKIPPED" duration="0">
+    <description>Given User on home page &apos;Oracle | Integrated Cloud Applications and Platform Services&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When User Not signed in, the text &apos;Sign In&apos; must be displayed</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then User Hover over &apos;Sign In&apos; and a panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User verify Oracle Account must have options:
+|option           |
+|Sign in          |
+|Create an account|
+|Help             |</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User verify Cloud Account must have only option:
+|option |
+|Sign in|</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Click on each options:
+|option           |appropriate page         |
+|Sign in          |Single Sign On - Login   |
+|Create an account|Oracle  | Create Account |
+|Help             |About Your Oracle Account|</description>
+  </test-step>
+</acceptance-test-run>

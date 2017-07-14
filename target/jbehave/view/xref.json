@@ -1,0 +1,5067 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/consult_dictionary/a.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\r\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Global Nav (Accelerator)",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User verifies Menu bar should not Move while pageload",
+              "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+              "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |"
+            ]
+          }
+        ],
+        "name": "a.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\r\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Global Nav (Accelerator)",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User verifies Menu bar should not Move while pageload",
+              "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+              "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/a.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 12833
+                },
+                {
+                  "step": "When User verifies Menu bar should not Move while pageload",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
+                  "durationInMillis": 737
+                },
+                {
+                  "step": "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verifies left Header contains:\r\n?| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |?",
+                  "durationInMillis": 3490
+                },
+                {
+                  "step": "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verifies right Header contains:\r\n?| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |?",
+                  "durationInMillis": 8447
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Global Nav (Accelerator)",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User verifies Menu bar should not Move while pageload",
+                "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+                "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 28160
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/g.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Country List",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Hover over on 'Country' text",
+              "Then User can see the  panel showing Regions and their countries with two column"
+            ]
+          }
+        ],
+        "name": "g.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Country List",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Hover over on 'Country' text",
+              "Then User can see the  panel showing Regions and their countries with two column"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/g.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 7150
+                },
+                {
+                  "step": "When User Hover over on 'Country' text",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User Hover over on 'Country' text",
+                  "durationInMillis": 1886
+                },
+                {
+                  "step": "Then User can see the  panel showing Regions and their countries with two column",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User can see the  panel showing Regions and their countries with two column",
+                  "durationInMillis": 1458
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Country List",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User Hover over on 'Country' text",
+                "Then User can see the  panel showing Regions and their countries with two column"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 12215
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/e.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Signed-In",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Signed In",
+              "Then User see the Text 'Account' must be displayed",
+              "When User Hover Over 'Account'",
+              "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+              "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+              "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+              "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |"
+            ]
+          }
+        ],
+        "name": "e.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "FAILED",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Signed-In",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Signed In",
+              "Then User see the Text 'Account' must be displayed",
+              "When User Hover Over 'Account'",
+              "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+              "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+              "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+              "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/e.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 7255
+                },
+                {
+                  "step": "When User Signed In",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User Signed In",
+                  "durationInMillis": 15196
+                },
+                {
+                  "step": "Then User see the Text 'Account' must be displayed",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User see the Text 'Account' must be displayed",
+                  "durationInMillis": 727
+                },
+                {
+                  "step": "When User Hover Over 'Account'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User Hover Over 'Account'",
+                  "durationInMillis": 1784
+                },
+                {
+                  "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+                  "durationInMillis": 736
+                },
+                {
+                  "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
+                  "durationInMillis": 2099
+                },
+                {
+                  "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign in|?",
+                  "durationInMillis": 718
+                },
+                {
+                  "step": "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Click on Cloud account each links:\n?|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |?",
+                  "durationInMillis": 12513
+                },
+                {
+                  "step": "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |",
+                    "cause": {
+                      "@class": "java.lang.AssertionError",
+                      "stackTrace": [
+                        "org.junit.Assert.fail(Assert.java:86)",
+                        "org.junit.Assert.assertTrue(Assert.java:41)",
+                        "org.junit.Assert.assertTrue(Assert.java:52)",
+                        "com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$page$2(<generated>)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.page(<generated>)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$is_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.is_page(<generated>)",
+                        "com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "d99d5f76-81b3-4c10-929e-58d063752828"
+                  },
+                  "parametrisedStep": "Then User Click on Oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |?",
+                  "durationInMillis": 148338
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Signed-In",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User Signed In",
+                "Then User see the Text 'Account' must be displayed",
+                "When User Hover Over 'Account'",
+                "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+                "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+                "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+                "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+                "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "FAILED"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 195024
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/c.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Search Box",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User click inside the search box must show the cursor",
+              "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+              "Then User text is type 'java me' in the search box options must be displayed to choose",
+              "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page"
+            ]
+          }
+        ],
+        "name": "c.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Search Box",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User click inside the search box must show the cursor",
+              "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+              "Then User text is type 'java me' in the search box options must be displayed to choose",
+              "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/c.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 8354
+                },
+                {
+                  "step": "When User click inside the search box must show the cursor",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User click inside the search box must show the cursor",
+                  "durationInMillis": 2695
+                },
+                {
+                  "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+                  "durationInMillis": 1597
+                },
+                {
+                  "step": "Then User text is type 'java me' in the search box options must be displayed to choose",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User text is type 'java me' in the search box options must be displayed to choose",
+                  "durationInMillis": 3071
+                },
+                {
+                  "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
+                  "durationInMillis": 12063
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Search Box",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User click inside the search box must show the cursor",
+                "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+                "Then User text is type 'java me' in the search box options must be displayed to choose",
+                "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 30984
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/f.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Not Signed-In",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Not signed In",
+              "Then User see the text 'Sign In' must be displayed",
+              "When User Hover over 'Sign In'",
+              "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+              "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+              "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+              "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |"
+            ]
+          }
+        ],
+        "name": "f.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Not Signed-In",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User Not signed In",
+              "Then User see the text 'Sign In' must be displayed",
+              "When User Hover over 'Sign In'",
+              "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+              "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+              "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+              "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/f.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 6498
+                },
+                {
+                  "step": "When User Not signed In",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User Not signed In",
+                  "durationInMillis": 757
+                },
+                {
+                  "step": "Then User see the text 'Sign In' must be displayed",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
+                  "durationInMillis": 712
+                },
+                {
+                  "step": "When User Hover over 'Sign In'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User Hover over 'Sign In'",
+                  "durationInMillis": 1766
+                },
+                {
+                  "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+                  "durationInMillis": 726
+                },
+                {
+                  "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|?",
+                  "durationInMillis": 1435
+                },
+                {
+                  "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign in|?",
+                  "durationInMillis": 698
+                },
+                {
+                  "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Click on Oracle Account each links:\n?|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |?",
+                  "durationInMillis": 19895
+                },
+                {
+                  "step": "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |?",
+                  "durationInMillis": 12568
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Not Signed-In",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User Not signed In",
+                "Then User see the text 'Sign In' must be displayed",
+                "When User Hover over 'Sign In'",
+                "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+                "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+                "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+                "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+                "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 51200
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/b.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Global Nav (Menu)",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User hover on Menu Bar shows primary panel with categories",
+              "Then User hover on primary categories panel shows secondary panel",
+              "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing"
+            ]
+          }
+        ],
+        "name": "b.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Global Nav (Menu)",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User hover on Menu Bar shows primary panel with categories",
+              "Then User hover on primary categories panel shows secondary panel",
+              "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/b.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 9426
+                },
+                {
+                  "step": "When User hover on Menu Bar shows primary panel with categories",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
+                  "durationInMillis": 3665
+                },
+                {
+                  "step": "Then User hover on primary categories panel shows secondary panel",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
+                  "durationInMillis": 3588
+                },
+                {
+                  "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
+                  "durationInMillis": 5667
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Global Nav (Menu)",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User hover on Menu Bar shows primary panel with categories",
+                "Then User hover on primary categories panel shows secondary panel",
+                "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 24888
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/consult_dictionary/d.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "check Functionality",
+          "asA": "n Tester",
+          "iWantTo": "verify Global Nav application\neta:@skip",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Test case -Search Autosuggest",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+              "Then User start entering keyword 'jav' again and autosuggest must reappear",
+              "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+              "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+              "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts"
+            ]
+          }
+        ],
+        "name": "d.story"
+      },
+      "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Test case -Search Autosuggest",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on home page",
+              "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+              "Then User start entering keyword 'jav' again and autosuggest must reappear",
+              "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+              "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+              "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/d.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on home page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 34856
+                },
+                {
+                  "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+                  "durationInMillis": 3772
+                },
+                {
+                  "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
+                  "durationInMillis": 3587
+                },
+                {
+                  "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+                  "durationInMillis": 40032
+                },
+                {
+                  "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+                  "durationInMillis": 32098
+                },
+                {
+                  "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
+                  "durationInMillis": 7674
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Test case -Search Autosuggest",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on home page",
+                "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+                "Then User start entering keyword 'jav' again and autosuggest must reappear",
+                "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+                "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+                "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 126021
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Test case -Global Nav (Accelerator)",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User verifies Menu bar should not Move while pageload",
+          "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+          "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/a.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 12833
+            },
+            {
+              "step": "When User verifies Menu bar should not Move while pageload",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
+              "durationInMillis": 737
+            },
+            {
+              "step": "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verifies left Header contains:\r\n?| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |?",
+              "durationInMillis": 3490
+            },
+            {
+              "step": "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verifies right Header contains:\r\n?| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |?",
+              "durationInMillis": 8447
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Global Nav (Accelerator)",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User verifies Menu bar should not Move while pageload",
+            "Then User verifies left Header contains:\r\n| Header1|\r\n| Logo   |\r\n| Search |\r\n|  Menu  |",
+            "Then User verifies right Header contains:\r\n| Header2|\r\n| Account|\r\n| Country|\r\n| Call   |"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Country List",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User Hover over on 'Country' text",
+          "Then User can see the  panel showing Regions and their countries with two column"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/g.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 7150
+            },
+            {
+              "step": "When User Hover over on 'Country' text",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User Hover over on 'Country' text",
+              "durationInMillis": 1886
+            },
+            {
+              "step": "Then User can see the  panel showing Regions and their countries with two column",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User can see the  panel showing Regions and their countries with two column",
+              "durationInMillis": 1458
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Country List",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User Hover over on 'Country' text",
+            "Then User can see the  panel showing Regions and their countries with two column"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Signed-In",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User Signed In",
+          "Then User see the Text 'Account' must be displayed",
+          "When User Hover Over 'Account'",
+          "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+          "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+          "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+          "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+          "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/e.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 7255
+            },
+            {
+              "step": "When User Signed In",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User Signed In",
+              "durationInMillis": 15196
+            },
+            {
+              "step": "Then User see the Text 'Account' must be displayed",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User see the Text 'Account' must be displayed",
+              "durationInMillis": 727
+            },
+            {
+              "step": "When User Hover Over 'Account'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User Hover Over 'Account'",
+              "durationInMillis": 1784
+            },
+            {
+              "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "durationInMillis": 736
+            },
+            {
+              "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
+              "durationInMillis": 2099
+            },
+            {
+              "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign in|?",
+              "durationInMillis": 718
+            },
+            {
+              "step": "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Click on Cloud account each links:\n?|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |?",
+              "durationInMillis": 12513
+            },
+            {
+              "step": "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |",
+                "cause": {
+                  "@class": "java.lang.AssertionError",
+                  "stackTrace": [
+                    "org.junit.Assert.fail(Assert.java:86)",
+                    "org.junit.Assert.assertTrue(Assert.java:41)",
+                    "org.junit.Assert.assertTrue(Assert.java:52)",
+                    "com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$page$2(<generated>)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.page(<generated>)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$is_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.is_page(<generated>)",
+                    "com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "d99d5f76-81b3-4c10-929e-58d063752828"
+              },
+              "parametrisedStep": "Then User Click on Oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |?",
+              "durationInMillis": 148338
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Signed-In",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User Signed In",
+            "Then User see the Text 'Account' must be displayed",
+            "When User Hover Over 'Account'",
+            "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+            "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+            "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
+            "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
+            "Then User Click on Oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign off          |"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "FAILED"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Search Box",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User click inside the search box must show the cursor",
+          "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+          "Then User text is type 'java me' in the search box options must be displayed to choose",
+          "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/c.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 8354
+            },
+            {
+              "step": "When User click inside the search box must show the cursor",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User click inside the search box must show the cursor",
+              "durationInMillis": 2695
+            },
+            {
+              "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+              "durationInMillis": 1597
+            },
+            {
+              "step": "Then User text is type 'java me' in the search box options must be displayed to choose",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User text is type 'java me' in the search box options must be displayed to choose",
+              "durationInMillis": 3071
+            },
+            {
+              "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
+              "durationInMillis": 12063
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Search Box",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User click inside the search box must show the cursor",
+            "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
+            "Then User text is type 'java me' in the search box options must be displayed to choose",
+            "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Not Signed-In",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User Not signed In",
+          "Then User see the text 'Sign In' must be displayed",
+          "When User Hover over 'Sign In'",
+          "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+          "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+          "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+          "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+          "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/f.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 6498
+            },
+            {
+              "step": "When User Not signed In",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User Not signed In",
+              "durationInMillis": 757
+            },
+            {
+              "step": "Then User see the text 'Sign In' must be displayed",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
+              "durationInMillis": 712
+            },
+            {
+              "step": "When User Hover over 'Sign In'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User Hover over 'Sign In'",
+              "durationInMillis": 1766
+            },
+            {
+              "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "durationInMillis": 726
+            },
+            {
+              "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|?",
+              "durationInMillis": 1435
+            },
+            {
+              "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign in|?",
+              "durationInMillis": 698
+            },
+            {
+              "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Click on Oracle Account each links:\n?|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |?",
+              "durationInMillis": 19895
+            },
+            {
+              "step": "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |?",
+              "durationInMillis": 12568
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Not Signed-In",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User Not signed In",
+            "Then User see the text 'Sign In' must be displayed",
+            "When User Hover over 'Sign In'",
+            "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+            "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|",
+            "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
+            "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Sign in          |Single Sign On - Login   |\n|Sign In|Create an account|Create Account           |",
+            "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Global Nav (Menu)",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User hover on Menu Bar shows primary panel with categories",
+          "Then User hover on primary categories panel shows secondary panel",
+          "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/b.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 9426
+            },
+            {
+              "step": "When User hover on Menu Bar shows primary panel with categories",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
+              "durationInMillis": 3665
+            },
+            {
+              "step": "Then User hover on primary categories panel shows secondary panel",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
+              "durationInMillis": 3588
+            },
+            {
+              "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
+              "durationInMillis": 5667
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Global Nav (Menu)",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User hover on Menu Bar shows primary panel with categories",
+            "Then User hover on primary categories panel shows secondary panel",
+            "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
+    {
+      "scenario": {
+        "title": "Test case -Search Autosuggest",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on home page",
+          "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+          "Then User start entering keyword 'jav' again and autosuggest must reappear",
+          "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+          "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+          "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/d.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on home page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 34856
+            },
+            {
+              "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+              "durationInMillis": 3772
+            },
+            {
+              "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
+              "durationInMillis": 3587
+            },
+            {
+              "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+              "durationInMillis": 40032
+            },
+            {
+              "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+              "durationInMillis": 32098
+            },
+            {
+              "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
+              "durationInMillis": 7674
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Test case -Search Autosuggest",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on home page",
+            "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
+            "Then User start entering keyword 'jav' again and autosuggest must reappear",
+            "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
+            "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
+            "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

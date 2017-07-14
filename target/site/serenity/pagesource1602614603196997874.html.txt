@@ -1,0 +1,3827 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" class="js history hashchange cssgradients rgba touch boxshadow hasjs haspushstate retina"><head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+	
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Content Hub Search</title>
+    <meta name="keywords" content="Content Hub Search" />
+    <meta name="description" content="Content Hub Search" />
+    <link href="/search/assets/ngui/compass.css" media="print, screen" rel="Stylesheet" type="text/css" />
+    
+
+
+
+
+
+
+
+<link rel="canonical" href="?Nr=108" />
+	<script async="" src="//tags.bkrtx.com/js/bk-coretag.js"></script><script type="text/javascript" src="/search/assets/ngui/jquery.js"></script>			
+	<script type="text/javascript" src="/search/assets/ngui/compass.js"></script><link href="/search/assets/ngui/oracle-video.css" rel="stylesheet" />
+	<style type="text/css">
+	    .hideAll  {
+	        visibility:hidden;
+	     }
+	</style>
+
+	<script type="text/javascript">
+		$(window).load(function () {
+			$("#searchpage").removeClass("hideAll");
+		});
+	</script>
+	
+	
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+<body class="f11 f11v0 cw20sml" id="searchpage"><div id="consent_blackbar"></div>
+   	<div class="f11w1">
+		
+			
+			
+				
+					
+						   <!-- U02v0 --> <div class="u02z86d" style="display: block;"></div><nav class="u02nav">
+  <div class="u02 u02dtop" id="u02">
+  <div id="u02skip2content" tabindex="-1" data-skiptxtprepend="Skip" data-skiptxtappend="">
+  <ul>
+      <li><a href="/">Home</a></li>
+      <li><a id="u02skip2c" href="#maincontent">Skip to Content</a></li>
+      <li><a id="u02skip2s" href="#skip_to_search_form">Skip to Search</a></li>
+  </ul>
+  </div>
+  <div class="u02w1"><!-- logo -->
+  <div class="u02logo" data-trackas="header">
+  <div class="u02logow1"><a data-trackas="header" data-lbl="logo" class="o_icon" href="https://www.oracle.com/index.html"><span>Oracle</span></a></div>
+  </div>
+  <!-- menu -->
+  <a id="mobisearch" href="#search"><span>Skip to Search</span><i class="u02i1"></i><i class="u02i2"></i></a><div class="u02menu" data-trackas="menu">
+  <div id="u02main" class="u02mlink u02haml">
+  <div class="u02mlinkw1"><a id="u02menulink" data-lbl="menu" href="/search-authoring/assets/ngui/menucontent.html"><div class="u02hamenu"><span class="m1"></span><span class="m2"></span><span class="m3"></span><span class="m4"></span></div>
+  <div class="u02mlinkw2">Menu</div>
+  </a></div>
+  </div>
+  </div>
+  <!-- search -->
+  <div id="u02search" class="u02search" data-trackas="header">
+  <form class="u02searchform" name="searchForm" method="get" action="https://www.oracle.com/search/results">
+      <input type="hidden" name="Nty" value="1" /> 				<input type="hidden" name="Ntk" value="S3" /> 				<input id="txtSearch" class="textcnt autoclear ui-autocomplete-input" name="Ntt" value="" autocomplete="off" /> 				<input type="submit" class="u02searchbttn" value="Submit Search" />
+  </form>
+  <ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content" id="ui-id-1" tabindex="0" style="display: none;"></ul></div>
+  <div class="u02tools u02li1" data-trackas="header">
+  <ul> 				<!-- user tools -->
+      <li class="u02mtool u02toolsloggedout u02toolopen"><a class="u02ticon u02user" data-lbl="profile:sign-in-account" href="#usermenu"> 						<span class="u02signin">Sign In</span> 						<span class="u02signout">Account</span> 					</a>
+      <div class="u02user u02toolpop" data-lbl="profile"><i></i>
+      <div class="u02userin"><h5 class="u02pttl u02userloggedin">Account</h5>
+<h5 class="u02pttl u02userloggedout">Sign In</h5>
+      <div class="u02userinw1 u02userloggedin" data-lbl="oracle-account">
+      <h5>Oracle Account</h5>
+      <p id="u02userinfo"> </p>
+      <a data-lbl="sign-out" id="u02pfile-sout" class="u02bttn" href="javascript:sso_sign_out();">Sign Out</a>
+      <ul id="u02usertools">
+          <li><a data-lbl="account" id="u02pfile-acct" href="https://profile.oracle.com/myprofile/account/secure/update-account.jspx?nexturl=https://www-portal-stage.oracle.com/search/internal/hub">Account</a></li>
+          <li><a data-lbl="help" href="/us/corporate/contact/about-your-account-070507.html">Help</a></li>
+      </ul>
+      </div>
+      <div class="u02userinw1 u02userloggedout" data-lbl="oracle-account">
+      <h5>Oracle Account</h5>
+      <p>Manage your account and access personalized content.</p>
+      <a id="u02pfile-regs" data-lbl="signin" class="u02bttn" href="http://www-portal-stage.oracle.com/webapps/redirect/signon?nexturl=https://www-portal-stage.oracle.com/search/internal/hub">Sign in</a> 								<a data-lbl="createaccount" class="u02acclink" href="https://profile.oracle.com/myprofile/account/create-account.jspx">Create an account</a></div>
+      <div class="u02userinw2" data-lbl="cloud-account">
+      <h5>Cloud Account</h5>
+      <p>Access your cloud dashboard, manage orders, and more.</p>
+      <a data-lbl="signin" class="u02bttn" href="https://cloud.oracle.com/sign-in">Sign in</a></div>
+      </div>
+      </div>
+      </li>
+      <!-- country select -->
+      <li class="u02mtool" id="u02cmenu"><a class="u02ticon u02regn" href="/us/mosaicmenu/index.html#u02countrymenu"><span>Country</span></a></li>
+      <!-- call -->
+      <li class="u02mbttn" id="u02call"><a class="u02ticon u02call o-call" data-lbl="call" href="#callOracle"><span>Call</span></a></li>
+      <!-- chat --> 				<!--<li class="u02mbttn" id="u02chat">
+  					<a data-lbl="chat" href="#chat" class="u02ticon u02chat"><span>Chat</span></a>
+  				</li>--> 			</ul>
+      </div>
+      </div>
+      <a id="maincontent"> </a></div>
+      </nav> <!-- /U02v0 -->
+
+					
+					 
+				
+			
+			 
+		
+	   <!-- CB18v0 -->
+	   <div class="cb18 cb18v0 ">
+			<div class="cb18w1">
+				<div class="cb18w2">
+					<div class="cb18swrap cwidth">
+						<div class="cb18sleft" id="searchhead">
+
+						 
+						 
+						 
+						 
+						 
+						 
+							
+								
+									
+										<h2>Content Hub Search</h2>
+									
+									 
+								
+							 
+							 
+						
+						
+							
+						</div>
+						<div class="cb18sright autocompleteparent" id="searchform">
+						    
+							
+								
+									
+								
+							
+								
+							
+							<!-- SearchBox -->
+							 
+								 
+								
+									
+									
+								         
+											<form class="cb18searchform hijaxform noautosuggest" data-hijaxonload="runSearchMetrics" data-hijaxtarget="resultsbody,searchform" method="get" action="/search/internal/hub" data-s_prop6="">
+							
+								<div class="cb18form">
+									<span class="cb18forminput">
+									<input type="text" id="cb18txtSearch" placeholder="Search" name="Ntt" value="" data-dvalue="" />
+									</span>
+									<span class="cb18formsubmit icn-search">
+									
+									
+									
+									
+										<div class="cb18w11">
+									
+									
+									<input type="reset" /></div>
+										<input type="submit" />
+									</span>
+									<input type="hidden" name="Dy" value="1" />
+									<input type="hidden" name="Nty" value="1" />
+									
+									
+									
+									
+									
+									
+									
+									<input type="hidden" name="Ntk" value="S3" />
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				
+				<div class="cb18wrap cwidth" id="resultsbody">
+					<div class="cb18contentwrap">
+						
+						 
+						 
+						  
+									
+						  
+									
+						  
+						  
+						
+						
+							
+									
+									        
+										
+									
+							
+					   
+						
+						 
+						  
+								
+									
+											
+												
+											
+									 
+									
+								
+						
+								
+									
+									
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+											
+										   
+										
+									
+								
+						
+						
+						
+							
+								<ul class="cb18mobiletabs">
+							
+							
+						
+						 
+						  
+									
+						  
+									
+						  
+						  
+						   
+								
+								
+									<li class="mfilter " data-cb18="cb18mfilter" id="filtertab">Filter</li>
+								
+								
+														
+						</ul>
+						
+					    
+					    
+							
+								<div class="cb18w3 hijax " id="cb18mfilter" data-hijaxonload="runSearchMetrics" data-hijaxtarget="resultsbody,searchform">
+							
+							
+						
+							<h3>Filters</h3>
+							<ul class="cb18selectedfilters">
+							
+								
+								
+								
+									
+									<!--c:out value="/internal/hub" /-->
+									
+									
+									 
+									 
+									
+								
+								
+									
+									<!--c:out value="" /-->
+									
+									
+									 
+									 
+									
+								
+									
+								
+								
+							</ul>
+							<!--Refinements -->
+							  
+							
+								 
+								
+							   
+							
+								 
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Content Type</h4>
+									
+									
+        
+									
+										
+										
+										
+											
+											
+											  
+											  
+													
+											  
+											  
+											<ul class="cb18catlist  " style="display: none;">
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Analyst report" href="/search/internal/hub/_/N-1z13z3t?Nr=108">
+													Analyst report
+													<span class="cb18fcount">(11) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Article" href="/search/internal/hub/_/N-1z13z3p?Nr=108">
+													Article
+													<span class="cb18fcount">(66) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Benchmark" href="/search/internal/hub/_/N-1z13z3x?Nr=108">
+													Benchmark
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Best Practice Guide" href="/search/internal/hub/_/N-1z13z3r?Nr=108">
+													Best Practice Guide
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Blog" href="/search/internal/hub/_/N-1z13z3f?Nr=108">
+													Blog
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Brochure" href="/search/internal/hub/_/N-1z13z3c?Nr=108">
+													Brochure
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Case Study" href="/search/internal/hub/_/N-1z13z2z?Nr=108">
+													Case Study
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Competitive Page" href="/search/internal/hub/_/N-1z13z2x?Nr=108">
+													Competitive Page
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Customer Success Story" href="/search/internal/hub/_/N-1z13z48?Nr=108">
+													Customer Success Story
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Documentation" href="/search/internal/hub/_/N-1z13yyi?Nr=108">
+													Documentation
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Feature" href="/search/internal/hub/_/N-1z13z3n?Nr=108">
+													Feature
+													<span class="cb18fcount">(63) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Press Release" href="/search/internal/hub/_/N-1z13z3j?Nr=108">
+													Press Release
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Product Family Comparisons" href="/search/internal/hub/_/N-1z13z1c?Nr=108">
+													Product Family Comparisons
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Product Features and Benefits" href="/search/internal/hub/_/N-1z13z2d?Nr=108">
+													Product Features and Benefits
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Product Overview" href="/search/internal/hub/_/N-1z13z2v?Nr=108">
+													Product Overview
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Product Resources" href="/search/internal/hub/_/N-1z13z2l?Nr=108">
+													Product Resources
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Sample Application" href="/search/internal/hub/_/N-1z13yyg?Nr=108">
+													Sample Application
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Short Brochure" href="/search/internal/hub/_/N-1z13z3a?Nr=108">
+													Short Brochure
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Social Media" href="/search/internal/hub/_/N-1z13z3h?Nr=108">
+													Social Media
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Trial" href="/search/internal/hub/_/N-1z13yya?Nr=108">
+													Trial
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Tutorial" href="/search/internal/hub/_/N-1z13yyc?Nr=108">
+													Tutorial
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Content Typegt;Tutorial Series" href="/search/internal/hub/_/N-1z13yye?Nr=108">
+													Tutorial Series
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+											</ul>
+										 
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Solutions</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;.NET" href="/search/internal/hub/_/N-p5va?Nr=108">
+													.NET
+													<span class="cb18fcount">(4) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Asset Lifecycle Management" href="/search/internal/hub/_/N-p5vb?Nr=108">
+													Asset Lifecycle Management
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Business Analytics" href="/search/internal/hub/_/N-p3fl?Nr=108">
+													Business Analytics
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Cloud" href="/search/internal/hub/_/N-p1ku?Nr=108">
+													Cloud
+													<span class="cb18fcount">(67) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Database" href="/search/internal/hub/_/N-p5vj?Nr=108">
+													Database
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Developer Tools" href="/search/internal/hub/_/N-p5vk?Nr=108">
+													Developer Tools
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Enterprise Planning" href="/search/internal/hub/_/N-p5vn?Nr=108">
+													Enterprise Planning
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Human Capital Management Cloud" href="/search/internal/hub/_/N-p8cu?Nr=108">
+													Human Capital Management Cloud
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;In-Memory Database" href="/search/internal/hub/_/N-p5vx?Nr=108">
+													In-Memory Database
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Solutionsgt;Middleware" href="/search/internal/hub/_/N-p5w3?Nr=108">
+													Middleware
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											  <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="cb18more" onclick="" style="" href="/search/internal/hub?Nr=108&amp;showMoreIds=1168442">Show All</a></li>
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Industry</h4>
+									
+									
+        
+									
+										
+										
+										
+											
+											
+												
+											  
+											  
+											  
+											  
+											<ul class="cb18catlist  " style="display: none;">
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Aerospace and Defense" href="/search/internal/hub/_/N-olu2?Nr=108">
+													Aerospace and Defense
+													<span class="cb18fcount">(5) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Automotive" href="/search/internal/hub/_/N-olu3?Nr=108">
+													Automotive
+													<span class="cb18fcount">(6) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Chemicals" href="/search/internal/hub/_/N-olu4?Nr=108">
+													Chemicals
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Communications" href="/search/internal/hub/_/N-olu5?Nr=108">
+													Communications
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Consumer Goods" href="/search/internal/hub/_/N-olu6?Nr=108">
+													Consumer Goods
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Education and Research" href="/search/internal/hub/_/N-olu7?Nr=108">
+													Education and Research
+													<span class="cb18fcount">(4) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Engineering and Construction" href="/search/internal/hub/_/N-olu8?Nr=108">
+													Engineering and Construction
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Financial Services" href="/search/internal/hub/_/N-olu9?Nr=108">
+													Financial Services
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Financial Services Banking" href="/search/internal/hub/_/N-p9gh?Nr=108">
+													Financial Services Banking
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Healthcare" href="/search/internal/hub/_/N-olua?Nr=108">
+													Healthcare
+													<span class="cb18fcount">(63) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;High Technology" href="/search/internal/hub/_/N-olub?Nr=108">
+													High Technology
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Hospitality" href="/search/internal/hub/_/N-p727?Nr=108">
+													Hospitality
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Industrial Manufacturing" href="/search/internal/hub/_/N-oluc?Nr=108">
+													Industrial Manufacturing
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Insurance" href="/search/internal/hub/_/N-olud?Nr=108">
+													Insurance
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Life Sciences" href="/search/internal/hub/_/N-olue?Nr=108">
+													Life Sciences
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Manufacturing" href="/search/internal/hub/_/N-p4zx?Nr=108">
+													Manufacturing
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Media and Entertainment" href="/search/internal/hub/_/N-oluf?Nr=108">
+													Media and Entertainment
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Natural Resources" href="/search/internal/hub/_/N-olug?Nr=108">
+													Natural Resources
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Industrygt;Oil and Gas" href="/search/internal/hub/_/N-oluh?Nr=108">
+													Oil and Gas
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+												
+											</ul>
+										 
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Buyer Journey</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;0 - Education" href="/search/internal/hub/_/N-p1hc?Nr=108">
+													0 - Education
+													<span class="cb18fcount">(15) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;1 - Definition" href="/search/internal/hub/_/N-p1hd?Nr=108">
+													1 - Definition
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;2 - Research" href="/search/internal/hub/_/N-p1he?Nr=108">
+													2 - Research
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;3 - Evaluation" href="/search/internal/hub/_/N-p1hf?Nr=108">
+													3 - Evaluation
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;5 - Deploy" href="/search/internal/hub/_/N-p1hh?Nr=108">
+													5 - Deploy
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;6 - Roll-out" href="/search/internal/hub/_/N-p1hi?Nr=108">
+													6 - Roll-out
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;7 - Actualize" href="/search/internal/hub/_/N-p1hj?Nr=108">
+													7 - Actualize
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;8 - Advocate" href="/search/internal/hub/_/N-p1hk?Nr=108">
+													8 - Advocate
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Buyer Journeygt;9 - At Risk" href="/search/internal/hub/_/N-p817?Nr=108">
+													9 - At Risk
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Persona</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - CFO" href="/search/internal/hub/_/N-p819?Nr=108">
+													Executives - CFO
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - Chief Security Officer (CSO)" href="/search/internal/hub/_/N-p81g?Nr=108">
+													Executives - Chief Security Officer (CSO)
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - CHRO" href="/search/internal/hub/_/N-p81a?Nr=108">
+													Executives - CHRO
+													<span class="cb18fcount">(8) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - CIO" href="/search/internal/hub/_/N-p81b?Nr=108">
+													Executives - CIO
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - CMO" href="/search/internal/hub/_/N-p81c?Nr=108">
+													Executives - CMO
+													<span class="cb18fcount">(62) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Executives - CTO" href="/search/internal/hub/_/N-p8qz?Nr=108">
+													Executives - CTO
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;LOB - Analytics - Business Analyst" href="/search/internal/hub/_/N-p8d4?Nr=108">
+													LOB - Analytics - Business Analyst
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;LOB - Analytics - Head of Business Analytics" href="/search/internal/hub/_/N-p8cx?Nr=108">
+													LOB - Analytics - Head of Business Analytics
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Technologists - Data Center Manager" href="/search/internal/hub/_/N-p82b?Nr=108">
+													Technologists - Data Center Manager
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Personagt;Technologists - HRIS Manager" href="/search/internal/hub/_/N-p82e?Nr=108">
+													Technologists - HRIS Manager
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											  <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="cb18more" onclick="" style="" href="/search/internal/hub?Nr=108&amp;showMoreIds=1176812">Show All</a></li>
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Titles</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Assistant" href="/search/internal/hub/_/N-p5tn?Nr=108">
+													Assistant
+													<span class="cb18fcount">(7) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;C-Level - General" href="/search/internal/hub/_/N-p6mt?Nr=108">
+													C-Level - General
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chair/Dean/Board Education" href="/search/internal/hub/_/N-p6mu?Nr=108">
+													Chair/Dean/Board Education
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Administration Officer (CAO)" href="/search/internal/hub/_/N-p6mv?Nr=108">
+													Chief Administration Officer (CAO)
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Customer Service Officer (CCO)" href="/search/internal/hub/_/N-p6mx?Nr=108">
+													Chief Customer Service Officer (CCO)
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Data Officer (CDO)" href="/search/internal/hub/_/N-p6my?Nr=108">
+													Chief Data Officer (CDO)
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Executive Officer (CEO)" href="/search/internal/hub/_/N-p5t9?Nr=108">
+													Chief Executive Officer (CEO)
+													<span class="cb18fcount">(62) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Experience Officer (CXO)" href="/search/internal/hub/_/N-p5t2?Nr=108">
+													Chief Experience Officer (CXO)
+													<span class="cb18fcount">(62) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief R&amp;D Officer (CRDO)" href="/search/internal/hub/_/N-p5ww?Nr=108">
+													Chief R&amp;D Officer (CRDO)
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Titlesgt;Chief Technology Officer (CTO)" href="/search/internal/hub/_/N-p5wx?Nr=108">
+													Chief Technology Officer (CTO)
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											  <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="cb18more" onclick="" style="" href="/search/internal/hub?Nr=108&amp;showMoreIds=1173919">Show All</a></li>
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Products</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+													
+													
+													
+																
+																<li class="cb18activesub cb18lastchild">
+																<a></a>
+																</li>
+															
+															
+															
+															 
+														
+													
+																
+															   
+															   
+														
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Applications" href="/search/internal/hub/_/N-413z?Nr=108">
+														Applications
+														<span class="cb18fcount">(1) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Cloud" href="/search/internal/hub/_/N-ob01?Nr=108">
+														Cloud
+														<span class="cb18fcount">(66) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Database" href="/search/internal/hub/_/N-413y?Nr=108">
+														Database
+														<span class="cb18fcount">(1) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Engineered Systems" href="/search/internal/hub/_/N-478h?Nr=108">
+														Engineered Systems
+														<span class="cb18fcount">(2) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Enterprise Management" href="/search/internal/hub/_/N-413x?Nr=108">
+														Enterprise Management
+														<span class="cb18fcount">(1) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Industries" href="/search/internal/hub/_/N-413w?Nr=108">
+														Industries
+														<span class="cb18fcount">(2) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Middleware" href="/search/internal/hub/_/N-40h6?Nr=108">
+														Middleware
+														<span class="cb18fcount">(4) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Networking and Data Center Fabric Products" href="/search/internal/hub/_/N-omkq?Nr=108">
+														Networking and Data Center Fabric Products
+														<span class="cb18fcount">(1) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Servers" href="/search/internal/hub/_/N-408y?Nr=108">
+														Servers
+														<span class="cb18fcount">(9) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Services" href="/search/internal/hub/_/N-3ziu?Nr=108">
+														Services
+														<span class="cb18fcount">(6) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+													
+													
+													
+														<!--------------->
+													
+													
+													<li style="margin-left: 1.1em"><a data-s_prop4="Productsgt;Storage and Tape" href="/search/internal/hub/_/N-40aq?Nr=108">
+														Storage and Tape
+														<span class="cb18fcount">(1) </span></a></li>
+													<!--------------->
+													
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Channel</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Blogs.oracle.com" href="/search/internal/hub/_/N-p82o?Nr=108">
+													Blogs.oracle.com
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Cloud.oracle.com" href="/search/internal/hub/_/N-p82s?Nr=108">
+													Cloud.oracle.com
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Community.oracle.com" href="/search/internal/hub/_/N-p82r?Nr=108">
+													Community.oracle.com
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Forbes" href="/search/internal/hub/_/N-p82z?Nr=108">
+													Forbes
+													<span class="cb18fcount">(64) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Gartner" href="/search/internal/hub/_/N-p830?Nr=108">
+													Gartner
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Java Magazine" href="/search/internal/hub/_/N-p833?Nr=108">
+													Java Magazine
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Oracle Magazine" href="/search/internal/hub/_/N-p834?Nr=108">
+													Oracle Magazine
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Oracle Media Network (OMN)" href="/search/internal/hub/_/N-p82v?Nr=108">
+													Oracle Media Network (OMN)
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Oracle.com (OCOM)" href="/search/internal/hub/_/N-p82y?Nr=108">
+													Oracle.com (OCOM)
+													<span class="cb18fcount">(9) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Channelgt;Profit Magazine" href="/search/internal/hub/_/N-p835?Nr=108">
+													Profit Magazine
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											  <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="cb18more" onclick="" style="" href="/search/internal/hub?Nr=108&amp;showMoreIds=1176863">Show All</a></li>
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Company Size</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Company Sizegt;Enterprise" href="/search/internal/hub/_/N-olup?Nr=108">
+													Enterprise
+													<span class="cb18fcount">(68) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Company Sizegt;Midsize" href="/search/internal/hub/_/N-oluq?Nr=108">
+													Midsize
+													<span class="cb18fcount">(63) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Company Sizegt;Small" href="/search/internal/hub/_/N-olur?Nr=108">
+													Small
+													<span class="cb18fcount">(74) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Revenue</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;Under $100 Million" href="/search/internal/hub/_/N-p5xl?Nr=108">
+													Under $100 Million
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;$100 to $500 Million" href="/search/internal/hub/_/N-p5xm?Nr=108">
+													$100 to $500 Million
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;$500 Million to $1 Billion" href="/search/internal/hub/_/N-p5xn?Nr=108">
+													$500 Million to $1 Billion
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;$1 to $5 Billion" href="/search/internal/hub/_/N-p5xo?Nr=108">
+													$1 to $5 Billion
+													<span class="cb18fcount">(9) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;$5 Billion to $25 Billion" href="/search/internal/hub/_/N-p5xp?Nr=108">
+													$5 Billion to $25 Billion
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;$25 Billion to $50 Billion" href="/search/internal/hub/_/N-p5xq?Nr=108">
+													$25 Billion to $50 Billion
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;Over $50 Billion" href="/search/internal/hub/_/N-p5xr?Nr=108">
+													Over $50 Billion
+													<span class="cb18fcount">(6) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Revenuegt;Not Available" href="/search/internal/hub/_/N-p5xs?Nr=108">
+													Not Available
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Region</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;APAC" href="/search/internal/hub/_/N-1jk?Nr=108">
+													APAC
+													<span class="cb18fcount">(9) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;EMEA" href="/search/internal/hub/_/N-1jl?Nr=108">
+													EMEA
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;JAPAN" href="/search/internal/hub/_/N-1jm?Nr=108">
+													JAPAN
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;Latin America" href="/search/internal/hub/_/N-1jn?Nr=108">
+													Latin America
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;North America" href="/search/internal/hub/_/N-1jo?Nr=108">
+													North America
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Regiongt;WORLDWIDE" href="/search/internal/hub/_/N-1jp?Nr=108">
+													WORLDWIDE
+													<span class="cb18fcount">(6) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Country</h4>
+									
+									
+        
+									
+										
+										
+										
+											
+											
+											  
+													
+											  
+											  
+											  
+											<ul class="cb18catlist  " style="display: none;">
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Afghanistan" href="/search/internal/hub/_/N-rt?Nr=108">
+													Afghanistan
+													<span class="cb18fcount">(4) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Albania" href="/search/internal/hub/_/N-rw?Nr=108">
+													Albania
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Algeria" href="/search/internal/hub/_/N-tg?Nr=108">
+													Algeria
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Anguilla" href="/search/internal/hub/_/N-rv?Nr=108">
+													Anguilla
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Antarctica" href="/search/internal/hub/_/N-rz?Nr=108">
+													Antarctica
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Argentina" href="/search/internal/hub/_/N-s0?Nr=108">
+													Argentina
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Armenia" href="/search/internal/hub/_/N-rx?Nr=108">
+													Armenia
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Australia" href="/search/internal/hub/_/N-s3?Nr=108">
+													Australia
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Egypt" href="/search/internal/hub/_/N-tj?Nr=108">
+													Egypt
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;El Salvador" href="/search/internal/hub/_/N-xk?Nr=108">
+													El Salvador
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Greece" href="/search/internal/hub/_/N-u7?Nr=108">
+													Greece
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Hungary" href="/search/internal/hub/_/N-ui?Nr=108">
+													Hungary
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Italy" href="/search/internal/hub/_/N-us?Nr=108">
+													Italy
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Jordan" href="/search/internal/hub/_/N-uv?Nr=108">
+													Jordan
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Luxembourg" href="/search/internal/hub/_/N-vg?Nr=108">
+													Luxembourg
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Malawi" href="/search/internal/hub/_/N-w2?Nr=108">
+													Malawi
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Nigeria" href="/search/internal/hub/_/N-wa?Nr=108">
+													Nigeria
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Oman" href="/search/internal/hub/_/N-wi?Nr=108">
+													Oman
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Philippines" href="/search/internal/hub/_/N-wn?Nr=108">
+													Philippines
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Qatar" href="/search/internal/hub/_/N-wx?Nr=108">
+													Qatar
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Romania" href="/search/internal/hub/_/N-wz?Nr=108">
+													Romania
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;United States" href="/search/internal/hub/_/N-y7?Nr=108">
+													United States
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+												
+												
+													<li class="">
+													
+													<a class="icn-close" data-s_prop4="Countrygt;Åland Islands" href="/search/internal/hub/_/N-s5?Nr=108">
+													Åland Islands
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+												
+											</ul>
+										 
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Language</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;Albanian" href="/search/internal/hub/_/N-2c9?Nr=108">
+													Albanian
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;Danish" href="/search/internal/hub/_/N-2bg?Nr=108">
+													Danish
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;English" href="/search/internal/hub/_/N-2bj?Nr=108">
+													English
+													<span class="cb18fcount">(16) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;Finnish" href="/search/internal/hub/_/N-2bm?Nr=108">
+													Finnish
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;French" href="/search/internal/hub/_/N-2bn?Nr=108">
+													French
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;German" href="/search/internal/hub/_/N-2bh?Nr=108">
+													German
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;Greek" href="/search/internal/hub/_/N-2bi?Nr=108">
+													Greek
+													<span class="cb18fcount">(6) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Languagegt;Italian" href="/search/internal/hub/_/N-2bt?Nr=108">
+													Italian
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+								   
+								   
+								   
+								   
+								   
+								   
+									<div class="cb18fcategory ">
+									<h4 class="  ">Executives</h4>
+									
+									
+        
+									
+										
+										
+										
+										
+										<ul class="cb18catlist cb18singleselect   " style="display: none;">
+											
+											
+																
+															   
+															   
+														
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Andrew Mendelsohn" href="/search/internal/hub/_/N-1z13z3l?Nr=108">
+													Andrew Mendelsohn
+													<span class="cb18fcount">(5) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Andrew Sutherland" href="/search/internal/hub/_/N-1z13z3k?Nr=108">
+													Andrew Sutherland
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Bob Weiler" href="/search/internal/hub/_/N-1z13z3d?Nr=108">
+													Bob Weiler
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Cindy Reese" href="/search/internal/hub/_/N-1z13z40?Nr=108">
+													Cindy Reese
+													<span class="cb18fcount">(3) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Derek Williams" href="/search/internal/hub/_/N-1z13z3u?Nr=108">
+													Derek Williams
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Dorian Daley" href="/search/internal/hub/_/N-1z13z3z?Nr=108">
+													Dorian Daley
+													<span class="cb18fcount">(4) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Edward Screven" href="/search/internal/hub/_/N-1z13z35?Nr=108">
+													Edward Screven
+													<span class="cb18fcount">(2) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Jeb Dasteel" href="/search/internal/hub/_/N-1z13z3y?Nr=108">
+													Jeb Dasteel
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Lawrence J. Ellison" href="/search/internal/hub/_/N-1z13z38?Nr=108">
+													Lawrence J. Ellison
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+													
+													
+													
+													<li>
+													
+													<a class="icn-close" data-s_prop4="Executivesgt;Mary Ann Davidson" href="/search/internal/hub/_/N-1z13z37?Nr=108">
+													Mary Ann Davidson
+													<span class="cb18fcount">(1) </span>
+													</a></li>
+													
+													
+													
+													
+											
+											
+											
+											  <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="cb18more" onclick="" style="" href="/search/internal/hub?Nr=108&amp;showMoreIds=4294963720">Show All</a></li>
+											
+											
+										</ul>
+										
+										
+									
+											
+										
+									
+									
+								 </div>
+								
+							   
+							
+						</div>
+							<div class="cb18w4 hijax cb18filtersloaded" data-hijaxonload="runSearchMetrics" data-hijaxtarget="resultsbody">
+								<div class="cb18w5" id="cb18msort">
+									<div class="cb18w6">
+										<h4>Show</h4>
+										<ul class="cb18sort cb18showlist">
+											
+											
+											
+												
+													
+														
+														
+															
+															
+															
+																<li class="init icn-cv-down selected"><a href="#select">10 items</a></li>
+															      <!--class="selected" style="disply:list-item !important;"-->
+																  
+                                        					
+																				
+														
+															
+															
+															
+																				
+														
+															
+															
+															
+																				
+														
+															
+															
+															
+																				
+														
+														
+															
+															<li class="" style="disply:list-item">
+															<a href="/search/internal/hub?No=0&amp;Nr=108&amp;Nrpp=10">10 items</a></li>
+                            											
+															
+															<li class="" style="disply:list-item">
+															<a href="/search/internal/hub?No=0&amp;Nr=108&amp;Nrpp=20">20 items</a></li>
+                            											
+															
+															<li class="" style="disply:list-item">
+															<a href="/search/internal/hub?No=0&amp;Nr=108&amp;Nrpp=50">50 items</a></li>
+                            											
+															
+															<li class="" style="disply:list-item">
+															<a href="/search/internal/hub?No=0&amp;Nr=108&amp;Nrpp=100">100 items</a></li>
+                            											
+													
+												
+											
+                           								
+										</ul>
+									</div>
+									
+								</div>
+								    
+											
+									
+											
+									
+									
+									
+										
+										
+											
+												
+												
+														
+																										
+													
+														
+														
+													
+														
+														
+														
+													<div class="cb18w9 cb18results">	
+														<div class="cb18resultstxt cb18lesspadding">	
+														    
+															
+															
+															
+																	
+															
+																
+																	
+																     	
+																	
+																	
+																		    
+																			
+																				
+																				
+																					1 -
+																						10 of 96 results
+																				
+																			
+																	
+																		
+																	
+														</div>
+																
+																
+															
+														
+													</div>
+												
+											
+											
+							</div>
+
+							<div class="cb18resultsblock ">
+								
+									
+									
+									
+									<!-- CB19v2 -->
+										
+												
+										
+									<!-- /CB19v2 -->		
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Oracle Unveils Industry-First Cloud Converged Storage to Help Organizations Bridge On-Premises and Oracle Cloud Storage')" href="https://www-stage.oracle.com/hub/4000257063756" target="_blank"> 
+															Oracle Unveils Industry-First Cloud Converged Storage to Help Organizations Bridge On-Premises and Oracle Cloud Storage
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															Organizations Can Seamlessly Merge Oracle Storage Cloud Functionality and Economics with the Power of High Performance Oracle ZFS Storage Appliances 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Oracle Unveils Industry-First Cloud Converged Storage to Help Organizations Bridge On-Premises and Oracle Cloud Storage')" href="https://www-stage.oracle.com/hub/4000257063756" target="_blank">https://www-stage.oracle.com/hub/4000257063756  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Oracle Fusion Middleware Comprehensive Product Offerings')" href="https://www-stage.oracle.com/hub/4000253326595" target="_blank"> 
+															Oracle Fusion Middleware Comprehensive Product Offerings
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															Oracle Fusion Middleware - The most comprehensive, best-of-breed, standards based middleware cloud platform. SP2 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Oracle Fusion Middleware Comprehensive Product Offerings')" href="https://www-stage.oracle.com/hub/4000253326595" target="_blank">https://www-stage.oracle.com/hub/4000253326595  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Oracle SuperCluster M7')" href="https://www-stage.oracle.com/hub/4000253095854" target="_blank"> 
+															Oracle SuperCluster M7
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																	
+																 
+																    
+															
+															The ultimate platform for Oracle Database and Application consolidation provides the industry's most advanced security features coupled with the world's most powerful...
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Oracle SuperCluster M7')" href="https://www-stage.oracle.com/hub/4000253095854" target="_blank">https://www-stage.oracle.com/hub/4000253095854  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Enat Bank Boosts Market Share and Client Service with End-to-End Oracle Solution')" href="https://www-stage.oracle.com/hub/4000253094226" target="_blank"> 
+															Enat Bank Boosts Market Share and Client Service with End-to-End Oracle Solution
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															Enat Bank deployed Oracle FLEXCUBE on SPARC servers to deliver fast and convenient products and services, enhance management reporting, boost employee productivity. 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Enat Bank Boosts Market Share and Client Service with End-to-End Oracle Solution')" href="https://www-stage.oracle.com/hub/4000253094226" target="_blank">https://www-stage.oracle.com/hub/4000253094226  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','test new attributes')" href="https://www-stage.oracle.com/hub/4000252225400" target="_blank"> 
+															test new attributes
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															content description test data 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','test new attributes')" href="https://www-stage.oracle.com/hub/4000252225400" target="_blank">https://www-stage.oracle.com/hub/4000252225400  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','QA test ext asset for new forms')" href="https://www-stage.oracle.com/hub/4000250998255" target="_blank"> 
+															QA test ext asset for new forms
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															QA test ext asset for new forms desc 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','QA test ext asset for new forms')" href="https://www-stage.oracle.com/hub/4000250998255" target="_blank">https://www-stage.oracle.com/hub/4000250998255  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Oracle Database Cloud Service: A DBA's First Experience with the Cloud')" href="https://www-stage.oracle.com/hub/4000240520175" target="_blank"> 
+															Oracle Database Cloud Service: A DBA's First Experience with the Cloud
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															What does  
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Oracle Database Cloud Service: A DBA's First Experience with the Cloud')" href="https://www-stage.oracle.com/hub/4000240520175" target="_blank">https://www-stage.oracle.com/hub/4000240520175  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','test Nov 10 release')" href="https://www-stage.oracle.com/hub/4000235107291" target="_blank"> 
+															test Nov 10 release
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															test nov 10th release
+added new themes taxonomy 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','test Nov 10 release')" href="https://www-stage.oracle.com/hub/4000235107291" target="_blank">https://www-stage.oracle.com/hub/4000235107291  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','test Nov 10 release')" href="https://www-stage.oracle.com/hub/4000235107890" target="_blank"> 
+															test Nov 10 release
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															test nov 10th release
+added new themes taxonomy
+Use update endeca report 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','test Nov 10 release')" href="https://www-stage.oracle.com/hub/4000235107890" target="_blank">https://www-stage.oracle.com/hub/4000235107890  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+								
+										<!-- CB19v0 -->
+										<div class="cb19 cb19v0">
+											<div class="cb19w1">
+												<div class="cb19w2">
+												    
+													<h4>
+														<!-- Set locale which is required for parseDate-->
+														
+														
+														
+														
+														<a style="word-wrap: break-word;" onclick="navTrack('ocom','en','Result','Qa test themes - Sithara')" href="https://www-stage.oracle.com/hub/4000235101396" target="_blank"> 
+															Qa test themes - Sithara
+														</a>
+													</h4>
+													<p>
+													   
+													   
+															
+																 
+																 
+																	
+																    
+															
+															Qa test themes - Sithara - desc 
+														
+														
+												   </p>	
+													<cite>
+														
+														
+															
+																
+																
+																	
+																	
+																		
+																	   
+																
+																<a onclick="navTrack('ocom','en','Result','Qa test themes - Sithara')" href="https://www-stage.oracle.com/hub/4000235101396" target="_blank">https://www-stage.oracle.com/hub/4000235101396  </a>
+																
+															
+															
+														
+													</cite>
+												</div>
+												<!--cb19w2--->
+											</div>
+											<!--cb19w1--->
+										</div>
+										<!-- CB19v0 -->
+									
+
+									
+									
+									
+								
+							
+							
+
+	
+		
+			
+			<!-- CN15v0 -->
+				<div class="cn15 cn15v0 hijax" data-hijaxonload="runSearchMetrics" data-hijaxtarget="resultsbody,searchform">
+	<div class="cn15w1">
+	<ul>
+				
+				
+				
+					
+					
+						<li class="cn15l cn15end"><a href="#"> </a></li>						
+					   
+				
+				
+				
+					
+						<li class="cn15active"><a href="#">1</a></li>
+						 
+					
+					
+				
+					
+					
+					   <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="" onclick="" style="" href="/search/internal/hub?No=10&amp;Nr=108&amp;Nrpp=10">2</a></li>
+					
+				
+					
+					
+					   <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="" onclick="" style="" href="/search/internal/hub?No=20&amp;Nr=108&amp;Nrpp=10">3</a></li>
+					
+				
+					
+					
+					   <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="" onclick="" style="" href="/search/internal/hub?No=30&amp;Nr=108&amp;Nrpp=10">4</a></li>
+					
+				
+					
+					
+					   <li>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="" onclick="" style="" href="/search/internal/hub?No=40&amp;Nr=108&amp;Nrpp=10">5</a></li>
+					
+				
+				
+					
+						<li class="cn15r">
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+<a class="" onclick="" style="" href="/search/internal/hub?No=50&amp;Nr=108&amp;Nrpp=10"> </a></li>
+					
+					   
+				
+				
+		</ul>
+	</div>
+</div>
+<!-- /CN15v0 -->
+			
+		
+	
+	
+	                        
+						
+
+						
+							</div>
+
+		</div>
+	</div>
+
+<!-- /CB18v0 -->
+		
+	    
+       <!-- U10v0 -->
+<div id="u10" class="u10v0" data-trackas="ffooter">
+<div class="u10w1">
+<div class="u10w2">
+<div class="u10w3">
+<h5>Contact Us</h5>
+<ul>
+    <li>US Sales: +1.800.633.0738</li>
+    <li><a data-lbl="contact-us:have-oracle-call-you" href="javascript:startCallback('0i2wzK12842','customer data')" onclick="navTrack('ocom','en','rhs-contact','callmenow-oracle');">Have Oracle Call You</a></li>
+    <li><a data-lbl="contact-us:global-contacts" href="https://www.oracle.com/corporate/contact/global.html">Global Contacts</a></li>
+    <li><a data-lbl="contact-us:support-directory" href="https://www.oracle.com/support/contact.html">Support Directory</a></li>
+</ul>
+<div class="u10btn"></div></div>
+<div class="u10w3">
+<h5>About Oracle</h5>
+<ul>
+    <li><a data-lbl="about-oracle:company-information" href="https://www.oracle.com/corporate/index.html">Company Information</a></li>
+    <li><a data-lbl="about-oracle:communities" href="https://www.oracle.com/communities/index.html">Communities</a></li>
+    <li><a data-lbl="about-oracle:careers" href="https://www.oracle.com/corporate/careers/index.html">Careers</a></li>
+</ul>
+<div class="u10btn"></div></div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Cloud</h5>
+<ul>
+    <li><a data-lbl="cloud:overview-of-cloud-solutions" href="https://www.oracle.com/cloud/index.html">Overview of Cloud Solutions</a></li>
+    <li><a data-lbl="cloud:software(saas)" href="https://cloud.oracle.com/saas?intcmp=ocom-ft">Software (SaaS)</a></li>
+    <li><a data-lbl="cloud:platform(paas)" href="https://cloud.oracle.com/paas?intcmp=ocom-ft">Platform (PaaS)</a></li>
+    <li><a data-lbl="cloud:infrastructure(iaas)" href="https://cloud.oracle.com/iaas?intcmp=ocom-ft">Infrastructure (IaaS)</a></li>
+    <li><a data-lbl="cloud:data(daas)" href="https://cloud.oracle.com/data-cloud?intcmp=ocom-ft">Data (DaaS)</a></li>
+    <li><a data-lbl="cloud:free-cloud-trial" href="https://cloud.oracle.com/tryit?intcmp=ocom-ft">Free Cloud Trial</a></li>
+</ul>
+<div class="u10btn"></div></div>
+<div class="u10w3">
+<h5>Events</h5>
+<ul>
+    <li><a data-lbl="events:oracle-openworld" href="https://www.oracle.com/openworld/index.html">Oracle OpenWorld</a></li>
+    <li><a data-lbl="events:oracle-code" href="https://developer.oracle.com/code">Oracle Code</a></li>
+    <li><a data-lbl="events:javaone" href="https://www.oracle.com/javaone/index.html">JavaOne</a></li>
+    <li><a data-lbl="events:all-oracle-events" href="https://www.oracle.com/search/events">All Oracle Events</a></li>
+</ul>
+<div class="u10btn"></div></div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Top Actions</h5>
+<ul>
+    <li><a data-lbl="top-actions:download-java" href="https://www.java.com/download/">Download Java</a></li>
+    <li><a data-lbl="top-actions:download-java-for-developers" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Download Java for Developers</a></li>
+    <li><a data-lbl="top-actions:try-oracle-cloud" href="https://cloud.oracle.com/tryit?intcmp=ocom-ft">Try Oracle Cloud</a></li>
+    <li><a data-lbl="top-actions:subscribe-to-emails" href="https://go.oracle.com/subscriptions?l_code=en-us&amp;src1=OW:O:FO">Subscribe to Emails</a></li>
+</ul>
+<div class="u10btn"></div></div>
+<div class="u10w3">
+<h5>News</h5>
+<ul>
+    <li><a data-lbl="news:newsroom" href="https://www.oracle.com/corporate/press/index.html">Newsroom</a></li>
+    <li><a data-lbl="news:magazines" href="http://www.oracle.com/us/corporate/publishing/index.html">Magazines</a></li>
+    <li><a data-lbl="news:customer-success-stories" href="https://www.oracle.com/search/customers">Customer Success Stories</a></li>
+    <li><a data-lbl="news:blogs" href="https://blogs.oracle.com/">Blogs</a></li>
+</ul>
+<div class="u10btn"></div></div>
+</div>
+<div class="u10w2">
+<div class="u10w3">
+<h5>Key Topics</h5>
+<ul>
+    <li><a data-lbl="key-topics:erp-erm(finance)" href="https://www.oracle.com/applications/erp/index.html">ERP, EPM (Finance)</a></li>
+    <li><a data-lbl="key-topics:hcm(hr-talent)" href="https://www.oracle.com/applications/human-capital-management/index.html">HCM (HR, Talent)</a></li>
+    <li><a data-lbl="key-topics:marketing" href="https://www.oracle.com/marketingcloud/index.html">Marketing</a></li>
+    <li><a data-lbl="key-topics:cx(sales-service-commerce)" href="https://www.oracle.com/applications/customer-experience/index.html">CX (Sales, Service, Commerce)</a></li>
+    <li><a data-lbl="key-topics:industry-solutions" href="https://www.oracle.com/industries/index.html">Industry Solutions</a></li>
+    <li><a data-lbl="key-topics:database" href="https://www.oracle.com/database/index.html">Database</a></li>
+    <li><a data-lbl="key-topics:mysql" href="https://www.oracle.com/mysql/index.html">MySQL</a></li>
+    <li><a data-lbl="key-topics:middleware" href="https://www.oracle.com/middleware/index.html">Middleware</a></li>
+    <li><a data-lbl="key-topics:java" href="https://www.oracle.com/java/index.html">Java</a></li>
+    <li><a data-lbl="key-topics:engineered-systems" href="https://www.oracle.com/engineered-systems/index.html">Engineered Systems</a></li>
+</ul>
+<div class="u10btn"></div></div>
+</div>
+<div class="u10w4"><hr />
+</div>
+<div class="u10w5" data-trackas="footer">
+<ul class="scl-icons">
+    <li class="scl-facebook"><a data-lbl="scl-icon:facebook" href="http://www.oracle.com/us/social-media/facebook/index.html" title="Oracle on Facebook">Facebook</a></li>
+    <li class="scl-twitter"><a data-lbl="scl-icon:twitter" href="http://www.oracle.com/us/social-media/twitter/index.html" title="Follow Oracle on Twitter">Twitter</a></li>
+    <li class="scl-linkedin"><a data-lbl="scl-icon:linkedin" href="http://www.oracle.com/us/social-media/linkedin/index.html" title="Oracle on LinkedIn">LinkedIn</a></li>
+    <li class="scl-googleplus"><a data-lbl="scl-icon:google-plus" href="https://plus.google.com/115607918987921226255" title="Follow Oracle on Google+">Google+</a></li>
+    <li class="scl-youtube"><a data-lbl="scl-icon:you-tube" href="http://www.youtube.com/oracle/" title="Watch Oracle on YouTube">YouTube</a></li>
+    <li class="scl-feed"><a data-lbl="scl-icon:rss" href="http://www.oracle.com/us/syndication/feeds/index.html" title="Oracle RSS Feeds">Oracle RSS Feed</a></li>
+</ul>
+<div class="u10-ologo"><a data-lbl="integrated-cloud-applications-and-platform-services" href="https://www.oracle.com/index.html">Oracle</a></div>
+<h3>Integrated Cloud Applications &amp; Platform Services</h3>
+<ul class="u10-links">
+    <li><a data-lbl="copyright" href="https://www.oracle.com/legal/copyright.html">© Oracle</a></li>
+    <li><a data-lbl="site-map" href="/sitemap.html">Site Map</a></li>
+    <li><a data-lbl="terms-of-use-and-privacy" href="https://www.oracle.com/legal/privacy/index.html">Terms of Use and Privacy</a></li>
+    <li>
+	    <div id="teconsent" consent="null"><script type="text/javascript" src="//consent.truste.com/notice?domain=oracle.com&amp;c=teconsent&amp;language=en&amp;text=true" id="truste_0.7561419443520472"></script><script async="async" type="text/javascript" crossorigin="" src="https://consent.truste.com/get?name=notice.js"></script>
+    <a id="icon-id04297271511620322" tabindex="0" role="button" lang="en" style="cursor: pointer;">Cookie Preferences</a></div></li>
+    <li class="u10last"><a data-lbl="ad-choices" href="https://www.oracle.com/legal/privacy/privacy-policy.html#advertising">Ad Choices</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /U10v0 -->
+		
+	</div>
+	<!-- Start SiteCatalyst code -->
+	<script language="JavaScript">
+	var s_channel = "oraclesearch";
+	var s_prop8   = "ocom:en-us:/oraclesearch/";
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+		var s_prop6   = "1";
+	
+
+	
+	</script>
+	<script language="JavaScript" src="/search/assets/ngui/ora_code_endecasearch.js"></script><img src="//20754664p.rfihub.com/ca.html?rb=26998&amp;ca=20754664&amp;_o=26998&amp;_t=20754664&amp;ra=%n" height="0" width="0" style="display:none" alt="Rocket Fuel" /> 
+	<script language="JavaScript" src="/search/assets/ngui/ora_code.js"></script> 
+	<!-- End SiteCatalyst code --> 
+
+
+
+            
+
+            
+
+            
+            
+        
+    
+
+
+        
+        
+    
+
+            
+
+            
+
+            
+            
+        
+    
+
+
+                
+</div></div><span role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></span><iframe name="__bkframe" id="__bkframe" title="bk" src="about:blank" style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px 0px 0px 0px);"></iframe></body></html>

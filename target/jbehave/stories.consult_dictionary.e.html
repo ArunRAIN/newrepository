@@ -1,0 +1,104 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/consult_dictionary/e.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> check Functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> n Tester</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> verify Global Nav application
+eta:@skip</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Test case -Signed-In</h2>
+<div class="step successful">Given User on home page</div>
+<div class="step successful">When User Signed In</div>
+<div class="step successful">Then User see the Text 'Account' must be displayed</div>
+<div class="step successful">When User Hover Over 'Account'</div>
+<div class="step successful">Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'</div>
+<div class="step successful">Then User verify Oracle account must have options:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign Out</td></tr>
+<tr>
+<td>Account</td></tr>
+<tr>
+<td>Help</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User verify Cloud account must have only option:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign in</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User Click on Cloud account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Account</td><td>Sign in</td><td>Oracle Cloud</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step failed">Then User Click on Oracle account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Account</td><td>Help</td><td>About Your Oracle Account</td></tr>
+<tr>
+<td>Account</td><td>Account</td><td>Update Account</td></tr>
+<tr>
+<td>Account</td><td>Sign Out</td><td>Single Sign off</td></tr>
+</tbody>
+</table>
+</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError</span></div>
+<pre class="failure">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)
+	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$page$2(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.page(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.CGLIB$is_page$3(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed$$FastClassByCGLIB$$3c724bd1.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$3c7a78ed.is_page(&lt;generated&gt;)
+	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</pre>
+</div>
+</div>

@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>stories.consult_dictionary.f</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/consult_dictionary/f.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> check Functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> n Tester</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> verify Global Nav application
+eta:@skip</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Test case -Not Signed-In</h2>
+<div class="step successful">Given User on home page</div>
+<div class="step successful">When User Not signed In</div>
+<div class="step successful">Then User see the text 'Sign In' must be displayed</div>
+<div class="step successful">When User Hover over 'Sign In'</div>
+<div class="step successful">Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'</div>
+<div class="step successful">Then User verify Oracle Account must have options:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign in</td></tr>
+<tr>
+<td>Create an account</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User verify Cloud Account must have only option:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign in</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User Click on Oracle Account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign In</td><td>Sign in</td><td>Single Sign On - Login</td></tr>
+<tr>
+<td>Sign In</td><td>Create an account</td><td>Create Account</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User Click on Cloud Account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign In</td><td>Sign in</td><td>Oracle Cloud</td></tr>
+</tbody>
+</table>
+</span></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
