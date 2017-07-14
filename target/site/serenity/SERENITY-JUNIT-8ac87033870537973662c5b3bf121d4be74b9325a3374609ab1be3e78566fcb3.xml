@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="E" skipped="0" tests="1" time="194.93" timestamp="2017-07-195 05:57:23"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="E" skipped="0" tests="1" time="138.16" timestamp="2017-07-195 11:55:14"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
 com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)&#13;
 com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)&#13;
 com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)&#13;

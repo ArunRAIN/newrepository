@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Global Nav (Accelerator)" name="Test case -Global Nav (Accelerator)" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="28107" timestamp="2017-07-14T17:56:40.689+05:30" session-id="d1390c25e01d73f5ff806530aeb47468">
+<acceptance-test-run title="Test case -Global Nav (Accelerator)" name="Test case -Global Nav (Accelerator)" steps="8" successful="8" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="63660" timestamp="2017-07-14T23:53:46.414+05:30" session-id="84c403f53523c6c69fc599c7dc1594e6">
   <user-story id="a" name="A" path="stories/consult_dictionary/a.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -8,7 +8,7 @@
     <screenshots>
       <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="12678">
+    <test-step result="SUCCESS" duration="47778">
       <screenshots>
         <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
       </screenshots>
@@ -19,7 +19,7 @@
     <screenshots>
       <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="735">
+    <test-step result="SUCCESS" duration="759">
       <screenshots>
         <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
       </screenshots>
@@ -30,22 +30,22 @@
     <screenshots>
       <screenshot image="f03c9f3a062f7fb9e66b76487ef5dccc.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1755">
+    <test-step result="SUCCESS" duration="1781">
       <screenshots>
         <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
       </screenshots>
       <description>Logo: Logo</description>
     </test-step>
-    <test-step result="SUCCESS" duration="827">
+    <test-step result="SUCCESS" duration="891">
       <screenshots>
-        <screenshot image="bd4d6181afca4e797ccfb3d5798d6c7a.png"/>
+        <screenshot image="44bd926b3eff9497c54d36e44e698194.png"/>
       </screenshots>
       <description>Search: Search</description>
     </test-step>
-    <test-step result="SUCCESS" duration="897">
+    <test-step result="SUCCESS" duration="996">
       <screenshots>
-        <screenshot image="7379557e120c9523c3672e5de86bdf92.png"/>
-        <screenshot image="a769e7b17524f7d6562b859d4f429ec4.png"/>
+        <screenshot image="b580729197e995057fd97155e02103aa.png"/>
+        <screenshot image="9c8a71e6575397595d1fd8b1c1b37bfe.png"/>
       </screenshots>
       <description>Menu: Menu</description>
     </test-step>
@@ -54,20 +54,20 @@
     <screenshots>
       <screenshot image="34bcbb79e8243f3a8af3c3cf3b498f43.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="1833">
+    <test-step result="SUCCESS" duration="1867">
       <screenshots>
-        <screenshot image="5683ebec07e6407c168b6913f60a56a7.png"/>
+        <screenshot image="52142c66d6e38b411ec4d51fd54b45be.png"/>
       </screenshots>
       <description>Right hand header contain: Account</description>
     </test-step>
-    <test-step result="SUCCESS" duration="2809">
+    <test-step result="SUCCESS" duration="2886">
       <screenshots>
         <screenshot image="b5a21757b66dec11850986d3716e6800.png"/>
         <screenshot image="1dd3db2e9383e0f4f60d70069d35c31d.png"/>
       </screenshots>
       <description>Right hand header contain: Country</description>
     </test-step>
-    <test-step result="SUCCESS" duration="3800">
+    <test-step result="SUCCESS" duration="3848">
       <screenshots>
         <screenshot image="1dd3db2e9383e0f4f60d70069d35c31d.png"/>
         <screenshot image="34bcbb79e8243f3a8af3c3cf3b498f43.png"/>
