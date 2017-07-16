@@ -10,11 +10,15 @@ eta:@skip</div>
 <div class="scenario">
 <h2>Scenario: Test case -Signed-In</h2>
 <div class="step successful">Given User on home page</div>
-<div class="step successful">When User Signed In</div>
-<div class="step successful">Then User see the Text 'Account' must be displayed</div>
-<div class="step successful">When User Hover Over 'Account'</div>
-<div class="step successful">Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'</div>
-<div class="step successful">Then User verify Oracle account must have options:
+<div class="step failed">When User Signed In <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ARPANNEE-IN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">Then User see the Text 'Account' must be displayed <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">When User Hover Over 'Account' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User verify Oracle account must have options:
 <span class="step parameter"><table>
 <thead>
 <tr>
@@ -29,8 +33,8 @@ eta:@skip</div>
 <td>Help</td></tr>
 </tbody>
 </table>
-</span></div>
-<div class="step successful">Then User verify Cloud account must have only option:
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User verify Cloud account must have only option:
 <span class="step parameter"><table>
 <thead>
 <tr>
@@ -41,8 +45,8 @@ eta:@skip</div>
 <td>Sign in</td></tr>
 </tbody>
 </table>
-</span></div>
-<div class="step successful">Then User Click on Cloud account each links:
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User Click on Cloud account each links:
 <span class="step parameter"><table>
 <thead>
 <tr>
@@ -53,8 +57,8 @@ eta:@skip</div>
 <td>Account</td><td>Sign in</td><td>Oracle Cloud</td></tr>
 </tbody>
 </table>
-</span></div>
-<div class="step failed">Then User Click on Oracle account each links:
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User Click on Oracle account each links:
 <span class="step parameter"><table>
 <thead>
 <tr>
@@ -69,33 +73,18 @@ eta:@skip</div>
 <td>Account</td><td>Sign Out</td><td>Single Sign off</td></tr>
 </tbody>
 </table>
-</span> <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.AssertionError</span></div>
-<pre class="failure">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)
-	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$page$2(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ARPANNEE-IN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:338)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.page(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.CGLIB$is_page$0(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3$$FastClassByCGLIB$$88743837.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$267fdac3.is_page(&lt;generated&gt;)
-	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$df79e5a5.is_signin(&lt;generated&gt;)
+	at com.bdd.sample.steps2.SignedInDefinition.UserSignedIn(SignedInDefinition.java:22)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
 	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)

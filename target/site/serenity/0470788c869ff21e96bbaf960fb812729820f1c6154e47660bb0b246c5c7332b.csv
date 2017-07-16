@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"F","Test case -Not Signed-In","FAILURE","2017-07-14T23:58:19.158+05:30","0.0","24.49"
-"E","Test case -Signed-In","FAILURE","2017-07-14T23:55:14.473+05:30","0.0","138.16"
+"Not Signed In","Test case -Not Signed-In","FAILURE","2017-07-16T20:16:12.622+05:30","0.0","25.7"
+"Signed In","Test case -Signed-In","FAILURE","2017-07-16T20:18:40.584+05:30","0.0","175.09"

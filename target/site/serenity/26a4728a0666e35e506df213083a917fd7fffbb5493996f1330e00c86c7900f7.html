@@ -37,8 +37,8 @@
                 ['Passing', 0],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 1],
-                ['Errors',  0],
+                ['Failing', 0],
+                ['Errors',  1],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -70,8 +70,8 @@
             series: [
                 {label: '0% requirements tested successfully'},
                 {label: '0% requirements untested'},
-                {label: '100%} requirements failing'},
-                {label: '0%} requirements with errors'},
+                {label: '0%} requirements failing'},
+                {label: '100%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2017 00:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2017 00:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -257,13 +257,13 @@
             <td class="summary-leading-column">Total</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
+            <td>1 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">2 minutes 18 seconds</td>
+                <td colspan="5">8 seconds</td>
         </tr>
         </body>
     </table>
@@ -291,21 +291,21 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
-                                    <a href="8ac87033870537973662c5b3bf121d4be74b9325a3374609ab1be3e78566fcb3.html" class="ellipsis" title="Assertion error">
+                                    <a href="8ac87033870537973662c5b3bf121d4be74b9325a3374609ab1be3e78566fcb3.html" class="ellipsis" title="No such element exception: Timed out after 2 seconds. Element not found">
                                     Test case -Signed-In 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">24</td>
+                                <td class="lightgreentext">11</td>
 
 
-                                <td class="lightgreentext">138.16</td>
+                                <td class="lightgreentext">7.97</td>
                             </tr>
                         </tbody>
                     </table>

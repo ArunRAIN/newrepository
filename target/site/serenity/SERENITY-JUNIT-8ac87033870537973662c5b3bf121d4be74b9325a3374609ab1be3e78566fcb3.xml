@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="E" skipped="0" tests="1" time="138.16" timestamp="2017-07-195 11:55:14"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
-com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)&#13;
-com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)&#13;
-com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)&#13;
-com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="E" skipped="0" tests="1" time="7.97" timestamp="2017-07-196 12:11:10"><testcase name="Test case -Signed-In"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'ARPANNEE-IN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ARPANNEE-IN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</error><system-err>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ARPANNEE-IN', ip: '192.168.43.79', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown&#13;
+com.bdd.sample.pages.SignedInPage.hover_SignIn(SignedInPage.java:38)&#13;
+com.bdd.sample.steps.serenity.SignedInSteps.is_signin(SignedInSteps.java:16)&#13;
+com.bdd.sample.steps2.SignedInDefinition.UserSignedIn(SignedInDefinition.java:22)&#13;
 </system-err></testcase></testsuite>

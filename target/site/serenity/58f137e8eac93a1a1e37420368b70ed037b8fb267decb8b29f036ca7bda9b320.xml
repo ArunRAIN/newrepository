@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Global Nav (Menu)" name="Test case -Global Nav (Menu)" steps="7" successful="7" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="30835" timestamp="2017-07-14T23:58:44.710+05:30" session-id="f55d452ba7f244aa697bb7f20dfaf244">
+<acceptance-test-run title="Test case -Global Nav (Menu)" name="Test case -Global Nav (Menu)" steps="4" successful="1" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="12262" timestamp="2017-07-15T00:11:42.357+05:30" session-id="f085e91463e54cb9070eb07786aa0d23">
   <user-story id="b" name="B" path="stories/consult_dictionary/b.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -6,65 +6,53 @@
   </tags>
   <test-group name="Given User on home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="14061">
+    <test-step result="SUCCESS" duration="4589">
       <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When User hover on Menu Bar shows primary panel with categories" result="SUCCESS">
+  <test-group name="When User hover on Menu Bar shows primary panel with categories" result="ERROR">
     <screenshots>
-      <screenshot image="8a862c53ac7126e6180e8850caa53a06.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="971">
+    <test-step result="ERROR" duration="6904">
       <screenshots>
-        <screenshot image="ed0ad375e3356726cf209ffe34682ac2.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png" source="pagesource7109674581836336345.html.txt"/>
       </screenshots>
       <description>Hover on  menu bar</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="2708">
-      <screenshots>
-        <screenshot image="8a862c53ac7126e6180e8850caa53a06.png"/>
-      </screenshots>
-      <description>Shows primary panel with categories</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User hover on primary categories panel shows secondary panel" result="SUCCESS">
-    <screenshots>
-      <screenshot image="72dbe618b9553dcb9355f719d493527f.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="2881">
-      <screenshots>
-        <screenshot image="72dbe618b9553dcb9355f719d493527f.png"/>
-      </screenshots>
-      <description>Hover on primary panel categories</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="702">
-      <screenshots>
-        <screenshot image="72dbe618b9553dcb9355f719d493527f.png"/>
-      </screenshots>
-      <description>Shows secondary panel</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" result="SUCCESS">
-    <screenshots>
-      <screenshot image="17647fb095ba61c8f0e5119cfac76266.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="2307">
-      <screenshots>
-        <screenshot image="f45d9e893765f6dd2b1ed086fe54156b.png"/>
-      </screenshots>
-      <description>Hover on  secondary panel categories</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="4578">
-      <screenshots>
-        <screenshot image="f45d9e893765f6dd2b1ed086fe54156b.png"/>
-        <screenshot image="17647fb095ba61c8f0e5119cfac76266.png"/>
-      </screenshots>
-      <description>Shows  categories with direct link</description>
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;u02menu&apos;]/div/div/a&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir21888_20236}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f085e91463e54cb9070eb07786aa0d23
+*** Element info: {Using=xpath, value=//div[@class=&apos;u02menu&apos;]/div/div/a}</error>
+      <exception>org.openqa.selenium.NoSuchElementException:no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;u02menu&apos;]/div/div/a&quot;}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\arpannee\AppData\Local\Temp\scoped_dir21888_20236}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: f085e91463e54cb9070eb07786aa0d23
+*** Element info: {Using=xpath, value=//div[@class=&apos;u02menu&apos;]/div/div/a}&#xd;
+[com.bdd.sample.pages.MenuobjectPage.hover_Menu_bar(MenuobjectPage.java:35), com.bdd.sample.steps.serenity.MenuEndUserStep.hover_on_Menu_bar(MenuEndUserStep.java:19), com.bdd.sample.steps2.MenuDefinitionSteps.jameshoveronMenuBarshowsprimarypanelwithcategories(MenuDefinitionSteps.java:23)]</exception>
     </test-step>
   </test-group>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User hover on primary categories panel shows secondary panel</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</description>
+  </test-step>
 </acceptance-test-run>

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Search Box" name="Test case -Search Box" steps="9" successful="9" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="44328" timestamp="2017-07-14T23:57:33.873+05:30" session-id="9d3bff311d3a92fb51cc5bcce92e8459">
+<acceptance-test-run title="Test case -Search Box" name="Test case -Search Box" steps="5" successful="1" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="11627" timestamp="2017-07-15T00:11:19.868+05:30" session-id="fedf9d63ae08ac6401d65e48c2b6c462">
   <user-story id="c" name="C" path="stories/consult_dictionary/c.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -6,87 +6,44 @@
   </tags>
   <test-group name="Given User on home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="15296">
+    <test-step result="SUCCESS" duration="8015">
       <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When User click inside the search box must show the cursor" result="SUCCESS">
+  <test-group name="When User click inside the search box must show the cursor" result="ERROR">
     <screenshots>
-      <screenshot image="06835f334a7bf1aa8d5b3b5df3c1c2c6.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="940">
+    <test-step result="ERROR" duration="2751">
       <screenshots>
-        <screenshot image="06835f334a7bf1aa8d5b3b5df3c1c2c6.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png" source="pagesource1213870614923274858.html.txt"/>
       </screenshots>
       <description>Click on inside  textbox</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1798">
-      <screenshots>
-        <screenshot image="296ae9e8871249f4bc3f61c6f1ae9343.png"/>
-      </screenshots>
-      <description>Is focus on  textbox</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" result="SUCCESS">
-    <screenshots>
-      <screenshot image="296ae9e8871249f4bc3f61c6f1ae9343.png"/>
-      <screenshot image="27cb9536a7772b8f7a56d5f4268d7946.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="878">
-      <screenshots>
-        <screenshot image="296ae9e8871249f4bc3f61c6f1ae9343.png"/>
-        <screenshot image="1d64f664e2022f1724e60872e7264e80.png"/>
-      </screenshots>
-      <description>Click search</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="767">
-      <screenshots>
-        <screenshot image="52aa0ec9d13c43a3e9d3b7066b79873c.png"/>
-        <screenshot image="27cb9536a7772b8f7a56d5f4268d7946.png"/>
-      </screenshots>
-      <description>Is display</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown&#xd;
+[com.bdd.sample.pages.SearchBoxPage.click_on_inside_textbox(SearchBoxPage.java:36), com.bdd.sample.steps.serenity.SearchBoxUserStep.click_on_inside_Textbox(SearchBoxUserStep.java:17), com.bdd.sample.steps2.SearchBoxDefinitionSteps.Userclickinsidethesearchboxmustshowthecursor(SearchBoxDefinitionSteps.java:26)]</exception>
     </test-step>
   </test-group>
-  <test-group name="Then User text is type &apos;java me&apos; in the search box options must be displayed to choose" result="SUCCESS">
-    <screenshots>
-      <screenshot image="30d1dc8d4e61c76b30d59769e7795e7e.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="1397">
-      <screenshots>
-        <screenshot image="e32487c7d52295810d65550725d6943a.png"/>
-      </screenshots>
-      <description>Type textbox: java me</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1784">
-      <screenshots>
-        <screenshot image="e32487c7d52295810d65550725d6943a.png"/>
-        <screenshot image="40919a71b264da935d5ffc7faaaeef35.png"/>
-      </screenshots>
-      <description>Is search option display</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" result="SUCCESS">
-    <screenshots>
-      <screenshot image="97408db31a22025d0b7c93595d4148d5.png"/>
-      <screenshot image="e2e9909ceb2e89ffc0dfad87243bb427.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="17498">
-      <screenshots>
-        <screenshot image="97408db31a22025d0b7c93595d4148d5.png"/>
-        <screenshot image="e2e9909ceb2e89ffc0dfad87243bb427.png"/>
-      </screenshots>
-      <description>Click option: java me</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="742">
-      <screenshots>
-        <screenshot image="e2e9909ceb2e89ffc0dfad87243bb427.png"/>
-      </screenshots>
-      <description>Is page: Oracle.com Search</description>
-    </test-step>
-  </test-group>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</description>
+  </test-step>
 </acceptance-test-run>

@@ -1,12 +1,12 @@
 #org.jbehave.core.embedder.StoryManager
-#Sat Jul 15 00:00:50 IST 2017
-stories/consult_dictionary/a.story=64000
-stories/consult_dictionary/c.story=45000
-stories/consult_dictionary/g.story=23000
-stories/consult_dictionary/e.story=139000
-stories/consult_dictionary/b.story=31000
-total=420000
-threadAverage=420000
-stories/consult_dictionary/d.story=93000
+#Sun Jul 16 20:21:36 IST 2017
+stories/consult_dictionary/Signed\ In.story=176000
+stories/consult_dictionary/Menu.story=31000
+stories/consult_dictionary/Country\ List.story=28000
+stories/consult_dictionary/Accelerator.story=31000
+total=390000
+threadAverage=390000
+stories/consult_dictionary/Not\ Signed\ In.story=26000
+stories/consult_dictionary/Search\ Autosuggestion.story=57000
 threads=1
-stories/consult_dictionary/f.story=25000
+stories/consult_dictionary/Search\ Box.story=41000

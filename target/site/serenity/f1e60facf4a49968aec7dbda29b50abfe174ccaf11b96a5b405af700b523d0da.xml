@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Not Signed-In" name="Test case -Not Signed-In" steps="11" successful="7" failures="1" skipped="3" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="24489" timestamp="2017-07-14T23:58:19.158+05:30" session-id="c88f54acbcb1487b0d28607e7305dd63">
+<acceptance-test-run title="Test case -Not Signed-In" name="Test case -Not Signed-In" steps="9" successful="1" failures="0" errors="1" skipped="7" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="8853" timestamp="2017-07-15T00:11:32.489+05:30" session-id="6a2b1745c74a8171e11190d52c73bac9">
   <user-story id="f" name="F" path="stories/consult_dictionary/f.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -6,86 +6,54 @@
   </tags>
   <test-group name="Given User on home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="13979">
+    <test-step result="SUCCESS" duration="5353">
       <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When User Not signed In" result="SUCCESS">
+  <test-group name="When User Not signed In" result="ERROR">
     <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="777">
+    <test-step result="ERROR" duration="2778">
       <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png" source="pagesource934906735531679258.html.txt"/>
       </screenshots>
       <description>Is not signin</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User see the text &apos;Sign In&apos; must be displayed" result="SUCCESS">
-    <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="708">
-      <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
-      </screenshots>
-      <description>Expected text: Sign In</description>
-    </test-step>
-  </test-group>
-  <test-group name="When User Hover over &apos;Sign In&apos;" result="SUCCESS">
-    <screenshots>
-      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="2218">
-      <screenshots>
-        <screenshot image="7bd6f58ea854b53233c89d1bb91a01eb.png"/>
-      </screenshots>
-      <description>Hover on signin: Sign In</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" result="SUCCESS">
-    <screenshots>
-      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="856">
-      <screenshots>
-        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-      </screenshots>
-      <description>Expected option display: Oracle Account, Cloud Account</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User verify Oracle Account must have options:&#xa;［|option           |&#xa;|Sign in          |&#xa;|Create an account|&#xa;|Help             |］" result="FAILURE">
-    <screenshots>
-      <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="708">
-      <screenshots>
-        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-      </screenshots>
-      <description>Expected oracle account option: Sign in</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="759">
-      <screenshots>
-        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png"/>
-      </screenshots>
-      <description>Expected oracle account option: Create an account</description>
-    </test-step>
-    <test-step result="FAILURE" duration="864">
-      <screenshots>
-        <screenshot image="63daef7265e2ca0d9dd878f89ac42da9.png" source="pagesource8987382257300023065.html.txt"/>
-      </screenshots>
-      <description>Expected oracle account option: Help</description>
-      <error>java.lang.AssertionError</error>
-      <exception>java.lang.AssertionError:null&#xd;
-[com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96), com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42), com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)]</exception>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown&#xd;
+[com.bdd.sample.pages.NotSignedInPage.Not_signIn(NotSignedInPage.java:28), com.bdd.sample.steps.serenity.NotSignedInStep.is_not_signin(NotSignedInStep.java:18), com.bdd.sample.steps2.NotSignedInDefinition.UserNotsignedIn(NotSignedInDefinition.java:22)]</exception>
     </test-step>
   </test-group>
   <test-step result="SKIPPED" duration="0">
+    <description>Then User see the text &apos;Sign In&apos; must be displayed</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When User Hover over &apos;Sign In&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User verify Oracle Account must have options:
+［|option           |
+|Sign in          |
+|Create an account|
+|Help             |］</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
     <description>Then User verify Cloud Account must have only option:
 ［|option |
 |Sign in|］</description>
@@ -97,7 +65,7 @@
 |Sign In|Create an account|Create Account           |
 |Account|Help             |About Your Oracle Account|］</description>
   </test-step>
-  <test-step result="SKIPPED" duration="0">
+  <test-step result="SKIPPED" duration="1">
     <description>Then User Click on Cloud Account each links:
 ［|Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |］</description>

@@ -1,4 +1,4 @@
-<acceptance-test-run title="Test case -Search Autosuggest" name="Test case -Search Autosuggest" steps="14" successful="14" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="92188" timestamp="2017-07-14T23:59:16.607+05:30" session-id="e65661210d3b8470a855bad0ef3da0ff">
+<acceptance-test-run title="Test case -Search Autosuggest" name="Test case -Search Autosuggest" steps="6" successful="1" failures="0" errors="1" skipped="4" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="10465" timestamp="2017-07-15T00:11:55.607+05:30" session-id="606eacc23a0a108ee84d0847d9da2b27">
   <user-story id="d" name="D" path="stories/consult_dictionary/d.story"/>
   <tags>
     <tag name="Consult dictionary" type="feature"/>
@@ -6,125 +6,47 @@
   </tags>
   <test-group name="Given User on home page" result="SUCCESS">
     <screenshots>
-      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="18250">
+    <test-step result="SUCCESS" duration="6837">
       <screenshots>
-        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
       </screenshots>
       <description>Is the home page</description>
     </test-step>
   </test-group>
-  <test-group name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" result="SUCCESS">
+  <test-group name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" result="ERROR">
     <screenshots>
-      <screenshot image="2124afbb35f2842b3a49aa5a584ecd52.png"/>
+      <screenshot image="8ed1c3078e7649b47117adc83dc97569.png"/>
     </screenshots>
-    <test-step result="SUCCESS" duration="969">
+    <test-step result="ERROR" duration="2848">
       <screenshots>
-        <screenshot image="2b541d6dca7da396f0cdd219b8250104.png"/>
+        <screenshot image="8ed1c3078e7649b47117adc83dc97569.png" source="pagesource6159208363970438811.html.txt"/>
       </screenshots>
       <description>Type keyword: ora</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="2772">
-      <screenshots>
-        <screenshot image="ed534c964e6b5f12b6a79c1939297a46.png"/>
-        <screenshot image="4906c50be4e3945c16edc3c7ec3dd9be.png"/>
-      </screenshots>
-      <description>Autosuggestion display</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" result="SUCCESS">
-    <screenshots>
-      <screenshot image="b439d26b12f875837c092d65cc3436bf.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="917">
-      <screenshots>
-        <screenshot image="4906c50be4e3945c16edc3c7ec3dd9be.png"/>
-        <screenshot image="9e462de47f715b457128c12e7be3bb7b.png"/>
-      </screenshots>
-      <description>Type keyword: jav</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="2721">
-      <screenshots>
-        <screenshot image="9e462de47f715b457128c12e7be3bb7b.png"/>
-        <screenshot image="79aa445904b46454062cccc521f5f881.png"/>
-      </screenshots>
-      <description>Autosuggestion display</description>
+      <error>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown</error>
+      <exception>org.openqa.selenium.NoSuchElementException:Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown&#xd;
+[com.bdd.sample.pages.SearchAutosuggestPage.type_keyword(SearchAutosuggestPage.java:46), com.bdd.sample.steps.serenity.SearchAutosuggestSteps.type_keyword(SearchAutosuggestSteps.java:17), com.bdd.sample.steps2.SearchAutosuggestDefinition.whenUserBeginsToTypeAKeywordjavInSearchBoxAutosuggestMustSuggestOptions(SearchAutosuggestDefinition.java:20)]</exception>
     </test-step>
   </test-group>
-  <test-group name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" result="SUCCESS">
-    <screenshots>
-      <screenshot image="ccd22249466172c956c8f4701413da49.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="914">
-      <screenshots>
-        <screenshot image="79aa445904b46454062cccc521f5f881.png"/>
-        <screenshot image="ee8d3a3087ccae894c9d3bcfba4d696f.png"/>
-      </screenshots>
-      <description>Type keyword: oracle</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="38162">
-      <screenshots>
-        <screenshot image="fcad1be520252ee89df9383a943e5f0c.png"/>
-        <screenshot image="730f7e63c73e9862d6da2aa634bdd023.png"/>
-      </screenshots>
-      <description>Press  enter</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="2032">
-      <screenshots>
-        <screenshot image="730f7e63c73e9862d6da2aa634bdd023.png"/>
-        <screenshot image="ccd22249466172c956c8f4701413da49.png"/>
-      </screenshots>
-      <description>Expected page: Oracle.com Search</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" result="SUCCESS">
-    <screenshots>
-      <screenshot image="419eb28a58f34c76d7500782d6afeb64.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="1636">
-      <screenshots>
-        <screenshot image="4cd6a440bd83b6a49fb5bff4e7a1342b.png"/>
-      </screenshots>
-      <description>Type keyword: jav</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="7316">
-      <screenshots>
-        <screenshot image="b439d26b12f875837c092d65cc3436bf.png"/>
-        <screenshot image="4a9f75f33af173bcd1d8267e77f57d33.png"/>
-      </screenshots>
-      <description>Click search icon</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="1819">
-      <screenshots>
-        <screenshot image="4a9f75f33af173bcd1d8267e77f57d33.png"/>
-        <screenshot image="419eb28a58f34c76d7500782d6afeb64.png"/>
-      </screenshots>
-      <description>Expected page: Oracle.com Search</description>
-    </test-step>
-  </test-group>
-  <test-group name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" result="SUCCESS">
-    <screenshots>
-      <screenshot image="3cafb5dd69a97f5e5a9da7beee020fe2.png"/>
-    </screenshots>
-    <test-step result="SUCCESS" duration="2022">
-      <screenshots>
-        <screenshot image="1ca0c43804d33a98a0e6e627a9a9da84.png"/>
-      </screenshots>
-      <description>Type keyword: oracle</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="4047">
-      <screenshots>
-        <screenshot image="d7ec9251def070cdc7f6a5a58ffd5b60.png"/>
-        <screenshot image="3cafb5dd69a97f5e5a9da7beee020fe2.png"/>
-      </screenshots>
-      <description>Click outside searchbox</description>
-    </test-step>
-    <test-step result="SUCCESS" duration="2687">
-      <screenshots>
-        <screenshot image="3cafb5dd69a97f5e5a9da7beee020fe2.png"/>
-      </screenshots>
-      <description>Is  autosuggestion not display</description>
-    </test-step>
-  </test-group>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</description>
+  </test-step>
 </acceptance-test-run>

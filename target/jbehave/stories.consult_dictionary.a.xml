@@ -7,8 +7,12 @@ eta:@skip</iWantTo>
 </narrative>
 <scenario keyword="Scenario:" title="Test case -Global Nav (Accelerator)">
 <step outcome="successful">Given User on home page</step>
-<step outcome="successful">When User verifies Menu bar should not Move while pageload</step>
-<step outcome="successful">Then User verifies left Header contains:
+<step outcome="failed" keyword="FAILED">When User verifies Menu bar should not Move while pageload<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verifies left Header contains:
 <parameter><parameters>
 <names><name>Header1</name></names>
 <values><value>Logo</value></values>
@@ -16,7 +20,7 @@ eta:@skip</iWantTo>
 <values><value>Menu</value></values>
 </parameters>
 </parameter></step>
-<step outcome="successful">Then User verifies right Header contains:
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verifies right Header contains:
 <parameter><parameters>
 <names><name>Header2</name></names>
 <values><value>Account</value></values>
@@ -24,5 +28,20 @@ eta:@skip</iWantTo>
 <values><value>Call</value></values>
 </parameters>
 </parameter></step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ARPANNEE-IN&apos;, ip: &apos;192.168.43.79&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:338)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6ed6eba8.verify_Menu_bar_position(&lt;generated&gt;)
+	at com.bdd.sample.steps2.DefinitionSteps.pageloadsjamesverifyMenubarshouldnotMove(DefinitionSteps.java:35)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
 </scenario>
 </story>

@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '100% requirements tested successfully'},
+                {label: '0% requirements tested successfully'},
                 {label: '0% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '0%} requirements with errors'},
+                {label: '100%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -168,7 +168,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2017 00:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2017 00:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -209,8 +209,8 @@
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
                                     <td>1</td>
-                                    <td>1</td>
                                     <td>0</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -240,8 +240,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -256,14 +256,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
+            <td>1 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 3 seconds</td>
+                <td colspan="5">17 seconds</td>
         </tr>
         </body>
     </table>
@@ -291,21 +291,21 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
-                                    <a href="67d80cc43b5ce2bf7355cf97c32a3ab4e28f2b0cb701d9a3a8483deaf9f9f013.html" class="ellipsis" title="">
+                                    <a href="67d80cc43b5ce2bf7355cf97c32a3ab4e28f2b0cb701d9a3a8483deaf9f9f013.html" class="ellipsis" title="No such element exception: Timed out after 2 seconds. Element not found">
                                     Test case -Global Nav (Accelerator) 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">12</td>
+                                <td class="lightgreentext">6</td>
 
 
-                                <td class="lightgreentext">63.66</td>
+                                <td class="lightgreentext">16.54</td>
                             </tr>
                         </tbody>
                     </table>
