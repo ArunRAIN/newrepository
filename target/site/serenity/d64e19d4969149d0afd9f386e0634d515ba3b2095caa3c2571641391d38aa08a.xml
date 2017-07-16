@@ -1,0 +1,47 @@
+<acceptance-test-run title="Test case -Country List" name="Test case -Country List" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="20709" timestamp="2017-07-16T20:35:05.071+05:30" session-id="96dd9737a5a4ec0f995ed3dcefbae78b">
+  <user-story id="Country List" name="Country List" path="stories/consult_dictionary/Country List.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Country list" type="story"/>
+    <tag name="Country List" type="story"/>
+  </tags>
+  <test-group name="Given User on home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="15504">
+      <screenshots>
+        <screenshot image="2020270df667b06b3649babbeebd4917.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Hover over on &apos;Country&apos; text" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1830">
+      <screenshots>
+        <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
+      </screenshots>
+      <description>Hover on: Country</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User can see the  panel showing Regions and their countries with two column" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="757">
+      <screenshots>
+        <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
+      </screenshots>
+      <description>Region panel display</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="807">
+      <screenshots>
+        <screenshot image="2193575aee97d26863bc654f39635bb8.png"/>
+      </screenshots>
+      <description>Countries panel display</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

@@ -1,0 +1,15 @@
+<story path="stories/consult_dictionary/Search Box.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
+  <asA keyword="As a">n Tester</asA>
+  <iWantTo keyword="I want to">verify Global Nav application
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Test case -Search Box">
+<step outcome="successful">Given User on home page</step>
+<step outcome="successful">When User click inside the search box must show the cursor</step>
+<step outcome="successful">Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
+<step outcome="successful">Then User text is type &apos;java me&apos; in the search box options must be displayed to choose</step>
+<step outcome="successful">Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
+</scenario>
+</story>
