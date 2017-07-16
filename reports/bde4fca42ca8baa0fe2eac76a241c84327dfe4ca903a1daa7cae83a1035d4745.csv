@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Gg","Test case -Country List","PENDING","2017-07-03T19:58:44.381+05:30","0.0","18.18"
-"Aa","Test case -Global Nav (Accelerator Global Nav)","SKIPPED","2017-07-03T19:59:05.312+05:30","0.0","0.0"
-"Bb","Test case -Global Nav (Menu)","SKIPPED","2017-07-03T19:59:05.620+05:30","0.0","0.0"
-"Ff","Test case -Not Signed-In","SKIPPED","2017-07-03T19:59:05.450+05:30","0.0","0.0"
-"Dd","Test case -Search Autosuggest","SKIPPED","2017-07-03T19:59:05.862+05:30","0.0","0.0"
-"Cc","Test case -Search Box","SKIPPED","2017-07-03T19:59:05.210+05:30","0.0","0.0"
-"Ee","Test case -Signed-In","SKIPPED","2017-07-03T19:59:04.339+05:30","0.0","0.0"

@@ -54,7 +54,7 @@ public class SearchBoxPage extends PageObject
     
     public void verify_search_option_displays()
     {
-    	waitABit(1000);
+    	waitABit(3000);
 	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][contains(@style,'display: block')]/li[1]"));
 	  
 	    if(ele.size()==1)

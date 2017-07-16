@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="615.878" tests="57" errors="1" skipped="3" failures="6">
+<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="465.724" tests="57" errors="1" skipped="3" failures="6">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\software\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5115916601965870795.tmp"/>
+    <property name="classworlds.conf" value="D:\software\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4017758853977512917.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files\nodejs\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;D:\software\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,40 +60,40 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.019"/>
-  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="14.448"/>
-  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="3.184"/>
-  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="2.13"/>
-  <testcase name="Then User text is type &apos;java me&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="3.487"/>
-  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="15.146"/>
-  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="15.488"/>
-  <testcase name="Search Box.story" classname="Search Box.story" time="15.539"/>
-  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="22.441"/>
-  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="2.167"/>
-  <testcase name="Then User can see the  panel showing Regions and their countries with two column" classname="com.bdd.sample.steps2.CountryListDefinition" time="1.944"/>
-  <testcase name="Scenario: Test case -Country List" classname="Scenario: Test case -Country List" time="2.309"/>
-  <testcase name="Country List.story" classname="Country List.story" time="2.31"/>
-  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="15.526"/>
-  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.148"/>
-  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.194"/>
-  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.149"/>
-  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.097"/>
-  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.74">
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.018"/>
+  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="20.347"/>
+  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="3.406"/>
+  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="2.053"/>
+  <testcase name="Then User text is type &apos;java me&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="5.606"/>
+  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="15.528"/>
+  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="15.931"/>
+  <testcase name="Search Box.story" classname="Search Box.story" time="15.977"/>
+  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="15.509"/>
+  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="2.177"/>
+  <testcase name="Then User can see the  panel showing Regions and their countries with two column" classname="com.bdd.sample.steps2.CountryListDefinition" time="1.924"/>
+  <testcase name="Scenario: Test case -Country List" classname="Scenario: Test case -Country List" time="2.311"/>
+  <testcase name="Country List.story" classname="Country List.story" time="2.313"/>
+  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="21.162"/>
+  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.19"/>
+  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.17"/>
+  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="3.044"/>
+  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.129"/>
+  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.877">
     <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
 	at com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)
 	at com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d.CGLIB$Expected_oracle_account_option$0(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d$$FastClassByCGLIB$$a20342c9.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.CGLIB$Expected_oracle_account_option$7(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0$$FastClassByCGLIB$$afd4363a.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d.Expected_oracle_account_option(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.Expected_oracle_account_option(<generated>)
 	at com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)
 ]]></failure>
     <system-out><![CDATA[Then User verify Oracle Account must have options:
@@ -135,7 +135,7 @@
  (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="2.759">
+  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="2.9">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -159,15 +159,15 @@ java.lang.AssertionError
 	at org.junit.Assert.assertTrue(Assert.java:52)
 	at com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)
 	at com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d.CGLIB$Expected_oracle_account_option$0(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d$$FastClassByCGLIB$$a20342c9.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.CGLIB$Expected_oracle_account_option$7(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0$$FastClassByCGLIB$$afd4363a.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$f374b99d.Expected_oracle_account_option(<generated>)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.Expected_oracle_account_option(<generated>)
 	at com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
@@ -175,7 +175,7 @@ java.lang.AssertionError
 ...
 ]]></system-out>
   </testcase>
-  <testcase name="Not Signed In.story" classname="Not Signed In.story" time="2.858">
+  <testcase name="Not Signed In.story" classname="Not Signed In.story" time="2.992">
     <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -206,60 +206,60 @@ TEST FAILED: Test case -Not Signed-In
 [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
 ]]></system-err>
   </testcase>
-  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="14.823"/>
-  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="4.415"/>
-  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="4.153"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="11.551"/>
-  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8.349"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="9.133"/>
-  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="9.491"/>
-  <testcase name="Search Autosuggestion.story" classname="Search Autosuggestion.story" time="9.493"/>
-  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="15.133"/>
-  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="1.179"/>
-  <testcase name="Then User verifies left Header contains:, " classname="com.bdd.sample.steps2.DefinitionSteps" time="4.063"/>
-  <testcase name="Then User verifies right Header contains:, " classname="com.bdd.sample.steps2.DefinitionSteps" time="8.888"/>
-  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="9.215"/>
-  <testcase name="Accelerator.story" classname="Accelerator.story" time="9.219"/>
-  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="14.82"/>
-  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.15"/>
-  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="3.971"/>
-  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="6.039"/>
-  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="6.375"/>
-  <testcase name="Menu.story" classname="Menu.story" time="6.378"/>
-  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="25.961"/>
-  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="40.425"/>
-  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.096"/>
-  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="3.136"/>
-  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.106"/>
-  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.631"/>
-  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.118"/>
-  <testcase name="Then User Click on Cloud account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="21.462"/>
-  <testcase name="Then User Click on Oracle account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="75.1">
+  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="12.093"/>
+  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="4.324"/>
+  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="4.078"/>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="9.627"/>
+  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8.584"/>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="9.196"/>
+  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="9.552"/>
+  <testcase name="Search Autosuggestion.story" classname="Search Autosuggestion.story" time="9.554"/>
+  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="13.983"/>
+  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="1.251"/>
+  <testcase name="Then User verifies left Header contains:, " classname="com.bdd.sample.steps2.DefinitionSteps" time="3.953"/>
+  <testcase name="Then User verifies right Header contains:, " classname="com.bdd.sample.steps2.DefinitionSteps" time="9.643"/>
+  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="9.978"/>
+  <testcase name="Accelerator.story" classname="Accelerator.story" time="9.98"/>
+  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="17.995"/>
+  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.229"/>
+  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.059"/>
+  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="7.073"/>
+  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="7.437"/>
+  <testcase name="Menu.story" classname="Menu.story" time="7.439"/>
+  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="12.057"/>
+  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="24.363"/>
+  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.126"/>
+  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.215"/>
+  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.126"/>
+  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.611"/>
+  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.182"/>
+  <testcase name="Then User Click on Cloud account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="18.197"/>
+  <testcase name="Then User Click on Oracle account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="32.159">
     <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
 	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)
 	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.CGLIB$page$5(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf$$FastClassByCGLIB$$f4982044.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$page$5(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.page(<generated>)
 	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.CGLIB$is_page$3(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf$$FastClassByCGLIB$$f4982044.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$is_page$0(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.is_page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.is_page(<generated>)
 	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
 ]]></failure>
     <system-out><![CDATA[Then User Click on Oracle account each links:
@@ -272,7 +272,7 @@ TEST FAILED: Test case -Not Signed-In
 (java.lang.AssertionError)
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="75.106">
+  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="32.162">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -296,25 +296,25 @@ java.lang.AssertionError
 	at org.junit.Assert.assertTrue(Assert.java:52)
 	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)
 	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.CGLIB$page$5(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf$$FastClassByCGLIB$$f4982044.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$page$5(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.page(<generated>)
 	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.CGLIB$is_page$3(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf$$FastClassByCGLIB$$f4982044.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$is_page$0(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$70e8edf.is_page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.is_page(<generated>)
 	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
@@ -322,7 +322,7 @@ java.lang.AssertionError
 ...
 ]]></system-out>
   </testcase>
-  <testcase name="Signed In.story" classname="Signed In.story" time="75.24">
+  <testcase name="Signed In.story" classname="Signed In.story" time="32.166">
     <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -353,10 +353,10 @@ TEST FAILED: Test case -Signed-In
 [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
 ]]></system-err>
   </testcase>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.003"/>
-  <testcase name="com.bdd.sample.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="2.573">
-    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@28bb083: java.lang.AssertionError" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
-org.jbehave.core.embedder.PerformableTree$SomethingHappened@28bb083: java.lang.AssertionError
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.001"/>
+  <testcase name="com.bdd.sample.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="2.767">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@e8b8805: java.lang.AssertionError" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@e8b8805: java.lang.AssertionError
 	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
 	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
 	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
@@ -368,8 +368,8 @@ org.jbehave.core.embedder.PerformableTree$SomethingHappened@28bb083: java.lang.A
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
 </error>
     <system-out><![CDATA[Generating reports view to 'D:\Execution\jbhaves\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
-Reports view generated with 15 stories (of which 0 pending) containing 14 scenarios (of which 0 pending)
-Failures in reports view: 9 scenarios failed
+Reports view generated with 8 stories (of which 0 pending) containing 7 scenarios (of which 0 pending)
+Failures in reports view: 2 scenarios failed
 ]]></system-out>
   </testcase>
 </testsuite>
