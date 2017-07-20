@@ -1,1 +1,1 @@
-mvn verify -Dcontext=firefox -Dwebdriver.driver=firefox
+mvn verify -Dcontext=firefox -Dwebdriver.driver=firefox -Dinjected.tags="browser:firefox"

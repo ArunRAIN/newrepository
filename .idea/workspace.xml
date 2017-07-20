@@ -13,52 +13,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="DictionaryPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3175">
-              <caret line="128" column="61" lean-forward="false" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
-              <folding>
-                <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-                <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuobjectPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/MenuobjectPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1775">
-              <caret line="92" column="97" lean-forward="false" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
-              <folding>
-                <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-                <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NotSignedInPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="275">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <marker date="1500542136476" expanded="true" signature="5895:5917" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotSignedInStep.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NotSignedInStep.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,27 +37,103 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuEndUserStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/MenuEndUserStep.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="-1050">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/site/serenity/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-                <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-                <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-                <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-                <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-                <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-                <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-                <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-                <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+                <marker date="1500549985965" expanded="true" signature="91954:92060" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93858" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93887" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93910" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93929" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93943" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93953" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93962" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93969" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93977" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:93984" ph="..." />
+                <marker date="1500549985965" expanded="true" signature="91954:94126" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Accelerator.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryList.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/CountryList.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Menu.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchAutosuggestion.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchAutosuggestion.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchBox.story" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchBox.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignedIn.story" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SignedIn.story">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -106,8 +153,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story" />
         <option value="$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java" />
         <option value="$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Ff.story" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Menu.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchAutosuggestion.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchBox.story" />
+        <option value="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SignedIn.story" />
       </list>
     </option>
   </component>
@@ -138,8 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,19 +228,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stories" />
+              <option name="myItemId" value="serenity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,11 +262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stories" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consult_dictionary" />
+              <option name="myItemId" value="Global_Nav" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +354,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -584,15 +627,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AcceptanceTestSuite - 2017.06.16 at 18h 47m 48s.xml">
-      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2017.06.16 at 18h 59m 05s.xml">
-      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AcceptanceTestSuite - 2017.06.16 at 19h 01m 13s.xml">
-      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AcceptanceTestSuite - 2017.06.16 at 19h 06m 19s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
@@ -614,21 +648,30 @@
     <history-entry file="AcceptanceTestSuite - 2017.06.29 at 18h 23m 10s.xml">
       <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2017.07.20 at 16h 45m 43s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2017.07.20 at 16h 52m 11s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AcceptanceTestSuite - 2017.07.20 at 16h 57m 57s.xml">
+      <configuration name="AcceptanceTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1924" height="1030" extended-state="1" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50865054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31944445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -644,7 +687,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -691,108 +733,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2525">
-          <caret line="119" column="61" lean-forward="false" selection-start-line="119" selection-start-column="61" selection-end-line="119" selection-end-column="61" />
-          <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/MenuobjectPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="86" column="97" lean-forward="false" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="97" />
-          <folding>
-            <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/MenuEndUserStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
-            <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-            <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-            <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-            <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1499948205323" expanded="false" signature="308:321" ph=" { " />
+            <marker date="1499948205323" expanded="false" signature="345:352" ph=" }" />
+            <marker date="1499948205323" expanded="true" signature="425:507" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="702:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="746:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="839:911" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="983:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Ff.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Ff.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
           <caret line="106" column="86" lean-forward="false" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="86" />
           <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="3526:4622" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="5353:5846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -802,47 +768,31 @@
         <state relative-caret-position="2100">
           <caret line="97" column="97" lean-forward="false" selection-start-line="97" selection-start-column="97" selection-end-line="97" selection-end-column="97" />
           <folding>
-            <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1083:1330" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1845:2142" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2202:2524" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2588:2874" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2936:3369" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="3353:3369" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/MenuEndUserStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
-            <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-            <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-            <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-            <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1499948205323" expanded="false" signature="308:321" ph=" { " />
+            <marker date="1499948205323" expanded="false" signature="345:352" ph=" }" />
+            <marker date="1499948205323" expanded="true" signature="425:507" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="702:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="746:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="839:911" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="983:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -857,21 +807,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
           <caret line="106" column="86" lean-forward="false" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="86" />
           <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="3526:4622" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="5353:5846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -881,47 +824,31 @@
         <state relative-caret-position="2100">
           <caret line="97" column="97" lean-forward="false" selection-start-line="97" selection-start-column="97" selection-end-line="97" selection-end-column="97" />
           <folding>
-            <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1083:1330" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1845:2142" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2202:2524" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2588:2874" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2936:3369" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="3353:3369" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/MenuEndUserStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding>
-            <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-            <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-            <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-            <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1499948205323" expanded="false" signature="308:321" ph=" { " />
+            <marker date="1499948205323" expanded="false" signature="345:352" ph=" }" />
+            <marker date="1499948205323" expanded="true" signature="425:507" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="702:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="746:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="839:911" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="983:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -936,22 +863,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2650">
           <caret line="106" column="86" lean-forward="false" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="86" />
           <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="3526:4622" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="5353:5846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -961,15 +881,14 @@
         <state relative-caret-position="375">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-            <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-            <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-            <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1499948205323" expanded="false" signature="308:321" ph=" { " />
+            <marker date="1499948205323" expanded="false" signature="345:352" ph=" }" />
+            <marker date="1499948205323" expanded="true" signature="425:507" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="702:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="746:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="839:911" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="983:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -990,13 +909,12 @@
         <state relative-caret-position="2400">
           <caret line="96" column="99" lean-forward="false" selection-start-line="96" selection-start-column="99" selection-end-line="96" selection-end-column="99" />
           <folding>
-            <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1083:1330" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1845:2142" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2202:2524" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2588:2874" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2936:3369" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="3353:3369" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1007,8 +925,8 @@
         <state relative-caret-position="425">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="3526:4622" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="5353:5846" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1040,14 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,78 +975,76 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/MenuDefinitionSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/MenuEndUserStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="400">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
-            <marker date="1499177402415" expanded="true" signature="364:365" ph="{...}" />
-            <marker date="1499177402415" expanded="false" signature="412:425" ph=" { " />
-            <marker date="1499177402415" expanded="false" signature="449:456" ph=" }" />
-            <marker date="1499177402415" expanded="true" signature="529:611" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="683:741" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="806:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="850:864" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="943:1015" ph="{...}" />
-            <marker date="1499177402415" expanded="true" signature="1087:1151" ph="{...}" />
+            <marker date="1499948205323" expanded="false" signature="308:321" ph=" { " />
+            <marker date="1499948205323" expanded="false" signature="345:352" ph=" }" />
+            <marker date="1499948205323" expanded="true" signature="425:507" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="579:637" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="702:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="746:760" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="839:911" ph="{...}" />
+            <marker date="1499948205323" expanded="true" signature="983:1047" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/LookupADefinition.story" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Bb.story" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Cc.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/MenuobjectPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1775">
-          <caret line="92" column="97" lean-forward="false" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+        <state relative-caret-position="1800">
+          <caret line="87" column="97" lean-forward="false" selection-start-line="87" selection-start-column="97" selection-end-line="87" selection-end-column="97" />
           <folding>
-            <marker date="1499177445889" expanded="true" signature="1174:1180" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="1242:1489" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2004:2301" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2361:2683" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="2747:3033" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3095:3528" ph="{...}" />
-            <marker date="1499177445889" expanded="true" signature="3512:3528" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1083:1330" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="1845:2142" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2202:2524" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2588:2874" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="2936:3369" ph="{...}" />
+            <marker date="1499948199932" expanded="true" signature="3353:3369" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3175">
-          <caret line="128" column="61" lean-forward="false" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+        <state relative-caret-position="2700">
+          <caret line="189" column="61" lean-forward="false" selection-start-line="189" selection-start-column="61" selection-end-line="189" selection-end-column="61" />
           <folding>
-            <marker date="1499160744835" expanded="true" signature="3563:4056" ph="{...}" />
-            <marker date="1499160744835" expanded="true" signature="4093:4175" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="3526:4622" ph="{...}" />
+            <marker date="1500052406269" expanded="true" signature="5353:5846" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="275">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1500542136476" expanded="true" signature="5895:5917" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Ff.story" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1145,24 +1053,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500549985965" expanded="true" signature="91954:92060" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93858" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93887" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93910" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93929" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93943" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93953" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93962" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93969" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93977" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:93984" ph="..." />
+            <marker date="1500549985965" expanded="true" signature="91954:94126" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Ff.story">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/NotSignedInStep.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/CountryList.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Menu.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchAutosuggestion.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchBox.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SignedIn.story">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

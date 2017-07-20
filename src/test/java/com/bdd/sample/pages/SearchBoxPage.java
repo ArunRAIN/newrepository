@@ -3,6 +3,7 @@ package com.bdd.sample.pages;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -22,7 +23,7 @@ public class SearchBoxPage extends PageObject
     @FindBy(xpath="//a[contains(text(),'Sign In')]")
     private WebElementFacade signbtn;
 
-    @FindBy(id="txtSearch")
+    @FindBy(xpath="//input[@id='txtSearch']")
     private WebElementFacade searchbox;
     
  
@@ -33,6 +34,7 @@ public class SearchBoxPage extends PageObject
     
     public void click_on_inside_textbox()
     {
+  
     	searchbox.click();
     }
     

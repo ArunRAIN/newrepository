@@ -22,7 +22,7 @@ import java.util.Random;
 
 import static ch.lambdaj.Lambda.convert;
 
-
+@DefaultUrl("https://www-portal-stage.oracle.com/search/internal/otnhub")
 public class DictionaryPage extends PageObject {
 
     @FindBy(id="u02menulink")
@@ -52,7 +52,9 @@ public class DictionaryPage extends PageObject {
   
     public void home_page()
     {
-    	getDriver().navigate().to("https://www-portal-stage.oracle.com/search/internal/hub");
+    	getDriver().manage().window().maximize();
+    	getDriver().get("https://www-portal-stage.oracle.com/search/internal/hub");
+    	
     	String expectitle = getDriver().getTitle();
     	Assert.assertEquals(expectitle,expectitle);
     	

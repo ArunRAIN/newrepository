@@ -256,7 +256,7 @@ public class NotSignedInPage extends PageObject
 	   {
 		      
 		   getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+link+"')]")).click();
-		    waitABit(1000);	
+		    waitABit(2000);	
 		       
 	   }
 	   

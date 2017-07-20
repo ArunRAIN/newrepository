@@ -1,7 +1,6 @@
 package com.bdd.sample.steps.serenity;
 
 import com.bdd.sample.pages.CountryListPage;
-import com.bdd.sample.pages.DictionaryPage;
 
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
