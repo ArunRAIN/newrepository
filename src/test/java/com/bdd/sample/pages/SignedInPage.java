@@ -146,7 +146,7 @@ public class SignedInPage extends PageObject
 	    	}
 	    	else
 	    	{
-	    		
+	    		waitABit(2000);
 	    		int ele22 = getDriver().findElements(By.xpath("//span[text()='"+expectedtitle+"']")).size();
 		    	 if(ele22==1)
 		    	    {
@@ -162,21 +162,22 @@ public class SignedInPage extends PageObject
 	    	
 	    	navigate_page();
 	    	
+	    	waitABit(2000);
 	    	hover_on(option);
 	    
 	    }
 	   
 	   public void oracle_account_option_click(String link)
 	   {
-		      
+		   
 		   getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='"+link+"']")).click();
-		    waitABit(1000);	
+		   waitABit(1000); 
 		       
 	   }
 	   
 	   public void oracle_cloud_account_option_click(String option,String link)
 	   {
-		      
+		     
 		   getDriver().findElement(By.xpath("//div[@class='u02userinw2']//a[text()='"+link+"']")).click();
 		    waitABit(1000);	
 		    

@@ -67,7 +67,7 @@ public class NotSignedInDefinition
 	}
 	
 	@Then("User Click on Oracle Account each links: $table")
-	public void UserClickonOracleAccounteachlinks(ExamplesTable activityTable)
+	public void UserClickonOracleAccounteachlinks(ExamplesTable activityTable) throws InterruptedException
 	{
 		 for (Parameters row : activityTable.getRowsAsParameters()) 
     	 {
@@ -76,6 +76,8 @@ public class NotSignedInDefinition
             String apprPAGE = row.valueAs("appropriate page", String.class);
 //          
             Nsstep.is_page(option, link, apprPAGE);
+            Thread.sleep(2000);
+            Nsstep.page(option, link, apprPAGE);
            
            
             
@@ -83,7 +85,7 @@ public class NotSignedInDefinition
 	}
 	
 	@Then("User Click on Cloud Account each links: $table")
-	public void UserClickoneachoptions(ExamplesTable activityTable)
+	public void UserClickoneachoptions(ExamplesTable activityTable) throws InterruptedException
 	{
 		 for (Parameters row : activityTable.getRowsAsParameters()) 
     	 {
@@ -92,7 +94,7 @@ public class NotSignedInDefinition
             String apprPAGE = row.valueAs("appropriate page", String.class);
 //          
             Nsstep.is_page_(option, link, apprPAGE);
-           
+         
            
             
     	 }

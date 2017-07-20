@@ -6,6 +6,8 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.bdd.sample.Genric;
+
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -20,7 +22,14 @@ public class NotSignedInPage extends PageObject
 	@FindBy(xpath="//a[@class='u02ticon u02user']//span[@class='u02signin']")
     private WebElementFacade signin;
 	
-	
+	@FindBy(id="sso_username")
+    private WebElementFacade usrname;
+
+    @FindBy(id="ssopassword")
+    private WebElementFacade pwd;
+
+    @FindBy(xpath="//a[contains(text(),'Sign In')]")
+    private WebElementFacade signbtn;
 	
 	
 	public void Not_signIn()
@@ -38,6 +47,7 @@ public class NotSignedInPage extends PageObject
 	
 	public void Expected_text(String text)
 	{
+		waitABit(2000);
 		int ele1 = getDriver().findElements(By.xpath("//span[text()='"+text+"']")).size();
 		 if(ele1==1)
 		    {
@@ -51,7 +61,7 @@ public class NotSignedInPage extends PageObject
 	
 	 public void hover_on(String text)
 	    {
-		 waitABit(1000);
+		 waitABit(1500);
 		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='"+text+"']"));
 	    	Actions a=new Actions(getDriver());
 	    			a.moveToElement(ele1).perform();
@@ -116,8 +126,35 @@ public class NotSignedInPage extends PageObject
 	   
 	   public void navigate_page()
 	    {
-		    waitABit(1000);
+		    waitABit(500);
 	    	getDriver().navigate().back();
+	    	
+	    	
+	    }
+	   public void is_page_(String option,String expectedtitle)
+	    {
+		  
+		    
+	    	String actualtitle=getDriver().getTitle();
+	    	
+	    	if(actualtitle.contains(expectedtitle))
+	    	{
+	    		Assert.assertTrue(true);
+	    		
+	    		
+	    	}
+	    	else
+	    	{
+	    		
+		     Assert.assertTrue(false);
+		    	  
+	    	}
+	    	
+	    	navigate_page();
+	    	
+	    	waitABit(2500);
+	    	hover_on(option);
+	    
 	    }
 	   public void is_page(String option,String expectedtitle)
 	    {
@@ -128,6 +165,8 @@ public class NotSignedInPage extends PageObject
 	    	if(actualtitle.contains(expectedtitle))
 	    	{
 	    		Assert.assertTrue(true);
+	    		
+	    		
 	    	}
 	    	else
 	    	{
@@ -137,17 +176,80 @@ public class NotSignedInPage extends PageObject
 	    	}
 	    	
 	    	navigate_page();
-	    	waitABit(500);
+	    	
+	    	waitABit(2000);
 	    	hover_on(option);
 	    
 	    }
 	   
-	   public void oracle_account_option_click(String link)
+	   public void is_page2(String option,String expectedtitle)
+	    {
+		  
+		    
+	    	String actualtitle=getDriver().getTitle();
+	    	
+	    	if(actualtitle.contains(expectedtitle))
+	    	{
+	    		Assert.assertTrue(true);
+	    		
+	    		
+	    	}
+	    	else
+	    	{
+	    		
+		     Assert.assertTrue(false);
+		    	  
+	    	}
+	    	
+	    	navigate_page();
+	    	
+	    	waitABit(1000);
+	    
+	    	hover_on(option);
+	    
+	    }
+	   public void is_page3(String option,String expectedtitle)
+	    {
+		  
+		    
+	    	String actualtitle=getDriver().getTitle();
+	    	
+	    	if(actualtitle.contains(expectedtitle))
+	    	{
+	    		Assert.assertTrue(true);
+	    		 usrname.type(Genric.getPropertyValue("UN"));
+	             pwd.type(Genric.getPropertyValue("PW"));
+	             signbtn.click();
+	    		
+	    	}
+	    	else
+	    	{
+	    		
+		     Assert.assertTrue(false);
+		    	  
+	    	}
+	    	
+	    
+	    	
+	    
+	    }
+	   public void oracle_account_option_click(String link,String option,String expectedtitle)
 	   {
 		      
 		   getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+link+"')]")).click();
-		    waitABit(1000);	
-		       
+		    //waitABit(1000);	
+//		    if(link.equals("Help"))
+//			{
+//			is_page_(option, expectedtitle);
+//			}
+//			else if(link.equals("Create an account"))
+//			{
+//				is_page_(option, expectedtitle);
+//			}
+//			else if(link.equals("Sign in"))
+//			{
+//				is_page3(option, expectedtitle);
+//			}
 	   }
 	   
 	   public void oracle_cloud_account_option_click(String link)

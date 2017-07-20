@@ -15,8 +15,8 @@
         <serenity.jbehave.version>1.13.0</serenity.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
 <!--         <webdriver.chrome.driver>geckodriver.exe</webdriver.chrome.driver> -->
-<webdriver.driver>chrome</webdriver.driver>
-<webdriver.chrome.driver>chromedriver.exe</webdriver.chrome.driver>
+<!-- <webdriver.driver>chrome</webdriver.driver> -->
+<!-- <webdriver.chrome.driver>chromedriver.exe</webdriver.chrome.driver> -->
     </properties>
 
     <repositories>

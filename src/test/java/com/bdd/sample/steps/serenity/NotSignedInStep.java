@@ -49,17 +49,34 @@ public class NotSignedInStep
 	}
 	
 	@Step
-	public void page(String option,String expectedtitle) 
+	public void page(String option,String link,String expectedtitle) 
 	{
 		
-		NssPage.is_page(option, expectedtitle);
+		if(link.equals("Help"))
+		{
+		NssPage.is_page_(option, expectedtitle);
+		}
+		else if(link.equals("Create an account"))
+		{
+			NssPage.is_page_(option, expectedtitle);
+		}
+		else if(link.equals("Sign in"))
+		{
+			NssPage.is_page3(option, expectedtitle);
+		}
 	}
 	
 	@Step
 	public void is_page(String option,String link,String expectedtitle) 
 	{
-		NssPage.oracle_account_option_click(link);
-		page(option, expectedtitle);
+		NssPage.oracle_account_option_click(link,option,expectedtitle);
+		//page(link,option, expectedtitle);
+	}
+	
+	@Step
+	public void Page(String option,String link,String expectedtitle) 
+	{
+		NssPage.is_page_(option, expectedtitle);
 	}
 	
 	
@@ -67,7 +84,7 @@ public class NotSignedInStep
 	public void is_page_(String option,String link,String expectedtitle) 
 	{
 		NssPage.oracle_cloud_account_option_click(link);
-		page(option, expectedtitle);
+		Page(option, link, expectedtitle);
 	}
 	
 	

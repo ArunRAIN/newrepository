@@ -1,86 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: com.bdd.sample.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 57, Failures: 6, Errors: 1, Skipped: 3, Time elapsed: 329.057 sec <<< FAILURE! - in com.bdd.sample.AcceptanceTestSuite
-Then User verify Oracle Account must have options:(com.bdd.sample.steps2.NotSignedInDefinition)  Time elapsed: 2.877 sec  <<< FAILURE!
-java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.NotSignedInPage.oracle_account_option(NotSignedInPage.java:96)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.Expected_oracle_account_option(NotSignedInStep.java:42)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.CGLIB$Expected_oracle_account_option$7(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0$$FastClassByCGLIB$$afd4363a.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$48dc5bc0.Expected_oracle_account_option(<generated>)
-	at com.bdd.sample.steps2.NotSignedInDefinition.UserverifyOracleAccountmusthaveoptions(NotSignedInDefinition.java:53)
-
-Scenario: Test case -Not Signed-In  Time elapsed: 2.9 sec  <<< FAILURE!
-java.lang.AssertionError: scenario failed!
-	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
-	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
-	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:176)
-	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:890)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)
-	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
-	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-
-Not Signed In.story  Time elapsed: 2.992 sec  <<< FAILURE!
-java.lang.AssertionError: story failed!
-	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
-	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
-	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
-	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
-	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-
-Then User Click on Oracle account each links:(com.bdd.sample.steps2.SignedInDefinition)  Time elapsed: 32.159 sec  <<< FAILURE!
+Tests run: 56, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 516.727 sec <<< FAILURE! - in com.bdd.sample.AcceptanceTestSuite
+Then User Click on Oracle account each links:(com.bdd.sample.steps2.SignedInDefinition)  Time elapsed: 28.425 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
 	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)
 	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$page$5(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac.CGLIB$page$0(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac$$FastClassByCGLIB$$5839d622.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac.page(<generated>)
 	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.CGLIB$is_page$0(<generated>)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102$$FastClassByCGLIB$$9d4c084.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac.CGLIB$is_page$5(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac$$FastClassByCGLIB$$5839d622.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:369)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:354)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:329)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$5c763102.is_page(<generated>)
+	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$8839cfac.is_page(<generated>)
 	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
 
-Scenario: Test case -Signed-In  Time elapsed: 32.162 sec  <<< FAILURE!
+Scenario: Test case -Signed-In  Time elapsed: 28.432 sec  <<< FAILURE!
 java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -97,7 +47,7 @@ java.lang.AssertionError: scenario failed!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
 
-Signed In.story  Time elapsed: 32.166 sec  <<< FAILURE!
+SignedIn.story  Time elapsed: 28.527 sec  <<< FAILURE!
 java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -111,17 +61,4 @@ java.lang.AssertionError: story failed!
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-
-com.bdd.sample.AcceptanceTestSuite  Time elapsed: 2.767 sec  <<< ERROR!
-java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
-org.jbehave.core.embedder.PerformableTree$SomethingHappened@e8b8805: java.lang.AssertionError
-	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
-	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
-	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
-	at net.serenitybdd.jbehave.embedders.ExtendedEmbedder.runStoriesAsPaths(ExtendedEmbedder.java:60)
-	at net.serenitybdd.jbehave.runners.SerenityReportingRunner.run(SerenityReportingRunner.java:175)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
 
