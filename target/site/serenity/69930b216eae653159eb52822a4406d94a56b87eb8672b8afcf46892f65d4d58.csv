@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Accelerator","Test case -Accelerator","SUCCESS","2017-07-20T21:22:51.159+05:30","0.0","30.94"
+"Country list","Test case -Country List","SUCCESS","2017-07-20T21:23:22.850+05:30","0.0","12.39"
+"Menu","Test case -Menu","SUCCESS","2017-07-20T21:23:35.851+05:30","0.0","22.66"
+"Not signed in","Test case -Not Signed-In","SUCCESS","2017-07-20T21:23:59.142+05:30","0.0","71.99"
+"Search autosuggestion","Test case -Search Autosuggestion","SUCCESS","2017-07-20T21:25:12.015+05:30","0.0","40.21"
+"Search box","Test case -Search Box","SUCCESS","2017-07-20T21:25:52.863+05:30","0.0","30.78"
+"Signed in","Test case -Signed-In","FAILURE","2017-07-20T21:26:24.275+05:30","0.0","63.9"

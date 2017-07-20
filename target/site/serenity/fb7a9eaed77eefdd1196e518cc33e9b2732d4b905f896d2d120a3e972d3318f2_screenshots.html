@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="5328caf5193386a3c9a576c811a496231819f224301a9f73247207e5767808cd.html">Not Signed In</a>
+                > <a
+                    href="fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2.html">Test case -Not Signed-In </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-07-2017 21:23</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Not Signed In </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check Functionality
+As an Tester
+I want to verify Global Nav application
+eta:@skip
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="f7364c6c3583eebcc7aa555df4c0eeeafb8097fd1fd2ca138c87fb00bb3ed04e.html">Firefox
+                                    (browser)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="478dede7257abe7991ff96e77edb3e3b45a1faf9c45fb039f3b47a9c2390c012.html">Firefox
+                                    (context)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html">Global Nav
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case -Not Signed-In
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Given User on home page" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Is the home page" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="When User Not signed In" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Is not signin" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Then User see the text 'Sign In' must be displayed" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Expected text: Sign In" width="960"/>
+                <img src="scaled_941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="When User Hover over 'Sign In'" width="960"/>
+                <img src="scaled_03fa37ff3893a5cbf4aa08aaddc5f6b33372fa988f73e8e3d9b5b702c75cb9ef.png" title="Hover on signin: Sign In" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Expected option display: Oracle Account, Cloud Account" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Then User verify Oracle Account must have options:
+［|option           |
+|Sign in          |
+|Create an account|
+|Help             |］" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Expected oracle account option: Sign in" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Expected oracle account option: Create an account" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Expected oracle account option: Help" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Then User verify Cloud Account must have only option:
+［|option |
+|Sign in|］" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Expected cloud account option: Sign in" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Then User Click on Cloud Account each links:
+［|Option  |Link             |appropriate page        |
+|Sign In |Sign in          |Oracle Cloud            |］" width="960"/>
+                <img src="941f282664b67d76f27b71c03f1e549b7b3f833d94ad910e32906757dd37a31f.png" title="Is page: Sign In, Sign in, Oracle Cloud" width="960"/>
+                <img src="scaled_6e84edee252ba603d0b6c72356f78e85f0a66d96a73f4dbdbc562adbf54893fa.png" title="Page: Sign In, Sign in, Oracle Cloud" width="960"/>
+                <img src="scaled_ad1a0287174e2076c40bd1ab83e198a5ded8e4f6dd1ec24484b19061ef71b365.png" title="Page: Sign In, Sign in, Oracle Cloud" width="960"/>
+                <img src="scaled_9fa6eec1fbb8bdf5ac6ff5c6508b7f34f15ad60830bb8a9b562fb47060f8c3e8.png" title="Then User Click on Oracle Account each links:
+［|Option |Link             |appropriate page         |
+|Sign In|Help             |About Your Oracle Account|
+|Sign In|Create an account|Create Account           |
+|Sign In|Sign in          |Single Sign On - Login   |］" width="960"/>
+                <img src="scaled_fc846aa029495330bd439b70b9f33c8730134f53948893d0d06015d4a8e4720b.png" title="Is page: Sign In, Help, About Your Oracle Account" width="960"/>
+                <img src="scaled_2e08fe627461b8bf738c167032c7adad1beb89ea138225b32609678b03ca64cb.png" title="Page: Sign In, Help, About Your Oracle Account" width="960"/>
+                <img src="scaled_799146f701732f35b64ccc71215c6d8a35e2e1c755a6a49df28398c3d45e65e8.png" title="Page: Sign In, Help, About Your Oracle Account" width="960"/>
+                <img src="scaled_f9a18d8efabae1ca403d7014f228cd0ca380f0bcdbecdc404b6a695a0ff7fa07.png" title="Is page: Sign In, Create an account, Create Account" width="960"/>
+                <img src="scaled_1d6b41561db733d9e120ae6858551597fb47f4b2f29781e83547154c1c4481aa.png" title="Page: Sign In, Create an account, Create Account" width="960"/>
+                <img src="scaled_50213e33a3de896a48cd690beb699f4ef149297a7bc936c4aa55361262c3a703.png" title="Page: Sign In, Create an account, Create Account" width="960"/>
+                <img src="scaled_b163890a2e0c41e0693afe8e1a500237aed627f08c7571924dc60cdc78c66ddb.png" title="Is page: Sign In, Sign in, Single Sign On - Login" width="960"/>
+                <img src="b163890a2e0c41e0693afe8e1a500237aed627f08c7571924dc60cdc78c66ddb.png" title="Page: Sign In, Sign in, Single Sign On - Login" width="960"/>
+                <img src="9fa6eec1fbb8bdf5ac6ff5c6508b7f34f15ad60830bb8a9b562fb47060f8c3e8.png" title="Page: Sign In, Sign in, Single Sign On - Login: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="3417764faf105c00cc96fff9d314616045847f09363bb66f17de296c843bfeaf.html">Search Autosuggestion</a>
+                > <a
+                    href="560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de.html">Test case -Search Autosuggestion </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-07-2017 21:25</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Autosuggestion </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check Functionality
+As an Tester
+I want to verify Global Nav application
+eta:@skip
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="f7364c6c3583eebcc7aa555df4c0eeeafb8097fd1fd2ca138c87fb00bb3ed04e.html">Firefox
+                                    (browser)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="478dede7257abe7991ff96e77edb3e3b45a1faf9c45fb039f3b47a9c2390c012.html">Firefox
+                                    (context)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html">Global Nav
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case -Search Autosuggestion
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Given User on home page" width="960"/>
+                <img src="6592d62b0fe5507c93ef108c40619a4a62a9fa1dc09272906efc833a83ed94bd.png" title="Is the home page" width="960"/>
+                <img src="scaled_9e2f5bb264363827a89c42ab0fecbda4fd6f6864f74545025b033996470c701e.png" title="When User begins to type keyword 'ora' in search box autosuggest must suggest options" width="960"/>
+                <img src="scaled_35388ee1741b30bf10292f378dff9cbc29e48ce1c417a778d4c061da03ad4541.png" title="Type keyword: ora" width="960"/>
+                <img src="scaled_1eeb9a440603b63412fabfb8a77072d0118c50739bd2000810aa479f4ba78bd9.png" title="Autosuggestion display" width="960"/>
+                <img src="9e2f5bb264363827a89c42ab0fecbda4fd6f6864f74545025b033996470c701e.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_f90660ff345e9aca2b3ffc6081dd6dd5a66fcd1f0d63ce5af9a400ed2b99e02b.png" title="Then User start entering keyword 'jav' again and autosuggest must reappear" width="960"/>
+                <img src="scaled_ceb515e606b451e7c35605b66055205edd54d3c3663b58febbda57532aac1484.png" title="Type keyword: jav" width="960"/>
+                <img src="ceb515e606b451e7c35605b66055205edd54d3c3663b58febbda57532aac1484.png" title="Autosuggestion display" width="960"/>
+                <img src="f90660ff345e9aca2b3ffc6081dd6dd5a66fcd1f0d63ce5af9a400ed2b99e02b.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_3ca05052c52cf72a13b31ad017eb1d53c3ad57ac71a529f079764856bdfac2bc.png" title="Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page" width="960"/>
+                <img src="scaled_3d212aa8b9027813338b4962da22a661af1110a9990e1aa025103a18ced7c7b3.png" title="Type keyword: oracle" width="960"/>
+                <img src="3d212aa8b9027813338b4962da22a661af1110a9990e1aa025103a18ced7c7b3.png" title="Press  enter" width="960"/>
+                <img src="scaled_94b741dcd6b880265b91162be90aea522508394fe934029dad6dc10453a7011b.png" title="Press  enter" width="960"/>
+                <img src="94b741dcd6b880265b91162be90aea522508394fe934029dad6dc10453a7011b.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="3ca05052c52cf72a13b31ad017eb1d53c3ad57ac71a529f079764856bdfac2bc.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="scaled_09f39291df5276c8f458cc1591a30c9153369f6ecdcdfce1b777ce6e18bfa236.png" title="Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page" width="960"/>
+                <img src="3ca05052c52cf72a13b31ad017eb1d53c3ad57ac71a529f079764856bdfac2bc.png" title="Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page" width="960"/>
+                <img src="09f39291df5276c8f458cc1591a30c9153369f6ecdcdfce1b777ce6e18bfa236.png" title="Type keyword: jav" width="960"/>
+                <img src="scaled_f497f647bce03c53d0c438fb0f26f9e313fe8254bfed455882842d744bb8bfe7.png" title="Type keyword: jav" width="960"/>
+                <img src="scaled_bf61c6be2359ea0e53120f53edff1386fdece2bc06fdb227ddb93b65c065ccf5.png" title="Click search icon" width="960"/>
+                <img src="scaled_f64aae71b45d8427d49c21e849c5802b2f48474c6d7f4783a5975826a63fcd7e.png" title="Click search icon" width="960"/>
+                <img src="scaled_4d14e24788503c4cf5ee7a223623895698090c295359ae58b8a3ea230bdfbe84.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="3ca05052c52cf72a13b31ad017eb1d53c3ad57ac71a529f079764856bdfac2bc.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="scaled_e428c4863a14f39977419120a1ca90d71bf52300a88154f9a4e861fc76151e24.png" title="Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" width="960"/>
+                <img src="scaled_74ed201dc3e7839b66181064bd35714fd29119edcb31db59365fe16424c30620.png" title="Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" width="960"/>
+                <img src="e428c4863a14f39977419120a1ca90d71bf52300a88154f9a4e861fc76151e24.png" title="Type keyword: oracle" width="960"/>
+                <img src="scaled_f7bbbce3eaa7a0b50bc7fd7d20a0297ff38d6abcb4f0c70a3affd3d7776fe1f3.png" title="Type keyword: oracle" width="960"/>
+                <img src="scaled_274368d4381de6f46599ecc4e3daa0f8212d0d08aa6c8df94765f84ea043dfc6.png" title="Click outside searchbox" width="960"/>
+                <img src="74ed201dc3e7839b66181064bd35714fd29119edcb31db59365fe16424c30620.png" title="Click outside searchbox" width="960"/>
+                <img src="74ed201dc3e7839b66181064bd35714fd29119edcb31db59365fe16424c30620.png" title="Is  autosuggestion not display: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>
