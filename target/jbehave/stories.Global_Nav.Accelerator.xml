@@ -1,0 +1,28 @@
+<story path="stories/Global_Nav/Accelerator.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
+  <asA keyword="As a">n Tester</asA>
+  <iWantTo keyword="I want to">verify Global Nav application
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Test case -Accelerator">
+<step outcome="successful">Given User on home page</step>
+<step outcome="successful">When User verifies Menu bar should not Move while pageload</step>
+<step outcome="successful">Then User verifies left Header contains:
+<parameter><parameters>
+<names><name>Header1</name></names>
+<values><value>Logo</value></values>
+<values><value>Search</value></values>
+<values><value>Menu</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then User verifies right Header contains:
+<parameter><parameters>
+<names><name>Header2</name></names>
+<values><value>Account</value></values>
+<values><value>Country</value></values>
+<values><value>Call</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+</story>

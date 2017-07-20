@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="d306f56b862ac72ad5ecbc3974dba088759a33d6c534133a7ae4319f7919c8a5.html">Search Autosuggestion</a>
+                > <a
+                    href="b269a0e982bb783d49501688a43b87a7275d87cfd40241ed6e64883704103223.html">Test case -Search Autosuggestion </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-07-2017 14:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Autosuggestion </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check Functionality<br>As an Tester<br>I want to verify Global Nav application<br>eta:@skip
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html">Global Nav
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test case -Search Autosuggestion
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3a811bd9fd5af51b25fd4a2637afd723.png" title="Is the home page" width="960"/>
+                <img src="scaled_8df1ac445124e80a90d4ce9480539581.png" title="Type keyword: ora" width="960"/>
+                <img src="scaled_d6a7bc83d52ab4799bebaef327f8ec28.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_5a3c9c79b5d67ecd21cdeb01140192b4.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_cdd160a30cf3c0c32cc4947fd386cf4a.png" title="Type keyword: jav" width="960"/>
+                <img src="cdd160a30cf3c0c32cc4947fd386cf4a.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_38074b7ffaa552210279db1b9e3c52ac.png" title="Autosuggestion display" width="960"/>
+                <img src="scaled_ad513df499ab2715dec14ed986130178.png" title="Type keyword: oracle" width="960"/>
+                <img src="ad513df499ab2715dec14ed986130178.png" title="Press  enter" width="960"/>
+                <img src="scaled_e27389213b458a5e170f0dd275a2827c.png" title="Press  enter" width="960"/>
+                <img src="scaled_bfdb021213e0e801563cb8c98d8ab8c6.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="fe3806982d853b8563baf918b9f5ff55.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="scaled_c49fbcb7397c334aeb05e179a5c37c9e.png" title="Type keyword: jav" width="960"/>
+                <img src="scaled_060295d633d90e627441973092fa0e0a.png" title="Click search icon" width="960"/>
+                <img src="scaled_0aabb038faddc6f15ad551c04a4174c3.png" title="Click search icon" width="960"/>
+                <img src="scaled_2e9a259a94c3cd3f1e04fb9431e752f5.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="fe3806982d853b8563baf918b9f5ff55.png" title="Expected page: Oracle.com Search" width="960"/>
+                <img src="scaled_c8e2e91b98c62629ef2467ac7b5fe40b.png" title="Type keyword: oracle" width="960"/>
+                <img src="scaled_f3ce2da0557acd479f454456f4ebe09c.png" title="Click outside searchbox" width="960"/>
+                <img src="scaled_a6b915372326ae9c445755d3105ef96a.png" title="Click outside searchbox" width="960"/>
+                <img src="a6b915372326ae9c445755d3105ef96a.png" title="Is  autosuggestion not display: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.1.36</span>
+</div>
+</body>
+</html>

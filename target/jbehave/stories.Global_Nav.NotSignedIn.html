@@ -1,0 +1,74 @@
+<div class="story">
+<h1></h1>
+<div class="path">stories/Global_Nav/NotSignedIn.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> check Functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> n Tester</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> verify Global Nav application
+eta:@skip</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Test case -Not Signed-In</h2>
+<div class="step successful">Given User on home page</div>
+<div class="step successful">When User Not signed In</div>
+<div class="step successful">Then User see the text 'Sign In' must be displayed</div>
+<div class="step successful">When User Hover over 'Sign In'</div>
+<div class="step successful">Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'</div>
+<div class="step successful">Then User verify Oracle Account must have options:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign in</td></tr>
+<tr>
+<td>Create an account</td></tr>
+<tr>
+<td>Help</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User verify Cloud Account must have only option:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>option</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign in</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User Click on Cloud Account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign In</td><td>Sign in</td><td>Oracle Cloud</td></tr>
+</tbody>
+</table>
+</span></div>
+<div class="step successful">Then User Click on Oracle Account each links:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Option</th><th>Link</th><th>appropriate page</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Sign In</td><td>Help</td><td>About Your Oracle Account</td></tr>
+<tr>
+<td>Sign In</td><td>Create an account</td><td>Create Account</td></tr>
+<tr>
+<td>Sign In</td><td>Sign in</td><td>Single Sign On - Login</td></tr>
+</tbody>
+</table>
+</span></div>
+</div>
+</div>

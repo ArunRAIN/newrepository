@@ -1,0 +1,145 @@
+<acceptance-test-run title="Test case -Signed-In" name="Test case -Signed-In" steps="12" successful="11" failures="1" skipped="0" ignored="0" pending="0" annotated-result="FAILURE" result="FAILURE" duration="69720" timestamp="2017-07-20T14:21:18.661+05:30" session-id="1b828a05-057f-4945-85ba-d70956427b4e">
+  <user-story id="SignedIn" name="Signed in" path="stories/Global_Nav/SignedIn.story"/>
+  <tags>
+    <tag name="Global nav" type="feature"/>
+    <tag name="Global nav/Signed in" type="story"/>
+  </tags>
+  <test-group name="Given User on home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3a811bd9fd5af51b25fd4a2637afd723.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="8370">
+      <screenshots>
+        <screenshot image="3a811bd9fd5af51b25fd4a2637afd723.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Signed In" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9dbb85bbdd337a78e2faceba3d1626b3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="10530">
+      <screenshots>
+        <screenshot image="9dbb85bbdd337a78e2faceba3d1626b3.png"/>
+      </screenshots>
+      <description>Is signin</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User see the Text &apos;Account&apos; must be displayed" result="SUCCESS">
+    <screenshots>
+      <screenshot image="9dbb85bbdd337a78e2faceba3d1626b3.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="470">
+      <screenshots>
+        <screenshot image="9dbb85bbdd337a78e2faceba3d1626b3.png"/>
+      </screenshots>
+      <description>Expected text: Account</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Hover Over &apos;Account&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1748">
+      <screenshots>
+        <screenshot image="00fc6314531e914775f01c95c8069805.png"/>
+      </screenshots>
+      <description>Hover on signin: Account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="508">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <description>Expected option display: Oracle Account, Cloud Account</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verify Oracle account must have options:&#xa;［|option           |&#xa;|Sign Out         |&#xa;|Account          |&#xa;|Help             |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="476">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <description>Expected oracle account option: Sign Out</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="478">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <description>Expected oracle account option: Account</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="470">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <description>Expected oracle account option: Help</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User verify Cloud account must have only option:&#xa;［|option |&#xa;|Sign in|］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="471">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <description>Expected cloud account option: Sign in</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User Click on Cloud account each links:&#xa;［|Option  |Link             |appropriate page        |&#xa;|Account |Sign in          |Oracle Cloud            |］" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-group name="Is page: Account, Sign in, Oracle Cloud" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="11783">
+        <screenshots>
+          <screenshot image="1dffeeaaaf867db656a28c461acb65ac.png"/>
+          <screenshot image="d668221f3292aa1a3fb91bd41adf4dd4.png"/>
+        </screenshots>
+        <description>Page: Account, Oracle Cloud</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="Then User Click on Oracle account each links:&#xa;［|Option |Link             |appropriate page         |&#xa;|Account|Help             |About Your Oracle Account|&#xa;|Account|Account          |Update Account           |&#xa;|Account|Sign Out         |Single Sign off          |］" result="FAILURE">
+    <screenshots>
+      <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+    </screenshots>
+    <test-group name="Is page: Account, Help, About Your Oracle Account" result="SUCCESS">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <test-step result="SUCCESS" duration="17862">
+        <screenshots>
+          <screenshot image="84c69add11f3c79fb2715a3fea0047cf.png"/>
+          <screenshot image="5468189092817b426f5003216221fd1c.png"/>
+        </screenshots>
+        <description>Page: Account, About Your Oracle Account</description>
+      </test-step>
+    </test-group>
+    <test-group name="Is page: Account, Account, Update Account" result="FAILURE">
+      <screenshots>
+        <screenshot image="0605584b74889e8f94ebf1bf81f92358.png"/>
+      </screenshots>
+      <test-step result="FAILURE" duration="6990">
+        <screenshots>
+          <screenshot image="939e5edc53f3555d85bcb944a9031740.png"/>
+          <screenshot image="939e5edc53f3555d85bcb944a9031740.png" source="pagesource5853503117838332471.html.txt"/>
+        </screenshots>
+        <description>Page: Account, Update Account</description>
+        <error>java.lang.AssertionError</error>
+        <exception>java.lang.AssertionError:null&#xd;
+[com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157), com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55), com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62), com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)]</exception>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

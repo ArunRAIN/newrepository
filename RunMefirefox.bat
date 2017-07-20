@@ -1,0 +1,1 @@
+mvn verify -Dcontext=firefox -Dwebdriver.driver=firefox

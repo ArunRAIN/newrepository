@@ -1,0 +1,14 @@
+<story path="stories/Global_Nav/Menu.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
+  <asA keyword="As a">n Tester</asA>
+  <iWantTo keyword="I want to">verify Global Nav application
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Test case -Menu">
+<step outcome="successful">Given User on home page</step>
+<step outcome="successful">When User hover on Menu Bar shows primary panel with categories</step>
+<step outcome="successful">Then User hover on primary categories panel shows secondary panel</step>
+<step outcome="successful">Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
+</scenario>
+</story>

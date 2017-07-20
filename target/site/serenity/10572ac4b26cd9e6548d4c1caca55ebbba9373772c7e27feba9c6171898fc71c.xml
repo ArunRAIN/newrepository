@@ -1,0 +1,46 @@
+<acceptance-test-run title="Test case -Country List" name="Test case -Country List" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="16565" timestamp="2017-07-20T14:20:37.377+05:30" session-id="81a37bf1-ccfd-4d30-96e7-a3353415d390">
+  <user-story id="CountryList" name="Country list" path="stories/Global_Nav/CountryList.story"/>
+  <tags>
+    <tag name="Global nav" type="feature"/>
+    <tag name="Global nav/Country list" type="story"/>
+  </tags>
+  <test-group name="Given User on home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="3a811bd9fd5af51b25fd4a2637afd723.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="12348">
+      <screenshots>
+        <screenshot image="3a811bd9fd5af51b25fd4a2637afd723.png"/>
+      </screenshots>
+      <description>Is the home page</description>
+    </test-step>
+  </test-group>
+  <test-group name="When User Hover over on &apos;Country&apos; text" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6be308f96e9918600f7a2d35ae23875c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1633">
+      <screenshots>
+        <screenshot image="6be308f96e9918600f7a2d35ae23875c.png"/>
+      </screenshots>
+      <description>Hover on: Country</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then User can see the  panel showing Regions and their countries with two column" result="SUCCESS">
+    <screenshots>
+      <screenshot image="6be308f96e9918600f7a2d35ae23875c.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="483">
+      <screenshots>
+        <screenshot image="6be308f96e9918600f7a2d35ae23875c.png"/>
+      </screenshots>
+      <description>Region panel display</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="539">
+      <screenshots>
+        <screenshot image="6be308f96e9918600f7a2d35ae23875c.png"/>
+      </screenshots>
+      <description>Countries panel display</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
