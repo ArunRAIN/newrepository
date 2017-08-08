@@ -45,12 +45,13 @@ public class SearchAutosuggestPage extends PageObject
     {
     	searchbox.clear();
     	searchbox.type(option);
+    	waitABit(3000);
     }
     
     public void verify_Autosuggestion_display()
     {
-    	waitABit(2000);
-	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][contains(@style,'display: block')]/li[1]"));
+    	waitABit(4000);
+	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[1]"));
 	  
 	    if(ele.size()==1)
 	    {
@@ -81,15 +82,13 @@ public class SearchAutosuggestPage extends PageObject
     
     public void click_outside_searchbox()
     {
-    	WebElement ele = getDriver().findElement(By.xpath("//div[text()='Menu']"));
-//    	waitFor(ExpectedConditions.visibilityOf(ele));
-    	ele.click();
-        waitABit(3000);
+    	searchIcon.sendKeys(Keys.TAB);
     }
     
     public void hit_Enter()
     {
     	searchbox.sendKeys(Keys.ENTER);
+    	waitABit(3000);
     }
     
     public void is_page(String expectedtitle)
@@ -103,6 +102,9 @@ public class SearchAutosuggestPage extends PageObject
     
     public void click_serch_Icon()
     {
-    	searchIcon.click();
+    	searchIcon.sendKeys(Keys.TAB);
+    	searchIcon.sendKeys(Keys.ENTER);
+    	waitABit(3000);
+    	
     }
 }

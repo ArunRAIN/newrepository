@@ -1,5 +1,8 @@
 package com.bdd.sample.pages;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 import org.junit.Assert;
@@ -32,10 +35,21 @@ public class SearchBoxPage extends PageObject
     
    
     
-    public void click_on_inside_textbox()
+    public void click_on_inside_textbox() throws AWTException
     {
-  
-    	searchbox.click();
+  waitABit(3000);
+  WebElement un = searchbox;
+  int xaxis = un.getLocation().x;
+   
+  int yaxis=un.getLocation().y;
+   
+  int width = un.getSize().width;
+  int height= un.getSize().height;
+   
+  Robot r=new Robot();
+  r.mouseMove(xaxis+width+50/2, yaxis+height/2+150);
+  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
+  r.mouseRelease(KeyEvent.BUTTON1_MASK);
     }
     
     public void is_focus_on_textbox()
@@ -57,7 +71,7 @@ public class SearchBoxPage extends PageObject
     public void verify_search_option_displays()
     {
     	waitABit(3000);
-	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][contains(@style,'display: block')]/li[1]"));
+	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[1]"));
 	  
 	    if(ele.size()==1)
 	    {
@@ -73,7 +87,10 @@ public class SearchBoxPage extends PageObject
     public void click_option(String option)
     {
     	waitABit(2000);
-    	getDriver().findElement(By.xpath("//li[contains(.,'"+option+"')]")).click();
+    	WebElement ele = getDriver().findElement(By.xpath("//li[contains(.,'"+option+"')]"));
+    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+    	js.executeScript("arguments[0].click();", ele);
+    	waitABit(5000);
     }
     
     public void is_page(String expectedtitle)
@@ -87,7 +104,9 @@ public class SearchBoxPage extends PageObject
     public void click_search()
     {
     	//waitFor(ExpectedConditions.titleContains("Oracle Technology Network"));
-    	searchicon.click();
+    	//searchicon.click();
+    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+    	js.executeScript("arguments[0].click();", searchicon);
     }
     public void is_display()
     {

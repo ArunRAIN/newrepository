@@ -1,5 +1,7 @@
 package com.bdd.sample.steps2;
 
+import java.awt.AWTException;
+
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
@@ -20,7 +22,7 @@ public class SearchBoxDefinitionSteps
 	
 
     @When("User click inside the search box must show the cursor")
-	public void Userclickinsidethesearchboxmustshowthecursor() 
+	public void Userclickinsidethesearchboxmustshowthecursor() throws AWTException 
 	{
 
     	scustep.click_on_inside_Textbox();

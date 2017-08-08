@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Signed in" skipped="0" tests="1" time="68.86" timestamp="2017-07-201 09:20:19"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
-com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:157)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Signed in" skipped="0" tests="1" time="130.89" timestamp="2017-08-220 06:12:16"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:173)&#13;
 com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)&#13;
 com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)&#13;
 com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)&#13;

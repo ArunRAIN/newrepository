@@ -1,1 +1,1 @@
-mvn verify -Dcontext=edge -Dwebdriver.driver=edge -Dinjected.tags="browser:edge"
+mvn verify -Dcontext=ie -Dwebdriver.driver=ie -Dinjected.tags="browser:ie"

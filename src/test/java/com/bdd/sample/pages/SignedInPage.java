@@ -1,8 +1,13 @@
 package com.bdd.sample.pages;
 
+import java.util.List;
+
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.bdd.sample.Genric;
 
@@ -34,6 +39,7 @@ public class SignedInPage extends PageObject
   
     public void hover_SignIn()
     {
+    	waitABit(4000);
     	Actions a=new Actions(getDriver());
 		a.moveToElement(SignIn).perform();
 		
@@ -41,14 +47,22 @@ public class SignedInPage extends PageObject
     
     public void click_sigin()
     {
-    	accsignbtn.click();
+    	//accsignbtn.click();
+    	waitABit(2000);
+    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+    	js.executeScript("arguments[0].click();", accsignbtn);
+    	///waitABit(10000);
     }
     
     public void SignIn_account()
     {
+    	WebDriverWait wait=new WebDriverWait(getDriver(),300);
+    	wait.until(ExpectedConditions.visibilityOf(usrname));
         usrname.type(Genric.getPropertyValue("UN"));
         pwd.type(Genric.getPropertyValue("PW"));
-        signbtn.click();
+        //signbtn.click();
+        JavascriptExecutor js = (JavascriptExecutor)getDriver();
+    	js.executeScript("arguments[0].click();", signbtn);
     }
    
     public void Expected_text(String text)
@@ -146,7 +160,9 @@ public class SignedInPage extends PageObject
 	    	}
 	    	else
 	    	{
-	    		waitABit(2000);
+//	    		WebElement ele = getDriver().findElement(By.xpath("//span[text()='"+expectedtitle+"']"));
+//	    		waitFor(ExpectedConditions.visibilityOf(ele));
+	    		waitABit(12000);
 	    		int ele22 = getDriver().findElements(By.xpath("//span[text()='"+expectedtitle+"']")).size();
 		    	 if(ele22==1)
 		    	    {
@@ -170,16 +186,21 @@ public class SignedInPage extends PageObject
 	   public void oracle_account_option_click(String link)
 	   {
 		   
-		   getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='"+link+"']")).click();
-		   waitABit(1000); 
+		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='"+link+"']"));
+		  waitABit(3000);
+		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	    	js.executeScript("arguments[0].click();", ele);
+		 
 		       
 	   }
 	   
 	   public void oracle_cloud_account_option_click(String option,String link)
 	   {
 		     
-		   getDriver().findElement(By.xpath("//div[@class='u02userinw2']//a[text()='"+link+"']")).click();
-		    waitABit(1000);	
+		    WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userinw2']//a[text()='"+link+"']"));
+		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	    	js.executeScript("arguments[0].click();", ele);
+		   waitABit(3000);	
 		    
 		    
 		       

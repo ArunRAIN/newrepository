@@ -1,5 +1,7 @@
 package com.bdd.sample.steps.serenity;
 
+import java.awt.AWTException;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import com.bdd.sample.pages.SearchBoxPage;
@@ -12,7 +14,7 @@ public class SearchBoxUserStep extends ScenarioSteps
 
 	
 	   @Step
-	   public void click_on_inside_Textbox()
+	   public void click_on_inside_Textbox() throws AWTException
 	   {   
 		 scpage.click_on_inside_textbox();
 	   }

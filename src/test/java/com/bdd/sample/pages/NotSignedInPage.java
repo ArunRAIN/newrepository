@@ -3,6 +3,7 @@ package com.bdd.sample.pages;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -219,8 +220,16 @@ public class NotSignedInPage extends PageObject
 	    		Assert.assertTrue(true);
 	    		 usrname.type(Genric.getPropertyValue("UN"));
 	             pwd.type(Genric.getPropertyValue("PW"));
-	             signbtn.click();
-	    		
+	             
+	             JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	 	    	js.executeScript("arguments[0].click();", signbtn);
+	             waitABit(8000);
+	             hover_on("Account");
+	             waitABit(2000);
+                 WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='Sign Out']"));
+	             JavascriptExecutor js1 = (JavascriptExecutor)getDriver();
+	 	    	js1.executeScript("arguments[0].click();", ele);
+	 	    	 waitABit(4000);
 	    	}
 	    	else
 	    	{
@@ -235,9 +244,12 @@ public class NotSignedInPage extends PageObject
 	    }
 	   public void oracle_account_option_click(String link,String option,String expectedtitle)
 	   {
-		      
-		   getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+link+"')]")).click();
-		    //waitABit(1000);	
+		      waitABit(3000);
+		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+link+"')]"));
+		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	    	js.executeScript("arguments[0].click();", ele);
+	    	waitABit(9000);
+		   //waitABit(1000);	
 //		    if(link.equals("Help"))
 //			{
 //			is_page_(option, expectedtitle);
@@ -255,8 +267,10 @@ public class NotSignedInPage extends PageObject
 	   public void oracle_cloud_account_option_click(String link)
 	   {
 		      
-		   getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+link+"')]")).click();
-		    waitABit(2000);	
+		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+link+"')]"));
+		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	    	js.executeScript("arguments[0].click();", ele); 
+		   waitABit(3000);	
 		       
 	   }
 	   
