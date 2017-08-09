@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Signed in" skipped="0" tests="1" time="109.87" timestamp="2017-08-220 07:22:14"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:173)&#13;
+com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)&#13;
+com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)&#13;
+com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)&#13;
+</system-err></testcase></testsuite>

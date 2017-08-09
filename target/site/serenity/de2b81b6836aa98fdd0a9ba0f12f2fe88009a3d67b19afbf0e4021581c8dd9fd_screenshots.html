@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="35a4360771b1a5087679f850782af35bcf11c11b696da4fa6142feae64a7d9a6.html">Menu</a>
+                > <a
+                    href="de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.html">Test case -Menu </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2017 18:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Menu </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check Functionality
+As an Tester
+I want to verify Global Nav application
+eta:@skip
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="19951fa0c00e14e1f16935507113a4387f739b5979e1beb45de8891356a61150.html">Edge
+                                    (browser)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="354d3937c8601d80041632174629aadd90c4ddb60a4ac43d7dc8854bd90818d2.html">Edge
+                                    (context)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html">Global Nav
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case -Menu
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_7f2871605e9a769e0eff80c7c816f355579644fff7529ef4a2ae383c09561e6b.png" title="Given User on home page" width="960"/>
+                <img src="scaled_781c28306cebaeda117707fc46ac2a876ac0776b9bac9163e61af67babc9d197.png" title="Is the home page" width="960"/>
+                <img src="7f5e2e87742e2e116cc777ad441e3fd727d8b4aca9199eb2130ba6dcaafb48bf.png" title="When User hover on Menu Bar shows primary panel with categories" width="960"/>
+                <img src="scaled_4c8eed4d551c9464faf3be60724691fd1b10b4045c5e6ba92100a349a332c6e8.png" title="When User hover on Menu Bar shows primary panel with categories" width="960"/>
+                <img src="7f5e2e87742e2e116cc777ad441e3fd727d8b4aca9199eb2130ba6dcaafb48bf.png" title="Hover on  menu bar" width="960"/>
+                <img src="scaled_ffae821350b80346786bed3612c73881e010e0ed1b3078c8ca6426e0f951375e.png" title="Shows primary panel with categories" width="960"/>
+                <img src="4c8eed4d551c9464faf3be60724691fd1b10b4045c5e6ba92100a349a332c6e8.png" title="Shows primary panel with categories" width="960"/>
+                <img src="scaled_2d0fc07c3df95a524eaf03b70a03006b8ae545f3032b08c680393cff3bf25d9f.png" title="Then User hover on primary categories panel shows secondary panel" width="960"/>
+                <img src="2d0fc07c3df95a524eaf03b70a03006b8ae545f3032b08c680393cff3bf25d9f.png" title="Hover on primary panel categories" width="960"/>
+                <img src="2d0fc07c3df95a524eaf03b70a03006b8ae545f3032b08c680393cff3bf25d9f.png" title="Shows secondary panel" width="960"/>
+                <img src="scaled_edd6cbda37e56dd4afdd8ef5804bd5744ebd0499eb461490b5c79b879d469269.png" title="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" width="960"/>
+                <img src="scaled_f5da385a6abaf0220ba671cb2f1b5f277b36ba92a6dbdc5c9459e34ac1d1472c.png" title="Hover on  secondary panel categories" width="960"/>
+                <img src="f5da385a6abaf0220ba671cb2f1b5f277b36ba92a6dbdc5c9459e34ac1d1472c.png" title="Shows  categories with direct link" width="960"/>
+                <img src="scaled_a47259f2fc281f85d913c8a2cb465f45e94bf09825e5310ff1992a2f45a46759.png" title="Shows  categories with direct link: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Global Nav</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="cc41291c0f47225e19c4eac3678320c7909adf673adce878b5c557441fe9aefc.html">Search Box</a>
+                > <a
+                    href="44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.html">Test case -Search Box </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2017 19:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search Box </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                In order to check Functionality
+As an Tester
+I want to verify Global Nav application
+eta:@skip
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html">Global Nav
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Test Case -Search Box
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" title="Given User on home page" width="960"/>
+                <img src="73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" title="Is the home page" width="960"/>
+                <img src="7ef0232bfa8b6d68401489801c2f5a7749a77f93d6e39ef01134aa722addb75a.png" title="When User click inside the search box must show the cursor" width="960"/>
+                <img src="7ef0232bfa8b6d68401489801c2f5a7749a77f93d6e39ef01134aa722addb75a.png" title="Click on inside  textbox" width="960"/>
+                <img src="89f7cb8369c64f12e385140216df48ea65030f4ac4a36cc2e73c6d56550d4ebb.png" title="Is focus on  textbox" width="960"/>
+                <img src="73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" title="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" width="960"/>
+                <img src="89f7cb8369c64f12e385140216df48ea65030f4ac4a36cc2e73c6d56550d4ebb.png" title="Click search" width="960"/>
+                <img src="8ed3909c24e24269b2381aa3825bf9a4e7e0abeb07983c2a67820053bb696908.png" title="Click search" width="960"/>
+                <img src="scaled_139fbc75cfa6e955f478eaea9607ec44a05bb45e13603ee3b126de5b7efed753.png" title="Is display" width="960"/>
+                <img src="73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" title="Is display" width="960"/>
+                <img src="184ca74089d81c5176eb3dfd68e8d00d6f29a550ab57acd78a8f2f4504462a6f.png" title="Then User text is type 'jav' in the search box options must be displayed to choose" width="960"/>
+                <img src="6561354146177f3f7ebaabf6d786b829cf453d1982ea9da72e11142956691366.png" title="Type textbox: jav" width="960"/>
+                <img src="6561354146177f3f7ebaabf6d786b829cf453d1982ea9da72e11142956691366.png" title="Is search option display" width="960"/>
+                <img src="184ca74089d81c5176eb3dfd68e8d00d6f29a550ab57acd78a8f2f4504462a6f.png" title="Is search option display" width="960"/>
+                <img src="6561354146177f3f7ebaabf6d786b829cf453d1982ea9da72e11142956691366.png" title="Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page" width="960"/>
+                <img src="4dab46c6b4649e9e9f3b1d50d41ba796d7be9af9560844d3e2236eb1d5372217.png" title="Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page" width="960"/>
+                <img src="4dab46c6b4649e9e9f3b1d50d41ba796d7be9af9560844d3e2236eb1d5372217.png" title="Click option: java me" width="960"/>
+                <img src="4dab46c6b4649e9e9f3b1d50d41ba796d7be9af9560844d3e2236eb1d5372217.png" title="Is page: Oracle.com Search: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.3.0</span>
+</div>
+</body>
+</html>
