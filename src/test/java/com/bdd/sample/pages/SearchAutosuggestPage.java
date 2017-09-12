@@ -93,6 +93,7 @@ public class SearchAutosuggestPage extends PageObject
     
     public void is_page(String expectedtitle)
     {
+    	waitABit(6000);
     	String actualtitle=getDriver().getTitle();
     	
     	Assert.assertEquals(expectedtitle, actualtitle);

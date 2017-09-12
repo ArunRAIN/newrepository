@@ -86,8 +86,9 @@ public class SearchBoxPage extends PageObject
     
     public void click_option(String option)
     {
-    	waitABit(2000);
+    	
     	WebElement ele = getDriver().findElement(By.xpath("//li[contains(.,'"+option+"')]"));
+    	waitABit(4000);
     	JavascriptExecutor js = (JavascriptExecutor)getDriver();
     	js.executeScript("arguments[0].click();", ele);
     	waitABit(5000);

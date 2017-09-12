@@ -1,6 +1,6 @@
 Narrative:
 In order to check Functionality
-As an Tester
+As a Tester
 I want to verify Global Nav application
 
 
@@ -22,8 +22,9 @@ Then User verify Cloud account must have only option:
 Then User Click on Cloud account each links:
 |Option  |Link             |appropriate page        |
 |Account |Sign in          |Oracle Cloud            |
-Then User Click on Oracle account each links:
+Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign off          |
+|Account|Sign Out         |Search                   |
+

@@ -25,4 +25,3 @@ Then User Click on Oracle Account each links:
 |Sign In|Help             |About Your Oracle Account|
 |Sign In|Create an account|Create Account           |
 |Sign In|Sign in          |Single Sign On - Login   |
-

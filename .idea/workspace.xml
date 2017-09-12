@@ -1,7 +1,1007 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d704bf1-315e-4ec8-9d38-1f75c08ab356" name="Default" comment="" />
+    <list default="true" id="5d704bf1-315e-4ec8-9d38-1f75c08ab356" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/CountryList.story" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Accelerator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Accelerator.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Accelerator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.CountryList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.CountryList.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.CountryList.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Menu.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.Menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.NotSignedIn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.NotSignedIn.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.NotSignedIn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchAutosuggestion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchAutosuggestion.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchAutosuggestion.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchBox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchBox.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SearchBox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SignedIn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SignedIn.stats" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/stories.Global_Nav.SignedIn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Accelerator.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Accelerator.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Accelerator.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.CountryList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.CountryList.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.CountryList.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Menu.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.Menu.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.NotSignedIn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.NotSignedIn.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.NotSignedIn.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchAutosuggestion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchAutosuggestion.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchAutosuggestion.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchBox.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchBox.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SearchBox.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SignedIn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SignedIn.stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jbehave/view/stories.Global_Nav.SignedIn.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/004f1e2362f8492a8c9bbdc7ed416655bbed6828158e6c13f1a8c4f3a820ce02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/00c488e76e12723aa00a111b20ca9a4f507e4b97a6b6c544d8ee86699ab5ab92.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/011087e6ec761077679dbca18473fb2a6de6ba2c68d333b077f92abae99dc103.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0201e3179b7265a1abc9f7a96f6fc19440c552ee8996959290f0a8ff142698e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/02436e8281ff7af47b990fe41d622c23ae3868e110213b38eaac6ba1711bb4a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/029ca97d432de0f2d6bb060d4f1116c1122d9a075f28600d9a375e49d9e177f0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/029ca97d432de0f2d6bb060d4f1116c1122d9a075f28600d9a375e49d9e177f0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/02b31b58d1efc79bddf84eff482179957a4cc35f94135648e363ee6b35d70a00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/02faecffa21358e8f57eb60ba97dab40f83d7d0fef29434cda4e852dadcba867.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/047e22a439f3801958e73625076ffdfa9a038833399db46dc189a73e4200cdea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/051bee5b89847a1429f7889a90f627b1ca0566f47901de9b7741b15c2f85edac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/05d80559d0df37410fe247698c09d67df205fcb6a43f48d2370fe2be28cb507e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/05d80559d0df37410fe247698c09d67df205fcb6a43f48d2370fe2be28cb507e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/07042f991d49c450caa86b74ba10ae60947629fbf881c51a43313eabadb03b86.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/07042f991d49c450caa86b74ba10ae60947629fbf881c51a43313eabadb03b86.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/08798b836425331d3c65b1659da0c8ee36dca9f86455c2fc5a1d7c0aa4d4c10e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/08798b836425331d3c65b1659da0c8ee36dca9f86455c2fc5a1d7c0aa4d4c10e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0882921e3b623747eee9a86894411e47b5c2d9ed91643915533b11fec74df580.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/099d84d581af2b850d43873049a9bd01127b97ea4a772e9c98992e0eb874ac59.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/099d84d581af2b850d43873049a9bd01127b97ea4a772e9c98992e0eb874ac59.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0b083b873eb8b4c2c3d1535308d4febeb5f0743c9a5d0b07c1cbd8bbc9e3f526.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0b5fc79d2b38c944a530d2a21401dab4249f9f970e77bcdfa9453db09df5ccbb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0b5fc79d2b38c944a530d2a21401dab4249f9f970e77bcdfa9453db09df5ccbb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0b8d778dd6f59954ba95f598ada94ffd60e752f90beb4e6e792043467d3d2d49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0c94d4f4b909b62d47e2577a1f4f8df657475a817ee13777a1bfa5a8e111c6cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0cf35f5f1d228b6afd4731e250e8b8bd61ceead5f75f6b7c52ed9a00bdb116c3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0cf35f5f1d228b6afd4731e250e8b8bd61ceead5f75f6b7c52ed9a00bdb116c3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0dce2779b4d69cab6931e309a5dde20f87860de09d7a3df0dfeba2b6f197de97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0e12ae277f6f389787cb39519c194afcab132d3a98bc52a613a7fbe1f9bf2c8c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f225cd5b657e641a39d0c293c72f058f22caeac91a84a952fe57c69f412ba0a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/0f964de558af208d8eef9223165c33d19c7f60946026a1bfe08c2a4eb8df97a3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/106443b25d933f22151bbdfda138dc250277282628b0759cf40194eb8fd23dab.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/106443b25d933f22151bbdfda138dc250277282628b0759cf40194eb8fd23dab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/10a4d607db85088a84baf5410588967a519758f243ef3d8e228c629e5337ab67.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/10a4d607db85088a84baf5410588967a519758f243ef3d8e228c629e5337ab67.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/110ced3e4475ea12dd52197488231fe91d75109e3ee47c0dbed2546680d5c31e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1175dfcf35690f20ec5dd0e104f4313c0f746ec6e672bbfe3b746bc47f399084.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/11ab5608f868921e1955bf4c2f0f5e8ab4abff7b9c17c3fca4c1d9aacba8c6fd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/11faac9a0b60bd59f361ab646a96ce18b74ac304b918f4433841a95dade6d882.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/11faac9a0b60bd59f361ab646a96ce18b74ac304b918f4433841a95dade6d882.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/12e45755f100b10e62254e0a9b373e708fa4fc1e622e9a86eef6c09758a710f4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/130bd1ca3e4488f9c7e4fb77aec0c3ee6c0527d6f84aa29a2294a6a01a98a345.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/139fbc75cfa6e955f478eaea9607ec44a05bb45e13603ee3b126de5b7efed753.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1429fbbc75e086f6b2b6ed4156031617ad70b2a90ce584e3810f57f34d990533.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/143a145d18e4b6589f22e1cee88864c5cde98a5f6f31d374a2f96e05e720792c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/143a145d18e4b6589f22e1cee88864c5cde98a5f6f31d374a2f96e05e720792c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/14b14a803ac4bfd074beb65b372fab31df35c4024df011f6b7e73c871e671393.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/152adc07651efc1375cb0d262fad5c5b60dba07f1c70207636970cc6a15df1ba.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1569723f3e6559ebfbffba38a783196079f1e1783f962cae1e44cbe80c151a50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1577b25f7c92b6200099ee85de1f0185dd6d671d72541257c715ac3109805548.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/16227ba0d142dd964b1059666155d36ee980db3d1ab6f15ae049214352b44700.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/16227ba0d142dd964b1059666155d36ee980db3d1ab6f15ae049214352b44700.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1697e9dcc5a951b41dc1a6a7d5887266750aa807db70bfcc0c9b7330a6a0e149.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1697e9dcc5a951b41dc1a6a7d5887266750aa807db70bfcc0c9b7330a6a0e149.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/16a777a2168493e465cfb60042372af72d4d8cad7a71921b71a06c6f80180816.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/16a777a2168493e465cfb60042372af72d4d8cad7a71921b71a06c6f80180816.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/16e4d0ba0200697daa10e58c86d62bcf47d467b54351ab0fec924904ac377c1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1732bc8e60f9914ccdba3cf4e16bc04bbd6f18170e19440c35f9005198fdeb78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/173a005da7f2f96a5f4268ded53ca5f5d057371fef9b55c54ef6e9b86a439646.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/173a005da7f2f96a5f4268ded53ca5f5d057371fef9b55c54ef6e9b86a439646.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/184ca74089d81c5176eb3dfd68e8d00d6f29a550ab57acd78a8f2f4504462a6f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/18aef8017b4bb5b6af412a59ae28c3f8ae4d19e8d88b73ada7cf25d805b2889c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/191fceb9e6245328c2845fda92aa2ec8cf46c04c7b8fc773485a62cec8120b9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/19951fa0c00e14e1f16935507113a4387f739b5979e1beb45de8891356a61150.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/19951fa0c00e14e1f16935507113a4387f739b5979e1beb45de8891356a61150.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/19f0d0e26ba24d3bc27aecd20664ebdf918d83c9cba8f1ad2bb3ec902b335be4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1a26439d36a40977d164a2c86184e8ce345cfaa24079baf135b2d3d0e2dabf44.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1a26439d36a40977d164a2c86184e8ce345cfaa24079baf135b2d3d0e2dabf44.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e121e47b6ec8882ba7dbcbb815a6931b484e8c0e4f06a52e0746dd9c2bcfd0f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e121e47b6ec8882ba7dbcbb815a6931b484e8c0e4f06a52e0746dd9c2bcfd0f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e7c39870bfcac5afb1ec534779dabe696f948372b88f5557d0a84a00f85d30e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e7c39870bfcac5afb1ec534779dabe696f948372b88f5557d0a84a00f85d30e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/1fdd761a6d59684df571981f4f9052f081a053b9fcfe9eff6f3b09859447b98f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/206daacb5a73b042175c88c93821ef47cada4299f0754359ddab7e394eb5e9bd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/206daacb5a73b042175c88c93821ef47cada4299f0754359ddab7e394eb5e9bd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/20f74c7d429cb52d2222d80494ad28bc03b28f16f609fa25808274e284247039.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2181428ed4377f14b950d6b0f0737e0b95200ea1ae9d820bc0242593ae01861b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2201b7109eecb680d73f28a365dd2f72461366cd7050f238812676c81e75c503.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2201b7109eecb680d73f28a365dd2f72461366cd7050f238812676c81e75c503.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2205ec0d328bfdf51cff134877b44c27743dc8223d90dd1ce39fca8c64331684.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/227457c3bbaf489dfe14d5a65b49599e00a24097d6fdf034163ca64df99002eb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/227457c3bbaf489dfe14d5a65b49599e00a24097d6fdf034163ca64df99002eb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/22773c12efe4e18424337711dcd11c19e552c567f22b7a94cc52bd7ada0fea43.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/22773c12efe4e18424337711dcd11c19e552c567f22b7a94cc52bd7ada0fea43.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2286aebe5757452fa37cb270124742cd58378b1f3550d024e22f587be3b22c56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/26fbcc440303c3e8379d05753b9df16a1938149a8103a982e70a43fbedc2304e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/278153520e11640480da61623fe7aa50db31d6a7c008f3602b4ecc9a04cd3aa3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/278153520e11640480da61623fe7aa50db31d6a7c008f3602b4ecc9a04cd3aa3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2786a6a8e5e82645f3911c6a893937ce2c0cd052bb701d8cf455b333d35e6b6c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2786a6a8e5e82645f3911c6a893937ce2c0cd052bb701d8cf455b333d35e6b6c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2833443501ecccd150320c9528d184ef7fc3435e4bd80211b9250d55d5ddac4e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/284d83c994f1bc212da366e0dd25075a626f1ba9ca915337babb6c15454516db.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/284d83c994f1bc212da366e0dd25075a626f1ba9ca915337babb6c15454516db.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/284d83c994f1bc212da366e0dd25075a626f1ba9ca915337babb6c15454516db_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2af06150cd6c28422f3ad6b6984e524f8fa18eae7b380c07a898d2b6b31fd5c5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2af06150cd6c28422f3ad6b6984e524f8fa18eae7b380c07a898d2b6b31fd5c5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2b46b7c7801f78b3cfc3a1ef4c1c1b0d2c7a94e874eca81451c742067a033f40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2cb0c144f50e06aef5fff8395718074ad25cdf25119c26ce9fa2360eafb0428e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2cb0c144f50e06aef5fff8395718074ad25cdf25119c26ce9fa2360eafb0428e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2cda5fd5637772e7e0bc4fdc395e02e18354539503111e8616bb6fd0db61ba21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2d0fc07c3df95a524eaf03b70a03006b8ae545f3032b08c680393cff3bf25d9f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2d209332d217b8b9e400456517d62f4ffdb3fb581511908e443f107d57920057.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2d55888765131aaedbe4a30a51a0ccf87d561441ef7f384982cbff76a677bb37.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2d741dd32fb5f7e5efe88fb4d65048d365922bdf665e08da790f5306297e356b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2eb4fb3be355d30a7eea8dbed3845ce2e695eefcb7e15c654e7db6aedb81c7a3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2f810875da0b2648d3d3e530241710c9d6f3919b43790c6bb0902353afc00238.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/30ecd7c2ab9b25234e7bacdc28e1aa2cf432ef945265e5dd0300929d07de01a9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/31cb2acc2603748d9182d72b4fef6c7ae94a8810596ecefc82107dfff26f42c6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/31cb2acc2603748d9182d72b4fef6c7ae94a8810596ecefc82107dfff26f42c6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3208f1d894111b1fc3adacc77a8147222119be89c5801cbf4c5df31db6857c48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32818d77ec595cf01ebf55e8978702df13cd30dea65f73e9936f98ab5fe90db2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32f6223a131d350b489b5f608b9a27c9224ace22ccaef389a4aec21d9897f789.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/32f6223a131d350b489b5f608b9a27c9224ace22ccaef389a4aec21d9897f789.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/353d448d3e5f8756c3ec81b6a33cbfe879ea4ea439fb89465f1dc022a912768f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/353d448d3e5f8756c3ec81b6a33cbfe879ea4ea439fb89465f1dc022a912768f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/354d3937c8601d80041632174629aadd90c4ddb60a4ac43d7dc8854bd90818d2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/354d3937c8601d80041632174629aadd90c4ddb60a4ac43d7dc8854bd90818d2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/355fb639f61fc81664cc813d18720bc16caf413082757fe32139a2a1d4840070.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/355fb639f61fc81664cc813d18720bc16caf413082757fe32139a2a1d4840070.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/359867d18420d9b444bbf9b87c808da598c804f41f94d82e0d1d8544d04ce59f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/359867d18420d9b444bbf9b87c808da598c804f41f94d82e0d1d8544d04ce59f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/35b3ba468cb14b01fc41fcd50b099aa181dababa90b8ccbdf3f7ed8f4c47c18e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/35b3ba468cb14b01fc41fcd50b099aa181dababa90b8ccbdf3f7ed8f4c47c18e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/35b3ba468cb14b01fc41fcd50b099aa181dababa90b8ccbdf3f7ed8f4c47c18e_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/376eefedfd784d3e6868db3547a995e4a182555e45569cde431948970cdc4c08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/376eefedfd784d3e6868db3547a995e4a182555e45569cde431948970cdc4c08.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/376eefedfd784d3e6868db3547a995e4a182555e45569cde431948970cdc4c08_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/37cd0934d9841291512d84451d7d5fbd764adb1c03980fc78beaad1aae084107.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/37cd0934d9841291512d84451d7d5fbd764adb1c03980fc78beaad1aae084107.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/38e6d02e5e393aa24cdf5821afc6dd92111b4261fa02877fca4632298c86e549.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/38e6d02e5e393aa24cdf5821afc6dd92111b4261fa02877fca4632298c86e549.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/39156fb21b61ce0d14ffd7023eb776a0d60bbba108b0a9b52d058d348a2bfee8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/39156fb21b61ce0d14ffd7023eb776a0d60bbba108b0a9b52d058d348a2bfee8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/395f1aec8c11ff58f0222fd4ba2363a0df24b4e16ddd3856437286c6aa150cce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/39ad31d1304662fc035bdff34019b55d3e20e77b1b5970d4ba22a7c4af27f323.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3bf3c5739d26ad9354aa1ef4beef8a7bb28a628f909416613dc75d0ec87cbfac.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3bf3c5739d26ad9354aa1ef4beef8a7bb28a628f909416613dc75d0ec87cbfac.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3d023967c332104c34f27e978676335c05178c0c41bfd566c16ffd871b691212.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/3d023967c332104c34f27e978676335c05178c0c41bfd566c16ffd871b691212.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/414d6f43b679aec4a8289fffb3119541dc34b85458ddd7c333faf05244e1bdb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4197a8710c4321373606898eb9e9745265b54e8627c2d1a066553b84fbee30be.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/41a63e115d5a85ea7a932d77a66b7263b97c4961dbb3c4528c75c584f3ca03f4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/41a63e115d5a85ea7a932d77a66b7263b97c4961dbb3c4528c75c584f3ca03f4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/41d246535e6653db21e09f88b89430910d52e266e7e28bc48a24b3593ecc08cc.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4227ebbea607cc3e2a24be31fd36f74c40b2cbdef54af91c78deed5f771455d8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4227ebbea607cc3e2a24be31fd36f74c40b2cbdef54af91c78deed5f771455d8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4339098832e557b8900073eb6fc1a0d1d522b6ed117c2b41ffb119f74237eaa6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/46ce5468df410bc8976f744624f20bc0068525e3bd920800fd8a6166721adbe8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/47012b64d2712f1b06418ee3b9d01f8ae060a6739248ad5486dd7546883b7100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/477503025894ea9a4c94751a7d8ad09273d3453484439c2be26e90483d1aba9e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/477503025894ea9a4c94751a7d8ad09273d3453484439c2be26e90483d1aba9e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/478dede7257abe7991ff96e77edb3e3b45a1faf9c45fb039f3b47a9c2390c012.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/478dede7257abe7991ff96e77edb3e3b45a1faf9c45fb039f3b47a9c2390c012.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/48d53713fe912b375f1dc1322042775c6b9308876860dccad9f6eabe4ef87968.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/48ee0550d492f3e5bf8545f586f945cbc329069c3ccedfe2cd0f9a819355c397.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/48f70fce0b488868de6ec6e2d9e4b1ea0516b2ab3f3449bb80854869a03dadad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/493588b8848497a15c21e92f2aba0c5927147a86ecbf299203b6b9faa8198087.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/493588b8848497a15c21e92f2aba0c5927147a86ecbf299203b6b9faa8198087.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/493588b8848497a15c21e92f2aba0c5927147a86ecbf299203b6b9faa8198087_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/49e8b1395309b2ca7aacf1d2dad199e9288b155b66e2d1f52ef6cbbc933804e0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/49fb66d171736e30785ba13ac3e69474f38e07a4b7ab05670ba611c12aa8b003.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4a6a6a80de619af5bfc9cf6a73c7f11c2fa179a7b2b95c96c6d15fd606cce022.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4b02fb1deca77f4f5c5d63edf587a523a0a30366977be65adb1f24b3958027fc.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4b02fb1deca77f4f5c5d63edf587a523a0a30366977be65adb1f24b3958027fc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4bc12f426e096e456a0453c13e97cd7c41ca2df4a2a6be01805ebad3816cb3ac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4c8eed4d551c9464faf3be60724691fd1b10b4045c5e6ba92100a349a332c6e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4cb3ff91a184f40e9a0163efbdbbabec10860008f11d1475b7359304234a5fb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4dab46c6b4649e9e9f3b1d50d41ba796d7be9af9560844d3e2236eb1d5372217.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4e050ec668bade864777b652b2b7ef8c7a376dcf2719ef111d455bd9c39dea63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/4fdf80b77baa2b8dd437e9ee0769c5d24e1c2c6a2296845515d9a70a0fe62c26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5088035c6b0ff59f37158aebb838a182dd72d6d67f72530ab7a27c6d0a97314f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/50a456bcb33c145a5fb72abd9f66996748f63c571ef473dca14cea3f34bdb165.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/519b6e63a693ab9314fdc065fb54ce6109c6731a4f0e8f6f8eb40bca674c1d93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/51feaa29bbf223f1afe3ffa996f77d09abcd1a20d6362032dd22d3d3cc20291c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/530e1a7b2e6c7279174707ff617637cc7ec25b95f5a939d7e2d32a36e79fc2c8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/530e1a7b2e6c7279174707ff617637cc7ec25b95f5a939d7e2d32a36e79fc2c8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5324efb5c0dfc3e1d42796d55e08b24bac1361ad410d88e806b1bdd9fb183fa3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5324efb5c0dfc3e1d42796d55e08b24bac1361ad410d88e806b1bdd9fb183fa3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/536a2bfd045b4561a88a18233051155a90c1c822a338e89b885b9a8390217e35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5458245afba1f19b85146574a9f1e5f5b3d285e9944a73612885cf36c9e73102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/552ebd2f5ffe4359743daded558030fdb41a5f4e3494056502d7d9d61d90df57.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/552ebd2f5ffe4359743daded558030fdb41a5f4e3494056502d7d9d61d90df57.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5619588af69abbd66b37f8ea51e2bd9b7b65937bc6b031a0533692d017621d66.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5619588af69abbd66b37f8ea51e2bd9b7b65937bc6b031a0533692d017621d66.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/563c8ef12bac4a90a2f0ecf773bf1e29d0b5d511ab2f795cf2a439bbb697465a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59b209f025f6102b53eefc85ac9f494d37591c149778b566b3446dc0bc6da97a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59dfef08d345c165f97bbdab3839c3cb4f1930c52c9ca5012aeb7816d68ce78f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59dfef08d345c165f97bbdab3839c3cb4f1930c52c9ca5012aeb7816d68ce78f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59f0f4d6a19aa92f6f256c329022ee705fac5c00763c22087f2ea2a99cbfc70d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59f0f4d6a19aa92f6f256c329022ee705fac5c00763c22087f2ea2a99cbfc70d.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/59f0f4d6a19aa92f6f256c329022ee705fac5c00763c22087f2ea2a99cbfc70d_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5b9cf07f5302d98ac3131913fc89d08fdc55c2cfd181edf0a1c5c2416277d44f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5b9cf07f5302d98ac3131913fc89d08fdc55c2cfd181edf0a1c5c2416277d44f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5bc4276274b31ad582908ea7237213d6f3953ec51a0e3380a65fb9c99e86a350.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5c427d0bd9ca45f04d9cb86f520b5a839b0a9a5290d27471e221d68202977473.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5ca8f790cf07000eccf9ad2a579fe4dc6fd2df505e9a020f1ec43471102e3182.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5ca8f790cf07000eccf9ad2a579fe4dc6fd2df505e9a020f1ec43471102e3182.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5db11fb85e314c4a94232159d8dddfb926a77602a17cfd8071180f566d80ecfc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5f11dd27eed2e87a6246784455d2c4abaea84fe0bc09171e11e1acb5ce2d6fb8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/5f542bb5b8eb21930d603bca2f27fbee7b5358aa1ca2ac42e4f99349521a538f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6098468032c18d871447f4c2201d12f8bdc2bd335f0e2fbeb0b472d5029ab25e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6136e5645a03cee6093c434f6cad8f44dec78f825a987d4f1b1af529e4e25206.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6136e5645a03cee6093c434f6cad8f44dec78f825a987d4f1b1af529e4e25206.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6140f319d09d96c4a3f5c07a4d2163b8ad8b45ff7f733d95e583f5aeb6d65011.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/614a1a6faa9810f001aed16b277e9d46e01d38b96f28b771b4acc24b3ce634f6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/614a1a6faa9810f001aed16b277e9d46e01d38b96f28b771b4acc24b3ce634f6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/61d9dce2325084f5bd3d0ddb6b94ee99709066dd4612e2330e156c324aa015c3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6227c1d286811a44520c28473fc659f0e0b25f6552a0950ff2c30a48a504a8b9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6227c1d286811a44520c28473fc659f0e0b25f6552a0950ff2c30a48a504a8b9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/636f87c2f2096b4261803d8574e4b94cd2be6dca26697260693ef92e17f03e19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/636f87c2f2096b4261803d8574e4b94cd2be6dca26697260693ef92e17f03e19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/636f87c2f2096b4261803d8574e4b94cd2be6dca26697260693ef92e17f03e19_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6504ddad87a6043e8ac384d0707e6c073c34ce61a6a0b30cb6235ee6b483c50b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6561354146177f3f7ebaabf6d786b829cf453d1982ea9da72e11142956691366.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/65caab5e42376f4b121c5aac93d42fa48e1039c1c565ec1aa7036e91bbf53df6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/65caab5e42376f4b121c5aac93d42fa48e1039c1c565ec1aa7036e91bbf53df6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/668bea7db857ce1a0dbdabdd9180b1510f735d7e743470679af2b09ba497697a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/668bea7db857ce1a0dbdabdd9180b1510f735d7e743470679af2b09ba497697a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/684bef923814960a2a791954675a6b8caf176bc2a430ec53c07b686a7f1decaf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/69930b216eae653159eb52822a4406d94a56b87eb8672b8afcf46892f65d4d58.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/69930b216eae653159eb52822a4406d94a56b87eb8672b8afcf46892f65d4d58.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6a782c77768f2445fbf76674c33d4c9c17a35c9a8c74bed095c78733d100cdb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6a7f6951eba7c04ad3eddeefe194108918320879d294789f7f6d93d8bae0bab5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6ba2dba3ed429ad4fb09f50b54efea79200104cda6b42a4a408f8caa938fcab1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6c5af6b3605dfc289c1d2bb2138fbea088889d42dd38745b4009277dbdf2a602.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6d8ea2b8dfa88e0367d6d6c8cf59add0258fa0a263bb120b471baf4ce81abfcd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6d8ea2b8dfa88e0367d6d6c8cf59add0258fa0a263bb120b471baf4ce81abfcd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6dc2fd142d3a7e7449d594983c3ba367bcf7d4ab7848cd68a1ccf5fae4c86f33.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6dc2fd142d3a7e7449d594983c3ba367bcf7d4ab7848cd68a1ccf5fae4c86f33.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6e2a3a22a87310535616a18b05f7a17b545b342410e4b5b1e884d4d740af00d5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6e2a3a22a87310535616a18b05f7a17b545b342410e4b5b1e884d4d740af00d5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6f973535ce070b7264dbdb0ad23e7c05161e26dec01fbf123c4a61c32562a427.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6f973535ce070b7264dbdb0ad23e7c05161e26dec01fbf123c4a61c32562a427.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/705c36e01b952bb253726f1da647961e859f976bbce2ca6b4d48096e1752639e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/705c36e01b952bb253726f1da647961e859f976bbce2ca6b4d48096e1752639e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/70f2cabce5f76578696eea2d3c42e06560b47edc408f671e7eb9057484bb5b6a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/72e01c010a4b2817af24b29ac1ab22c2f452e46d658861517769e3cdc80c495a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/72e01c010a4b2817af24b29ac1ab22c2f452e46d658861517769e3cdc80c495a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/73699e3f9d565d9494d6f7bd28cf40092940dfcee819ab3cacdb91196535421d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/738569a0bb2c9eda3e0f39bde61b2cad1a3e3621ba127a03627fd067eba3dbed.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/738569a0bb2c9eda3e0f39bde61b2cad1a3e3621ba127a03627fd067eba3dbed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/753b93acbd75387b3b98c7c53f05b28feda56da418950a452e341f3cdbbdd3b5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/753b93acbd75387b3b98c7c53f05b28feda56da418950a452e341f3cdbbdd3b5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/753b93acbd75387b3b98c7c53f05b28feda56da418950a452e341f3cdbbdd3b5_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7723d469e21b136bd465b908dbc15db602419797d7eaed90e5ac1b9b4385d03c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/77685fca711ca64fb6d46cdbb343174e4fab545fec6137bffd40640d7588532a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/781c28306cebaeda117707fc46ac2a876ac0776b9bac9163e61af67babc9d197.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7823b5eeb76139bbefa37244d246ddc239924254a4cf4503610d91c27d244f64.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7823b5eeb76139bbefa37244d246ddc239924254a4cf4503610d91c27d244f64.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/796d53d9e80cb02e71d51878937ea4ab875b6bc3d77ba0259b96f9534442b575.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/796d53d9e80cb02e71d51878937ea4ab875b6bc3d77ba0259b96f9534442b575.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7c6925fd815e8688fbd09f6d37b783641156ab3b309592ddb17e2bf361ceb9e7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7e6500b46b44124fbeed9281f31669565c976be81d2f6f0148288b3b0a84d473.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7e6500b46b44124fbeed9281f31669565c976be81d2f6f0148288b3b0a84d473.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7e95b2feda19f5a5d9075872bb3d8608bec9e58a290d6909d41c85e9ee776150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7eced3dc40de1d52e4f2a5d3e3d2dc04a2164cead7729d6f8a45517641e4cc45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7ef0232bfa8b6d68401489801c2f5a7749a77f93d6e39ef01134aa722addb75a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7f2871605e9a769e0eff80c7c816f355579644fff7529ef4a2ae383c09561e6b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7f5e2e87742e2e116cc777ad441e3fd727d8b4aca9199eb2130ba6dcaafb48bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/7fadb1f129603e3e1a5bd68cb317d13ace3312f5c9717e1f52a6ba19146229da.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8001766eaf80f8f1ff5b5d97eaa1a4617aab9f351b72ab12ace5b3488232c413.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8001766eaf80f8f1ff5b5d97eaa1a4617aab9f351b72ab12ace5b3488232c413.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/80408bc104cf9effa75cb29446a9928b2ad480d3714b0f3aa16c6dc2ef199e17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/80c286e6048f9899f18778290c1f644c37235ddb4cb2d374cb70ac452579017b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/80fdfd44640d214141ebd12245fc8986878cd2c839632dad2533d30a782d8e14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/812648e402410bea4e8de8596c9ab4629eabb6ea48a496fe7e1df6f66993450d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/812648e402410bea4e8de8596c9ab4629eabb6ea48a496fe7e1df6f66993450d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/818f8f7b28822d399f1c3ab8a0bcf92bc5ba980201f329217586f11ea0b0cb0a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/81bffb7e2c8aa1cb47f36848029b2eb4daf273e2552ce8f357aad605b22c869d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/82af8206fc86e432acc426d9a82172415a21a9bcdc614b1f801c2ce120d2b1c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/82ecea395519a18b307e97ec7e57c94559c587781066227f1b6bdb6b8afa3204.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/834211cb1806117d6c27989c390a4f70671982f4a232474eb8fb5480ac451a23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/849d9ab8d8065c74bcd4679505e3b9e4d3ecaf89b535844ae22df5fbfa7b37ac.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/849d9ab8d8065c74bcd4679505e3b9e4d3ecaf89b535844ae22df5fbfa7b37ac.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/85b7ef99567aa4aa6fb014a790bc307db3ee9a0d54b3a656ebb323548dae4bee.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/86a6062be528932335accbfd7649bd8dbd6608fcc44dd60504fbc43ee14d5c0c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/86a6062be528932335accbfd7649bd8dbd6608fcc44dd60504fbc43ee14d5c0c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/86b4462c6ab5219d3f4a93fefc6f9e36940e685783f2397c1f3498a73f1b0fe1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/86b4462c6ab5219d3f4a93fefc6f9e36940e685783f2397c1f3498a73f1b0fe1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/883ad8ef2cb8e8f8dfe04de01410c9cc6c5942b28e68a6d58c0f095ddffdb4b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/896c308848158c487a7a824514f823b92e39bce12f37a110fc5a2751e4bf4419.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/89f272e65ee72388a6af4aa9fa6ac11464aa2f9f6dcad378ef9d1ff225f3253a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/89f7cb8369c64f12e385140216df48ea65030f4ac4a36cc2e73c6d56550d4ebb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8a2469d6f34128e75802e89bd7e8f354ce3e39892389b8a47b94dfa771ed2411.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ad6c0413f9e27bdd91ce2b55443ebb754a4aead05b76ec286a249b276f73b02.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ad6c0413f9e27bdd91ce2b55443ebb754a4aead05b76ec286a249b276f73b02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8b9ccb7b26c54f12adfcdde86e82b94ed82e0e74eff195f45aecaea384ece80f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8b9ccb7b26c54f12adfcdde86e82b94ed82e0e74eff195f45aecaea384ece80f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8bab72c4a3ea952a5fde8bef7f46b650c3c398dc91e24f5a0d94cd906ab46cfe.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8bc6b8030f4f8e4761da43018e0773ad6d08399716ffad84524ea4ee3bc5d727.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8bfa2ce9b3a04637091fbb5a994c58c3240d50ffa8e00be76ef8936d09ab9f8e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8bfa2ce9b3a04637091fbb5a994c58c3240d50ffa8e00be76ef8936d09ab9f8e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8c22a77838b6d04f379022af8f714d14f11b10f76472e923d13ab037445bd5fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8cf08a7becf6252d4be4a46edbfd7d0f8f8aa7cbbd59c44540ec836a6eb33707.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8cfc065492bcc2f66b1b5d9c8935d6c2a6c4c520390e2cb8cfc606f2d9a87acd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ea27bf011188e1f1732698b5479296fa12206ac34494685a410009d634eae6c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ed3909c24e24269b2381aa3825bf9a4e7e0abeb07983c2a67820053bb696908.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8edaf897e72bde8a60529b0e5a510866931448476f6a073ad45d08ceb589477d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ee56ee4769596ea1327744db4a0dac27d9b1ffb35e5041e785c3768563944f0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8ee56ee4769596ea1327744db4a0dac27d9b1ffb35e5041e785c3768563944f0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/8efe04b2b0d8b018a24d0ad69610db7068919cfa2086eb6f2cd8a8a52530796b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/907df8e7889a76192259cc05cd9f0fa7ff2edf16b18470f29ed249c2254744bd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/907df8e7889a76192259cc05cd9f0fa7ff2edf16b18470f29ed249c2254744bd.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/907df8e7889a76192259cc05cd9f0fa7ff2edf16b18470f29ed249c2254744bd_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/91377f4c4fe38872776f89913bc1fe2f563b0cc8fc12d998e91145517271069e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9174b93b9288978d9d5ac38f7833355daf9b4702d1cfdca029819296b91693b5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/91b9aa020d4323347459f017c673127fa2b9528595ccff3edce7f4b25382f378.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/91ec330ddd907ec5b98351dace96a8749ec34fd5cfee1678b17ccfe5c88e1f52.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/92e27fb3bddb5ddac404166faf1e26b576f0cd3067f5c5694ae04a3b41ea97a0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/92e27fb3bddb5ddac404166faf1e26b576f0cd3067f5c5694ae04a3b41ea97a0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/92ff3599ede4975e27ef587a2ed57e35b1304179ed8cc28bfa52347e1321ff07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/92ff3599ede4975e27ef587a2ed57e35b1304179ed8cc28bfa52347e1321ff07.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/92ff3599ede4975e27ef587a2ed57e35b1304179ed8cc28bfa52347e1321ff07_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/936d87ff6d103b408dcb804750e9acbb702a91b8ab94fcb45f1f602ce7772b43.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/936d87ff6d103b408dcb804750e9acbb702a91b8ab94fcb45f1f602ce7772b43.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9546a6afc4c02a67312a48ded86a7ebaec33792dc28e695e133fb97cb97ee1fb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9546a6afc4c02a67312a48ded86a7ebaec33792dc28e695e133fb97cb97ee1fb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/95760037030b560f221ffe38862346d7e17f0c077660c12e06432a0025ec31bb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9666dd45f84b736b7340257b2af65676ae23b01afcd15c1c32f7283fbdd1918b.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9666dd45f84b736b7340257b2af65676ae23b01afcd15c1c32f7283fbdd1918b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/96c28565fd83913c80de2582f72bcc8112b3a56fb07bf93462c02dae746173bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9852fc7af5ea315a9cc2649a97da7c4664fdbba7d18dfc3cc33b755ae551def1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9854528a19ca61804aa207e6ac3ed01a155f4c5c7dcbed1472458d869d072c90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9a67512d009f20d6db86d414cc723d3530d93127c1062897627e618fbf8139c2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9a67512d009f20d6db86d414cc723d3530d93127c1062897627e618fbf8139c2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9a67512d009f20d6db86d414cc723d3530d93127c1062897627e618fbf8139c2_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9b09e1f03a527d06a65af92c54abae9808b7e35ee19528f4066f86f05758c716.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9b7a673d1787682442eeff9100c4b3d4448bc220cad0127aff15409e21ee3869.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9bd3a113ef13d08d95be95b91c2fd3ceb97d38f5f666c0ccc6b743896a0bed31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9bd3d2ea96222b527ba1dabfa18beec6aeb5de0dd4f9b41615459e542b7ded44.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9bd3d2ea96222b527ba1dabfa18beec6aeb5de0dd4f9b41615459e542b7ded44.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c2c9b8d41dfaa1984245be945d43f746ae452c4a47484b47293df7b272ce92e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c2c9b8d41dfaa1984245be945d43f746ae452c4a47484b47293df7b272ce92e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c90d3e9ca54cdb49f332bbc279a1671d9ea9a5b68482e91dc4db5f7d556792e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c90d3e9ca54cdb49f332bbc279a1671d9ea9a5b68482e91dc4db5f7d556792e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c969628a444e257edf54217abb0d38c12d024b9687c50dfde541865a5f7eeed.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9c969628a444e257edf54217abb0d38c12d024b9687c50dfde541865a5f7eeed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d2af7b5b605c556729a80a9773daa531e99475f1641056b465fd8acfbb27813.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d387d1e75caa8f7644e7006f556c7fcd6ed4a11a1fcace3990027d00c79ac4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d75970715ad926304f60f6156b2ccc94186222c8b45e42ab1f88099fe5f9eb2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d75970715ad926304f60f6156b2ccc94186222c8b45e42ab1f88099fe5f9eb2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d9d1b675ac0040d7d6257305e8d27e30036c66187820ac7f0b450f239571e49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d9eada0d4b6471636aece17695cfa80f516ee09906d7b9b57375abf5579c8b1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9d9eada0d4b6471636aece17695cfa80f516ee09906d7b9b57375abf5579c8b1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9db410f165f3cd9d8b12e04be842805002c56d40217ff4a792e33d1a79dcda2d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9db410f165f3cd9d8b12e04be842805002c56d40217ff4a792e33d1a79dcda2d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9e1b13b44d916a89742d4849bb34ff7cec2a578728740c78bdf07cee030ef0b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9e99cefd9d7cc4bd87e15f5545c2fd8d1216a43fc279fc9c88ba62d20546e3d9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9ef667b3031004493968495579ab8527c9b8b9c7ab4d85b24821a4dd1e5ab674.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-284d83c994f1bc212da366e0dd25075a626f1ba9ca915337babb6c15454516db.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-35b3ba468cb14b01fc41fcd50b099aa181dababa90b8ccbdf3f7ed8f4c47c18e.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-376eefedfd784d3e6868db3547a995e4a182555e45569cde431948970cdc4c08.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-493588b8848497a15c21e92f2aba0c5927147a86ecbf299203b6b9faa8198087.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-59f0f4d6a19aa92f6f256c329022ee705fac5c00763c22087f2ea2a99cbfc70d.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-636f87c2f2096b4261803d8574e4b94cd2be6dca26697260693ef92e17f03e19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-753b93acbd75387b3b98c7c53f05b28feda56da418950a452e341f3cdbbdd3b5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-907df8e7889a76192259cc05cd9f0fa7ff2edf16b18470f29ed249c2254744bd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-92ff3599ede4975e27ef587a2ed57e35b1304179ed8cc28bfa52347e1321ff07.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9a67512d009f20d6db86d414cc723d3530d93127c1062897627e618fbf8139c2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-af674a5a1d0010dd0a501167eb94828684a1b1e31fe6f3dd01e714459161c940.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-f6c0f56acb526d6bf8482971cf18cd55578c40b86a7214598bcc18e4e39c6463.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-fd1c961671c5aa2d52d0cb1a5931b92985f1fc30119dcfdb89be4b33583ec0a7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a009e2ee4213b5d1e193064b6b1400c19b8e08d116001fbfe9c326b0640d4c13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a18f02a31f34c7e7d1030cd27965940249c8ddd8d300256d23071ed063d45387.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a34f3167b122bf69c966db6505e7010aaedb10872d65fd4445c2e3eb8bc24ecd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a34f3167b122bf69c966db6505e7010aaedb10872d65fd4445c2e3eb8bc24ecd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a47259f2fc281f85d913c8a2cb465f45e94bf09825e5310ff1992a2f45a46759.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a56384a026271ce1e137a7ed3f4e645715e86f5a485195ed751f05e4fd9d6810.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a56384a026271ce1e137a7ed3f4e645715e86f5a485195ed751f05e4fd9d6810.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a5b030ffb6b42cf3f2a49d245411dfff301d35bc95a0908d9dd123336221bd75.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a5b030ffb6b42cf3f2a49d245411dfff301d35bc95a0908d9dd123336221bd75.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a5efb95d0a58aa2c57f2ed22358940799512f7b8afac555accb24e703abd810d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a6813cbea5a5677c31b96dd4b574b45e1a13e528fca3312f2101bcb4a0f27ccb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a71971c8bbb334f8c37a2b1ae5df210ed3986ad951c3f4e7e0fba8dadd1ea1d4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a757018c31b40ca1127e5ed3b2fd434672145e61ea5f816ecba3d8d27984ec3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a9a4e83f603266dda55a89de9b30ef6b0b3f7dce4c944850fae329d964b30136.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/a9a4e83f603266dda55a89de9b30ef6b0b3f7dce4c944850fae329d964b30136.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/aa34f8cab561c2459c914586f83bf119e7dee38111a3e8c768e4c2deb806e263.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ac6aed11fe669322b7c5d9d986e6d976d82c3734de99b3d0241057f08ce2b4ea.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ac6aed11fe669322b7c5d9d986e6d976d82c3734de99b3d0241057f08ce2b4ea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ad7b415b53df205cbd15458072eb27146d7dc34f358ff4b4bfe7ba92dfebefaf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ae7859ba908ef84ece2caf5d56b8ea0ae11cb6b4d22e18097dd5a68a6b49bd5d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ae7859ba908ef84ece2caf5d56b8ea0ae11cb6b4d22e18097dd5a68a6b49bd5d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/af674a5a1d0010dd0a501167eb94828684a1b1e31fe6f3dd01e714459161c940.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/af674a5a1d0010dd0a501167eb94828684a1b1e31fe6f3dd01e714459161c940.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/af674a5a1d0010dd0a501167eb94828684a1b1e31fe6f3dd01e714459161c940_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/afc2c1d4973d6d33baacf409b6ec4290c97f37aceed6487f26859d289d251cd6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b073fa8a9b95f7627242da3e369a6877828c24e22814a48ea350bdf3ada5e560.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b094995d2ed3db215fb9b3071d8807e8f5b9bf538977f82ab1dd17f1e6a1f17c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b119b3dee38ee4457c541e25a28b1118fb4def20eaa5233c6bb6ee4821e91d10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b119b3dee38ee4457c541e25a28b1118fb4def20eaa5233c6bb6ee4821e91d10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b163890a2e0c41e0693afe8e1a500237aed627f08c7571924dc60cdc78c66ddb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b1a338836921e60f75ef465b7f54b6b9b6b065245adc4c194c4dd24df5d93d45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b27f2787830305cfa5233e2bc985699febc4f779ddc93e403be62fb6c67f455f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b27f2787830305cfa5233e2bc985699febc4f779ddc93e403be62fb6c67f455f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b2dc397dd852548f3ba4c9f5792d06861494f0c352e25b623f1013d6f22613cd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b2dc397dd852548f3ba4c9f5792d06861494f0c352e25b623f1013d6f22613cd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b414e9e92b4cef0279284d1de3d62c3500cef8bec8786d8fa96a516706bf26c0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b414e9e92b4cef0279284d1de3d62c3500cef8bec8786d8fa96a516706bf26c0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b417d2a672f51f53d01be4d57fc99b504745ce56999800258bf11ecce23453b5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b417d2a672f51f53d01be4d57fc99b504745ce56999800258bf11ecce23453b5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b4ffcb66d8cbad93ab1d85460b4448613a8bad16c8ecfcddf8b90dac0b89d451.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b4ffcb66d8cbad93ab1d85460b4448613a8bad16c8ecfcddf8b90dac0b89d451.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b50a3f3096f4c7e121ffdfef673ec506e7166f70c6562c87ff6d6d10171d7796.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b73be70dca01b78f5c7fd9ddd8b79057914738ac52d70e9d06e2caa2c5ce6d28.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b77236d95b43f2c24efaefbe84bcf831a8cf8a279f66427a20449123be1cf2a3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b804aa7704f7e898924d2ac10f895fb1ea3054789e8fc39d9b281672246eac13.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b804aa7704f7e898924d2ac10f895fb1ea3054789e8fc39d9b281672246eac13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b8f026731e710064fabf8a020851919eb5558754117c34a6061436a282f10774.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/b8f026731e710064fabf8a020851919eb5558754117c34a6061436a282f10774.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ba8ea689e1b3c7951b398beb51bcf1862cfd2ff8c2d401768a6c0f00e6108704.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ba8ea689e1b3c7951b398beb51bcf1862cfd2ff8c2d401768a6c0f00e6108704.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bb33e20636164bc14a9be0118c0bc3b57c40ef930d0999e4fbf27a285253fafc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bbca36f92e30487cc6f18a7d057e2102ab8695fc9f33d1fb046a3a57f02c254a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bc7dfb8a1f3eb1fbef0681390a9a41d38a1e9109f9da2626bb8c2abc2240207d.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bc7dfb8a1f3eb1fbef0681390a9a41d38a1e9109f9da2626bb8c2abc2240207d.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bd54bd7593a2b811ef0edb54dab4215ac234052477ab7eeb28093e25e9a6cc1d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bdccb4401b0b4f85672495347dff30c40357a78645e7ed11cc672b51e58b5399.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bdccb4401b0b4f85672495347dff30c40357a78645e7ed11cc672b51e58b5399.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bdeb25f82378b5bb1c616f2d84a909b92b25cb6bbf9ce23ba1ff7db6adabb666.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/be29ccaee256638afbf901bdb8494de6878e4b01c9ccfa05de025f59f54caecd.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/be29ccaee256638afbf901bdb8494de6878e4b01c9ccfa05de025f59f54caecd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bf6e9351823cfc3445bc1b3b737cebf322a8b21006b94edb93ac7c7a4f4c21ea.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bf6e9351823cfc3445bc1b3b737cebf322a8b21006b94edb93ac7c7a4f4c21ea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/bfbaf42de809e4a7aabe8c0f61fd949b21685bbe50aa1004ec9993dafdfc6cb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/browser-firefox.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c012a355bc4e4e99e951958045bb8138764b0c4da712f9997656d5000925728b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c2756e8ddda99b0ef5e72d4bc55f7bf6e86f8d3782d0a9064bbab6fbdd69ac3f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c2756e8ddda99b0ef5e72d4bc55f7bf6e86f8d3782d0a9064bbab6fbdd69ac3f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c33f81d3121b76b5bdd9ec6fe0865a2f6eaed27ed6d025bb3b1997616d5ea602.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c355b843253c44fde850fb1c936f6562cf8b9fdd85a843115cf6184d4bf87f88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c44a7a7c411bbd132ffce1122fc0e8febb9b0b3a27c482f2fe75c53f04f6f1cc.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c44a7a7c411bbd132ffce1122fc0e8febb9b0b3a27c482f2fe75c53f04f6f1cc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c4c9003a31b63c303535e428210f1524889c2dfa2d95933fc64e7ba003602c55.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c7c86e1087e95f6f27043219984e2a84e4f6460ddb81cf521f1b0f1f6b0977e3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c7c86e1087e95f6f27043219984e2a84e4f6460ddb81cf521f1b0f1f6b0977e3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/c95bb88222fdf64c299ed9d623f2fdb696ff31b7846750d255e91df12dd24955.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cb499fe3bd6b8d201ab402f5f256e13c2a8ec4fa560b23dbb5821a00722b9b2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cb7434f0e8e8a0cb15f7bef1efcec662b9961f2396adc304ab52cf13cd9bc0cb.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cb7434f0e8e8a0cb15f7bef1efcec662b9961f2396adc304ab52cf13cd9bc0cb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc850d3f8d513a5e5ca548e1e0df2f1dd9c91fda4915fab0adb1820e8648a7d2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cc850d3f8d513a5e5ca548e1e0df2f1dd9c91fda4915fab0adb1820e8648a7d2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ccc76dce0e61dff0b4752692501315c7280f6786831d871c5af719d5b24b81bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cd19ef3d8e8edda13b9734b98f2ed3720fb3cfe59e57ea5a0dc302fdfc5b28ad.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cd19ef3d8e8edda13b9734b98f2ed3720fb3cfe59e57ea5a0dc302fdfc5b28ad.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ce9b55f03e087311cc98f259168be18f41a98081d725fd475c9c659a3eb422b3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ce9b55f03e087311cc98f259168be18f41a98081d725fd475c9c659a3eb422b3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cecaa6218fe95cbcadda03f760b99cc40a95a117bfea725443f2ab498717c338.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cecaa6218fe95cbcadda03f760b99cc40a95a117bfea725443f2ab498717c338.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/cf11b75260551fca316b6affc4dfbe8aacdee8cd55cd124812822cffa74cac0f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d1f2ab1b89bd528865b928799df3c82114047734cc140f063f774f356cb2fa38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d23d2ac2cef29024b2ff7b1d5593cfe29bb1956df9d75c34c2e856c3ea048d5e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d23d2ac2cef29024b2ff7b1d5593cfe29bb1956df9d75c34c2e856c3ea048d5e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d2e59f63c3a870ad02d98e6d59697aaec2fa524d6e0f675d55bc13d78a366078.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d3280f683955d4d2a2a0fc2284ee267dbd8922376ceefd641fcfa33afcd7e0e3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d3280f683955d4d2a2a0fc2284ee267dbd8922376ceefd641fcfa33afcd7e0e3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d499682fa1a0e774bc38cfd855de5f67598d6d1745cc85cf9373405eae4ea048.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d66abdbc241622dd6e9e8000f347410b418f2b78384ededf1174ab4383b869c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d6b102a3fd485ce24fb1d4d8f17260daa26152716e81c68325d0cc0a8bfc82d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d6e315d2bc868930a81eef59c2ff724f17b3e9d33e2c6f62328b1350f1cbea63.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d6e315d2bc868930a81eef59c2ff724f17b3e9d33e2c6f62328b1350f1cbea63.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d6fc031272190fb60f86729944120dd7bb5fc3167b82c84e2fef47541e98bf47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d726e8cc8dcfc26f3d8e8153f6672ffa19551ec4b8e5cef0aadd4e49344cb176.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d726e8cc8dcfc26f3d8e8153f6672ffa19551ec4b8e5cef0aadd4e49344cb176.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d74beef1f6ede7ceee3043e23ac173adc08f866f90630ebe5a64a6c0694f69ea.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d74beef1f6ede7ceee3043e23ac173adc08f866f90630ebe5a64a6c0694f69ea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d7c888484bc87ac5c80b34675bcfa040db2f21d9962b784ec255af0d3525c520.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d7d253e832fd1222e797393726633304e6f0e363bb3d0719935eca524da57e88.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d7d253e832fd1222e797393726633304e6f0e363bb3d0719935eca524da57e88.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d7d48e09f12b35810c33c32bed33b6242ffd26650e3f6d5ab9141f8a883b0576.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d84cbfb92091ab40e67d0e8e4278f5d202dab4a7b68609137dc972db709b608f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d859576e3d1a48617da607b3a6327c5a5e36f4a83750b0b05214d16623665be3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d870838acabab7d6bae27ab18c422e6a45d92d5be4a3037efd0a54ef05a237d7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/d9301fc9f7030dad50d55f5dd14b818ba1e259401454d05fb0dcd7bc3a88ca8a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/da7af5b54718f95fbf165f8e07ce85bcb307091416fa2c7e2f48a589fc779d8c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/da7af5b54718f95fbf165f8e07ce85bcb307091416fa2c7e2f48a589fc779d8c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dab3877efc001dfe186bc8e0fab68e98580f1cd24849cd016af16a5d9e524e72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/db1e09fa147eb37cf7c76c69ed769b9be30d599e3585b14375a4604c748552b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/db239f8972d9bc941b5283a88f4086125d9a0e27534a8f46714e3d8e89584b56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dbce793278ae4a4045919699bc90f7ef25075eab22ea9487c23b8fcd23266430.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dbce793278ae4a4045919699bc90f7ef25075eab22ea9487c23b8fcd23266430.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dc2a4d13aee2d8d5a3585d3ebd116568189c28f6269421a8046218c2a3028710.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dc3763fce079079febb89216872f8005f37a885dbcd5a300e04f9f1c4cf7491b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dc52ae9594910dd737083e0c87ed171065d82c713c3b81c7fe873aff8469fd97.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de0edf289491addc5182e52320be391703a940b4547ae9f72d835ff419f56950.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de9a489fa4f22d4ef882bc7bd9880ccc7f31b54b21954cce819e2b0d0e766375.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/de9a489fa4f22d4ef882bc7bd9880ccc7f31b54b21954cce819e2b0d0e766375.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/defe3da2bd55364718d69d1985d3ee259318ccf7e86244c814e1296d14d65dee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/df642debac4e81246199fc9ac5ba7ed6dcde242bad96f4cc711d39ae0cbaa5bf.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/df642debac4e81246199fc9ac5ba7ed6dcde242bad96f4cc711d39ae0cbaa5bf.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/df9c4c7f3a2bb8a3c91e8e99189669b5d8cf852234a365bf5187d2e972355c44.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/df9c4c7f3a2bb8a3c91e8e99189669b5d8cf852234a365bf5187d2e972355c44.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dfa64534e92ef6d1d0ffc095d202402aea30fd2753523c8c74c202e6fee3450e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dfa64534e92ef6d1d0ffc095d202402aea30fd2753523c8c74c202e6fee3450e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dfddd54b19f42dcbc8e22a048548a8f4503b475e44581c9a4dbd6212ff2e32e0.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/dfddd54b19f42dcbc8e22a048548a8f4503b475e44581c9a4dbd6212ff2e32e0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e0267ef31ed5dace25c8e9ba840c0f54d309e87b39ab3c24db98cde2cfdc29d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e246669d3b9e662442b59291a98e0f7f260e7f91248a9a91b42c72330df72a2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e246e63191cb647fa78d822c67709fcc5a2b95baa516bebcf124b1893ee9e0e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e30f2999ad04425894e422824d54d3f6c36de6871491f491597e7c38ce890a3c.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e30f2999ad04425894e422824d54d3f6c36de6871491f491597e7c38ce890a3c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e3bd445ac0e4a42830d81aff775f18242554ebd33d286b9e37398c86b731a2cd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e552e31a5baafa77c7742ea9ff2c8129bc29e5d0e1af4f55a10464c8eb95e411.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e580d4d91e6e794639c3ab8514e06fd2d2074cdef4e1755df3100ab022a9a48c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e595ea4bbdaded6b4335d3be3cde7d81087e956ceaa347ac0633ffd2071ed84f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e5b75ce60e5b9b1e3f17332ba71ca8671f8be7ed55a1ec09f429e9e8b33d8a4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e5f07ce54a2d51cd64aa1a2b65b4a5ce4f3380c39cab1b90230ab79180f97bc8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e5f07ce54a2d51cd64aa1a2b65b4a5ce4f3380c39cab1b90230ab79180f97bc8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e65607d4fe6991c5b793cdb7015f58fccd2685b76906c14822810a4a1bb6f647.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e724652bf560455f023d847d2f6ca7b47337f50e259de3d0cdf4656351b62d3e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e7ca7066162219cf0f9347518ce561e24085a7473c270b5380d94ad94b0078e9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e7ca7066162219cf0f9347518ce561e24085a7473c270b5380d94ad94b0078e9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e82aefb7fc7fa7251c2bbe12f4bd73da54fcee57c7bd2970bb3a68cd5423988e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e84bc5c7ee7d2d5cb659ba7f638573b2d859511441425182af2436408f51637f.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e84bc5c7ee7d2d5cb659ba7f638573b2d859511441425182af2436408f51637f.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e94921e49752a3e7cad4fec902db983bb870628485211fac2fd726d58c6ddfb1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e9788c198d800abf52c6cb788f9eeaffeb53f69e8c09e6fac10ff6156c5f14d4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/e9788c198d800abf52c6cb788f9eeaffeb53f69e8c09e6fac10ff6156c5f14d4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ebdeb18762f7d8512dc9eae27c52ee3385e3c1a28ba0c0cdbc4cc0dbfe6e2945.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/edd6cbda37e56dd4afdd8ef5804bd5744ebd0499eb461490b5c79b879d469269.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee06f4feb87e8343312e176d30e064c07263338645c7bc6905e6a86f35ae4f78.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ee06f4feb87e8343312e176d30e064c07263338645c7bc6905e6a86f35ae4f78.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ef0702cda7624578366b72af606d7551034a86a042ace2a2a63d7f72c5c1103e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ef15b98e2e2e364c034a683695940fb0d9f5d80d4e8e10d9b5f1418421f10b09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/efbc43066298196e9108302c042f5113107363a3043318b766f53015128b58d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f15d030486497b2580ce266c2513630d0296ef20cdbe86fef47e84be5ddd8ab4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f15d030486497b2580ce266c2513630d0296ef20cdbe86fef47e84be5ddd8ab4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f22b8b55e770f67f91973524ccdd8b0643d55ab5fbb820a5b95a505ba4c10b6d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f2c8d0c36ede2af22ebdf17348a0449eb94fd86475d0583c9f11ef88b989b00d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f2ef26d8df20247323c80256ea1ca7e567e378534a59b1f464570783f89d6f63.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f2ef26d8df20247323c80256ea1ca7e567e378534a59b1f464570783f89d6f63.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f305f2064a5134d55d89c947e2e88abdb557b912aaed2a87212b17bf8c58191a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f3408e8c2092863e2151da2fe15f4ead486392938572a73ad32076427abd84ce.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f3408e8c2092863e2151da2fe15f4ead486392938572a73ad32076427abd84ce.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f5a1e63f20f78bd684b7f03d52168b5ac8b59f4b8bafbaae494be110ec7d517a.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f5a1e63f20f78bd684b7f03d52168b5ac8b59f4b8bafbaae494be110ec7d517a.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f5da385a6abaf0220ba671cb2f1b5f277b36ba92a6dbdc5c9459e34ac1d1472c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f62b47ce02997ae90e1dd7f1a8e18913c217bb95463a2b333d4428aeb9d5cee8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f6c0f56acb526d6bf8482971cf18cd55578c40b86a7214598bcc18e4e39c6463.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f6c0f56acb526d6bf8482971cf18cd55578c40b86a7214598bcc18e4e39c6463.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f6c0f56acb526d6bf8482971cf18cd55578c40b86a7214598bcc18e4e39c6463_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f705ff36815bac429cf3581befcfc280fef6faff44e393d00fa44aaa5750d152.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f705ff36815bac429cf3581befcfc280fef6faff44e393d00fa44aaa5750d152.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f7364c6c3583eebcc7aa555df4c0eeeafb8097fd1fd2ca138c87fb00bb3ed04e.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f7364c6c3583eebcc7aa555df4c0eeeafb8097fd1fd2ca138c87fb00bb3ed04e.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f7a29ee61412fad67f0f195650d423ed87981a4a6fd72a8a508fbad3f97153ae.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f8c13bd4dbc09150b33fa8573c4667a5cf73e1e586f846fc8567ebd37a13fbb7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/f8c13bd4dbc09150b33fa8573c4667a5cf73e1e586f846fc8567ebd37a13fbb7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb0cc2f4ce97a2276a5dcf2a683eceea83923c19be3bd13405f4cf9ea9d1d8d5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb0cc2f4ce97a2276a5dcf2a683eceea83923c19be3bd13405f4cf9ea9d1d8d5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fb880d2975dd7e96958e9e3aaaf8320691915bfc8719f885b7e99f51250787f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fc90988d1602d0314fdc8829d92ea94996ee9a0ab1e98feccf1883285afda910.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fc90988d1602d0314fdc8829d92ea94996ee9a0ab1e98feccf1883285afda910.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fcf0bfedf286f4a6c309e9cad2382a8f35991fab572a1faacb195bdeaa2cd5c5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd1c961671c5aa2d52d0cb1a5931b92985f1fc30119dcfdb89be4b33583ec0a7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd1c961671c5aa2d52d0cb1a5931b92985f1fc30119dcfdb89be4b33583ec0a7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd1c961671c5aa2d52d0cb1a5931b92985f1fc30119dcfdb89be4b33583ec0a7_screenshots.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd3f4e9a74ca046a21d229fface359270b0455950cc310731badee023246131b.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd3f4e9a74ca046a21d229fface359270b0455950cc310731badee023246131b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd4b3297cb759352ab86766ba48733c085412d264a598a3eaa1481802b89ac5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd4f38558cd5697eb16ae483790beb0167f6c0cdb1b85495dabfbdd67bfe1743.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/fd7dc089e9cb8120727d16506bb0c06e345fdf52bf2698d4b84313efd3546e40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ff4bd2f3816b28e399cfd13ae6bafcf567d56c65147d8a438126c06b815b405b.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ff4bd2f3816b28e399cfd13ae6bafcf567d56c65147d8a438126c06b815b405b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/ffae821350b80346786bed3612c73881e010e0ed1b3078c8ca6426e0f951375e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource1763339219305610366.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource2682299319714224458.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource289995502721798465.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/pagesource7809071688578624123.html.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_004f1e2362f8492a8c9bbdc7ed416655bbed6828158e6c13f1a8c4f3a820ce02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0201e3179b7265a1abc9f7a96f6fc19440c552ee8996959290f0a8ff142698e0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_02436e8281ff7af47b990fe41d622c23ae3868e110213b38eaac6ba1711bb4a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_02b31b58d1efc79bddf84eff482179957a4cc35f94135648e363ee6b35d70a00.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_02faecffa21358e8f57eb60ba97dab40f83d7d0fef29434cda4e852dadcba867.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_051bee5b89847a1429f7889a90f627b1ca0566f47901de9b7741b15c2f85edac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0882921e3b623747eee9a86894411e47b5c2d9ed91643915533b11fec74df580.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0b083b873eb8b4c2c3d1535308d4febeb5f0743c9a5d0b07c1cbd8bbc9e3f526.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0b8d778dd6f59954ba95f598ada94ffd60e752f90beb4e6e792043467d3d2d49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0c94d4f4b909b62d47e2577a1f4f8df657475a817ee13777a1bfa5a8e111c6cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0dce2779b4d69cab6931e309a5dde20f87860de09d7a3df0dfeba2b6f197de97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0e12ae277f6f389787cb39519c194afcab132d3a98bc52a613a7fbe1f9bf2c8c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0f225cd5b657e641a39d0c293c72f058f22caeac91a84a952fe57c69f412ba0a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1175dfcf35690f20ec5dd0e104f4313c0f746ec6e672bbfe3b746bc47f399084.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_12e45755f100b10e62254e0a9b373e708fa4fc1e622e9a86eef6c09758a710f4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_130bd1ca3e4488f9c7e4fb77aec0c3ee6c0527d6f84aa29a2294a6a01a98a345.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_139fbc75cfa6e955f478eaea9607ec44a05bb45e13603ee3b126de5b7efed753.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1429fbbc75e086f6b2b6ed4156031617ad70b2a90ce584e3810f57f34d990533.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_14b14a803ac4bfd074beb65b372fab31df35c4024df011f6b7e73c871e671393.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1569723f3e6559ebfbffba38a783196079f1e1783f962cae1e44cbe80c151a50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1577b25f7c92b6200099ee85de1f0185dd6d671d72541257c715ac3109805548.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_16e4d0ba0200697daa10e58c86d62bcf47d467b54351ab0fec924904ac377c1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1732bc8e60f9914ccdba3cf4e16bc04bbd6f18170e19440c35f9005198fdeb78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_184ca74089d81c5176eb3dfd68e8d00d6f29a550ab57acd78a8f2f4504462a6f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_191fceb9e6245328c2845fda92aa2ec8cf46c04c7b8fc773485a62cec8120b9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_19f0d0e26ba24d3bc27aecd20664ebdf918d83c9cba8f1ad2bb3ec902b335be4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1fdd761a6d59684df571981f4f9052f081a053b9fcfe9eff6f3b09859447b98f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_20f74c7d429cb52d2222d80494ad28bc03b28f16f609fa25808274e284247039.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2181428ed4377f14b950d6b0f0737e0b95200ea1ae9d820bc0242593ae01861b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2205ec0d328bfdf51cff134877b44c27743dc8223d90dd1ce39fca8c64331684.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2286aebe5757452fa37cb270124742cd58378b1f3550d024e22f587be3b22c56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_26fbcc440303c3e8379d05753b9df16a1938149a8103a982e70a43fbedc2304e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2833443501ecccd150320c9528d184ef7fc3435e4bd80211b9250d55d5ddac4e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2b46b7c7801f78b3cfc3a1ef4c1c1b0d2c7a94e874eca81451c742067a033f40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2d0fc07c3df95a524eaf03b70a03006b8ae545f3032b08c680393cff3bf25d9f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2d209332d217b8b9e400456517d62f4ffdb3fb581511908e443f107d57920057.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2d741dd32fb5f7e5efe88fb4d65048d365922bdf665e08da790f5306297e356b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2eb4fb3be355d30a7eea8dbed3845ce2e695eefcb7e15c654e7db6aedb81c7a3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2f810875da0b2648d3d3e530241710c9d6f3919b43790c6bb0902353afc00238.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_3208f1d894111b1fc3adacc77a8147222119be89c5801cbf4c5df31db6857c48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_32818d77ec595cf01ebf55e8978702df13cd30dea65f73e9936f98ab5fe90db2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_395f1aec8c11ff58f0222fd4ba2363a0df24b4e16ddd3856437286c6aa150cce.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_39ad31d1304662fc035bdff34019b55d3e20e77b1b5970d4ba22a7c4af27f323.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_414d6f43b679aec4a8289fffb3119541dc34b85458ddd7c333faf05244e1bdb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4197a8710c4321373606898eb9e9745265b54e8627c2d1a066553b84fbee30be.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_46ce5468df410bc8976f744624f20bc0068525e3bd920800fd8a6166721adbe8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_47012b64d2712f1b06418ee3b9d01f8ae060a6739248ad5486dd7546883b7100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_48d53713fe912b375f1dc1322042775c6b9308876860dccad9f6eabe4ef87968.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_48ee0550d492f3e5bf8545f586f945cbc329069c3ccedfe2cd0f9a819355c397.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_48f70fce0b488868de6ec6e2d9e4b1ea0516b2ab3f3449bb80854869a03dadad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4a6a6a80de619af5bfc9cf6a73c7f11c2fa179a7b2b95c96c6d15fd606cce022.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4bc12f426e096e456a0453c13e97cd7c41ca2df4a2a6be01805ebad3816cb3ac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4c8eed4d551c9464faf3be60724691fd1b10b4045c5e6ba92100a349a332c6e8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4cb3ff91a184f40e9a0163efbdbbabec10860008f11d1475b7359304234a5fb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4dab46c6b4649e9e9f3b1d50d41ba796d7be9af9560844d3e2236eb1d5372217.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4e050ec668bade864777b652b2b7ef8c7a376dcf2719ef111d455bd9c39dea63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_4fdf80b77baa2b8dd437e9ee0769c5d24e1c2c6a2296845515d9a70a0fe62c26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5088035c6b0ff59f37158aebb838a182dd72d6d67f72530ab7a27c6d0a97314f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_50a456bcb33c145a5fb72abd9f66996748f63c571ef473dca14cea3f34bdb165.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_519b6e63a693ab9314fdc065fb54ce6109c6731a4f0e8f6f8eb40bca674c1d93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_51feaa29bbf223f1afe3ffa996f77d09abcd1a20d6362032dd22d3d3cc20291c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_536a2bfd045b4561a88a18233051155a90c1c822a338e89b885b9a8390217e35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5458245afba1f19b85146574a9f1e5f5b3d285e9944a73612885cf36c9e73102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_563c8ef12bac4a90a2f0ecf773bf1e29d0b5d511ab2f795cf2a439bbb697465a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_59b209f025f6102b53eefc85ac9f494d37591c149778b566b3446dc0bc6da97a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5bc4276274b31ad582908ea7237213d6f3953ec51a0e3380a65fb9c99e86a350.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5c427d0bd9ca45f04d9cb86f520b5a839b0a9a5290d27471e221d68202977473.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5db11fb85e314c4a94232159d8dddfb926a77602a17cfd8071180f566d80ecfc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5f11dd27eed2e87a6246784455d2c4abaea84fe0bc09171e11e1acb5ce2d6fb8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_5f542bb5b8eb21930d603bca2f27fbee7b5358aa1ca2ac42e4f99349521a538f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6098468032c18d871447f4c2201d12f8bdc2bd335f0e2fbeb0b472d5029ab25e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6504ddad87a6043e8ac384d0707e6c073c34ce61a6a0b30cb6235ee6b483c50b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6561354146177f3f7ebaabf6d786b829cf453d1982ea9da72e11142956691366.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_684bef923814960a2a791954675a6b8caf176bc2a430ec53c07b686a7f1decaf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6a782c77768f2445fbf76674c33d4c9c17a35c9a8c74bed095c78733d100cdb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6ba2dba3ed429ad4fb09f50b54efea79200104cda6b42a4a408f8caa938fcab1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6c5af6b3605dfc289c1d2bb2138fbea088889d42dd38745b4009277dbdf2a602.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_70f2cabce5f76578696eea2d3c42e06560b47edc408f671e7eb9057484bb5b6a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_73699e3f9d565d9494d6f7bd28cf40092940dfcee819ab3cacdb91196535421d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_73c954a50f71b89d3cfd85f7d896c43097d2c0df580da63efe7358c9bd50c12e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7723d469e21b136bd465b908dbc15db602419797d7eaed90e5ac1b9b4385d03c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_77685fca711ca64fb6d46cdbb343174e4fab545fec6137bffd40640d7588532a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_781c28306cebaeda117707fc46ac2a876ac0776b9bac9163e61af67babc9d197.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7e95b2feda19f5a5d9075872bb3d8608bec9e58a290d6909d41c85e9ee776150.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7eced3dc40de1d52e4f2a5d3e3d2dc04a2164cead7729d6f8a45517641e4cc45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7ef0232bfa8b6d68401489801c2f5a7749a77f93d6e39ef01134aa722addb75a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7f2871605e9a769e0eff80c7c816f355579644fff7529ef4a2ae383c09561e6b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_7f5e2e87742e2e116cc777ad441e3fd727d8b4aca9199eb2130ba6dcaafb48bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_80408bc104cf9effa75cb29446a9928b2ad480d3714b0f3aa16c6dc2ef199e17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_80c286e6048f9899f18778290c1f644c37235ddb4cb2d374cb70ac452579017b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_80fdfd44640d214141ebd12245fc8986878cd2c839632dad2533d30a782d8e14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_818f8f7b28822d399f1c3ab8a0bcf92bc5ba980201f329217586f11ea0b0cb0a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_81bffb7e2c8aa1cb47f36848029b2eb4daf273e2552ce8f357aad605b22c869d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_82af8206fc86e432acc426d9a82172415a21a9bcdc614b1f801c2ce120d2b1c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_834211cb1806117d6c27989c390a4f70671982f4a232474eb8fb5480ac451a23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_883ad8ef2cb8e8f8dfe04de01410c9cc6c5942b28e68a6d58c0f095ddffdb4b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_896c308848158c487a7a824514f823b92e39bce12f37a110fc5a2751e4bf4419.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_89f272e65ee72388a6af4aa9fa6ac11464aa2f9f6dcad378ef9d1ff225f3253a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_89f7cb8369c64f12e385140216df48ea65030f4ac4a36cc2e73c6d56550d4ebb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8a2469d6f34128e75802e89bd7e8f354ce3e39892389b8a47b94dfa771ed2411.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8bc6b8030f4f8e4761da43018e0773ad6d08399716ffad84524ea4ee3bc5d727.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8c22a77838b6d04f379022af8f714d14f11b10f76472e923d13ab037445bd5fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8cf08a7becf6252d4be4a46edbfd7d0f8f8aa7cbbd59c44540ec836a6eb33707.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8cfc065492bcc2f66b1b5d9c8935d6c2a6c4c520390e2cb8cfc606f2d9a87acd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8ea27bf011188e1f1732698b5479296fa12206ac34494685a410009d634eae6c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8ed3909c24e24269b2381aa3825bf9a4e7e0abeb07983c2a67820053bb696908.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8edaf897e72bde8a60529b0e5a510866931448476f6a073ad45d08ceb589477d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8efe04b2b0d8b018a24d0ad69610db7068919cfa2086eb6f2cd8a8a52530796b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_91377f4c4fe38872776f89913bc1fe2f563b0cc8fc12d998e91145517271069e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_91b9aa020d4323347459f017c673127fa2b9528595ccff3edce7f4b25382f378.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_95760037030b560f221ffe38862346d7e17f0c077660c12e06432a0025ec31bb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_96c28565fd83913c80de2582f72bcc8112b3a56fb07bf93462c02dae746173bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9852fc7af5ea315a9cc2649a97da7c4664fdbba7d18dfc3cc33b755ae551def1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9854528a19ca61804aa207e6ac3ed01a155f4c5c7dcbed1472458d869d072c90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9b09e1f03a527d06a65af92c54abae9808b7e35ee19528f4066f86f05758c716.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9b7a673d1787682442eeff9100c4b3d4448bc220cad0127aff15409e21ee3869.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9bd3a113ef13d08d95be95b91c2fd3ceb97d38f5f666c0ccc6b743896a0bed31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9d2af7b5b605c556729a80a9773daa531e99475f1641056b465fd8acfbb27813.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9d387d1e75caa8f7644e7006f556c7fcd6ed4a11a1fcace3990027d00c79ac4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9d9d1b675ac0040d7d6257305e8d27e30036c66187820ac7f0b450f239571e49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9e1b13b44d916a89742d4849bb34ff7cec2a578728740c78bdf07cee030ef0b1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9e99cefd9d7cc4bd87e15f5545c2fd8d1216a43fc279fc9c88ba62d20546e3d9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9ef667b3031004493968495579ab8527c9b8b9c7ab4d85b24821a4dd1e5ab674.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a009e2ee4213b5d1e193064b6b1400c19b8e08d116001fbfe9c326b0640d4c13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a47259f2fc281f85d913c8a2cb465f45e94bf09825e5310ff1992a2f45a46759.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a5efb95d0a58aa2c57f2ed22358940799512f7b8afac555accb24e703abd810d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a6813cbea5a5677c31b96dd4b574b45e1a13e528fca3312f2101bcb4a0f27ccb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a71971c8bbb334f8c37a2b1ae5df210ed3986ad951c3f4e7e0fba8dadd1ea1d4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a757018c31b40ca1127e5ed3b2fd434672145e61ea5f816ecba3d8d27984ec3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b094995d2ed3db215fb9b3071d8807e8f5b9bf538977f82ab1dd17f1e6a1f17c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b163890a2e0c41e0693afe8e1a500237aed627f08c7571924dc60cdc78c66ddb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b1a338836921e60f75ef465b7f54b6b9b6b065245adc4c194c4dd24df5d93d45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_bb33e20636164bc14a9be0118c0bc3b57c40ef930d0999e4fbf27a285253fafc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_bbca36f92e30487cc6f18a7d057e2102ab8695fc9f33d1fb046a3a57f02c254a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_bd54bd7593a2b811ef0edb54dab4215ac234052477ab7eeb28093e25e9a6cc1d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_bfbaf42de809e4a7aabe8c0f61fd949b21685bbe50aa1004ec9993dafdfc6cb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_c012a355bc4e4e99e951958045bb8138764b0c4da712f9997656d5000925728b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_c33f81d3121b76b5bdd9ec6fe0865a2f6eaed27ed6d025bb3b1997616d5ea602.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_c355b843253c44fde850fb1c936f6562cf8b9fdd85a843115cf6184d4bf87f88.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_c95bb88222fdf64c299ed9d623f2fdb696ff31b7846750d255e91df12dd24955.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_cb499fe3bd6b8d201ab402f5f256e13c2a8ec4fa560b23dbb5821a00722b9b2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ccc76dce0e61dff0b4752692501315c7280f6786831d871c5af719d5b24b81bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d1f2ab1b89bd528865b928799df3c82114047734cc140f063f774f356cb2fa38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d2e59f63c3a870ad02d98e6d59697aaec2fa524d6e0f675d55bc13d78a366078.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d499682fa1a0e774bc38cfd855de5f67598d6d1745cc85cf9373405eae4ea048.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d66abdbc241622dd6e9e8000f347410b418f2b78384ededf1174ab4383b869c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d6b102a3fd485ce24fb1d4d8f17260daa26152716e81c68325d0cc0a8bfc82d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d6fc031272190fb60f86729944120dd7bb5fc3167b82c84e2fef47541e98bf47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d7c888484bc87ac5c80b34675bcfa040db2f21d9962b784ec255af0d3525c520.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d7d48e09f12b35810c33c32bed33b6242ffd26650e3f6d5ab9141f8a883b0576.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d84cbfb92091ab40e67d0e8e4278f5d202dab4a7b68609137dc972db709b608f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d859576e3d1a48617da607b3a6327c5a5e36f4a83750b0b05214d16623665be3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d870838acabab7d6bae27ab18c422e6a45d92d5be4a3037efd0a54ef05a237d7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_d9301fc9f7030dad50d55f5dd14b818ba1e259401454d05fb0dcd7bc3a88ca8a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_dab3877efc001dfe186bc8e0fab68e98580f1cd24849cd016af16a5d9e524e72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_db1e09fa147eb37cf7c76c69ed769b9be30d599e3585b14375a4604c748552b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_db239f8972d9bc941b5283a88f4086125d9a0e27534a8f46714e3d8e89584b56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_dc3763fce079079febb89216872f8005f37a885dbcd5a300e04f9f1c4cf7491b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_de0edf289491addc5182e52320be391703a940b4547ae9f72d835ff419f56950.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_defe3da2bd55364718d69d1985d3ee259318ccf7e86244c814e1296d14d65dee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e0267ef31ed5dace25c8e9ba840c0f54d309e87b39ab3c24db98cde2cfdc29d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e246669d3b9e662442b59291a98e0f7f260e7f91248a9a91b42c72330df72a2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e246e63191cb647fa78d822c67709fcc5a2b95baa516bebcf124b1893ee9e0e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e3bd445ac0e4a42830d81aff775f18242554ebd33d286b9e37398c86b731a2cd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e552e31a5baafa77c7742ea9ff2c8129bc29e5d0e1af4f55a10464c8eb95e411.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e580d4d91e6e794639c3ab8514e06fd2d2074cdef4e1755df3100ab022a9a48c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e5b75ce60e5b9b1e3f17332ba71ca8671f8be7ed55a1ec09f429e9e8b33d8a4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e65607d4fe6991c5b793cdb7015f58fccd2685b76906c14822810a4a1bb6f647.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e724652bf560455f023d847d2f6ca7b47337f50e259de3d0cdf4656351b62d3e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e82aefb7fc7fa7251c2bbe12f4bd73da54fcee57c7bd2970bb3a68cd5423988e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ebdeb18762f7d8512dc9eae27c52ee3385e3c1a28ba0c0cdbc4cc0dbfe6e2945.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_edd6cbda37e56dd4afdd8ef5804bd5744ebd0499eb461490b5c79b879d469269.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ef0702cda7624578366b72af606d7551034a86a042ace2a2a63d7f72c5c1103e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ef15b98e2e2e364c034a683695940fb0d9f5d80d4e8e10d9b5f1418421f10b09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_efbc43066298196e9108302c042f5113107363a3043318b766f53015128b58d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f22b8b55e770f67f91973524ccdd8b0643d55ab5fbb820a5b95a505ba4c10b6d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f2c8d0c36ede2af22ebdf17348a0449eb94fd86475d0583c9f11ef88b989b00d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f305f2064a5134d55d89c947e2e88abdb557b912aaed2a87212b17bf8c58191a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f5da385a6abaf0220ba671cb2f1b5f277b36ba92a6dbdc5c9459e34ac1d1472c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f62b47ce02997ae90e1dd7f1a8e18913c217bb95463a2b333d4428aeb9d5cee8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_fb880d2975dd7e96958e9e3aaaf8320691915bfc8719f885b7e99f51250787f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_fd4b3297cb759352ab86766ba48733c085412d264a598a3eaa1481802b89ac5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_fd7dc089e9cb8120727d16506bb0c06e345fdf52bf2698d4b84313efd3546e40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/serenity/scaled_ffae821350b80346786bed3612c73881e010e0ed1b3078c8ca6426e0f951375e.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IEDriverServer.exe" afterPath="$PROJECT_DIR$/IEDriverServer.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbhaves-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/jbhaves-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity.properties" afterPath="$PROJECT_DIR$/serenity.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/CountryListPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/CountryListPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/DictionaryPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/CountryListSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps/serenity/CountryListSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/CountryListDefinition.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/CountryListDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/DefinitionSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/DefinitionSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/SignedInDefinition.java" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/sample/steps2/SignedInDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Menu.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Menu.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/NotSignedIn.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/NotSignedIn.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchAutosuggestion.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchAutosuggestion.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchBox.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SearchBox.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SignedIn.story" afterPath="$PROJECT_DIR$/src/test/resources/stories/Global_Nav/SignedIn.story" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.bdd.sample.AcceptanceTestSuite.xml" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.bdd.sample.AcceptanceTestSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/com.bdd.sample.AcceptanceTestSuite.txt" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.bdd.sample.AcceptanceTestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/AfterStories.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" afterPath="$PROJECT_DIR$/target/jbehave/BeforeStories.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/storyDurations.props" afterPath="$PROJECT_DIR$/target/jbehave/storyDurations.props" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/AfterStories.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" afterPath="$PROJECT_DIR$/target/jbehave/view/BeforeStories.stats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/index.html" afterPath="$PROJECT_DIR$/target/jbehave/view/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/reports.html" afterPath="$PROJECT_DIR$/target/jbehave/view/reports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/xref.json" afterPath="$PROJECT_DIR$/target/jbehave/view/xref.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jbehave/view/xref.xml" afterPath="$PROJECT_DIR$/target/jbehave/view/xref.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/1da406012e63c46dab0914c490bea6a3fd5962b733679f61403bc50b0f827f01.csv" afterPath="$PROJECT_DIR$/target/site/serenity/1da406012e63c46dab0914c490bea6a3fd5962b733679f61403bc50b0f827f01.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/1da406012e63c46dab0914c490bea6a3fd5962b733679f61403bc50b0f827f01.html" afterPath="$PROJECT_DIR$/target/site/serenity/1da406012e63c46dab0914c490bea6a3fd5962b733679f61403bc50b0f827f01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2226bd4b984ff87b5e27cee571080a2b6c7c087ea9b463f1e92f64bb9154fe9d.html" afterPath="$PROJECT_DIR$/target/site/serenity/2226bd4b984ff87b5e27cee571080a2b6c7c087ea9b463f1e92f64bb9154fe9d.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/235f3bed238e903e98aab3d8fa5e5f6715913b71cd1521019e7f0f724202eec8.csv" afterPath="$PROJECT_DIR$/target/site/serenity/235f3bed238e903e98aab3d8fa5e5f6715913b71cd1521019e7f0f724202eec8.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/235f3bed238e903e98aab3d8fa5e5f6715913b71cd1521019e7f0f724202eec8.html" afterPath="$PROJECT_DIR$/target/site/serenity/235f3bed238e903e98aab3d8fa5e5f6715913b71cd1521019e7f0f724202eec8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2697611819b7921f5c59541c8ef07d965e2bca5258969f80d7002c560c47ae2b.html" afterPath="$PROJECT_DIR$/target/site/serenity/2697611819b7921f5c59541c8ef07d965e2bca5258969f80d7002c560c47ae2b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html" afterPath="$PROJECT_DIR$/target/site/serenity/2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/2e810fffc2728ad268ff2403f33c1190def7889624beb27c80ad34e54e0aaefb.html" afterPath="$PROJECT_DIR$/target/site/serenity/2e810fffc2728ad268ff2403f33c1190def7889624beb27c80ad34e54e0aaefb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/30daeba241294ed5cbef7ec8594f73aceea04746aa94356c2d518a143a186e3c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/30daeba241294ed5cbef7ec8594f73aceea04746aa94356c2d518a143a186e3c.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/30daeba241294ed5cbef7ec8594f73aceea04746aa94356c2d518a143a186e3c.html" afterPath="$PROJECT_DIR$/target/site/serenity/30daeba241294ed5cbef7ec8594f73aceea04746aa94356c2d518a143a186e3c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.html" afterPath="$PROJECT_DIR$/target/site/serenity/3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.json" afterPath="$PROJECT_DIR$/target/site/serenity/3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/330ecf9bec978f46f1f69eca01e8a689422de25214ebffbbc2e9ab072fdcefdb.csv" afterPath="$PROJECT_DIR$/target/site/serenity/330ecf9bec978f46f1f69eca01e8a689422de25214ebffbbc2e9ab072fdcefdb.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/330ecf9bec978f46f1f69eca01e8a689422de25214ebffbbc2e9ab072fdcefdb.html" afterPath="$PROJECT_DIR$/target/site/serenity/330ecf9bec978f46f1f69eca01e8a689422de25214ebffbbc2e9ab072fdcefdb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3417764faf105c00cc96fff9d314616045847f09363bb66f17de296c843bfeaf.html" afterPath="$PROJECT_DIR$/target/site/serenity/3417764faf105c00cc96fff9d314616045847f09363bb66f17de296c843bfeaf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/35a4360771b1a5087679f850782af35bcf11c11b696da4fa6142feae64a7d9a6.html" afterPath="$PROJECT_DIR$/target/site/serenity/35a4360771b1a5087679f850782af35bcf11c11b696da4fa6142feae64a7d9a6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/378c281e68a3dc3f5d1beaf74de770e4a5188f96a3716baa8f7ee6ebe8e66eeb.csv" afterPath="$PROJECT_DIR$/target/site/serenity/378c281e68a3dc3f5d1beaf74de770e4a5188f96a3716baa8f7ee6ebe8e66eeb.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/378c281e68a3dc3f5d1beaf74de770e4a5188f96a3716baa8f7ee6ebe8e66eeb.html" afterPath="$PROJECT_DIR$/target/site/serenity/378c281e68a3dc3f5d1beaf74de770e4a5188f96a3716baa8f7ee6ebe8e66eeb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/386eb4f3a561b3e8c92767a102c470a329d73be7e480514e3eb8715bcf185ecd.csv" afterPath="$PROJECT_DIR$/target/site/serenity/386eb4f3a561b3e8c92767a102c470a329d73be7e480514e3eb8715bcf185ecd.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/386eb4f3a561b3e8c92767a102c470a329d73be7e480514e3eb8715bcf185ecd.html" afterPath="$PROJECT_DIR$/target/site/serenity/386eb4f3a561b3e8c92767a102c470a329d73be7e480514e3eb8715bcf185ecd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/39f7923f4825243371a4a1531641edab6f7b738cd4e54878229a219d6b2aba73.csv" afterPath="$PROJECT_DIR$/target/site/serenity/39f7923f4825243371a4a1531641edab6f7b738cd4e54878229a219d6b2aba73.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/39f7923f4825243371a4a1531641edab6f7b738cd4e54878229a219d6b2aba73.html" afterPath="$PROJECT_DIR$/target/site/serenity/39f7923f4825243371a4a1531641edab6f7b738cd4e54878229a219d6b2aba73.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html" afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.html" afterPath="$PROJECT_DIR$/target/site/serenity/44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.json" afterPath="$PROJECT_DIR$/target/site/serenity/44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/46fdb61cf76d7cf6811ede80a70405ba1a48787931b1e2dcd21a04f51ad59d91.csv" afterPath="$PROJECT_DIR$/target/site/serenity/46fdb61cf76d7cf6811ede80a70405ba1a48787931b1e2dcd21a04f51ad59d91.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/4d8824963b82bf044920d6e881b25be8e1d923354fac34d6573b624977d68a69.csv" afterPath="$PROJECT_DIR$/target/site/serenity/4d8824963b82bf044920d6e881b25be8e1d923354fac34d6573b624977d68a69.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/4d8824963b82bf044920d6e881b25be8e1d923354fac34d6573b624977d68a69.html" afterPath="$PROJECT_DIR$/target/site/serenity/4d8824963b82bf044920d6e881b25be8e1d923354fac34d6573b624977d68a69.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.html" afterPath="$PROJECT_DIR$/target/site/serenity/530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.json" afterPath="$PROJECT_DIR$/target/site/serenity/530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/5328caf5193386a3c9a576c811a496231819f224301a9f73247207e5767808cd.html" afterPath="$PROJECT_DIR$/target/site/serenity/5328caf5193386a3c9a576c811a496231819f224301a9f73247207e5767808cd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/594c5b9660099044bc89e00efee710fd28d16777fbcb14c71e40357eee5261d5.csv" afterPath="$PROJECT_DIR$/target/site/serenity/594c5b9660099044bc89e00efee710fd28d16777fbcb14c71e40357eee5261d5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/594c5b9660099044bc89e00efee710fd28d16777fbcb14c71e40357eee5261d5.html" afterPath="$PROJECT_DIR$/target/site/serenity/594c5b9660099044bc89e00efee710fd28d16777fbcb14c71e40357eee5261d5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/5dc2935d83eb94730bf2bafd2361d622799c15f584a9b175f4544c8f172f2ecb.csv" afterPath="$PROJECT_DIR$/target/site/serenity/5dc2935d83eb94730bf2bafd2361d622799c15f584a9b175f4544c8f172f2ecb.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/5dc2935d83eb94730bf2bafd2361d622799c15f584a9b175f4544c8f172f2ecb.html" afterPath="$PROJECT_DIR$/target/site/serenity/5dc2935d83eb94730bf2bafd2361d622799c15f584a9b175f4544c8f172f2ecb.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/640d4517c1568beb44c305c95dd123937cc925590c2c1cc3c69f1fc3dc035cc4.csv" afterPath="$PROJECT_DIR$/target/site/serenity/640d4517c1568beb44c305c95dd123937cc925590c2c1cc3c69f1fc3dc035cc4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/640d4517c1568beb44c305c95dd123937cc925590c2c1cc3c69f1fc3dc035cc4.html" afterPath="$PROJECT_DIR$/target/site/serenity/640d4517c1568beb44c305c95dd123937cc925590c2c1cc3c69f1fc3dc035cc4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/66b48535b7f6b3a20d4f98eeb56f0caf54ac7caa455098f282db8edace3e80c0.csv" afterPath="$PROJECT_DIR$/target/site/serenity/66b48535b7f6b3a20d4f98eeb56f0caf54ac7caa455098f282db8edace3e80c0.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/66b48535b7f6b3a20d4f98eeb56f0caf54ac7caa455098f282db8edace3e80c0.html" afterPath="$PROJECT_DIR$/target/site/serenity/66b48535b7f6b3a20d4f98eeb56f0caf54ac7caa455098f282db8edace3e80c0.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6763590043582787f84e49869db3d98f80b79adb139c516ae9d887ea09c2f2f1.csv" afterPath="$PROJECT_DIR$/target/site/serenity/6763590043582787f84e49869db3d98f80b79adb139c516ae9d887ea09c2f2f1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6763590043582787f84e49869db3d98f80b79adb139c516ae9d887ea09c2f2f1.html" afterPath="$PROJECT_DIR$/target/site/serenity/6763590043582787f84e49869db3d98f80b79adb139c516ae9d887ea09c2f2f1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6fcf3929ac751ff41f3b9502b9263d10cb6cbf20f4b712b60ea7e70eaa9a83c5.csv" afterPath="$PROJECT_DIR$/target/site/serenity/6fcf3929ac751ff41f3b9502b9263d10cb6cbf20f4b712b60ea7e70eaa9a83c5.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/6fcf3929ac751ff41f3b9502b9263d10cb6cbf20f4b712b60ea7e70eaa9a83c5.html" afterPath="$PROJECT_DIR$/target/site/serenity/6fcf3929ac751ff41f3b9502b9263d10cb6cbf20f4b712b60ea7e70eaa9a83c5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7104c0dbb1f4a1a336b84c0b6853b468427e4adb36fd5f5df30a243aaca616be.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7104c0dbb1f4a1a336b84c0b6853b468427e4adb36fd5f5df30a243aaca616be.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7104c0dbb1f4a1a336b84c0b6853b468427e4adb36fd5f5df30a243aaca616be.html" afterPath="$PROJECT_DIR$/target/site/serenity/7104c0dbb1f4a1a336b84c0b6853b468427e4adb36fd5f5df30a243aaca616be.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/73b7c99010d593b5a10c40fdfa5e7229b91dfa1864a535dac765bccfbed0082c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/73b7c99010d593b5a10c40fdfa5e7229b91dfa1864a535dac765bccfbed0082c.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/73b7c99010d593b5a10c40fdfa5e7229b91dfa1864a535dac765bccfbed0082c.html" afterPath="$PROJECT_DIR$/target/site/serenity/73b7c99010d593b5a10c40fdfa5e7229b91dfa1864a535dac765bccfbed0082c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/76cf4eda10dd66d6571937df3cb7ddb804c166976f44f9da67cb1eb26eceda9a.csv" afterPath="$PROJECT_DIR$/target/site/serenity/76cf4eda10dd66d6571937df3cb7ddb804c166976f44f9da67cb1eb26eceda9a.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/76cf4eda10dd66d6571937df3cb7ddb804c166976f44f9da67cb1eb26eceda9a.html" afterPath="$PROJECT_DIR$/target/site/serenity/76cf4eda10dd66d6571937df3cb7ddb804c166976f44f9da67cb1eb26eceda9a.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/77e1ef2ae64fff00c8831aa55e480317b9a3b6f84a01b7c32dc8d8ef82091be6.csv" afterPath="$PROJECT_DIR$/target/site/serenity/77e1ef2ae64fff00c8831aa55e480317b9a3b6f84a01b7c32dc8d8ef82091be6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/77e1ef2ae64fff00c8831aa55e480317b9a3b6f84a01b7c32dc8d8ef82091be6.html" afterPath="$PROJECT_DIR$/target/site/serenity/77e1ef2ae64fff00c8831aa55e480317b9a3b6f84a01b7c32dc8d8ef82091be6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.html" afterPath="$PROJECT_DIR$/target/site/serenity/7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.json" afterPath="$PROJECT_DIR$/target/site/serenity/7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7d5af08c2cf1129627a33cf9babbc99138c85c4be4b612630c39ba21e8fd5b51.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7d5af08c2cf1129627a33cf9babbc99138c85c4be4b612630c39ba21e8fd5b51.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7d5af08c2cf1129627a33cf9babbc99138c85c4be4b612630c39ba21e8fd5b51.html" afterPath="$PROJECT_DIR$/target/site/serenity/7d5af08c2cf1129627a33cf9babbc99138c85c4be4b612630c39ba21e8fd5b51.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7e9664e851a9c2e12d666e2d7c51130000cbf3013d06fb2ede1a92d5c25b0eb4.csv" afterPath="$PROJECT_DIR$/target/site/serenity/7e9664e851a9c2e12d666e2d7c51130000cbf3013d06fb2ede1a92d5c25b0eb4.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/7e9664e851a9c2e12d666e2d7c51130000cbf3013d06fb2ede1a92d5c25b0eb4.html" afterPath="$PROJECT_DIR$/target/site/serenity/7e9664e851a9c2e12d666e2d7c51130000cbf3013d06fb2ede1a92d5c25b0eb4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/81a6c89a39b86c7e363d8f081032d688230fff573b996cc671b498921b74bd0b.csv" afterPath="$PROJECT_DIR$/target/site/serenity/81a6c89a39b86c7e363d8f081032d688230fff573b996cc671b498921b74bd0b.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/81a6c89a39b86c7e363d8f081032d688230fff573b996cc671b498921b74bd0b.html" afterPath="$PROJECT_DIR$/target/site/serenity/81a6c89a39b86c7e363d8f081032d688230fff573b996cc671b498921b74bd0b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8f56a798dadcab410de827a9378c2351d664198adfcea9d5d60392a73eba009f.csv" afterPath="$PROJECT_DIR$/target/site/serenity/8f56a798dadcab410de827a9378c2351d664198adfcea9d5d60392a73eba009f.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/8f56a798dadcab410de827a9378c2351d664198adfcea9d5d60392a73eba009f.html" afterPath="$PROJECT_DIR$/target/site/serenity/8f56a798dadcab410de827a9378c2351d664198adfcea9d5d60392a73eba009f.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/911232158565cd2e27d0175ec21fca4c3651ecb9649615e406e9838701853a83.csv" afterPath="$PROJECT_DIR$/target/site/serenity/911232158565cd2e27d0175ec21fca4c3651ecb9649615e406e9838701853a83.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/92658bec0e5ccda736ba29a8bfa902539eb4d99ecf2c992a7cdbc412aef6f09c.csv" afterPath="$PROJECT_DIR$/target/site/serenity/92658bec0e5ccda736ba29a8bfa902539eb4d99ecf2c992a7cdbc412aef6f09c.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/92658bec0e5ccda736ba29a8bfa902539eb4d99ecf2c992a7cdbc412aef6f09c.html" afterPath="$PROJECT_DIR$/target/site/serenity/92658bec0e5ccda736ba29a8bfa902539eb4d99ecf2c992a7cdbc412aef6f09c.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/9a70f0213595c98792fb97c64a2cdd4e4dd35a5c72802d3993e2a6dd475d8733.csv" afterPath="$PROJECT_DIR$/target/site/serenity/9a70f0213595c98792fb97c64a2cdd4e4dd35a5c72802d3993e2a6dd475d8733.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/9a70f0213595c98792fb97c64a2cdd4e4dd35a5c72802d3993e2a6dd475d8733.html" afterPath="$PROJECT_DIR$/target/site/serenity/9a70f0213595c98792fb97c64a2cdd4e4dd35a5c72802d3993e2a6dd475d8733.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.html" afterPath="$PROJECT_DIR$/target/site/serenity/9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.json" afterPath="$PROJECT_DIR$/target/site/serenity/9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.xml" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a00c53f5846129e66f355f3524c5428e6e04cf9aa08addf7542dc7e6fb4f2465.html" afterPath="$PROJECT_DIR$/target/site/serenity/a00c53f5846129e66f355f3524c5428e6e04cf9aa08addf7542dc7e6fb4f2465.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a2f69a219fb65c0820c711a1c8ff7871a821d5191d8ab4f6a22e76b11b821d56.csv" afterPath="$PROJECT_DIR$/target/site/serenity/a2f69a219fb65c0820c711a1c8ff7871a821d5191d8ab4f6a22e76b11b821d56.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a2f69a219fb65c0820c711a1c8ff7871a821d5191d8ab4f6a22e76b11b821d56.html" afterPath="$PROJECT_DIR$/target/site/serenity/a2f69a219fb65c0820c711a1c8ff7871a821d5191d8ab4f6a22e76b11b821d56.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a53412590a9db2542ee173c9bc7bd8c6be4614d61914e45066700036a65d2680.csv" afterPath="$PROJECT_DIR$/target/site/serenity/a53412590a9db2542ee173c9bc7bd8c6be4614d61914e45066700036a65d2680.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/a53412590a9db2542ee173c9bc7bd8c6be4614d61914e45066700036a65d2680.html" afterPath="$PROJECT_DIR$/target/site/serenity/a53412590a9db2542ee173c9bc7bd8c6be4614d61914e45066700036a65d2680.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/aac8ba7a1cd067a313bc8267dd5ad533385408e43e511ceff8f3b52ad50da157.csv" afterPath="$PROJECT_DIR$/target/site/serenity/aac8ba7a1cd067a313bc8267dd5ad533385408e43e511ceff8f3b52ad50da157.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/aac8ba7a1cd067a313bc8267dd5ad533385408e43e511ceff8f3b52ad50da157.html" afterPath="$PROJECT_DIR$/target/site/serenity/aac8ba7a1cd067a313bc8267dd5ad533385408e43e511ceff8f3b52ad50da157.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.html" afterPath="$PROJECT_DIR$/target/site/serenity/ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.json" afterPath="$PROJECT_DIR$/target/site/serenity/ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b19c4f7c21c6860561018b7598f61ca26c8d533439cfae1ef534ec45df58687d.html" afterPath="$PROJECT_DIR$/target/site/serenity/b19c4f7c21c6860561018b7598f61ca26c8d533439cfae1ef534ec45df58687d.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b87816af082302b0870c9bb376098dc55346609e17ec985feaa94479d17cfb4f.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b87816af082302b0870c9bb376098dc55346609e17ec985feaa94479d17cfb4f.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b87816af082302b0870c9bb376098dc55346609e17ec985feaa94479d17cfb4f.html" afterPath="$PROJECT_DIR$/target/site/serenity/b87816af082302b0870c9bb376098dc55346609e17ec985feaa94479d17cfb4f.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b8b87ac0cf2619abaa936ba3389fdf77fa8a8332a77f5121617912fe5bfa3b57.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b8b87ac0cf2619abaa936ba3389fdf77fa8a8332a77f5121617912fe5bfa3b57.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b8b87ac0cf2619abaa936ba3389fdf77fa8a8332a77f5121617912fe5bfa3b57.html" afterPath="$PROJECT_DIR$/target/site/serenity/b8b87ac0cf2619abaa936ba3389fdf77fa8a8332a77f5121617912fe5bfa3b57.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" afterPath="$PROJECT_DIR$/target/site/serenity/b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c0a0f8575c6eeb404d4aa35eb57ea41a3348790bccf3703e3a3f62a6b0662481.html" afterPath="$PROJECT_DIR$/target/site/serenity/c0a0f8575c6eeb404d4aa35eb57ea41a3348790bccf3703e3a3f62a6b0662481.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html" afterPath="$PROJECT_DIR$/target/site/serenity/c50d97e40e697503ec858f36538df588b8e67e1d4b841661fc720eb437deedbf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c709e0ed7e350d11e63ea429c4118e80785250f692953ea5617474f6340c1ccc.csv" afterPath="$PROJECT_DIR$/target/site/serenity/c709e0ed7e350d11e63ea429c4118e80785250f692953ea5617474f6340c1ccc.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/c709e0ed7e350d11e63ea429c4118e80785250f692953ea5617474f6340c1ccc.html" afterPath="$PROJECT_DIR$/target/site/serenity/c709e0ed7e350d11e63ea429c4118e80785250f692953ea5617474f6340c1ccc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/cc41291c0f47225e19c4eac3678320c7909adf673adce878b5c557441fe9aefc.html" afterPath="$PROJECT_DIR$/target/site/serenity/cc41291c0f47225e19c4eac3678320c7909adf673adce878b5c557441fe9aefc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/d594b4f44db92593c3f846772a8f099aac96a1d6f0bbd667177ceefcf47d4ba6.csv" afterPath="$PROJECT_DIR$/target/site/serenity/d594b4f44db92593c3f846772a8f099aac96a1d6f0bbd667177ceefcf47d4ba6.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" afterPath="$PROJECT_DIR$/target/site/serenity/da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e0b875813a99a0cb3ec1f8add61541aae6b85f180ab95931c4ff21495ce7c8d9.csv" afterPath="$PROJECT_DIR$/target/site/serenity/e0b875813a99a0cb3ec1f8add61541aae6b85f180ab95931c4ff21495ce7c8d9.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e0b875813a99a0cb3ec1f8add61541aae6b85f180ab95931c4ff21495ce7c8d9.html" afterPath="$PROJECT_DIR$/target/site/serenity/e0b875813a99a0cb3ec1f8add61541aae6b85f180ab95931c4ff21495ce7c8d9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e45d6eeb38174d256c67bae2afdbd3e5db21a249c329b609e8820481668a86b0.csv" afterPath="$PROJECT_DIR$/target/site/serenity/e45d6eeb38174d256c67bae2afdbd3e5db21a249c329b609e8820481668a86b0.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e45d6eeb38174d256c67bae2afdbd3e5db21a249c329b609e8820481668a86b0.html" afterPath="$PROJECT_DIR$/target/site/serenity/e45d6eeb38174d256c67bae2afdbd3e5db21a249c329b609e8820481668a86b0.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e955c043e63596717c8ea215e1ab349086993dd62b7af40cdc39d32b0f4908a2.csv" afterPath="$PROJECT_DIR$/target/site/serenity/e955c043e63596717c8ea215e1ab349086993dd62b7af40cdc39d32b0f4908a2.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/e955c043e63596717c8ea215e1ab349086993dd62b7af40cdc39d32b0f4908a2.html" afterPath="$PROJECT_DIR$/target/site/serenity/e955c043e63596717c8ea215e1ab349086993dd62b7af40cdc39d32b0f4908a2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/eefdc2564b4f1337fc7d80f1f596f615d47dd5c69277251ba5267ee08e260fe3.csv" afterPath="$PROJECT_DIR$/target/site/serenity/eefdc2564b4f1337fc7d80f1f596f615d47dd5c69277251ba5267ee08e260fe3.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/eefdc2564b4f1337fc7d80f1f596f615d47dd5c69277251ba5267ee08e260fe3.html" afterPath="$PROJECT_DIR$/target/site/serenity/eefdc2564b4f1337fc7d80f1f596f615d47dd5c69277251ba5267ee08e260fe3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef7d47b81849cb01ab6e9f0d5009f02a06bb5908431bbe722eee29804d2500dd.csv" afterPath="$PROJECT_DIR$/target/site/serenity/ef7d47b81849cb01ab6e9f0d5009f02a06bb5908431bbe722eee29804d2500dd.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/ef7d47b81849cb01ab6e9f0d5009f02a06bb5908431bbe722eee29804d2500dd.html" afterPath="$PROJECT_DIR$/target/site/serenity/ef7d47b81849cb01ab6e9f0d5009f02a06bb5908431bbe722eee29804d2500dd.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f80b96eff4f8dd762dadff15cb6fb9ad85e5b3ee453224ce4273b5b76c2a5a25.csv" afterPath="$PROJECT_DIR$/target/site/serenity/f80b96eff4f8dd762dadff15cb6fb9ad85e5b3ee453224ce4273b5b76c2a5a25.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/f80b96eff4f8dd762dadff15cb6fb9ad85e5b3ee453224ce4273b5b76c2a5a25.html" afterPath="$PROJECT_DIR$/target/site/serenity/f80b96eff4f8dd762dadff15cb6fb9ad85e5b3ee453224ce4273b5b76c2a5a25.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/fbe65ca0fe882765ad745850b0659ef60d1650a62303bc4bbd9f8bfb1377b845.csv" afterPath="$PROJECT_DIR$/target/site/serenity/fbe65ca0fe882765ad745850b0659ef60d1650a62303bc4bbd9f8bfb1377b845.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/fbe65ca0fe882765ad745850b0659ef60d1650a62303bc4bbd9f8bfb1377b845.html" afterPath="$PROJECT_DIR$/target/site/serenity/fbe65ca0fe882765ad745850b0659ef60d1650a62303bc4bbd9f8bfb1377b845.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/fdc85aaeffb3e8b0597c55087fe241d16cf7d76093df38bf6e597f4c0c4b4098.csv" afterPath="$PROJECT_DIR$/target/site/serenity/fdc85aaeffb3e8b0597c55087fe241d16cf7d76093df38bf6e597f4c0c4b4098.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/fdc85aaeffb3e8b0597c55087fe241d16cf7d76093df38bf6e597f4c0c4b4098.html" afterPath="$PROJECT_DIR$/target/site/serenity/fdc85aaeffb3e8b0597c55087fe241d16cf7d76093df38bf6e597f4c0c4b4098.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/index.html" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +1016,10 @@
       <file leaf-file-name="NotSignedInPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
-                <marker date="1502107290798" expanded="true" signature="5728:5938" ph="{...}" />
-                <marker date="1502107290798" expanded="true" signature="5916:5938" ph="{...}" />
+                <marker date="1502195729664" expanded="true" signature="6722:6744" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -32,6 +1031,7 @@
             <state relative-caret-position="375">
               <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="e#235#236#0" expanded="false" />
                 <element signature="e#262#263#0" expanded="false" />
                 <element signature="e#321#322#0" expanded="false" />
@@ -57,30 +1057,7 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1500556945123" expanded="true" signature="1905:1968" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="1905:2859" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="1989:2139" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2160:2330" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2351:2503" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2524:2682" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2703:2839" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2871:5238" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2889:5225" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="2910:3200" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3107:3178" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3221:4268" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3358:3951" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3389:3654" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3790:3918" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="3980:4246" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4012:4216" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4044:4183" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4289:4620" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4483:4598" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4641:5198" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4854:5176" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="4886:5146" ph="..." />
-                <marker date="1500556945123" expanded="true" signature="5029:5113" ph="..." />
+                <marker date="1504020929854" expanded="true" signature="1905:1968" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,8 +1069,21 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1502125113351" expanded="true" signature="151228:151241" ph="..." />
-                <marker date="1502125113351" expanded="true" signature="151228:151251" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80032" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80065" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80094" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80117" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80136" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80150" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80160" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80169" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80176" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80184" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80191" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80198" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="79994:80332" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="80259:80322" ph="..." />
+                <marker date="1504186879212" expanded="true" signature="80309:80322" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,8 +1092,8 @@
       <file leaf-file-name="Accelerator.story" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -218,6 +1208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,9 +1303,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -620,7 +1610,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1924" height="1030" extended-state="1" />
+    <frame x="-10" y="0" width="1924" height="1030" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -815,30 +1805,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500556945123" expanded="true" signature="1905:1968" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="1905:2859" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="1989:2139" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2160:2330" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2351:2503" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2524:2682" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2703:2839" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2871:5238" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2889:5225" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2910:3200" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3107:3178" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3221:4268" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3358:3951" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3389:3654" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3790:3918" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3980:4246" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4012:4216" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4044:4183" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4289:4620" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4483:4598" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4641:5198" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4854:5176" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4886:5146" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="5029:5113" ph="..." />
+            <marker date="1504020929854" expanded="true" signature="1905:1968" ph="..." />
           </folding>
         </state>
       </provider>
@@ -894,11 +1861,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/consult_dictionary/Aa.story" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bdd/sample/pages/NotSignedInPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <marker date="1502107290798" expanded="true" signature="5728:5938" ph="{...}" />
-            <marker date="1502107290798" expanded="true" signature="5916:5938" ph="{...}" />
+            <marker date="1502195729664" expanded="true" signature="6722:6744" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -909,6 +1875,7 @@
         <state relative-caret-position="375">
           <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="e#235#236#0" expanded="false" />
             <element signature="e#262#263#0" expanded="false" />
             <element signature="e#321#322#0" expanded="false" />
@@ -932,30 +1899,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500556945123" expanded="true" signature="1905:1968" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="1905:2859" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="1989:2139" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2160:2330" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2351:2503" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2524:2682" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2703:2839" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2871:5238" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2889:5225" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="2910:3200" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3107:3178" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3221:4268" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3358:3951" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3389:3654" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3790:3918" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="3980:4246" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4012:4216" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4044:4183" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4289:4620" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4483:4598" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4641:5198" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4854:5176" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="4886:5146" ph="..." />
-            <marker date="1500556945123" expanded="true" signature="5029:5113" ph="..." />
+            <marker date="1504020929854" expanded="true" signature="1905:1968" ph="..." />
           </folding>
         </state>
       </provider>
@@ -965,16 +1909,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502125113351" expanded="true" signature="151228:151241" ph="..." />
-            <marker date="1502125113351" expanded="true" signature="151228:151251" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80032" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80065" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80094" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80117" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80136" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80150" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80160" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80169" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80176" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80184" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80191" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80198" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="79994:80332" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="80259:80322" ph="..." />
+            <marker date="1504186879212" expanded="true" signature="80309:80322" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/stories/Global_Nav/Accelerator.story">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

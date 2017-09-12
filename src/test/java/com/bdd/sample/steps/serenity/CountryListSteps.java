@@ -10,9 +10,6 @@ public class CountryListSteps extends ScenarioSteps
 
 	CountryListPage CLPage;
 	
-	
-   
-	
     @Step
 	public void hover_on(String country) 
 	{
@@ -30,4 +27,10 @@ public class CountryListSteps extends ScenarioSteps
 	{
     	CLPage.countries_panel_display();
 	}
+    
+    @Step
+   	public void is_pin_appear() 
+   	{
+       	CLPage.is_pin_appear();
+   	}
 }

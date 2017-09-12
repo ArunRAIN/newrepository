@@ -35,10 +35,10 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 1],
+                ['Failing', 0],
                 ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
+                {label: '1 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '1} requirements with failures'},
+                {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
@@ -170,7 +170,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2017 18:03</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-09-2017 18:06</span>
     <br style="clear:left"/>
 </div>
 
@@ -183,7 +183,7 @@
                 <div>
                     <h2><i class="fa fa-book"></i> Story:  Signed In</h2>
                         <div class="requirementNarrativeTitle">
-                        In order to check Functionality<br>As an Tester<br>I want to verify Global Nav application</p><br><p>eta:@skip
+                        In order to check Functionality<br>As a Tester<br>I want to verify Global Nav application</p><br><p>eta:@skip
                         </div>
 
                 </div>
@@ -210,8 +210,8 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>1</td>
-                                    <td>0</td>
                                     <td>1</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -241,8 +241,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -257,14 +257,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>1</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 minutes 15 seconds</td>
+                <td colspan="5">2 minutes 19 seconds</td>
         </tr>
         </body>
     </table>
@@ -292,25 +292,25 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.html" class="ellipsis"
-                                           title="Test case -Signed-In Assertion error">
-                                            EDGE | Test case -Signed-In
+                                        <a href="1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603.html" class="ellipsis"
+                                           title="Test case -Signed-In ">
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Signed-In
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="lightgreentext">24</td>
+                                <td class="lightgreentext">26</td>
 
 
-                                <td class="lightgreentext">75.39</td>
+                                <td class="lightgreentext">139.13</td>
                             </tr>
                         </tbody>
                     </table>

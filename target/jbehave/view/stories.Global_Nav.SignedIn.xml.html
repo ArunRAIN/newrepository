@@ -11,7 +11,7 @@
 <story path="stories/Global_Nav/SignedIn.story" title="">
 <narrative keyword="Narrative:">
   <inOrderTo keyword="In order to">check Functionality</inOrderTo>
-  <asA keyword="As a">n Tester</asA>
+  <asA keyword="As a">Tester</asA>
   <iWantTo keyword="I want to">verify Global Nav application
 
 
@@ -43,44 +43,14 @@ eta:@skip</iWantTo>
 <values><value>Account</value><value>Sign in</value><value>Oracle Cloud</value></values>
 </parameters>
 </parameter></step>
-<step outcome="failed" keyword="FAILED">Then User Click on Oracle account each links:
+<step outcome="successful">Then User Clicks on oracle account each links:
 <parameter><parameters>
 <names><name>Option</name><name>Link</name><name>appropriate page</name></names>
 <values><value>Account</value><value>Help</value><value>About Your Oracle Account</value></values>
 <values><value>Account</value><value>Account</value><value>Update Account</value></values>
-<values><value>Account</value><value>Sign Out</value><value>Single Sign off</value></values>
+<values><value>Account</value><value>Sign Out</value><value>Search</value></values>
 </parameters>
-</parameter><failure>java.lang.AssertionError</failure></step>
-<failure>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.SignedInPage.is_page(SignedInPage.java:173)
-	at com.bdd.sample.steps.serenity.SignedInSteps.page(SignedInSteps.java:55)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c.CGLIB$page$2(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c$$FastClassByCGLIB$$1d863ec4.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c.page(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps.is_page(SignedInSteps.java:62)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c.CGLIB$is_page$3(&lt;generated&gt;)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c$$FastClassByCGLIB$$1d863ec4.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.SignedInSteps$$EnhancerByCGLIB$$1eb5ea9c.is_page(&lt;generated&gt;)
-	at com.bdd.sample.steps2.SignedInDefinition.UserClickonOracleAccounteachlinks(SignedInDefinition.java:79)
-	(reflection-invoke)
-	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
-	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
-...</failure>
+</parameter></step>
 </scenario>
 </story>
 

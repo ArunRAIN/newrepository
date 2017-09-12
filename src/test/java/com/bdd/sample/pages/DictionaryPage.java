@@ -15,6 +15,8 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.bdd.sample.Genric;
+
 import net.thucydides.core.pages.PageObject;
 
 import java.util.List;
@@ -22,7 +24,7 @@ import java.util.Random;
 
 import static ch.lambdaj.Lambda.convert;
 
-@DefaultUrl("https://www-portal-stage.oracle.com/search/internal/otnhub")
+@DefaultUrl("https://www.oracle.com/index.html")
 public class DictionaryPage extends PageObject {
 
     @FindBy(id="u02menulink")
@@ -53,7 +55,8 @@ public class DictionaryPage extends PageObject {
     public void home_page()
     {
     	getDriver().manage().window().maximize();
-    	getDriver().get("https://www-portal-stage.oracle.com/search/internal/hub");
+    	String URL = Genric.getPropertyValue("URL");
+    	getDriver().get(URL);
     	
     	String expectitle = getDriver().getTitle();
     	Assert.assertEquals(expectitle,expectitle);

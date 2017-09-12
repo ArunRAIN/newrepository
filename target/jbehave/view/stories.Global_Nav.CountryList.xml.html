@@ -9,16 +9,11 @@
  
 <script type="syntaxhighlighter" class="brush: xml"><![CDATA[
 <story path="stories/Global_Nav/CountryList.story" title="">
-<narrative keyword="Narrative:">
-  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
-  <asA keyword="As a">n Tester</asA>
-  <iWantTo keyword="I want to">verify Global Nav application
-eta:@skip</iWantTo>
-</narrative>
-<scenario keyword="Scenario:" title="Test case -Country List">
+<scenario keyword="Scenario:" title="Show regions and its countries">
 <step outcome="successful">Given User on home page</step>
 <step outcome="successful">When User Hover over on &apos;Country&apos; text</step>
-<step outcome="successful">Then User can see the  panel showing Regions and their countries with two column</step>
+<step outcome="successful">Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</step>
+<step outcome="successful">Then Depending upon which country the page belongs to,  pin must appear against it</step>
 </scenario>
 </story>
 

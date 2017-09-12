@@ -63,7 +63,7 @@ public class NotSignedInPage extends PageObject
 	 public void hover_on(String text)
 	    {
 		 waitABit(1500);
-		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='"+text+"']"));
+		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='Country']/../../../li//span[text()='"+text+"']"));
 	    	Actions a=new Actions(getDriver());
 	    			a.moveToElement(ele1).perform();
 	    }

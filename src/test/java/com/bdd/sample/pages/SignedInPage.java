@@ -27,9 +27,16 @@ public class SignedInPage extends PageObject
 
     @FindBy(xpath="//a[contains(text(),'Sign In')]")
     private WebElementFacade signbtn;
+    
+ 
+    @FindBy(xpath="//input[@type='button']")
+    private WebElementFacade signbtn2;
 
     @FindBy(xpath="//a[@class='u02ticon u02user']//span[@class='u02signout']")
     private WebElementFacade ACCOUNT;
+    
+    @FindBy(xpath="//a[@class='u02ticon u02user']//span[@class='u02signout']")
+    private List<WebElementFacade> ACCOUNT2;
     
     @FindBy(xpath="//a[@class='u02ticon u02user']//span[@class='u02signin']")
     private WebElementFacade SignIn;
@@ -39,10 +46,40 @@ public class SignedInPage extends PageObject
   
     public void hover_SignIn()
     {
-    	waitABit(4000);
-    	Actions a=new Actions(getDriver());
-		a.moveToElement(SignIn).perform();
-		
+    	
+    	List<WebElement> count = getDriver().findElements(By.xpath("//a[@class='u02ticon u02user']//span[@class='u02signout']"));
+    	System.out.println(count.size());
+    	if(count.size()==1)
+    	{
+    		System.out.println(getDriver().findElement(By.xpath("//a[@class='u02ticon u02user']//span[@class='u02signout']")).isDisplayed());
+    		if(getDriver().findElement(By.xpath("//a[@class='u02ticon u02user']//span[@class='u02signout']")).isDisplayed())
+    		{
+    			Actions a=new Actions(getDriver());
+        		a.moveToElement(ACCOUNT).perform();
+        		
+        		 WebElement ele33 = getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='Sign Out']"));
+        		waitABit(2000);
+        		 JavascriptExecutor js = (JavascriptExecutor)getDriver();
+            	js.executeScript("arguments[0].click();", ele33);
+            	
+            	waitABit(8000);
+    	    	Actions a1=new Actions(getDriver());
+    			a1.moveToElement(SignIn).perform();
+    		}
+    		else
+    		{
+    			waitABit(8000);
+    	    	Actions a=new Actions(getDriver());
+    			a.moveToElement(SignIn).perform();
+    		}
+        		
+    	}
+    	else
+    	{
+    	
+    	}
+    	
+    	
     }
     
     public void click_sigin()
@@ -61,8 +98,30 @@ public class SignedInPage extends PageObject
         usrname.type(Genric.getPropertyValue("UN"));
         pwd.type(Genric.getPropertyValue("PW"));
         //signbtn.click();
-        JavascriptExecutor js = (JavascriptExecutor)getDriver();
-    	js.executeScript("arguments[0].click();", signbtn);
+        System.out.println("hi");
+        List<WebElement> count=getDriver().findElements(By.xpath("//input[@type='button']"));
+        System.out.println(count.size());
+        if(count.size()==1)
+        {
+	        if(getDriver().findElement(By.xpath("//input[@type='button']")).isDisplayed())
+	        {
+	        		JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	    	js.executeScript("arguments[0].click();", signbtn2);
+	    	waitABit(4000);
+	        }
+	        else
+	        {
+	        	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	        	js.executeScript("arguments[0].click();", signbtn);
+	        	waitABit(4000);
+	        }
+        }
+        else
+        {
+        	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+        	js.executeScript("arguments[0].click();", signbtn);
+        	waitABit(4000);
+        }
     }
    
     public void Expected_text(String text)
@@ -78,10 +137,11 @@ public class SignedInPage extends PageObject
 		    }
 	}
 	
-	 public void hover_on(String text)
+	 public void hover_on_signin(String text)
 	    {
-		 waitABit(1000);
-		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='"+text+"']"));
+		 waitABit(3000);
+		 //System.out.println("//span[text()='Country']/../../../li//span[text()='Account']");
+		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='Country']/../../../li//span[text()='"+text+"']"));
 	    	Actions a=new Actions(getDriver());
 	    			a.moveToElement(ele1).perform();
 	    }
@@ -145,46 +205,33 @@ public class SignedInPage extends PageObject
 	   
 	   public void navigate_page()
 	    {
-		    waitABit(1000);
+		    waitABit(2000);
 	    	getDriver().navigate().back();
 	    }
-	   public void is_page(String option,String expectedtitle)
+	   public void is_page(String expectedtitle)
 	    {
-		  
-		    
+		 
+		   waitABit(8000);
 	    	String actualtitle=getDriver().getTitle();
-	    	
+	    	System.out.println(actualtitle);
 	    	if(actualtitle.contains(expectedtitle))
 	    	{
 	    		Assert.assertTrue(true);
 	    	}
 	    	else
 	    	{
-//	    		WebElement ele = getDriver().findElement(By.xpath("//span[text()='"+expectedtitle+"']"));
-//	    		waitFor(ExpectedConditions.visibilityOf(ele));
-	    		waitABit(12000);
-	    		int ele22 = getDriver().findElements(By.xpath("//span[text()='"+expectedtitle+"']")).size();
-		    	 if(ele22==1)
-		    	    {
-		    	    	Assert.assertTrue(true);
-		    	    }
-		    	    else
-		    	    {
-		    	    	Assert.assertTrue(false);
-		    	    }
-		    	    
-		    	  
+		    	Assert.assertTrue(false);
+  
 	    	}
 	    	
 	    	navigate_page();
-	    	
-	    	waitABit(2000);
-	    	hover_on(option);
 	    
 	    }
 	   
-	   public void oracle_account_option_click(String link)
+	   public void oracle_account_option_click(String link,String option)
 	   {
+		   hover_on_signin(option);
+		   
 		   
 		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='"+link+"']"));
 		  waitABit(3000);

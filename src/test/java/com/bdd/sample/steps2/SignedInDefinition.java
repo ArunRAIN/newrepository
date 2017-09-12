@@ -20,7 +20,6 @@ public class SignedInDefinition
 	public void UserSignedIn() 
 	{
 		sistep.is_signin();
-	
 		
 	}
 	
@@ -67,8 +66,8 @@ public class SignedInDefinition
     	 }
 	}
 	
-	@Then("User Click on Oracle account each links: $table")
-	public void UserClickonOracleAccounteachlinks(ExamplesTable activityTable)
+	@Then("User Clicks on oracle account each links: $table")
+	public void UserClickonOracleAccounteachlinks(ExamplesTable activityTable) throws InterruptedException
 	{
 		 for (Parameters row : activityTable.getRowsAsParameters()) 
     	 {
@@ -84,7 +83,7 @@ public class SignedInDefinition
 	}
 	
 	@Then("User Click on Cloud account each links: $table")
-	public void UserClickoneachoptions(ExamplesTable activityTable)
+	public void UserClickoneachoptions(ExamplesTable activityTable) throws InterruptedException
 	{
 		 for (Parameters row : activityTable.getRowsAsParameters()) 
     	 {

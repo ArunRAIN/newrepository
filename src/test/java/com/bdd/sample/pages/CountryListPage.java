@@ -2,6 +2,7 @@ package com.bdd.sample.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -14,7 +15,6 @@ public class CountryListPage extends PageObject
 	@FindBy(id="u02menulink")
     private WebElementFacade country;
 
-	
 	
 	public void hover_on(String country)
 	{
@@ -54,6 +54,26 @@ public class CountryListPage extends PageObject
 			{
 				Assert.assertTrue(false);
 			}
+		}
+	}
+	
+	public void is_pin_appear()
+	{
+
+		int ele = getDriver().findElements(By.xpath("//li[@id='u02cmenu']/div/div/ul/li/a")).size();
+		//System.out.println(ele);
+		for(int i=0;i<ele;i++)
+		{
+			int v=i+1;
+		    WebElement element = getDriver().findElement(By.xpath("(//li[@id='u02cmenu']/div/div/ul/li/a)["+v+"]"));
+		    JavascriptExecutor js = (JavascriptExecutor)getDriver();
+		    js.executeScript("arguments[0].click();", element);
+		    
+		    WebElement ele12 = getDriver().findElement(By.xpath("(//*[@id='u02cmenu']/div/div/ul/li/div/ul[1]/li[3]/a)["+v+"]"));
+		    waitABit(2000);
+		    Actions a =new Actions(getDriver());
+		    a.moveToElement(ele12).perform();
+		    waitABit(2000);
 		}
 	}
 }

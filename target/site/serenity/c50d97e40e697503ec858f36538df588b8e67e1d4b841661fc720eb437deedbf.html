@@ -35,10 +35,10 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 6],
+                ['Passing', 7],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 1],
+                ['Failing', 0],
                 ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '6 requirements tested successfully'},
+                {label: '7 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '1} requirements with failures'},
+                {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
@@ -169,7 +169,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2017 17:59</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-09-2017 18:01</span>
     <br style="clear:left"/>
 </div>
 
@@ -208,8 +208,8 @@
                                     <tr>
                                         <td class="summary-leading-column"><a href="#requirements-tabs">Stories</a></td>
                                         <td>7</td>
-                                        <td>6</td>
-                                        <td>1</td>
+                                        <td>7</td>
+                                        <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
@@ -217,8 +217,8 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>7</td>
-                                    <td>6</td>
-                                    <td>1</td>
+                                    <td>7</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -248,8 +248,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>7</td>
-            <td>6 (86%)</td>
-            <td>1 (14%)</td>
+            <td>7 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -264,14 +264,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>7</td>
-            <td>6 (86%)</td>
-            <td>1 (14%)</td>
+            <td>7 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">4 minutes 41 seconds</td>
+                <td colspan="5">7 minutes 23 seconds</td>
         </tr>
         </body>
     </table>
@@ -323,8 +323,8 @@
 
                         <div class="requirementNarrative read-more-text">In order to check Functionality
 As an Tester
-I want to verify Global Nav application</p>
-<p>eta:@skip</div>
+I want to verify Global Nav application
+eta:@skip</div>
                     </td>
 
 
@@ -444,10 +444,8 @@ I want to verify Global Nav application</p>
                         <span class="requirementName"><a
                                 href="2e810fffc2728ad268ff2403f33c1190def7889624beb27c80ad34e54e0aaefb.html">Country list</a></span>
 
-                        <div class="requirementNarrative read-more-text">In order to check Functionality
-As an Tester
-I want to verify Global Nav application
-eta:@skip</div>
+                        <div class="requirementNarrative read-more-text">Display Countries list for corresponding regions</p>
+<p>eta:@skip</div>
                     </td>
 
 
@@ -1046,21 +1044,21 @@ eta:@skip</div>
                 </tr>
 
 
-                <tr class="test-FAILURE requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                        <span style="display:none">3</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="FAILURE-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
                                 href="2697611819b7921f5c59541c8ef07d965e2bca5258969f80d7002c560c47ae2b.html">Signed in</a></span>
 
                         <div class="requirementNarrative read-more-text">In order to check Functionality
-As an Tester
+As a Tester
 I want to verify Global Nav application</p>
 <p>eta:@skip</div>
                     </td>
@@ -1068,9 +1066,9 @@ I want to verify Global Nav application</p>
 
                     <td class="greentext highlighted-value requirementRowCell">1</td>
 <!--
-                    <td class="greentext requirementRowCell">0</td>
+                    <td class="greentext requirementRowCell">1</td>
                     <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">1</td>
+                    <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
 -->
@@ -1088,13 +1086,13 @@ I want to verify Global Nav application</p>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1102,8 +1100,8 @@ I want to verify Global Nav application</p>
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1112,8 +1110,8 @@ I want to verify Global Nav application</p>
                     <div class="ignoredbar"
                          style="width: 125px;"
                          title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1121,8 +1119,8 @@ I want to verify Global Nav application</p>
                         <div class="compromisedbar"
                              style="width: 125px;"
                              title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1130,8 +1128,8 @@ I want to verify Global Nav application</p>
                             <div class="errorbar"
                                  style="width: 125px;"
                                  title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1139,17 +1137,17 @@ I want to verify Global Nav application</p>
                                 <div class="failingbar"
                                      style="width: 125px;"
                                      title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 0px;"
+                                         style="width: 125px;"
                                          title="  - Total tests: 1
-  - Passing tests: 0 (0%)
-  - Failing tests: 1 (100%)
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -1199,9 +1197,30 @@ I want to verify Global Nav application</p>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.html" class="ellipsis"
+                                        <a href="eb833a91cdbd120a6a2bcd94c999cd0a2655c8145ea97034c068ddbad2c3224f.html" class="ellipsis"
+                                           title="Show regions and its countries ">
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Show regions and its countries
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="lightgreentext">9</td>
+
+
+                                <td class="lightgreentext">31.58</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="f6c0f56acb526d6bf8482971cf18cd55578c40b86a7214598bcc18e4e39c6463.html" class="ellipsis"
                                            title="Test case -Accelerator ">
-                                            EDGE | Test case -Accelerator
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Accelerator
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -1210,7 +1229,7 @@ I want to verify Global Nav application</p>
                                 <td class="lightgreentext">12</td>
 
 
-                                <td class="lightgreentext">21.53</td>
+                                <td class="lightgreentext">29.93</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1220,30 +1239,9 @@ I want to verify Global Nav application</p>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="af674a5a1d0010dd0a501167eb94828684a1b1e31fe6f3dd01e714459161c940.html" class="ellipsis"
-                                           title="Test case -Country List ">
-                                            EDGE | Test case -Country List
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="lightgreentext">7</td>
-
-
-                                <td class="lightgreentext">6.65</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.html" class="ellipsis"
+                                        <a href="376eefedfd784d3e6868db3547a995e4a182555e45569cde431948970cdc4c08.html" class="ellipsis"
                                            title="Test case -Menu ">
-                                            EDGE | Test case -Menu
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Menu
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -1252,7 +1250,7 @@ I want to verify Global Nav application</p>
                                 <td class="lightgreentext">11</td>
 
 
-                                <td class="lightgreentext">15.12</td>
+                                <td class="lightgreentext">22.56</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1262,9 +1260,9 @@ I want to verify Global Nav application</p>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.html" class="ellipsis"
+                                        <a href="fb7a9eaed77eefdd1196e518cc33e9b2732d4b905f896d2d120a3e972d3318f2.html" class="ellipsis"
                                            title="Test case -Not Signed-In ">
-                                            EDGE | Test case -Not Signed-In
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Not Signed-In
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -1273,7 +1271,7 @@ I want to verify Global Nav application</p>
                                 <td class="lightgreentext">26</td>
 
 
-                                <td class="lightgreentext">93.28</td>
+                                <td class="lightgreentext">106.9</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1283,9 +1281,9 @@ I want to verify Global Nav application</p>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.html" class="ellipsis"
+                                        <a href="560d8a46dd5549d272dd89ec6d99f41a1464d3735d040ea275f20cc07e5028de.html" class="ellipsis"
                                            title="Test case -Search Autosuggestion ">
-                                            EDGE | Test case -Search Autosuggestion
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Search Autosuggestion
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -1294,7 +1292,7 @@ I want to verify Global Nav application</p>
                                 <td class="lightgreentext">20</td>
 
 
-                                <td class="lightgreentext">46.61</td>
+                                <td class="lightgreentext">79.95</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -1304,9 +1302,9 @@ I want to verify Global Nav application</p>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.html" class="ellipsis"
+                                        <a href="284d83c994f1bc212da366e0dd25075a626f1ba9ca915337babb6c15454516db.html" class="ellipsis"
                                            title="Test case -Search Box ">
-                                            EDGE | Test case -Search Box
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Search Box
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -1315,28 +1313,28 @@ I want to verify Global Nav application</p>
                                 <td class="lightgreentext">14</td>
 
 
-                                <td class="lightgreentext">22.75</td>
+                                <td class="lightgreentext">33.35</td>
                             </tr>
 
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.html" class="ellipsis"
-                                           title="Test case -Signed-In Assertion error">
-                                            EDGE | Test case -Signed-In
+                                        <a href="1e9b3e955b94378d7aef9057879a437affdb42c340f1e83b6d3c29c32996a603.html" class="ellipsis"
+                                           title="Test case -Signed-In ">
+                                            <i class="fa fa-firefox" aria-hidden="true"></i> | Test case -Signed-In
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="lightgreentext">24</td>
+                                <td class="lightgreentext">26</td>
 
 
-                                <td class="lightgreentext">75.39</td>
+                                <td class="lightgreentext">139.13</td>
                             </tr>
                         </tbody>
                     </table>

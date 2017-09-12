@@ -1,13 +1,9 @@
 package com.bdd.sample.steps2;
 
-import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Steps;
 
 import java.util.List;
-import java.util.Map;
-
 import org.jbehave.core.annotations.Given;
-import org.jbehave.core.annotations.Named;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.jbehave.core.model.ExamplesTable;
@@ -18,7 +14,8 @@ import com.bdd.sample.steps.serenity.EndUserSteps;
 
 
 
-public class DefinitionSteps {
+public class DefinitionSteps
+{
 
     @Steps
     EndUserSteps endUser;

@@ -8,10 +8,13 @@ com\bdd\sample\pages\SearchBoxPage.class
 com\bdd\sample\steps2\CountryListDefinition.class
 com\bdd\sample\steps\serenity\NotSignedInStep.class
 com\bdd\sample\pages\SearchAutosuggestPage.class
+com\bdd\sample\steps2\CarouselBannerDefinition.class
 com\bdd\sample\steps2\DefinitionSteps.class
 com\bdd\sample\steps\serenity\EndUserSteps.class
+com\bdd\sample\pages\CarouselBannerPage.class
 com\bdd\sample\steps\serenity\SignedInSteps.class
 com\bdd\sample\pages\NotSignedInPage.class
+com\bdd\sample\steps\serenity\CarouselBannerSteps.class
 com\bdd\sample\steps2\SearchAutosuggestDefinition.class
 com\bdd\sample\pages\SignedInPage.class
 com\bdd\sample\steps\serenity\SearchAutosuggestSteps.class

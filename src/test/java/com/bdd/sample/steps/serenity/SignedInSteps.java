@@ -27,8 +27,8 @@ public class SignedInSteps
 	@Step
 	public void hover_on_signin(String text) 
 	{
-		sipage.hover_on(text);
-	}
+		sipage.hover_on_signin(text);
+		}
 	
 	@Step
 	public void Expected_option_display(String option1,String option2) 
@@ -49,25 +49,25 @@ public class SignedInSteps
 	}
 	
 	@Step
-	public void page(String option,String expectedtitle) 
+	public void page(String expectedtitle) throws InterruptedException 
 	{
 		
-		sipage.is_page(option, expectedtitle);
+		sipage.is_page( expectedtitle);
 	}
 	
 	@Step
-	public void is_page(String option,String link,String expectedtitle) 
+	public void is_page(String option,String link,String expectedtitle) throws InterruptedException 
 	{
-		sipage.oracle_account_option_click(link);
-		page(option, expectedtitle);
+		sipage.oracle_account_option_click(link,option);
+		page( expectedtitle);
 	}
 	
 	
 	@Step
-	public void is_page_(String option,String link,String expectedtitle) 
+	public void is_page_(String option,String link,String expectedtitle) throws InterruptedException 
 	{
 		sipage.oracle_cloud_account_option_click(option,link);
-		page(option, expectedtitle);
+		page(expectedtitle);
 	}
     
   
