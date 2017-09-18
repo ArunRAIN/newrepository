@@ -32,23 +32,45 @@ public class NotSignedInPage extends PageObject
     @FindBy(xpath="//a[contains(text(),'Sign In')]")
     private WebElementFacade signbtn;
 	
+    @FindBy(xpath="//a[@class='u02ticon u02user']//span[@class='u02signout']")
+    private WebElementFacade ACCOUNT;
+    
 	
 	public void Not_signIn()
 	{
-		boolean yes = signin.isDisplayed();
-		if(yes)
+		List<WebElement> yes = getDriver().findElements(By.xpath("//a[@class='u02ticon u02user']//span[@class='u02signin']"));
+		System.out.println(yes.size());
+		if(yes.size()==1)
 		{
-			Assert.assertTrue(true);
+			boolean ele = getDriver().findElement(By.xpath("//a[@class='u02ticon u02user']//span[@class='u02signin']")).isDisplayed();
+			System.out.println(ele);
+			if(ele)
+			{
+				
+			}
+			else
+			{
+				waitABit(2000);
+				Actions a=new Actions(getDriver());
+	    		a.moveToElement(ACCOUNT).perform();
+	    		
+	    		 WebElement ele33 = getDriver().findElement(By.xpath("//div[@class='u02userinw1 u02userloggedin']//a[text()='Sign Out']"));
+	    		waitABit(2000);
+	    		 JavascriptExecutor js = (JavascriptExecutor)getDriver();
+	        	js.executeScript("arguments[0].click();", ele33);
+			}
+			
 		}
 		else
 		{
-			Assert.assertTrue(false);
+			
+			
 		}
 	}
 	
 	public void Expected_text(String text)
 	{
-		waitABit(2000);
+		waitABit(10000);
 		int ele1 = getDriver().findElements(By.xpath("//span[text()='"+text+"']")).size();
 		 if(ele1==1)
 		    {
@@ -135,7 +157,7 @@ public class NotSignedInPage extends PageObject
 	   public void is_page_(String option,String expectedtitle)
 	    {
 		  
-		    
+		    waitABit(5000);
 	    	String actualtitle=getDriver().getTitle();
 	    	
 	    	if(actualtitle.contains(expectedtitle))

@@ -289,33 +289,33 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 4892,
-                  "start": 1505228193548,
-                  "end": 1505228198440
+                  "durationInMillis": 16931,
+                  "start": 1505736511127,
+                  "end": 1505736528058
                 },
                 {
                   "step": "When User verifies Menu bar should not Move while pageload",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
-                  "durationInMillis": 209,
-                  "start": 1505228199148,
-                  "end": 1505228199357
+                  "durationInMillis": 1765,
+                  "start": 1505736530062,
+                  "end": 1505736531827
                 },
                 {
                   "step": "Then User verifies left Header contains:\n| Header1|\n| Logo   |\n| Search |\n|  Menu  |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verifies left Header contains:\n?| Header1|\n| Logo   |\n| Search |\n|  Menu  |?",
-                  "durationInMillis": 1919,
-                  "start": 1505228199523,
-                  "end": 1505228201442
+                  "durationInMillis": 5300,
+                  "start": 1505736533180,
+                  "end": 1505736538480
                 },
                 {
                   "step": "Then User verifies right Header contains:\n| Header2|\n| Account|\n| Country|\n| Call   |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verifies right Header contains:\n?| Header2|\n| Account|\n| Country|\n| Call   |?",
-                  "durationInMillis": 7373,
-                  "start": 1505228201867,
-                  "end": 1505228209240
+                  "durationInMillis": 10742,
+                  "start": 1505736539571,
+                  "end": 1505736550313
                 }
               ]
             },
@@ -431,9 +431,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 18293,
-        "start": 1505228193413,
-        "end": 1505228211706
+        "durationInMillis": 39841,
+        "start": 1505736510984,
+        "end": 1505736550825
       },
       "givenStory": false
     },
@@ -726,33 +726,33 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3499,
-                  "start": 1505228211726,
-                  "end": 1505228215225
+                  "durationInMillis": 10037,
+                  "start": 1505736550852,
+                  "end": 1505736560889
                 },
                 {
                   "step": "When User Hover over on 'Country' text",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User Hover over on 'Country' text",
-                  "durationInMillis": 1290,
-                  "start": 1505228215604,
-                  "end": 1505228216894
+                  "durationInMillis": 2835,
+                  "start": 1505736562687,
+                  "end": 1505736565522
                 },
                 {
                   "step": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-                  "durationInMillis": 372,
-                  "start": 1505228217171,
-                  "end": 1505228217543
+                  "durationInMillis": 1936,
+                  "start": 1505736566767,
+                  "end": 1505736568703
                 },
                 {
                   "step": "Then Depending upon which country the page belongs to,  pin must appear against it",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then Depending upon which country the page belongs to,  pin must appear against it",
-                  "durationInMillis": 16530,
-                  "start": 1505228217719,
-                  "end": 1505228234249
+                  "durationInMillis": 18949,
+                  "start": 1505736569877,
+                  "end": 1505736588826
                 }
               ]
             },
@@ -868,9 +868,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 24943,
-        "start": 1505228211718,
-        "end": 1505228236661
+        "durationInMillis": 38640,
+        "start": 1505736550849,
+        "end": 1505736589489
       },
       "givenStory": false
     },
@@ -1163,33 +1163,33 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3601,
-                  "start": 1505228236677,
-                  "end": 1505228240278
+                  "durationInMillis": 7825,
+                  "start": 1505736589827,
+                  "end": 1505736597652
                 },
                 {
                   "step": "When User hover on Menu Bar shows primary panel with categories",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
-                  "durationInMillis": 2834,
-                  "start": 1505228240657,
-                  "end": 1505228243491
+                  "durationInMillis": 4844,
+                  "start": 1505736599333,
+                  "end": 1505736604177
                 },
                 {
                   "step": "Then User hover on primary categories panel shows secondary panel",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
-                  "durationInMillis": 2815,
-                  "start": 1505228243790,
-                  "end": 1505228246605
+                  "durationInMillis": 4278,
+                  "start": 1505736605013,
+                  "end": 1505736609291
                 },
                 {
                   "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-                  "durationInMillis": 4601,
-                  "start": 1505228246781,
-                  "end": 1505228251382
+                  "durationInMillis": 7195,
+                  "start": 1505736610217,
+                  "end": 1505736617412
                 }
               ]
             },
@@ -1305,9 +1305,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 17138,
-        "start": 1505228236674,
-        "end": 1505228253812
+        "durationInMillis": 28194,
+        "start": 1505736589825,
+        "end": 1505736618019
       },
       "givenStory": false
     },
@@ -1610,73 +1610,73 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3652,
-                  "start": 1505228253824,
-                  "end": 1505228257476
+                  "durationInMillis": 8296,
+                  "start": 1505736618034,
+                  "end": 1505736626330
                 },
                 {
                   "step": "When User Not signed In",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User Not signed In",
-                  "durationInMillis": 282,
-                  "start": 1505228257854,
-                  "end": 1505228258136
+                  "durationInMillis": 1649,
+                  "start": 1505736628203,
+                  "end": 1505736629852
                 },
                 {
                   "step": "Then User see the text 'Sign In' must be displayed",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
-                  "durationInMillis": 2213,
-                  "start": 1505228258304,
-                  "end": 1505228260517
+                  "durationInMillis": 11277,
+                  "start": 1505736631393,
+                  "end": 1505736642670
                 },
                 {
                   "step": "When User Hover over 'Sign In'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User Hover over 'Sign In'",
-                  "durationInMillis": 1836,
-                  "start": 1505228260700,
-                  "end": 1505228262536
+                  "durationInMillis": 2940,
+                  "start": 1505736644448,
+                  "end": 1505736647388
                 },
                 {
                   "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-                  "durationInMillis": 289,
-                  "start": 1505228262980,
-                  "end": 1505228263269
+                  "durationInMillis": 1006,
+                  "start": 1505736648429,
+                  "end": 1505736649435
                 },
                 {
                   "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
-                  "durationInMillis": 522,
-                  "start": 1505228263440,
-                  "end": 1505228263962
+                  "durationInMillis": 3695,
+                  "start": 1505736650388,
+                  "end": 1505736654083
                 },
                 {
                   "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign in|?",
-                  "durationInMillis": 189,
-                  "start": 1505228264134,
-                  "end": 1505228264323
+                  "durationInMillis": 1469,
+                  "start": 1505736655469,
+                  "end": 1505736656938
                 },
                 {
                   "step": "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |?",
-                  "durationInMillis": 9827,
-                  "start": 1505228264506,
-                  "end": 1505228274333
+                  "durationInMillis": 23877,
+                  "start": 1505736658371,
+                  "end": 1505736682248
                 },
                 {
                   "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Click on Oracle Account each links:\n?|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |?",
-                  "durationInMillis": 72119,
-                  "start": 1505228274721,
-                  "end": 1505228346840
+                  "durationInMillis": 123860,
+                  "start": 1505736683709,
+                  "end": 1505736807569
                 }
               ]
             },
@@ -1797,9 +1797,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 95405,
-        "start": 1505228253822,
-        "end": 1505228349227
+        "durationInMillis": 190030,
+        "start": 1505736618031,
+        "end": 1505736808061
       },
       "givenStory": false
     },
@@ -2096,49 +2096,49 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3557,
-                  "start": 1505228349239,
-                  "end": 1505228352796
+                  "durationInMillis": 17510,
+                  "start": 1505736808071,
+                  "end": 1505736825581
                 },
                 {
                   "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-                  "durationInMillis": 7704,
-                  "start": 1505228353088,
-                  "end": 1505228360792
+                  "durationInMillis": 9628,
+                  "start": 1505736827386,
+                  "end": 1505736837014
                 },
                 {
                   "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-                  "durationInMillis": 7585,
-                  "start": 1505228360965,
-                  "end": 1505228368550
+                  "durationInMillis": 10469,
+                  "start": 1505736838161,
+                  "end": 1505736848630
                 },
                 {
                   "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-                  "durationInMillis": 14303,
-                  "start": 1505228368717,
-                  "end": 1505228383020
+                  "durationInMillis": 19455,
+                  "start": 1505736849599,
+                  "end": 1505736869054
                 },
                 {
                   "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-                  "durationInMillis": 14516,
-                  "start": 1505228383388,
-                  "end": 1505228397904
+                  "durationInMillis": 20352,
+                  "start": 1505736870511,
+                  "end": 1505736890863
                 },
                 {
                   "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-                  "durationInMillis": 8152,
-                  "start": 1505228398288,
-                  "end": 1505228406440
+                  "durationInMillis": 11511,
+                  "start": 1505736892284,
+                  "end": 1505736903795
                 }
               ]
             },
@@ -2256,9 +2256,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 59579,
-        "start": 1505228349237,
-        "end": 1505228408816
+        "durationInMillis": 96299,
+        "start": 1505736808070,
+        "end": 1505736904369
       },
       "givenStory": false
     },
@@ -2553,41 +2553,41 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3529,
-                  "start": 1505228408828,
-                  "end": 1505228412357
+                  "durationInMillis": 18968,
+                  "start": 1505736904398,
+                  "end": 1505736923366
                 },
                 {
                   "step": "When User click inside the search box must show the cursor",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User click inside the search box must show the cursor",
-                  "durationInMillis": 4635,
-                  "start": 1505228412666,
-                  "end": 1505228417301
+                  "durationInMillis": 7620,
+                  "start": 1505736924442,
+                  "end": 1505736932062
                 },
                 {
                   "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-                  "durationInMillis": 712,
-                  "start": 1505228417617,
-                  "end": 1505228418329
+                  "durationInMillis": 2476,
+                  "start": 1505736933625,
+                  "end": 1505736936101
                 },
                 {
                   "step": "Then User text is type 'jav' in the search box options must be displayed to choose",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User text is type 'jav' in the search box options must be displayed to choose",
-                  "durationInMillis": 4198,
-                  "start": 1505228418765,
-                  "end": 1505228422963
+                  "durationInMillis": 6384,
+                  "start": 1505736937028,
+                  "end": 1505736943412
                 },
                 {
                   "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-                  "durationInMillis": 9598,
-                  "start": 1505228423138,
-                  "end": 1505228432736
+                  "durationInMillis": 16847,
+                  "start": 1505736944935,
+                  "end": 1505736961782
                 }
               ]
             },
@@ -2704,9 +2704,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 26193,
-        "start": 1505228408827,
-        "end": 1505228435020
+        "durationInMillis": 57765,
+        "start": 1505736904394,
+        "end": 1505736962159
       },
       "givenStory": false
     },
@@ -2879,7 +2879,7 @@
               "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
               "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
               "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
-              "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |"
+              "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |"
             ]
           }
         ],
@@ -2991,7 +2991,7 @@
               "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
               "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
               "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
-              "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |"
+              "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |"
             ]
           },
           "storyPath": "stories/Global_Nav/SignedIn.story",
@@ -3009,73 +3009,73 @@
                   "step": "Given User on home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 3559,
-                  "start": 1505228435030,
-                  "end": 1505228438589
+                  "durationInMillis": 7765,
+                  "start": 1505736962170,
+                  "end": 1505736969935
                 },
                 {
                   "step": "When User Signed In",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User Signed In",
-                  "durationInMillis": 21057,
-                  "start": 1505228438855,
-                  "end": 1505228459912
+                  "durationInMillis": 28769,
+                  "start": 1505736971646,
+                  "end": 1505737000415
                 },
                 {
                   "step": "Then User see the Text 'Account' must be displayed",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User see the Text 'Account' must be displayed",
-                  "durationInMillis": 181,
-                  "start": 1505228460175,
-                  "end": 1505228460356
+                  "durationInMillis": 1539,
+                  "start": 1505737001965,
+                  "end": 1505737003504
                 },
                 {
                   "step": "When User Hover Over 'Account'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When User Hover Over 'Account'",
-                  "durationInMillis": 3316,
-                  "start": 1505228460523,
-                  "end": 1505228463839
+                  "durationInMillis": 4219,
+                  "start": 1505737004538,
+                  "end": 1505737008757
                 },
                 {
                   "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-                  "durationInMillis": 272,
-                  "start": 1505228464238,
-                  "end": 1505228464510
+                  "durationInMillis": 1077,
+                  "start": 1505737009754,
+                  "end": 1505737010831
                 },
                 {
                   "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
-                  "durationInMillis": 547,
-                  "start": 1505228464686,
-                  "end": 1505228465233
+                  "durationInMillis": 5025,
+                  "start": 1505737012414,
+                  "end": 1505737017439
                 },
                 {
                   "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign in|?",
-                  "durationInMillis": 292,
-                  "start": 1505228465461,
-                  "end": 1505228465753
+                  "durationInMillis": 1243,
+                  "start": 1505737019078,
+                  "end": 1505737020321
                 },
                 {
                   "step": "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then User Click on Cloud account each links:\n?|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |?",
-                  "durationInMillis": 15075,
-                  "start": 1505228465928,
-                  "end": 1505228481003
+                  "durationInMillis": 20268,
+                  "start": 1505737021272,
+                  "end": 1505737041540
                 },
                 {
-                  "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |",
+                  "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User Clicks on oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |?",
-                  "durationInMillis": 55920,
-                  "start": 1505228481344,
-                  "end": 1505228537264
+                  "parametrisedStep": "Then User Clicks on oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |?",
+                  "durationInMillis": 89765,
+                  "start": 1505737042942,
+                  "end": 1505737132707
                 }
               ]
             },
@@ -3185,7 +3185,7 @@
                 "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
                 "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
                 "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
-                "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |"
+                "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |"
               ]
             }
           },
@@ -3196,9 +3196,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 104612,
-        "start": 1505228435029,
-        "end": 1505228539641
+        "durationInMillis": 171044,
+        "start": 1505736962169,
+        "end": 1505737133213
       },
       "givenStory": false
     }
@@ -3318,33 +3318,33 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 4892,
-              "start": 1505228193548,
-              "end": 1505228198440
+              "durationInMillis": 16931,
+              "start": 1505736511127,
+              "end": 1505736528058
             },
             {
               "step": "When User verifies Menu bar should not Move while pageload",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
-              "durationInMillis": 209,
-              "start": 1505228199148,
-              "end": 1505228199357
+              "durationInMillis": 1765,
+              "start": 1505736530062,
+              "end": 1505736531827
             },
             {
               "step": "Then User verifies left Header contains:\n| Header1|\n| Logo   |\n| Search |\n|  Menu  |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verifies left Header contains:\n?| Header1|\n| Logo   |\n| Search |\n|  Menu  |?",
-              "durationInMillis": 1919,
-              "start": 1505228199523,
-              "end": 1505228201442
+              "durationInMillis": 5300,
+              "start": 1505736533180,
+              "end": 1505736538480
             },
             {
               "step": "Then User verifies right Header contains:\n| Header2|\n| Account|\n| Country|\n| Call   |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verifies right Header contains:\n?| Header2|\n| Account|\n| Country|\n| Call   |?",
-              "durationInMillis": 7373,
-              "start": 1505228201867,
-              "end": 1505228209240
+              "durationInMillis": 10742,
+              "start": 1505736539571,
+              "end": 1505736550313
             }
           ]
         },
@@ -3570,33 +3570,33 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3499,
-              "start": 1505228211726,
-              "end": 1505228215225
+              "durationInMillis": 10037,
+              "start": 1505736550852,
+              "end": 1505736560889
             },
             {
               "step": "When User Hover over on 'Country' text",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User Hover over on 'Country' text",
-              "durationInMillis": 1290,
-              "start": 1505228215604,
-              "end": 1505228216894
+              "durationInMillis": 2835,
+              "start": 1505736562687,
+              "end": 1505736565522
             },
             {
               "step": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-              "durationInMillis": 372,
-              "start": 1505228217171,
-              "end": 1505228217543
+              "durationInMillis": 1936,
+              "start": 1505736566767,
+              "end": 1505736568703
             },
             {
               "step": "Then Depending upon which country the page belongs to,  pin must appear against it",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then Depending upon which country the page belongs to,  pin must appear against it",
-              "durationInMillis": 16530,
-              "start": 1505228217719,
-              "end": 1505228234249
+              "durationInMillis": 18949,
+              "start": 1505736569877,
+              "end": 1505736588826
             }
           ]
         },
@@ -3822,33 +3822,33 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3601,
-              "start": 1505228236677,
-              "end": 1505228240278
+              "durationInMillis": 7825,
+              "start": 1505736589827,
+              "end": 1505736597652
             },
             {
               "step": "When User hover on Menu Bar shows primary panel with categories",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
-              "durationInMillis": 2834,
-              "start": 1505228240657,
-              "end": 1505228243491
+              "durationInMillis": 4844,
+              "start": 1505736599333,
+              "end": 1505736604177
             },
             {
               "step": "Then User hover on primary categories panel shows secondary panel",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
-              "durationInMillis": 2815,
-              "start": 1505228243790,
-              "end": 1505228246605
+              "durationInMillis": 4278,
+              "start": 1505736605013,
+              "end": 1505736609291
             },
             {
               "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-              "durationInMillis": 4601,
-              "start": 1505228246781,
-              "end": 1505228251382
+              "durationInMillis": 7195,
+              "start": 1505736610217,
+              "end": 1505736617412
             }
           ]
         },
@@ -4079,73 +4079,73 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3652,
-              "start": 1505228253824,
-              "end": 1505228257476
+              "durationInMillis": 8296,
+              "start": 1505736618034,
+              "end": 1505736626330
             },
             {
               "step": "When User Not signed In",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User Not signed In",
-              "durationInMillis": 282,
-              "start": 1505228257854,
-              "end": 1505228258136
+              "durationInMillis": 1649,
+              "start": 1505736628203,
+              "end": 1505736629852
             },
             {
               "step": "Then User see the text 'Sign In' must be displayed",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
-              "durationInMillis": 2213,
-              "start": 1505228258304,
-              "end": 1505228260517
+              "durationInMillis": 11277,
+              "start": 1505736631393,
+              "end": 1505736642670
             },
             {
               "step": "When User Hover over 'Sign In'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User Hover over 'Sign In'",
-              "durationInMillis": 1836,
-              "start": 1505228260700,
-              "end": 1505228262536
+              "durationInMillis": 2940,
+              "start": 1505736644448,
+              "end": 1505736647388
             },
             {
               "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-              "durationInMillis": 289,
-              "start": 1505228262980,
-              "end": 1505228263269
+              "durationInMillis": 1006,
+              "start": 1505736648429,
+              "end": 1505736649435
             },
             {
               "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
-              "durationInMillis": 522,
-              "start": 1505228263440,
-              "end": 1505228263962
+              "durationInMillis": 3695,
+              "start": 1505736650388,
+              "end": 1505736654083
             },
             {
               "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign in|",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign in|?",
-              "durationInMillis": 189,
-              "start": 1505228264134,
-              "end": 1505228264323
+              "durationInMillis": 1469,
+              "start": 1505736655469,
+              "end": 1505736656938
             },
             {
               "step": "Then User Click on Cloud Account each links:\n|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link             |appropriate page        |\n|Sign In |Sign in          |Oracle Cloud            |?",
-              "durationInMillis": 9827,
-              "start": 1505228264506,
-              "end": 1505228274333
+              "durationInMillis": 23877,
+              "start": 1505736658371,
+              "end": 1505736682248
             },
             {
               "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Click on Oracle Account each links:\n?|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |?",
-              "durationInMillis": 72119,
-              "start": 1505228274721,
-              "end": 1505228346840
+              "durationInMillis": 123860,
+              "start": 1505736683709,
+              "end": 1505736807569
             }
           ]
         },
@@ -4378,49 +4378,49 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3557,
-              "start": 1505228349239,
-              "end": 1505228352796
+              "durationInMillis": 17510,
+              "start": 1505736808071,
+              "end": 1505736825581
             },
             {
               "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-              "durationInMillis": 7704,
-              "start": 1505228353088,
-              "end": 1505228360792
+              "durationInMillis": 9628,
+              "start": 1505736827386,
+              "end": 1505736837014
             },
             {
               "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-              "durationInMillis": 7585,
-              "start": 1505228360965,
-              "end": 1505228368550
+              "durationInMillis": 10469,
+              "start": 1505736838161,
+              "end": 1505736848630
             },
             {
               "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-              "durationInMillis": 14303,
-              "start": 1505228368717,
-              "end": 1505228383020
+              "durationInMillis": 19455,
+              "start": 1505736849599,
+              "end": 1505736869054
             },
             {
               "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-              "durationInMillis": 14516,
-              "start": 1505228383388,
-              "end": 1505228397904
+              "durationInMillis": 20352,
+              "start": 1505736870511,
+              "end": 1505736890863
             },
             {
               "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-              "durationInMillis": 8152,
-              "start": 1505228398288,
-              "end": 1505228406440
+              "durationInMillis": 11511,
+              "start": 1505736892284,
+              "end": 1505736903795
             }
           ]
         },
@@ -4649,41 +4649,41 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3529,
-              "start": 1505228408828,
-              "end": 1505228412357
+              "durationInMillis": 18968,
+              "start": 1505736904398,
+              "end": 1505736923366
             },
             {
               "step": "When User click inside the search box must show the cursor",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User click inside the search box must show the cursor",
-              "durationInMillis": 4635,
-              "start": 1505228412666,
-              "end": 1505228417301
+              "durationInMillis": 7620,
+              "start": 1505736924442,
+              "end": 1505736932062
             },
             {
               "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-              "durationInMillis": 712,
-              "start": 1505228417617,
-              "end": 1505228418329
+              "durationInMillis": 2476,
+              "start": 1505736933625,
+              "end": 1505736936101
             },
             {
               "step": "Then User text is type 'jav' in the search box options must be displayed to choose",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User text is type 'jav' in the search box options must be displayed to choose",
-              "durationInMillis": 4198,
-              "start": 1505228418765,
-              "end": 1505228422963
+              "durationInMillis": 6384,
+              "start": 1505736937028,
+              "end": 1505736943412
             },
             {
               "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-              "durationInMillis": 9598,
-              "start": 1505228423138,
-              "end": 1505228432736
+              "durationInMillis": 16847,
+              "start": 1505736944935,
+              "end": 1505736961782
             }
           ]
         },
@@ -4897,7 +4897,7 @@
           "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
           "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
           "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
-          "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |"
+          "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |"
         ]
       },
       "storyPath": "stories/Global_Nav/SignedIn.story",
@@ -4915,73 +4915,73 @@
               "step": "Given User on home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 3559,
-              "start": 1505228435030,
-              "end": 1505228438589
+              "durationInMillis": 7765,
+              "start": 1505736962170,
+              "end": 1505736969935
             },
             {
               "step": "When User Signed In",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User Signed In",
-              "durationInMillis": 21057,
-              "start": 1505228438855,
-              "end": 1505228459912
+              "durationInMillis": 28769,
+              "start": 1505736971646,
+              "end": 1505737000415
             },
             {
               "step": "Then User see the Text 'Account' must be displayed",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User see the Text 'Account' must be displayed",
-              "durationInMillis": 181,
-              "start": 1505228460175,
-              "end": 1505228460356
+              "durationInMillis": 1539,
+              "start": 1505737001965,
+              "end": 1505737003504
             },
             {
               "step": "When User Hover Over 'Account'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When User Hover Over 'Account'",
-              "durationInMillis": 3316,
-              "start": 1505228460523,
-              "end": 1505228463839
+              "durationInMillis": 4219,
+              "start": 1505737004538,
+              "end": 1505737008757
             },
             {
               "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-              "durationInMillis": 272,
-              "start": 1505228464238,
-              "end": 1505228464510
+              "durationInMillis": 1077,
+              "start": 1505737009754,
+              "end": 1505737010831
             },
             {
               "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
-              "durationInMillis": 547,
-              "start": 1505228464686,
-              "end": 1505228465233
+              "durationInMillis": 5025,
+              "start": 1505737012414,
+              "end": 1505737017439
             },
             {
               "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign in|?",
-              "durationInMillis": 292,
-              "start": 1505228465461,
-              "end": 1505228465753
+              "durationInMillis": 1243,
+              "start": 1505737019078,
+              "end": 1505737020321
             },
             {
               "step": "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then User Click on Cloud account each links:\n?|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |?",
-              "durationInMillis": 15075,
-              "start": 1505228465928,
-              "end": 1505228481003
+              "durationInMillis": 20268,
+              "start": 1505737021272,
+              "end": 1505737041540
             },
             {
-              "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |",
+              "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User Clicks on oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |?",
-              "durationInMillis": 55920,
-              "start": 1505228481344,
-              "end": 1505228537264
+              "parametrisedStep": "Then User Clicks on oracle account each links:\n?|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |?",
+              "durationInMillis": 89765,
+              "start": 1505737042942,
+              "end": 1505737132707
             }
           ]
         },
@@ -5091,7 +5091,7 @@
             "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
             "Then User verify Cloud account must have only option:\n|option |\n|Sign in|",
             "Then User Click on Cloud account each links:\n|Option  |Link             |appropriate page        |\n|Account |Sign in          |Oracle Cloud            |",
-            "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |"
+            "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Single Sign-Of           |"
           ]
         }
       },
