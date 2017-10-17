@@ -264,17 +264,17 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>19263</durationInMillis>
-                  <start>1505748676743</start>
-                  <end>1505748696006</end>
+                  <durationInMillis>12729</durationInMillis>
+                  <start>1508237798729</start>
+                  <end>1508237811458</end>
                 </successful>
                 <successful>
                   <step>When User verifies Menu bar should not Move while pageload</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-                  <durationInMillis>2210</durationInMillis>
-                  <start>1505748699776</start>
-                  <end>1505748701986</end>
+                  <durationInMillis>951</durationInMillis>
+                  <start>1508237812534</start>
+                  <end>1508237813485</end>
                 </successful>
                 <successful>
                   <step>Then User verifies left Header contains:
@@ -288,9 +288,9 @@ eta:@skip</localizedNarrative>
 | Logo   |
 | Search |
 |  Menu  |?</parametrisedStep>
-                  <durationInMillis>10172</durationInMillis>
-                  <start>1505748704032</start>
-                  <end>1505748714204</end>
+                  <durationInMillis>4301</durationInMillis>
+                  <start>1508237814372</start>
+                  <end>1508237818673</end>
                 </successful>
                 <successful>
                   <step>Then User verifies right Header contains:
@@ -304,9 +304,9 @@ eta:@skip</localizedNarrative>
 | Account|
 | Country|
 | Call   |?</parametrisedStep>
-                  <durationInMillis>15802</durationInMillis>
-                  <start>1505748717683</start>
-                  <end>1505748733485</end>
+                  <durationInMillis>10244</durationInMillis>
+                  <start>1508237819408</start>
+                  <end>1508237829652</end>
                 </successful>
               </results>
             </steps>
@@ -412,9 +412,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>59182</durationInMillis>
-        <start>1505748676609</start>
-        <end>1505748735791</end>
+        <durationInMillis>31645</durationInMillis>
+        <start>1508237798596</start>
+        <end>1508237830241</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -664,33 +664,33 @@ So that </localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>9924</durationInMillis>
-                  <start>1505748735813</start>
-                  <end>1505748745737</end>
+                  <durationInMillis>7468</durationInMillis>
+                  <start>1508237830264</start>
+                  <end>1508237837732</end>
                 </successful>
                 <successful>
                   <step>When User Hover over on &apos;Country&apos; text</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-                  <durationInMillis>3882</durationInMillis>
-                  <start>1505748749046</start>
-                  <end>1505748752928</end>
+                  <durationInMillis>1931</durationInMillis>
+                  <start>1508237838613</start>
+                  <end>1508237840544</end>
                 </successful>
                 <successful>
                   <step>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</parametrisedStep>
-                  <durationInMillis>5778</durationInMillis>
-                  <start>1505748755712</start>
-                  <end>1505748761490</end>
+                  <durationInMillis>1657</durationInMillis>
+                  <start>1508237841446</start>
+                  <end>1508237843103</end>
                 </successful>
                 <successful>
                   <step>Then Depending upon which country the page belongs to,  pin must appear against it</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then Depending upon which country the page belongs to,  pin must appear against it</parametrisedStep>
-                  <durationInMillis>39902</durationInMillis>
-                  <start>1505748764555</start>
-                  <end>1505748804457</end>
+                  <durationInMillis>19027</durationInMillis>
+                  <start>1508237843850</start>
+                  <end>1508237862877</end>
                 </successful>
               </results>
             </steps>
@@ -788,9 +788,9 @@ So that </localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>71213</durationInMillis>
-        <start>1505748735810</start>
-        <end>1505748807023</end>
+        <durationInMillis>33020</durationInMillis>
+        <start>1508237830262</start>
+        <end>1508237863282</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1042,33 +1042,33 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>9171</durationInMillis>
-                  <start>1505748807264</start>
-                  <end>1505748816435</end>
+                  <durationInMillis>7321</durationInMillis>
+                  <start>1508237863298</start>
+                  <end>1508237870619</end>
                 </successful>
                 <successful>
                   <step>When User hover on Menu Bar shows primary panel with categories</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-                  <durationInMillis>8247</durationInMillis>
-                  <start>1505748824506</start>
-                  <end>1505748832753</end>
+                  <durationInMillis>4000</durationInMillis>
+                  <start>1508237871553</start>
+                  <end>1508237875553</end>
                 </successful>
                 <successful>
                   <step>Then User hover on primary categories panel shows secondary panel</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-                  <durationInMillis>8173</durationInMillis>
-                  <start>1505748835667</start>
-                  <end>1505748843840</end>
+                  <durationInMillis>4581</durationInMillis>
+                  <start>1508237876284</start>
+                  <end>1508237880865</end>
                 </successful>
                 <successful>
                   <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-                  <durationInMillis>11267</durationInMillis>
-                  <start>1505748846851</start>
-                  <end>1505748858118</end>
+                  <durationInMillis>6235</durationInMillis>
+                  <start>1508237881883</start>
+                  <end>1508237888118</end>
                 </successful>
               </results>
             </steps>
@@ -1166,9 +1166,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>52729</durationInMillis>
-        <start>1505748807260</start>
-        <end>1505748859989</end>
+        <durationInMillis>25259</durationInMillis>
+        <start>1508237863295</start>
+        <end>1508237888554</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1454,41 +1454,41 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>8620</durationInMillis>
-                  <start>1505748860097</start>
-                  <end>1505748868717</end>
+                  <durationInMillis>7483</durationInMillis>
+                  <start>1508237888566</start>
+                  <end>1508237896049</end>
                 </successful>
                 <successful>
                   <step>When User Not signed In</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Not signed In</parametrisedStep>
-                  <durationInMillis>3517</durationInMillis>
-                  <start>1505748872115</start>
-                  <end>1505748875632</end>
+                  <durationInMillis>1129</durationInMillis>
+                  <start>1508237896980</start>
+                  <end>1508237898109</end>
                 </successful>
                 <successful>
                   <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>14010</durationInMillis>
-                  <start>1505748877829</start>
-                  <end>1505748891839</end>
+                  <durationInMillis>11163</durationInMillis>
+                  <start>1508237898987</start>
+                  <end>1508237910150</end>
                 </successful>
                 <successful>
                   <step>When User Hover over &apos;Sign In&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-                  <durationInMillis>4157</durationInMillis>
-                  <start>1505748894191</start>
-                  <end>1505748898348</end>
+                  <durationInMillis>2561</durationInMillis>
+                  <start>1508237911538</start>
+                  <end>1508237914099</end>
                 </successful>
                 <successful>
                   <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>3476</durationInMillis>
-                  <start>1505748901733</start>
-                  <end>1505748905209</end>
+                  <durationInMillis>897</durationInMillis>
+                  <start>1508237914871</start>
+                  <end>1508237915768</end>
                 </successful>
                 <successful>
                   <step>Then User verify Oracle Account must have options:
@@ -1502,9 +1502,9 @@ eta:@skip</localizedNarrative>
 |Sign in          |
 |Create an account|
 |Help             |?</parametrisedStep>
-                  <durationInMillis>7315</durationInMillis>
-                  <start>1505748908399</start>
-                  <end>1505748915714</end>
+                  <durationInMillis>2740</durationInMillis>
+                  <start>1508237916606</start>
+                  <end>1508237919346</end>
                 </successful>
                 <successful>
                   <step>Then User verify Cloud Account must have only option:
@@ -1514,9 +1514,9 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User verify Cloud Account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-                  <durationInMillis>2758</durationInMillis>
-                  <start>1505748918229</start>
-                  <end>1505748920987</end>
+                  <durationInMillis>797</durationInMillis>
+                  <start>1508237920097</start>
+                  <end>1508237920894</end>
                 </successful>
                 <successful>
                   <step>Then User Click on Cloud Account each links:
@@ -1526,9 +1526,9 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>24646</durationInMillis>
-                  <start>1505748924080</start>
-                  <end>1505748948726</end>
+                  <durationInMillis>19758</durationInMillis>
+                  <start>1508237921673</start>
+                  <end>1508237941431</end>
                 </successful>
                 <successful>
                   <step>Then User Click on Oracle Account each links:
@@ -1542,9 +1542,9 @@ eta:@skip</localizedNarrative>
 |Sign In|Help             |About Your Oracle Account|
 |Sign In|Create an account|Create Account           |
 |Sign In|Sign in          |Single Sign On - Login   |?</parametrisedStep>
-                  <durationInMillis>107976</durationInMillis>
-                  <start>1505748952022</start>
-                  <end>1505749059998</end>
+                  <durationInMillis>111261</durationInMillis>
+                  <start>1508237942318</start>
+                  <end>1508238053579</end>
                 </successful>
               </results>
             </steps>
@@ -1659,9 +1659,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>201738</durationInMillis>
-        <start>1505748860096</start>
-        <end>1505749061834</end>
+        <durationInMillis>165464</durationInMillis>
+        <start>1508237888564</start>
+        <end>1508238054028</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1917,49 +1917,49 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>11229</durationInMillis>
-                  <start>1505749061844</start>
-                  <end>1505749073073</end>
+                  <durationInMillis>7343</durationInMillis>
+                  <start>1508238054042</start>
+                  <end>1508238061385</end>
                 </successful>
                 <successful>
                   <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-                  <durationInMillis>13768</durationInMillis>
-                  <start>1505749076470</start>
-                  <end>1505749090238</end>
+                  <durationInMillis>9162</durationInMillis>
+                  <start>1508238062258</start>
+                  <end>1508238071420</end>
                 </successful>
                 <successful>
                   <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-                  <durationInMillis>12573</durationInMillis>
-                  <start>1505749093304</start>
-                  <end>1505749105877</end>
+                  <durationInMillis>9369</durationInMillis>
+                  <start>1508238072693</start>
+                  <end>1508238082062</end>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>17454</durationInMillis>
-                  <start>1505749108683</start>
-                  <end>1505749126137</end>
+                  <durationInMillis>43823</durationInMillis>
+                  <start>1508238082969</start>
+                  <end>1508238126792</end>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>24707</durationInMillis>
-                  <start>1505749130478</start>
-                  <end>1505749155185</end>
+                  <durationInMillis>28406</durationInMillis>
+                  <start>1508238127694</start>
+                  <end>1508238156100</end>
                 </successful>
                 <successful>
                   <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-                  <durationInMillis>15698</durationInMillis>
-                  <start>1505749158291</start>
-                  <end>1505749173989</end>
+                  <durationInMillis>10468</durationInMillis>
+                  <start>1508238157001</start>
+                  <end>1508238167469</end>
                 </successful>
               </results>
             </steps>
@@ -2059,9 +2059,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>114725</durationInMillis>
-        <start>1505749061843</start>
-        <end>1505749176568</end>
+        <durationInMillis>114266</durationInMillis>
+        <start>1508238054039</start>
+        <end>1508238168305</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2315,41 +2315,41 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>8937</durationInMillis>
-                  <start>1505749176581</start>
-                  <end>1505749185518</end>
+                  <durationInMillis>10457</durationInMillis>
+                  <start>1508238168639</start>
+                  <end>1508238179096</end>
                 </successful>
                 <successful>
                   <step>When User click inside the search box must show the cursor</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-                  <durationInMillis>11184</durationInMillis>
-                  <start>1505749188700</start>
-                  <end>1505749199884</end>
+                  <durationInMillis>6989</durationInMillis>
+                  <start>1508238179983</start>
+                  <end>1508238186972</end>
                 </successful>
                 <successful>
                   <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-                  <durationInMillis>6716</durationInMillis>
-                  <start>1505749203535</start>
-                  <end>1505749210251</end>
+                  <durationInMillis>3056</durationInMillis>
+                  <start>1508238187722</start>
+                  <end>1508238190778</end>
                 </successful>
                 <successful>
                   <step>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</parametrisedStep>
-                  <durationInMillis>9846</durationInMillis>
-                  <start>1505749213071</start>
-                  <end>1505749222917</end>
+                  <durationInMillis>6199</durationInMillis>
+                  <start>1508238192093</start>
+                  <end>1508238198292</end>
                 </successful>
                 <successful>
                   <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>13735</durationInMillis>
-                  <start>1505749226142</start>
-                  <end>1505749239877</end>
+                  <durationInMillis>16503</durationInMillis>
+                  <start>1508238199136</start>
+                  <end>1508238215639</end>
                 </successful>
               </results>
             </steps>
@@ -2448,9 +2448,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>64514</durationInMillis>
-        <start>1505749176579</start>
-        <end>1505749241093</end>
+        <durationInMillis>47367</durationInMillis>
+        <start>1508238168634</start>
+        <end>1508238216001</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2611,7 +2611,7 @@ eta:@skip</iWantTo>
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</string>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</string>
             </steps>
           </scenario>
         </scenarios>
@@ -2722,7 +2722,7 @@ eta:@skip</localizedNarrative>
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</string>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</string>
             </steps>
           </scenario>
           <storyPath>stories/Global_Nav/SignedIn.story</storyPath>
@@ -2740,41 +2740,41 @@ eta:@skip</localizedNarrative>
                   <step>Given User on home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>10868</durationInMillis>
-                  <start>1505749241103</start>
-                  <end>1505749251971</end>
+                  <durationInMillis>7151</durationInMillis>
+                  <start>1508238216021</start>
+                  <end>1508238223172</end>
                 </successful>
                 <successful>
                   <step>When User Signed In</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Signed In</parametrisedStep>
-                  <durationInMillis>24430</durationInMillis>
-                  <start>1505749255491</start>
-                  <end>1505749279921</end>
+                  <durationInMillis>25124</durationInMillis>
+                  <start>1508238224046</start>
+                  <end>1508238249170</end>
                 </successful>
                 <successful>
                   <step>Then User see the Text &apos;Account&apos; must be displayed</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>3252</durationInMillis>
-                  <start>1505749283061</start>
-                  <end>1505749286313</end>
+                  <durationInMillis>873</durationInMillis>
+                  <start>1508238250058</start>
+                  <end>1508238250931</end>
                 </successful>
                 <successful>
                   <step>When User Hover Over &apos;Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-                  <durationInMillis>5214</durationInMillis>
-                  <start>1505749288838</start>
-                  <end>1505749294052</end>
+                  <durationInMillis>3925</durationInMillis>
+                  <start>1508238251662</start>
+                  <end>1508238255587</end>
                 </successful>
                 <successful>
                   <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>2916</durationInMillis>
-                  <start>1505749296923</start>
-                  <end>1505749299839</end>
+                  <durationInMillis>1644</durationInMillis>
+                  <start>1508238256926</start>
+                  <end>1508238258570</end>
                 </successful>
                 <successful>
                   <step>Then User verify Oracle account must have options:
@@ -2788,9 +2788,9 @@ eta:@skip</localizedNarrative>
 |Sign Out         |
 |Account          |
 |Help             |?</parametrisedStep>
-                  <durationInMillis>10825</durationInMillis>
-                  <start>1505749303177</start>
-                  <end>1505749314002</end>
+                  <durationInMillis>3841</durationInMillis>
+                  <start>1508238260036</start>
+                  <end>1508238263877</end>
                 </successful>
                 <successful>
                   <step>Then User verify Cloud account must have only option:
@@ -2800,9 +2800,9 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User verify Cloud account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-                  <durationInMillis>3229</durationInMillis>
-                  <start>1505749316702</start>
-                  <end>1505749319931</end>
+                  <durationInMillis>845</durationInMillis>
+                  <start>1508238264703</start>
+                  <end>1508238265548</end>
                 </successful>
                 <successful>
                   <step>Then User Click on Cloud account each links:
@@ -2812,25 +2812,25 @@ eta:@skip</localizedNarrative>
                   <parametrisedStep>Then User Click on Cloud account each links:
 ?|Option  |Link             |appropriate page        |
 |Account |Sign in          |Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>24685</durationInMillis>
-                  <start>1505749322960</start>
-                  <end>1505749347645</end>
+                  <durationInMillis>20847</durationInMillis>
+                  <start>1508238266367</start>
+                  <end>1508238287214</end>
                 </successful>
                 <successful>
                   <step>Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</step>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then User Clicks on oracle account each links:
 ?|Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |?</parametrisedStep>
-                  <durationInMillis>80619</durationInMillis>
-                  <start>1505749351313</start>
-                  <end>1505749431932</end>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|?</parametrisedStep>
+                  <durationInMillis>80216</durationInMillis>
+                  <start>1508238288091</start>
+                  <end>1508238368307</end>
                 </successful>
               </results>
             </steps>
@@ -2934,7 +2934,7 @@ eta:@skip</localizedNarrative>
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</string>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</string>
               </steps>
             </scenario>
           </normalPerformableScenario>
@@ -2945,9 +2945,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>191891</durationInMillis>
-        <start>1505749241102</start>
-        <end>1505749432993</end>
+        <durationInMillis>152733</durationInMillis>
+        <start>1508238216013</start>
+        <end>1508238368746</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -3057,17 +3057,17 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>19263</durationInMillis>
-              <start>1505748676743</start>
-              <end>1505748696006</end>
+              <durationInMillis>12729</durationInMillis>
+              <start>1508237798729</start>
+              <end>1508237811458</end>
             </successful>
             <successful>
               <step>When User verifies Menu bar should not Move while pageload</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-              <durationInMillis>2210</durationInMillis>
-              <start>1505748699776</start>
-              <end>1505748701986</end>
+              <durationInMillis>951</durationInMillis>
+              <start>1508237812534</start>
+              <end>1508237813485</end>
             </successful>
             <successful>
               <step>Then User verifies left Header contains:
@@ -3081,9 +3081,9 @@ eta:@skip</localizedNarrative>
 | Logo   |
 | Search |
 |  Menu  |?</parametrisedStep>
-              <durationInMillis>10172</durationInMillis>
-              <start>1505748704032</start>
-              <end>1505748714204</end>
+              <durationInMillis>4301</durationInMillis>
+              <start>1508237814372</start>
+              <end>1508237818673</end>
             </successful>
             <successful>
               <step>Then User verifies right Header contains:
@@ -3097,9 +3097,9 @@ eta:@skip</localizedNarrative>
 | Account|
 | Country|
 | Call   |?</parametrisedStep>
-              <durationInMillis>15802</durationInMillis>
-              <start>1505748717683</start>
-              <end>1505748733485</end>
+              <durationInMillis>10244</durationInMillis>
+              <start>1508237819408</start>
+              <end>1508237829652</end>
             </successful>
           </results>
         </steps>
@@ -3297,33 +3297,33 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>9924</durationInMillis>
-              <start>1505748735813</start>
-              <end>1505748745737</end>
+              <durationInMillis>7468</durationInMillis>
+              <start>1508237830264</start>
+              <end>1508237837732</end>
             </successful>
             <successful>
               <step>When User Hover over on &apos;Country&apos; text</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-              <durationInMillis>3882</durationInMillis>
-              <start>1505748749046</start>
-              <end>1505748752928</end>
+              <durationInMillis>1931</durationInMillis>
+              <start>1508237838613</start>
+              <end>1508237840544</end>
             </successful>
             <successful>
               <step>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</parametrisedStep>
-              <durationInMillis>5778</durationInMillis>
-              <start>1505748755712</start>
-              <end>1505748761490</end>
+              <durationInMillis>1657</durationInMillis>
+              <start>1508237841446</start>
+              <end>1508237843103</end>
             </successful>
             <successful>
               <step>Then Depending upon which country the page belongs to,  pin must appear against it</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then Depending upon which country the page belongs to,  pin must appear against it</parametrisedStep>
-              <durationInMillis>39902</durationInMillis>
-              <start>1505748764555</start>
-              <end>1505748804457</end>
+              <durationInMillis>19027</durationInMillis>
+              <start>1508237843850</start>
+              <end>1508237862877</end>
             </successful>
           </results>
         </steps>
@@ -3513,33 +3513,33 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>9171</durationInMillis>
-              <start>1505748807264</start>
-              <end>1505748816435</end>
+              <durationInMillis>7321</durationInMillis>
+              <start>1508237863298</start>
+              <end>1508237870619</end>
             </successful>
             <successful>
               <step>When User hover on Menu Bar shows primary panel with categories</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-              <durationInMillis>8247</durationInMillis>
-              <start>1505748824506</start>
-              <end>1505748832753</end>
+              <durationInMillis>4000</durationInMillis>
+              <start>1508237871553</start>
+              <end>1508237875553</end>
             </successful>
             <successful>
               <step>Then User hover on primary categories panel shows secondary panel</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-              <durationInMillis>8173</durationInMillis>
-              <start>1505748835667</start>
-              <end>1505748843840</end>
+              <durationInMillis>4581</durationInMillis>
+              <start>1508237876284</start>
+              <end>1508237880865</end>
             </successful>
             <successful>
               <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-              <durationInMillis>11267</durationInMillis>
-              <start>1505748846851</start>
-              <end>1505748858118</end>
+              <durationInMillis>6235</durationInMillis>
+              <start>1508237881883</start>
+              <end>1508237888118</end>
             </successful>
           </results>
         </steps>
@@ -3746,41 +3746,41 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>8620</durationInMillis>
-              <start>1505748860097</start>
-              <end>1505748868717</end>
+              <durationInMillis>7483</durationInMillis>
+              <start>1508237888566</start>
+              <end>1508237896049</end>
             </successful>
             <successful>
               <step>When User Not signed In</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Not signed In</parametrisedStep>
-              <durationInMillis>3517</durationInMillis>
-              <start>1505748872115</start>
-              <end>1505748875632</end>
+              <durationInMillis>1129</durationInMillis>
+              <start>1508237896980</start>
+              <end>1508237898109</end>
             </successful>
             <successful>
               <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-              <durationInMillis>14010</durationInMillis>
-              <start>1505748877829</start>
-              <end>1505748891839</end>
+              <durationInMillis>11163</durationInMillis>
+              <start>1508237898987</start>
+              <end>1508237910150</end>
             </successful>
             <successful>
               <step>When User Hover over &apos;Sign In&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-              <durationInMillis>4157</durationInMillis>
-              <start>1505748894191</start>
-              <end>1505748898348</end>
+              <durationInMillis>2561</durationInMillis>
+              <start>1508237911538</start>
+              <end>1508237914099</end>
             </successful>
             <successful>
               <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>3476</durationInMillis>
-              <start>1505748901733</start>
-              <end>1505748905209</end>
+              <durationInMillis>897</durationInMillis>
+              <start>1508237914871</start>
+              <end>1508237915768</end>
             </successful>
             <successful>
               <step>Then User verify Oracle Account must have options:
@@ -3794,9 +3794,9 @@ eta:@skip</localizedNarrative>
 |Sign in          |
 |Create an account|
 |Help             |?</parametrisedStep>
-              <durationInMillis>7315</durationInMillis>
-              <start>1505748908399</start>
-              <end>1505748915714</end>
+              <durationInMillis>2740</durationInMillis>
+              <start>1508237916606</start>
+              <end>1508237919346</end>
             </successful>
             <successful>
               <step>Then User verify Cloud Account must have only option:
@@ -3806,9 +3806,9 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User verify Cloud Account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-              <durationInMillis>2758</durationInMillis>
-              <start>1505748918229</start>
-              <end>1505748920987</end>
+              <durationInMillis>797</durationInMillis>
+              <start>1508237920097</start>
+              <end>1508237920894</end>
             </successful>
             <successful>
               <step>Then User Click on Cloud Account each links:
@@ -3818,9 +3818,9 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link             |appropriate page        |
 |Sign In |Sign in          |Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>24646</durationInMillis>
-              <start>1505748924080</start>
-              <end>1505748948726</end>
+              <durationInMillis>19758</durationInMillis>
+              <start>1508237921673</start>
+              <end>1508237941431</end>
             </successful>
             <successful>
               <step>Then User Click on Oracle Account each links:
@@ -3834,9 +3834,9 @@ eta:@skip</localizedNarrative>
 |Sign In|Help             |About Your Oracle Account|
 |Sign In|Create an account|Create Account           |
 |Sign In|Sign in          |Single Sign On - Login   |?</parametrisedStep>
-              <durationInMillis>107976</durationInMillis>
-              <start>1505748952022</start>
-              <end>1505749059998</end>
+              <durationInMillis>111261</durationInMillis>
+              <start>1508237942318</start>
+              <end>1508238053579</end>
             </successful>
           </results>
         </steps>
@@ -4045,49 +4045,49 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>11229</durationInMillis>
-              <start>1505749061844</start>
-              <end>1505749073073</end>
+              <durationInMillis>7343</durationInMillis>
+              <start>1508238054042</start>
+              <end>1508238061385</end>
             </successful>
             <successful>
               <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-              <durationInMillis>13768</durationInMillis>
-              <start>1505749076470</start>
-              <end>1505749090238</end>
+              <durationInMillis>9162</durationInMillis>
+              <start>1508238062258</start>
+              <end>1508238071420</end>
             </successful>
             <successful>
               <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-              <durationInMillis>12573</durationInMillis>
-              <start>1505749093304</start>
-              <end>1505749105877</end>
+              <durationInMillis>9369</durationInMillis>
+              <start>1508238072693</start>
+              <end>1508238082062</end>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>17454</durationInMillis>
-              <start>1505749108683</start>
-              <end>1505749126137</end>
+              <durationInMillis>43823</durationInMillis>
+              <start>1508238082969</start>
+              <end>1508238126792</end>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>24707</durationInMillis>
-              <start>1505749130478</start>
-              <end>1505749155185</end>
+              <durationInMillis>28406</durationInMillis>
+              <start>1508238127694</start>
+              <end>1508238156100</end>
             </successful>
             <successful>
               <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-              <durationInMillis>15698</durationInMillis>
-              <start>1505749158291</start>
-              <end>1505749173989</end>
+              <durationInMillis>10468</durationInMillis>
+              <start>1508238157001</start>
+              <end>1508238167469</end>
             </successful>
           </results>
         </steps>
@@ -4280,41 +4280,41 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>8937</durationInMillis>
-              <start>1505749176581</start>
-              <end>1505749185518</end>
+              <durationInMillis>10457</durationInMillis>
+              <start>1508238168639</start>
+              <end>1508238179096</end>
             </successful>
             <successful>
               <step>When User click inside the search box must show the cursor</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-              <durationInMillis>11184</durationInMillis>
-              <start>1505749188700</start>
-              <end>1505749199884</end>
+              <durationInMillis>6989</durationInMillis>
+              <start>1508238179983</start>
+              <end>1508238186972</end>
             </successful>
             <successful>
               <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-              <durationInMillis>6716</durationInMillis>
-              <start>1505749203535</start>
-              <end>1505749210251</end>
+              <durationInMillis>3056</durationInMillis>
+              <start>1508238187722</start>
+              <end>1508238190778</end>
             </successful>
             <successful>
               <step>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</parametrisedStep>
-              <durationInMillis>9846</durationInMillis>
-              <start>1505749213071</start>
-              <end>1505749222917</end>
+              <durationInMillis>6199</durationInMillis>
+              <start>1508238192093</start>
+              <end>1508238198292</end>
             </successful>
             <successful>
               <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>13735</durationInMillis>
-              <start>1505749226142</start>
-              <end>1505749239877</end>
+              <durationInMillis>16503</durationInMillis>
+              <start>1508238199136</start>
+              <end>1508238215639</end>
             </successful>
           </results>
         </steps>
@@ -4504,7 +4504,7 @@ eta:@skip</localizedNarrative>
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</string>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</string>
         </steps>
       </scenario>
       <storyPath>stories/Global_Nav/SignedIn.story</storyPath>
@@ -4522,41 +4522,41 @@ eta:@skip</localizedNarrative>
               <step>Given User on home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>10868</durationInMillis>
-              <start>1505749241103</start>
-              <end>1505749251971</end>
+              <durationInMillis>7151</durationInMillis>
+              <start>1508238216021</start>
+              <end>1508238223172</end>
             </successful>
             <successful>
               <step>When User Signed In</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Signed In</parametrisedStep>
-              <durationInMillis>24430</durationInMillis>
-              <start>1505749255491</start>
-              <end>1505749279921</end>
+              <durationInMillis>25124</durationInMillis>
+              <start>1508238224046</start>
+              <end>1508238249170</end>
             </successful>
             <successful>
               <step>Then User see the Text &apos;Account&apos; must be displayed</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-              <durationInMillis>3252</durationInMillis>
-              <start>1505749283061</start>
-              <end>1505749286313</end>
+              <durationInMillis>873</durationInMillis>
+              <start>1508238250058</start>
+              <end>1508238250931</end>
             </successful>
             <successful>
               <step>When User Hover Over &apos;Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-              <durationInMillis>5214</durationInMillis>
-              <start>1505749288838</start>
-              <end>1505749294052</end>
+              <durationInMillis>3925</durationInMillis>
+              <start>1508238251662</start>
+              <end>1508238255587</end>
             </successful>
             <successful>
               <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>2916</durationInMillis>
-              <start>1505749296923</start>
-              <end>1505749299839</end>
+              <durationInMillis>1644</durationInMillis>
+              <start>1508238256926</start>
+              <end>1508238258570</end>
             </successful>
             <successful>
               <step>Then User verify Oracle account must have options:
@@ -4570,9 +4570,9 @@ eta:@skip</localizedNarrative>
 |Sign Out         |
 |Account          |
 |Help             |?</parametrisedStep>
-              <durationInMillis>10825</durationInMillis>
-              <start>1505749303177</start>
-              <end>1505749314002</end>
+              <durationInMillis>3841</durationInMillis>
+              <start>1508238260036</start>
+              <end>1508238263877</end>
             </successful>
             <successful>
               <step>Then User verify Cloud account must have only option:
@@ -4582,9 +4582,9 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User verify Cloud account must have only option:
 ?|option |
 |Sign in|?</parametrisedStep>
-              <durationInMillis>3229</durationInMillis>
-              <start>1505749316702</start>
-              <end>1505749319931</end>
+              <durationInMillis>845</durationInMillis>
+              <start>1508238264703</start>
+              <end>1508238265548</end>
             </successful>
             <successful>
               <step>Then User Click on Cloud account each links:
@@ -4594,25 +4594,25 @@ eta:@skip</localizedNarrative>
               <parametrisedStep>Then User Click on Cloud account each links:
 ?|Option  |Link             |appropriate page        |
 |Account |Sign in          |Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>24685</durationInMillis>
-              <start>1505749322960</start>
-              <end>1505749347645</end>
+              <durationInMillis>20847</durationInMillis>
+              <start>1508238266367</start>
+              <end>1508238287214</end>
             </successful>
             <successful>
               <step>Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</step>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then User Clicks on oracle account each links:
 ?|Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |?</parametrisedStep>
-              <durationInMillis>80619</durationInMillis>
-              <start>1505749351313</start>
-              <end>1505749431932</end>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|?</parametrisedStep>
+              <durationInMillis>80216</durationInMillis>
+              <start>1508238288091</start>
+              <end>1508238368307</end>
             </successful>
           </results>
         </steps>
@@ -4716,7 +4716,7 @@ eta:@skip</localizedNarrative>
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |</string>
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|</string>
           </steps>
         </scenario>
       </normalPerformableScenario>

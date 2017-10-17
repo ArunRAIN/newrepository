@@ -26,5 +26,5 @@ Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Single Sign-Of           |
+|Account|Sign Out         |Integrated Cloud Applications and Platform Services|
 

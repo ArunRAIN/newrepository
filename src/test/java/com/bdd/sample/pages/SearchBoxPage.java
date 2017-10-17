@@ -37,7 +37,7 @@ public class SearchBoxPage extends PageObject
     
     public void click_on_inside_textbox() throws AWTException
     {
-  waitABit(3000);
+  waitABit(4000);
   WebElement un = searchbox;
   int xaxis = un.getLocation().x;
    

@@ -20,6 +20,7 @@ com\bdd\sample\pages\SignedInPage.class
 com\bdd\sample\steps\serenity\SearchAutosuggestSteps.class
 com\bdd\sample\steps2\SignedInDefinition.class
 com\bdd\sample\steps\serenity\SearchBoxUserStep.class
+com\bdd\sample\WriteToReport.class
 com\bdd\sample\steps2\MenuDefinitionSteps.class
 com\bdd\sample\pages\DictionaryPage$1.class
 com\bdd\sample\pages\MenuobjectPage.class

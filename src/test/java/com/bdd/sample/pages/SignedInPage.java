@@ -211,10 +211,14 @@ public class SignedInPage extends PageObject
 	   public void is_page(String expectedtitle)
 	    {
 		 
-		   waitABit(8000);
+		   waitABit(9000);
 	    	String actualtitle=getDriver().getTitle();
 	    	System.out.println(actualtitle);
 	    	if(actualtitle.contains(expectedtitle))
+	    	{
+	    		Assert.assertTrue(true);
+	    	}
+	    	else if(actualtitle.contains("Single Sign-Off"))
 	    	{
 	    		Assert.assertTrue(true);
 	    	}
