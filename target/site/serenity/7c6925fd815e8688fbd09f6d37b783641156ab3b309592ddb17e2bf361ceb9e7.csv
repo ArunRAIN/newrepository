@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Signed in","Test case -Signed-In","ERROR","2017-10-17T15:59:21.493+05:30","0.0","301.29"
+"Signed in","Test case -Signed-In","FAILURE","2018-01-24T16:56:59.158+05:30","0.0","125.59"
+"Signed in","Test case -Signed-In","FAILURE","2018-01-24T17:12:55.539+05:30","0.0","93.61"
+"Signed in","Test case -Signed-In","FAILURE","2018-01-24T17:21:33.348+05:30","0.0","124.15"

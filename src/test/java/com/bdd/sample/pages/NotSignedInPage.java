@@ -85,7 +85,7 @@ public class NotSignedInPage extends PageObject
 	 public void hover_on(String text)
 	    {
 		 waitABit(1500);
-		  WebElement ele1 = getDriver().findElement(By.xpath("//span[text()='Country']/../../../li//span[text()='"+text+"']"));
+		  WebElement ele1 = getDriver().findElement(By.xpath("//span[contains(text(),'Country')]/../../../li//span[text()='"+text+"']"));
 	    	Actions a=new Actions(getDriver());
 	    			a.moveToElement(ele1).perform();
 	    }
@@ -95,7 +95,7 @@ public class NotSignedInPage extends PageObject
 	   public void option_display(String option1,String option2)
 	    {
 		 
-	       int  rele=getDriver().findElements(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2  or position()=3]/h5[contains(text(),'"+option1+"')]")).size();
+	       int  rele=getDriver().findElements(By.xpath("//div[@class='u02userin']//div[position()=2  or position()=3]/h5[contains(text(),'"+option1+"')]")).size();
 		    if(rele==1)
 		    {
 		    	Assert.assertTrue(true);
@@ -105,7 +105,7 @@ public class NotSignedInPage extends PageObject
 		    	Assert.assertTrue(false);
 		    }
 		    
-		    int  rele2=getDriver().findElements(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2  or position()=3]/h5[contains(text(),'"+option2+"')]")).size();
+		    int  rele2=getDriver().findElements(By.xpath("//div[@class='u02userin']//div[position()=2  or position()=3]/h5[contains(text(),'"+option2+"')]")).size();
 		    if(rele2==1)
 		    {
 		    	Assert.assertTrue(true);
@@ -119,7 +119,7 @@ public class NotSignedInPage extends PageObject
 	   
 	   public void oracle_account_option(String option)
 	   {
-		       int ele22 = getDriver().findElements(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+option+"')]")).size();
+		       int ele22 = getDriver().findElements(By.xpath("//div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+option+"')]")).size();
 		    	 if(ele22==1)
 		    	    {
 		    	    	Assert.assertTrue(true);
@@ -134,7 +134,7 @@ public class NotSignedInPage extends PageObject
 	   
 	   public void cloud_account_option(String option)
 	   {
-		       int ele22 = getDriver().findElements(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+option+"')]")).size();
+		       int ele22 = getDriver().findElements(By.xpath("//div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+option+"')]")).size();
 		    	 if(ele22==1)
 		    	    {
 		    	    	Assert.assertTrue(true);
@@ -267,7 +267,7 @@ public class NotSignedInPage extends PageObject
 	   public void oracle_account_option_click(String link,String option,String expectedtitle)
 	   {
 		      waitABit(3000);
-		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+link+"')]"));
+		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userin']//div[position()=2]//a[contains(text(),'"+link+"')]"));
 		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
 	    	js.executeScript("arguments[0].click();", ele);
 	    	waitABit(9000);
@@ -289,7 +289,7 @@ public class NotSignedInPage extends PageObject
 	   public void oracle_cloud_account_option_click(String link)
 	   {
 		      
-		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02user u02toolpop']/div[@class='u02userin']//div[position()=3]//a[contains(text(),'"+link+"')]"));
+		   WebElement ele = getDriver().findElement(By.xpath("//div[@class='u02userin']//div[position()=3]//a[text()='"+link+"'] "));
 		   JavascriptExecutor js = (JavascriptExecutor)getDriver();
 	    	js.executeScript("arguments[0].click();", ele); 
 		   waitABit(3000);	

@@ -16,10 +16,12 @@ Then User verify Oracle Account must have options:
 |Help             |
 Then User verify Cloud Account must have only option:
 |option |
-|Sign in|
+|Sign In|
+|Sign Up—Free Trial|
 Then User Click on Cloud Account each links:
-|Option  |Link             |appropriate page        |
-|Sign In |Sign in          |Oracle Cloud            |
+|Option  |Link              |appropriate page        |
+|Sign In |Sign In           |Oracle Cloud            |
+|Sign In |Sign Up—Free Trial|Oracle Cloud            |
 Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Help             |About Your Oracle Account|
