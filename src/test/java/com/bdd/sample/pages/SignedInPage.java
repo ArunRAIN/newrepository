@@ -93,6 +93,8 @@ public class SignedInPage extends PageObject
     
     public void SignIn_account()
     {
+    	
+    	Genric.getPropertyValue("");
     	WebDriverWait wait=new WebDriverWait(getDriver(),300);
     	wait.until(ExpectedConditions.visibilityOf(usrname));
         usrname.type(Genric.getPropertyValue("UN"));
@@ -140,12 +142,19 @@ public class SignedInPage extends PageObject
 	 public void hover_on_signin(String text)
 	    {
 		 waitABit(3000);
+		 List<WebElement> dd = getDriver().findElements(By.xpath("//span[contains(text(),'Country')]/../../../li//span[text()='"+text+"']"));
+		 if(dd.size()==1)
+		 {
 		 //System.out.println("//span[text()='Country']/../../../li//span[text()='Account']");
 		  WebElement ele1 = getDriver().findElement(By.xpath("//span[contains(text(),'Country')]/../../../li//span[text()='"+text+"']"));
 	    	Actions a=new Actions(getDriver());
 	    			a.moveToElement(ele1).perform();
 	    }
-	 
+		 else
+		 {
+			 
+		 }
+	    }
 	 
 	 
 	   public void option_display(String option1,String option2)
@@ -218,9 +227,15 @@ public class SignedInPage extends PageObject
 	    	{
 	    		Assert.assertTrue(true);
 	    	}
-	    	else if(actualtitle.contains("Single Sign-Off"))
+	    	else if(actualtitle.contains("Single Sign On"))
 	    	{
 	    		Assert.assertTrue(true);
+//	    		usrname.type(Genric.getPropertyValue("UN"));
+//	            pwd.type(Genric.getPropertyValue("PW"));
+//	            waitABit(4000);
+//	            JavascriptExecutor js = (JavascriptExecutor)getDriver();
+//		    	js.executeScript("arguments[0].click();", signbtn);
+		    	
 	    	}
 	    	else
 	    	{
@@ -228,7 +243,7 @@ public class SignedInPage extends PageObject
   
 	    	}
 	    	
-	    	navigate_page();
+	    	getDriver().get(Genric.getPropertyValue("URL"));
 	    
 	    }
 	   

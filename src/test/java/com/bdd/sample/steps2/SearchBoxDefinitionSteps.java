@@ -62,10 +62,11 @@ public class SearchBoxDefinitionSteps
    
     
     @Then("User Click on the '$option' options should navigate to '$expectedtitle' page")
-   	public void UserClickontheoptionsshouldnavigatetopage(String option,String expectedtitle) 
+   	public void UserClickontheoptionsshouldnavigatetopage(String option,String expectedtitle) throws AWTException 
    	{
 
     	scustep.click_option(option);
+    	
     	
     	
     	scustep.is_page(expectedtitle);

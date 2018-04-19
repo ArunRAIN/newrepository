@@ -1,7 +1,5 @@
 package com.bdd.sample.pages;
 
-import ch.lambdaj.function.convert.Converter;
-
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -21,8 +19,6 @@ import net.thucydides.core.pages.PageObject;
 
 import java.util.List;
 import java.util.Random;
-
-import static ch.lambdaj.Lambda.convert;
 
 @DefaultUrl("https://www.oracle.com/index.html")
 public class DictionaryPage extends PageObject {
@@ -47,8 +43,10 @@ public class DictionaryPage extends PageObject {
     
     public void login()
     {
-    	usrname.type("arun.panneer@oracle.com");
-    	pwd.type("Naikqa@99");
+    	String urn = Genric.getPropertyValue("UN");
+    	String pwdd = Genric.getPropertyValue("PW");
+    	usrname.type(urn);
+    	pwd.type(pwdd);
     	signbtn.click();
     }
   
@@ -123,11 +121,11 @@ public class DictionaryPage extends PageObject {
     
     public void search(String header)
     {String input = header.toLowerCase();
-    	WebElementFacade ele3 = find(By.xpath("//div[@class='u02w1']//div[@class='u02search']//input[@class='u02"+input+"bttn']"));
+    	WebElementFacade ele3 = find(By.xpath("//input[@class='u02"+input+"bttn']"));
 		Actions builder = new Actions(getDriver());
 		builder.doubleClick(ele3).perform();
     	
-    	int ele = getDriver().findElements(By.xpath("//div[@class='u02w1']//div[@class='u02"+input+"']")).size();
+    	int ele = getDriver().findElements(By.xpath("//div[@class='u02w1']//div[contains(@class,'u02"+input+"')]")).size();
     	
     	 if(ele==1)
     	{
@@ -225,11 +223,5 @@ public class DictionaryPage extends PageObject {
 		return num;
 	}
    
-    private Converter<WebElement, String> toStrings() {
-        return new Converter<WebElement, String>() {
-            public String convert(WebElement from) {
-                return from.getText();
-            }
-        };
-    }
+   
 }

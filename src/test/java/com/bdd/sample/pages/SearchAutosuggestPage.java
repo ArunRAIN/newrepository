@@ -51,7 +51,7 @@ public class SearchAutosuggestPage extends PageObject
     public void verify_Autosuggestion_display()
     {
     	waitABit(4000);
-	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[1]"));
+	    List<WebElement> ele = getDriver().findElements(By.xpath("//div[contains(@class,'u02search')]/ul/li[1]"));
 	  
 	    if(ele.size()==1)
 	    {
@@ -67,9 +67,9 @@ public class SearchAutosuggestPage extends PageObject
     public void verify_Autosuggestion_not_display()
     {
     	waitABit(2000);
-	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][contains(@style,'display: block')]/li[1]"));
+	    WebElement ele = getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[1]"));
 	  
-	    if(ele.size()==1)
+	    if(ele.isDisplayed())
 	    {
 	    	Assert.assertTrue(false);
 	    }
@@ -93,7 +93,7 @@ public class SearchAutosuggestPage extends PageObject
     
     public void is_page(String expectedtitle)
     {
-    	waitABit(15000);
+    	waitABit(17000);
     	String actualtitle=getDriver().getTitle();
     	
     	Assert.assertEquals(expectedtitle, actualtitle);

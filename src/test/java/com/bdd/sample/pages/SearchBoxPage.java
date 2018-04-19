@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
@@ -33,7 +34,12 @@ public class SearchBoxPage extends PageObject
     @FindBy(xpath="//input[@value='Submit Search']")
     private WebElementFacade searchicon;
     
-   
+    
+    @FindBy(xpath="//div[contains(@class,'u02search')]/ul/li[4]/b")
+    private WebElementFacade searchopt;
+    
+    
+    
     
     public void click_on_inside_textbox() throws AWTException
     {
@@ -71,7 +77,7 @@ public class SearchBoxPage extends PageObject
     public void verify_search_option_displays()
     {
     	waitABit(3000);
-	    List<WebElement> ele = getDriver().findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content']/li[1]"));
+	    List<WebElement> ele = getDriver().findElements(By.xpath("//div[contains(@class,'u02search')]/ul/li[1]"));
 	  
 	    if(ele.size()==1)
 	    {
@@ -84,16 +90,30 @@ public class SearchBoxPage extends PageObject
     
     }
     
-    public void click_option(String option)
+    public void click_option(String option) throws AWTException
     {
+    	System.out.println(option);
+    	WebElement ele = getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]"));
     	
-    	WebElement ele = getDriver().findElement(By.xpath("//li[contains(.,'"+option+"')]"));
-    	waitABit(4000);
-    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
-    	js.executeScript("arguments[0].click();", ele);
-    	waitABit(5000);
+//    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+//    	js.executeScript("arguments[0].click();", getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]")));
+    	waitABit(3000);
+    	
+    	Robot r=new Robot();
+    	r.keyPress(KeyEvent.VK_DOWN);
+    	r.keyRelease(KeyEvent.VK_DOWN);
+    	r.keyPress(KeyEvent.VK_DOWN);
+    	r.keyRelease(KeyEvent.VK_DOWN);
+    	r.keyPress(KeyEvent.VK_DOWN);
+    	r.keyRelease(KeyEvent.VK_DOWN);
+    	r.keyPress(KeyEvent.VK_DOWN);
+    	r.keyRelease(KeyEvent.VK_DOWN);
+    	r.keyPress(KeyEvent.VK_ENTER);
+    	r.keyRelease(KeyEvent.VK_ENTER);
+    	waitABit(9000);
     }
     
+   
     public void is_page(String expectedtitle)
     {
     	String actualtitle=getDriver().getTitle();
@@ -109,6 +129,8 @@ public class SearchBoxPage extends PageObject
     	JavascriptExecutor js = (JavascriptExecutor)getDriver();
     	js.executeScript("arguments[0].click();", searchicon);
     }
+    
+   
     public void is_display()
     {
 //        waitABit(300);

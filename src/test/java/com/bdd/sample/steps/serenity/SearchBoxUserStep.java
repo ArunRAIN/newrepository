@@ -43,7 +43,7 @@ public class SearchBoxUserStep extends ScenarioSteps
 		
 		
 		@Step
-		public void click_option(String option)
+		public void click_option(String option) throws AWTException
 		{
 			 scpage.click_option(option);
 		}
