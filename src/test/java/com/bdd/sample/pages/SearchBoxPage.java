@@ -6,9 +6,12 @@ import java.awt.event.KeyEvent;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -44,18 +47,46 @@ public class SearchBoxPage extends PageObject
     public void click_on_inside_textbox() throws AWTException
     {
   waitABit(4000);
-  WebElement un = searchbox;
-  int xaxis = un.getLocation().x;
-   
-  int yaxis=un.getLocation().y;
-   
-  int width = un.getSize().width;
-  int height= un.getSize().height;
-   
-  Robot r=new Robot();
-  r.mouseMove(xaxis+width+50/2, yaxis+height/2+150);
-  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
-  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+  
+  
+
+  
+  JavascriptExecutor js = (JavascriptExecutor)getDriver();
+  String sText =  js.executeScript("return navigator.userAgent").toString();
+ System.out.println(sText);
+ 
+ if(sText.contains("Chrome"))
+ {
+	  WebElement un = searchbox;
+	  int xaxis = un.getLocation().x;
+	   
+	  int yaxis=un.getLocation().y;
+	   
+	  int width = un.getSize().width;
+	  int height= un.getSize().height;
+	   
+	  Robot r=new Robot();
+	  r.mouseMove(xaxis+width+50/2, yaxis+height/2+160);
+	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
+	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+ }
+ else
+ {
+	  WebElement un = searchbox;
+	  int xaxis = un.getLocation().x;
+	   
+	  int yaxis=un.getLocation().y;
+	   
+	  int width = un.getSize().width;
+	  int height= un.getSize().height;
+	   
+	  Robot r=new Robot();
+	  r.mouseMove(xaxis+width+50/2, yaxis+height/2+150);
+	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
+	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+ }
+ 
+  
     }
     
     public void is_focus_on_textbox()
