@@ -91,7 +91,7 @@ public class MenuobjectPage extends PageObject
     {
     	
     	
-         int ele2=getDriver().findElements(By.xpath("//div[@id='u02mmenu']/div/ul/li[2]/div[@class='u02menu-l2 u02menuwrap u02mheight']/ul/li[2]")).size();
+         int ele2=getDriver().findElements(By.xpath("(//div[@class='u02menu-l1 u02menuwrap u02mheight']//li/a[text()='Products'])[1]/../div/ul/li/a[text()='IT Infrastructure']/../div/ul/li/a[text()='IT Infrastructure']")).size();
        
          if(ele2==1)
      	{
@@ -106,7 +106,7 @@ public class MenuobjectPage extends PageObject
     
     public void hover_on_secondary_panel_catagories()
     {
-    	WebElement hover = getDriver().findElement(By.xpath("//div[@class='u02menu-l2 u02menuwrap u02mheight']/ul/li/a[contains(text(),'Customer Experience')]"));
+    	WebElement hover = getDriver().findElement(By.xpath("(//div[@class='u02menu-l1 u02menuwrap u02mheight']//li/a[text()='Products'])[1]/../div/ul/li/a[text()='IT Infrastructure']"));
     	Actions a1=new Actions(getDriver());
     	a1.moveToElement(hover).perform();
     	
@@ -117,7 +117,7 @@ public class MenuobjectPage extends PageObject
     
     public void shows_categories_with_direct_link()
     {
-    	List<WebElement> ele=getDriver().findElements(By.xpath("(//div[@class='u02menu-l2 u02menuwrap u02mheight']/ul/li/a[contains(text(),'Customer Experience')]/../../../ul/li/div)[1]/ul/li/a"));
+    	List<WebElement> ele=getDriver().findElements(By.xpath("(//div[@class='u02menu-l1 u02menuwrap u02mheight']//li/a[text()='Products'])[1]/../div/ul/li/a[text()='IT Infrastructure']/../div/ul/li/a[text()='IT Infrastructure']/../following-sibling::li"));
         
         for(int i=1;i<ele.size();i++)
         {

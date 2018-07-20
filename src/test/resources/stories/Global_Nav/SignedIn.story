@@ -19,14 +19,14 @@ Then User verify Oracle account must have options:
 Then User verify Cloud account must have only option:
 |option |
 |Sign In|
-|Sign Up—Free Trial|
+|Free Cloud Platform Trial|
 Then User Click on Cloud Account each links:
-|Option  |Link              |appropriate page        |
-|Account |Sign In           |Oracle Cloud            |
-|Account |Sign Up—Free Trial|Oracle Cloud            |
+|Option  |Link                     |appropriate page        |
+|Account |Sign In                  |Oracle Cloud            |
+|Account |Free Cloud Platform Trial|Oracle Cloud            |
 Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
 |Account|Help             |About Your Oracle Account|
 |Account|Account          |Update Account           |
-|Account|Sign Out         |Oracle.com Search            |
+|Account|Sign Out         |Search                   |
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="1,070.961" tests="57" errors="0" skipped="0" failures="0">
+<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="1,240.289" tests="57" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\arpannee\AppData\Local\Programs\Python\Python36-32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;C:\Users\arpannee\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\arpannee\AppData\Local\Programs\Python\Python36-32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;C:\Users\arpannee\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -65,61 +65,61 @@
     <property name="context" value="chrome"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.102"/>
-  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="11.624"/>
-  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="1.018"/>
-  <testcase name="Then User verifies left Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.971"/>
-  <testcase name="Then User verifies right Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="8.755"/>
-  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="9.062"/>
-  <testcase name="Accelerator.story" classname="Accelerator.story" time="9.6"/>
-  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="8.973"/>
-  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="2.026"/>
-  <testcase name="Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed" classname="com.bdd.sample.steps2.CountryListDefinition" time="1.747"/>
-  <testcase name="Then Depending upon which country the page belongs to,  pin must appear against it" classname="com.bdd.sample.steps2.CountryListDefinition" time="17.711"/>
-  <testcase name="Scenario: Show regions and its countries" classname="Scenario: Show regions and its countries" time="18.019"/>
-  <testcase name="CountryList.story" classname="CountryList.story" time="18.318"/>
-  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="8.642"/>
-  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.057"/>
-  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.058"/>
-  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="6.06"/>
-  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="6.387"/>
-  <testcase name="Menu.story" classname="Menu.story" time="6.704"/>
-  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.591"/>
-  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0.996"/>
-  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="10.965"/>
-  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.626"/>
-  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.06"/>
-  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.387"/>
-  <testcase name="Then User verify Cloud Account must have only option:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.641"/>
-  <testcase name="Then User Click on Cloud Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="44.804"/>
-  <testcase name="Then User Click on Oracle Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="110.474"/>
-  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="110.787"/>
-  <testcase name="NotSignedIn.story" classname="NotSignedIn.story" time="111.032"/>
-  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="8.676"/>
-  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8.921"/>
-  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8.808"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="30.755"/>
-  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="29.54"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="7.638"/>
-  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="7.96"/>
-  <testcase name="SearchAutosuggestion.story" classname="SearchAutosuggestion.story" time="8.14"/>
-  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.172"/>
-  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="6.859"/>
-  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="1.835"/>
-  <testcase name="Then User text is type &apos;jav&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="5.247"/>
-  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="13.652"/>
-  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="13.972"/>
-  <testcase name="SearchBox.story" classname="SearchBox.story" time="14.232"/>
-  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="32.742"/>
-  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="25.651"/>
-  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="0.983"/>
-  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="4.127"/>
-  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.012"/>
-  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.28"/>
-  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.583"/>
-  <testcase name="Then User Click on Cloud Account each links:​" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="42.138"/>
-  <testcase name="Then User Clicks on oracle account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="76.964"/>
-  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="77.259"/>
-  <testcase name="SignedIn.story" classname="SignedIn.story" time="77.614"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.004"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.13"/>
+  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="13.543"/>
+  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="1.556"/>
+  <testcase name="Then User verifies left Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="5.481"/>
+  <testcase name="Then User verifies right Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.471"/>
+  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="9.991"/>
+  <testcase name="Accelerator.story" classname="Accelerator.story" time="10.521"/>
+  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="10.001"/>
+  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="2.656"/>
+  <testcase name="Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed" classname="com.bdd.sample.steps2.CountryListDefinition" time="2.134"/>
+  <testcase name="Then Depending upon which country the page belongs to,  pin must appear against it" classname="com.bdd.sample.steps2.CountryListDefinition" time="18.938"/>
+  <testcase name="Scenario: Show regions and its countries" classname="Scenario: Show regions and its countries" time="19.357"/>
+  <testcase name="CountryList.story" classname="CountryList.story" time="19.833"/>
+  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.809"/>
+  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.626"/>
+  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="4.917"/>
+  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="5.394"/>
+  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="5.776"/>
+  <testcase name="Menu.story" classname="Menu.story" time="6.229"/>
+  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.828"/>
+  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.397"/>
+  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="11.38"/>
+  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.926"/>
+  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.203"/>
+  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.862"/>
+  <testcase name="Then User verify Cloud Account must have only option:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.043"/>
+  <testcase name="Then User Click on Cloud Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="48.612"/>
+  <testcase name="Then User Click on Oracle Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="129.271"/>
+  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="129.734"/>
+  <testcase name="NotSignedIn.story" classname="NotSignedIn.story" time="130.343"/>
+  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="10.89"/>
+  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="9.646"/>
+  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="9.38"/>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="52.658"/>
+  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="50.542"/>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8.581"/>
+  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="9.032"/>
+  <testcase name="SearchAutosuggestion.story" classname="SearchAutosuggestion.story" time="9.578"/>
+  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.827"/>
+  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="10.64"/>
+  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="2.568"/>
+  <testcase name="Then User text is type &apos;jav&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="5.75"/>
+  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="13.945"/>
+  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="14.261"/>
+  <testcase name="SearchBox.story" classname="SearchBox.story" time="14.707"/>
+  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="9.945"/>
+  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="26.407"/>
+  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.318"/>
+  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="4.49"/>
+  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.225"/>
+  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.908"/>
+  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="2.021"/>
+  <testcase name="Then User Click on Cloud Account each links:​" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="50.743"/>
+  <testcase name="Then User Clicks on oracle account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="92.63"/>
+  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="93.081"/>
+  <testcase name="SignedIn.story" classname="SignedIn.story" time="93.548"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.006"/>
 </testsuite>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search autosuggestion","Test case -Search Autosuggestion","FAILURE","2018-07-20T15:26:54.621+05:30","0.0","27.81"
+"Search box","Test case -Search Box","FAILURE","2018-07-20T15:27:29.418+05:30","0.0","37.4"

@@ -17,11 +17,11 @@ Then User verify Oracle Account must have options:
 Then User verify Cloud Account must have only option:
 |option |
 |Sign In|
-|Sign Up—Free Trial|
+|Free Cloud Platform Trial|
 Then User Click on Cloud Account each links:
-|Option  |Link              |appropriate page        |
-|Sign In |Sign In           |Oracle Cloud            |
-|Sign In |Sign Up—Free Trial|Oracle Cloud            |
+|Option  |Link                     |appropriate page        |
+|Sign In |Sign In                  |Oracle Cloud            |
+|Sign In |Free Cloud Platform Trial|Oracle Cloud            |
 Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
 |Sign In|Help             |About Your Oracle Account|

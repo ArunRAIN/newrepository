@@ -10,6 +10,7 @@ import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import net.serenitybdd.core.annotations.findby.By;
@@ -55,35 +56,55 @@ public class SearchBoxPage extends PageObject
   String sText =  js.executeScript("return navigator.userAgent").toString();
  System.out.println(sText);
  
- if(sText.contains("Chrome"))
+ if(sText.contains("Firefox"))
  {
-	  WebElement un = searchbox;
-	  int xaxis = un.getLocation().x;
-	   
-	  int yaxis=un.getLocation().y;
-	   
-	  int width = un.getSize().width;
-	  int height= un.getSize().height;
-	   
-	  Robot r=new Robot();
-	  r.mouseMove(xaxis+width+50/2, yaxis+height/2+160);
-	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
-	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+//	  WebElement un = searchbox;
+//	  int xaxis = un.getLocation().x;
+//	   
+//	  int yaxis=un.getLocation().y;
+//	  System.out.println(yaxis);
+//	  
+//	  int width = un.getSize().width;
+//	  int height= un.getSize().height;
+//	  System.out.println(height);
+//	  Robot r=new Robot();
+//	  //r.mouseMove(xaxis+width+70/2, yaxis+height/2+160);
+//	  System.out.println(xaxis+width/2);
+//	  System.out.println(yaxis+height);
+//	  
+//	  int v=yaxis+height;
+//	  int c=v/2;
+//	  System.out.println(c);
+//	 
+//	  waitABit(20000);
+////	  r.mouseMove(xaxis+width/2, c+68);
+////	  System.out.println(xaxis+width/2);
+////	  System.out.println(c+60);
+//	  r.mouseMove(510, 98);
+//	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
+//	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+	 waitABit(5000);
+//	 Actions a=new Actions(getDriver());
+//	 a.moveToElement(searchbox).click(searchbox).perform();
  }
  else
  {
-	  WebElement un = searchbox;
-	  int xaxis = un.getLocation().x;
-	   
-	  int yaxis=un.getLocation().y;
-	   
-	  int width = un.getSize().width;
-	  int height= un.getSize().height;
-	   
-	  Robot r=new Robot();
-	  r.mouseMove(xaxis+width+50/2, yaxis+height/2+150);
-	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
-	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+//	  WebElement un = searchbox;
+//	  int xaxis = un.getLocation().x;
+//	   
+//	  int yaxis=un.getLocation().y;
+//	   
+//	  int width = un.getSize().width;
+//	  int height= un.getSize().height;
+//	   
+//	  Robot r=new Robot();
+//	  r.mouseMove(xaxis+width+50/2, yaxis+height/2+400);
+//	  r.mousePress(KeyEvent.BUTTON1_MASK);//click function
+//	  r.mouseRelease(KeyEvent.BUTTON1_MASK);
+	 
+	 waitABit(3000);
+	 Actions a=new Actions(getDriver());
+	 a.moveToElement(searchbox).click(searchbox).perform();
  }
  
   
@@ -101,7 +122,8 @@ public class SearchBoxPage extends PageObject
     
     public void type_in_search_box(String data)
     {
-    	searchbox.type(data);
+    	//waitABit(2000);
+    	searchbox.sendKeys(data);
     	waitABit(500);
     }
     
