@@ -145,30 +145,31 @@ public class SearchBoxPage extends PageObject
     
     public void click_option(String option) throws AWTException
     {
-    	System.out.println(option);
-    	WebElement ele = getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]"));
-    	
-//    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
-//    	js.executeScript("arguments[0].click();", getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]")));
-    	waitABit(3000);
-    	
-    	Robot r=new Robot();
-    	r.keyPress(KeyEvent.VK_DOWN);
-    	r.keyRelease(KeyEvent.VK_DOWN);
-    	r.keyPress(KeyEvent.VK_DOWN);
-    	r.keyRelease(KeyEvent.VK_DOWN);
-    	r.keyPress(KeyEvent.VK_DOWN);
-    	r.keyRelease(KeyEvent.VK_DOWN);
-    	r.keyPress(KeyEvent.VK_DOWN);
-    	r.keyRelease(KeyEvent.VK_DOWN);
-    	r.keyPress(KeyEvent.VK_ENTER);
-    	r.keyRelease(KeyEvent.VK_ENTER);
+//    	System.out.println(option);
+//    	WebElement ele = getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]"));
+//    	
+////    	JavascriptExecutor js = (JavascriptExecutor)getDriver();
+////    	js.executeScript("arguments[0].click();", getDriver().findElement(By.xpath("//div[contains(@class,'u02search')]/ul/li[4]")));
+//    	waitABit(3000);
+//    	
+//    	Robot r=new Robot();
+//    	r.keyPress(KeyEvent.VK_DOWN);
+//    	r.keyRelease(KeyEvent.VK_DOWN);
+//    	r.keyPress(KeyEvent.VK_DOWN);
+//    	r.keyRelease(KeyEvent.VK_DOWN);
+//    	r.keyPress(KeyEvent.VK_DOWN);
+//    	r.keyRelease(KeyEvent.VK_DOWN);
+//    	r.keyPress(KeyEvent.VK_DOWN);
+//    	r.keyRelease(KeyEvent.VK_DOWN);
+//    	r.keyPress(KeyEvent.VK_ENTER);
+//    	r.keyRelease(KeyEvent.VK_ENTER);
     	waitABit(9000);
     }
     
    
     public void is_page(String expectedtitle)
     {
+    	//waitABit(10000);
     	String actualtitle=getDriver().getTitle();
     	
     	Assert.assertEquals(expectedtitle, actualtitle);

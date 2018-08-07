@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Signed in" skipped="0" tests="1" time="195.82" timestamp="2018-07-201 03:59:02"><testcase name="Test case -Signed-In"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Signed in" skipped="0" tests="1" time="101.76" timestamp="2018-08-218 08:25:38"><testcase name="Test case -Signed-In"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)&#13;
+com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)&#13;
+com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)&#13;
+com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:96)&#13;
+</system-err></testcase></testsuite>

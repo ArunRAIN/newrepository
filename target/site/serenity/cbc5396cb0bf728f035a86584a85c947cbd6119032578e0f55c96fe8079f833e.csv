@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Accelerator","Test case -Accelerator","ERROR","2018-07-20T15:22:38.246+05:30","0.0","14.77"
-"Not signed in","Test case -Not Signed-In","ERROR","2018-07-20T15:24:29.655+05:30","0.0","138.2"
+"Search autosuggestion","Test case -Search Autosuggestion","ERROR","2018-08-07T22:54:22.479+05:30","0.0","81.42"
+"Signed in","Test case -Signed-In","ERROR","2018-08-07T22:56:50.137+05:30","0.0","46.48"

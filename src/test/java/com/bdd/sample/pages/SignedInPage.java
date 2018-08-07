@@ -220,7 +220,7 @@ public class SignedInPage extends PageObject
 	   public void is_page(String expectedtitle)
 	    {
 		 
-		   waitABit(9000);
+		   waitABit(19000);
 	    	String actualtitle=getDriver().getTitle();
 	    	System.out.println(actualtitle);
 	    	if(actualtitle.contains(expectedtitle))

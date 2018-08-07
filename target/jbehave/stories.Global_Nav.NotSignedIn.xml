@@ -26,14 +26,14 @@ eta:@skip</iWantTo>
 <values><value>Free Cloud Platform Trial</value></values>
 </parameters>
 </parameter></step>
-<step outcome="successful">Then User Click on Cloud Account each links:
+<step outcome="failed" keyword="FAILED">Then User Click on Cloud Account each links:
 <parameter><parameters>
 <names><name>Option</name><name>Link</name><name>appropriate page</name></names>
 <values><value>Sign In</value><value>Sign In</value><value>Oracle Cloud</value></values>
 <values><value>Sign In</value><value>Free Cloud Platform Trial</value><value>Oracle Cloud</value></values>
 </parameters>
-</parameter></step>
-<step outcome="successful">Then User Click on Oracle Account each links:
+</parameter><failure>java.lang.AssertionError</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User Click on Oracle Account each links:
 <parameter><parameters>
 <names><name>Option</name><name>Link</name><name>appropriate page</name></names>
 <values><value>Sign In</value><value>Help</value><value>About Your Oracle Account</value></values>
@@ -41,5 +41,35 @@ eta:@skip</iWantTo>
 <values><value>Sign In</value><value>Sign in</value><value>Single Sign On - Login</value></values>
 </parameters>
 </parameter></step>
+<failure>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)
+	at com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(&lt;generated&gt;)
+	at com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
 </scenario>
 </story>

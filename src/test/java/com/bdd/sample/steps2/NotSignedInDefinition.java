@@ -76,7 +76,8 @@ public class NotSignedInDefinition
             String apprPAGE = row.valueAs("appropriate page", String.class);
 //          
             Nsstep.is_page(option, link, apprPAGE);
-            Thread.sleep(2000);
+            Thread.sleep(4000);
+           
             Nsstep.page(option, link, apprPAGE);
            
            

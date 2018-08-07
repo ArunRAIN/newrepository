@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Not signed in","Test case -Not Signed-In","SUCCESS","2018-07-20T11:38:20.476+05:30","0.0","191.96"
-"Not signed in","Test case -Not Signed-In","SUCCESS","2018-07-20T15:42:21.411+05:30","0.0","141.84"
-"Not signed in","Test case -Not Signed-In","SUCCESS","2018-07-20T15:52:17.837+05:30","0.0","213.51"
+"Not signed in","Test case -Not Signed-In","SUCCESS","2018-08-06T20:07:28.072+05:30","0.0","147.4"
+"Not signed in","Test case -Not Signed-In","SUCCESS","2018-08-06T20:18:58.555+05:30","0.0","205.46"
+"Not signed in","Test case -Not Signed-In","FAILURE","2018-08-07T23:16:35.524+05:30","0.0","127.59"

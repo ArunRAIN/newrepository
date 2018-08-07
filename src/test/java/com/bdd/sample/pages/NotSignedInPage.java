@@ -157,7 +157,7 @@ public class NotSignedInPage extends PageObject
 	   public void is_page_(String option,String expectedtitle)
 	    {
 		  
-		    waitABit(5000);
+		    waitABit(15000);
 	    	String actualtitle=getDriver().getTitle();
 	    	
 	    	if(actualtitle.contains(expectedtitle))
@@ -175,7 +175,7 @@ public class NotSignedInPage extends PageObject
 	    	
 	    	navigate_page();
 	    	
-	    	waitABit(2500);
+	    	waitABit(4500);
 	    	hover_on(option);
 	    
 	    }

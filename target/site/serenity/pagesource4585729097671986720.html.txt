@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB"><head><script>function AdfLoopbackUtils(){}AdfLoopbackUtils._addCookie=function(a,b){var d=new Date;d.setTime(d.getTime()+3E4);d="; expires\x3d"+d.toUTCString();document.cookie=a+"\x3d"+(null!=b?b:"")+d+"; path\x3d/"};AdfLoopbackUtils._addParam=function(a,b,d,e,f){f?AdfLoopbackUtils._addCookie(d,e):null!=e&amp;&amp;""!==e&amp;&amp;(a=(null==a||""===a?"?":a+"\x26")+b+"\x3d"+e);return a};AdfLoopbackUtils._addQS=function(a,b){AdfLoopbackUtils._internalParams[a]||(AdfLoopbackUtils._queryParamNames.push(a),AdfLoopbackUtils._queryParamValues.push(b))};
+AdfLoopbackUtils._replaceCallback=function(a,b,d,e){AdfLoopbackUtils._addQS(b,e)};AdfLoopbackUtils._mediaTypes="aural braille handheld print projection screen tty tv embossed".split(" ");AdfLoopbackUtils._cookiesEnabled=function(){return navigator&amp;&amp;navigator.cookieEnabled};AdfLoopbackUtils._findWithBinarySearch=function(a,b,d,e){if(d&lt;=b)return b;for(var f=Math.ceil((d+b)/2);;){if(b==f||d==f)return b;window.matchMedia("( min-"+a+": "+f+e+")").matches?b=f:d=f;f=Math.ceil((d+b)/2)}};
+AdfLoopbackUtils.runLoopback=function(a,b,d,e,f,g,h,k,l,m,n,o,p,q,r,s,t,u,v,w,y,z,A,B,D,E,F,G,H,I,N,Q){AdfLoopbackUtils._queryParamNames=[];AdfLoopbackUtils._queryParamValues=[];AdfLoopbackUtils._internalParams=u;var O=""===h?null:h,P=null,C=null,L=null,J=document.location.href,K=J.indexOf("#");h=0&lt;K?J.substring(K+1):null;u=J=0&lt;K?J.substring(0,K):J;n=n?AdfLoopbackUtils._cookiesEnabled():n;var M=null;try{M=window.history.state}catch(Z){}null==O&amp;&amp;null!=M&amp;&amp;(O=M[g]);if(0&lt;K)if(0==h.indexOf(m))t=decodeURIComponent(h.substring(m.length)).split("@"),
+K=t.length,1&lt;=K&amp;&amp;null==O&amp;&amp;(O=t[0]),2&lt;=K&amp;&amp;(P=t[1]),3&lt;=K&amp;&amp;(C=t[2]),4&lt;=K&amp;&amp;(L=t[3]);else if(L=decodeURIComponent(h),t&amp;&amp;(0&lt;=L.indexOf("/")||0&lt;=L.indexOf("@")))L=L.split("@"),t=L.length,1&lt;=t&amp;&amp;(P=L[0]),2&lt;=t&amp;&amp;(C=L[1]),L=null;t=J.indexOf("?");0&lt;t&amp;&amp;(C=C||P&amp;&amp;0&lt;P.length?C:J.substring(t),J=J.substring(0,t));if(null!=C&amp;&amp;0&lt;C.length&amp;&amp;(C.replace(/([^?=&amp;]+)(=([^&amp;]*))?/g,AdfLoopbackUtils._replaceCallback),C=null,t=AdfLoopbackUtils._queryParamNames,K=AdfLoopbackUtils._queryParamValues,0&lt;t.length)){C="";for(M=0;M&lt;t.length;M++)var R=
+K[M],C=C+(0==M?"?":"\x26")+t[M]+"\x3d"+(null==R?"":R)}t=0;C&amp;&amp;0&lt;=C.indexOf("_rtrnId")&amp;&amp;(t=1,n=!1,K=window.parent?window.parent.name:null,/ADFDialog\d+['$']w\d+/.test(K)&amp;&amp;(K=K.split("$"),window.name=K[1]));K=J.indexOf(";");0&lt;K&amp;&amp;(J=J.substring(0,K));if(!l&amp;&amp;!AdfLoopbackUtils._cookiesEnabled())window.location.replace(J.substring(0,J.length-a)+v);else{P&amp;&amp;0&lt;P.length&amp;&amp;(J=J.substring(0,J.length-a)+P);C=AdfLoopbackUtils._addParam(C,b,o,d,n);n&amp;&amp;AdfLoopbackUtils._addCookie(s,"");a=window.name;/^[\w]+$/.test(a)||
+(a=null);1!=t&amp;&amp;!a&amp;&amp;(t=2);C=AdfLoopbackUtils._addParam(C,e,p,t,n);a||(a=k,window.name=a);C=AdfLoopbackUtils._addParam(C,f,q,a,n);l&amp;&amp;(0==l.indexOf(";")?J+=l:0==l.indexOf("?")&amp;&amp;(C=null==C||0==C.length?"?":C+"\x26",C+=l.substr(1)));C=AdfLoopbackUtils._addParam(C,g,r,O,n);try{if(e="16",e=window.getComputedStyle(document.createElement("div")).fontSize||window.getComputedStyle(document.documentElement).fontSize,e=e.substring(0,e.indexOf("px")),C=AdfLoopbackUtils._addParam(C,w,"",e,n),"function"==typeof window.matchMedia&amp;&amp;
+void 0!=window.matchMedia){w="all";for(e=0;e&lt;AdfLoopbackUtils._mediaTypes.length;e++)if(window.matchMedia(AdfLoopbackUtils._mediaTypes[e]).matches){w=AdfLoopbackUtils._mediaTypes[e];break}var C=AdfLoopbackUtils._addParam(C,y,"",w,n),C=AdfLoopbackUtils._addParam(C,z,"",window.innerWidth,n),C=AdfLoopbackUtils._addParam(C,A,"",window.innerHeight,n),C=AdfLoopbackUtils._addParam(C,B,"",screen.width,n),C=AdfLoopbackUtils._addParam(C,D,"",screen.height,n),S=AdfLoopbackUtils._findWithBinarySearch("color",
+0,50,""),C=AdfLoopbackUtils._addParam(C,E,"",S,n),T=AdfLoopbackUtils._findWithBinarySearch("color-index",0,50,""),C=AdfLoopbackUtils._addParam(C,F,"",T,n),U=AdfLoopbackUtils._findWithBinarySearch("monochrome",0,20,""),C=AdfLoopbackUtils._addParam(C,G,"",U,n),V=AdfLoopbackUtils._findWithBinarySearch("resolution",0,1E3,"dpi"),C=AdfLoopbackUtils._addParam(C,H,"",V,n),W=window.matchMedia("(grid)").matches,C=AdfLoopbackUtils._addParam(C,I,"",W?1:0,n),X=window.matchMedia("(scan: progressive)").matches,
+C=AdfLoopbackUtils._addParam(C,N,"",X?1:0,n),Y=window.matchMedia("(orientation: portrait)").matches?"portrait":"landscape",C=AdfLoopbackUtils._addParam(C,Q,"",Y,n)}}catch($){}y=J+(null==C?"":C);z=null!=L&amp;&amp;0&lt;L.length?encodeURIComponent(L):null;A=window.location;B=!1;null!=window.console&amp;&amp;null!=window.console.firebug&amp;&amp;(B=parseFloat(window.console.firebug),B=!isNaN(B)&amp;&amp;1.9&gt;B);y==u&amp;&amp;(null!=z||B)?(h!=z&amp;&amp;A.replace(null==z?"#"+m:"#"+z),A.reload(!0)):A.replace(null==z?y:y+"#"+z)}};
+AdfLoopbackUtils.runRedirect=function(a,b){var d=b,e=new Date;e.setTime(e.getTime()+3E4);d=d.replace(/\$exp\$/g,e.toUTCString());d=d.split("$$");for(i=0;i&lt;d.length;i++)document.cookie=d[i];var d=document.location,e=d.href,f=null,g=e.indexOf("#");0&lt;=g&amp;&amp;(e=e.substring(0,g),f=e.substring(g));var h=a,k=null,g=h.indexOf("#");0&lt;=g&amp;&amp;(h=h.substring(0,g),k=h.substring(g));h==e&amp;&amp;null!=k?(f!=k&amp;&amp;d.replace(k),d.reload(!0)):d.replace(a)};
+/*
+** Copyright (c) 2008, 2015, Oracle and/or its affiliates. All rights reserved.
+*/
+
+ AdfLoopbackUtils.runLoopback(
+ 27,
+ '_afrLoop',
+ '9955898272514663',
+ '_afrWindowMode',
+ 'Adf-Window-Id',
+ '_afrPage',
+ '',
+ 'w0',
+ '',
+ '!',
+ false,
+ '',
+ '',
+ '',
+ '',
+ '',
+ false,
+ {_afrLoop:1,_afrRedirect:1,_afrWindowMode:1,_afrPage:1,'Adf-Window-Id':1,'Adf-Page-Id':1,'Media-Type':1,'Font-Size':1,'Media-Feature-Width':1,'Media-Feature-Height':1,'Media-Feature-Device-Height':1,'Media-Feature-Device-Width':1, 'Media-Feature-Color':1, 'Media-Feature-Color-Index':1, 'Media-Feature-Monochrome':1,'Media-Feature-Resolution':1, 'Media-Featured-Grid':1,'Media-Feature-Scan':1,'Media-Feature-Orientation':1},
+ '/_noloopbackerror_',
+ 'Font-Size',
+ 'Media-Type',
+ 'Media-Feature-Width',
+ 'Media-Feature-Height',
+ 'Media-Feature-Device-Width',
+ 'Media-Feature-Device-Height',
+ 'Media-Feature-Color',
+ 'Media-Feature-Color-Index', 
+ 'Media-Feature-Monochrome', 
+ 'Media-Feature-Resolution',
+ 'Media-Featured-Grid', 
+ 'Media-Feature-Scan',
+ 'Media-Feature-Orientation'
+ );
+</script></head></html>

@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Search autosuggestion","Test case -Search Autosuggestion","FAILURE","2018-07-20T15:26:54.621+05:30","0.0","27.81"
-"Search box","Test case -Search Box","FAILURE","2018-07-20T15:27:29.418+05:30","0.0","37.4"
+"Not signed in","Test case -Not Signed-In","FAILURE","2018-08-07T23:16:35.524+05:30","0.0","127.59"
+"Signed in","Test case -Signed-In","FAILURE","2018-08-06T20:13:05.315+05:30","0.0","79.24"
+"Signed in","Test case -Signed-In","FAILURE","2018-08-06T20:25:38.420+05:30","0.0","101.76"
+"Signed in","Test case -Signed-In","FAILURE","2018-08-07T23:22:14.084+05:30","0.0","109.57"
