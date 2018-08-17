@@ -1,0 +1,1 @@
+mvn verify -Dcontext=ie -Dwebdriver.driver=ie -Dinjected.tags="browser:ie"

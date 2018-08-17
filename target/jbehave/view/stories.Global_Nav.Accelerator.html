@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>stories.Global_Nav.Accelerator</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1></h1>
+<div class="path">stories/Global_Nav/Accelerator.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> check Functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> n Tester</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> verify Global Nav application
+eta:@skip</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Test case -Accelerator</h2>
+<div class="step successful">Given User on home page</div>
+<div class="step failed">When User verifies Menu bar should not Move while pageload <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RABHINAN-LAP', ip: '10.178.30.255', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">Then User verifies left Header contains:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Header1</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Logo</td></tr>
+<tr>
+<td>Search</td></tr>
+<tr>
+<td>Menu</td></tr>
+</tbody>
+</table>
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User verifies right Header contains:
+<span class="step parameter"><table>
+<thead>
+<tr>
+<th>Header2</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Account</td></tr>
+<tr>
+<td>Country</td></tr>
+<tr>
+<td>Call</td></tr>
+</tbody>
+</table>
+</span> <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RABHINAN-LAP', ip: '10.178.30.255', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$a07d08bb.verify_Menu_bar_position(&lt;generated&gt;)
+	at com.bdd.sample.steps2.DefinitionSteps.pageloadsjamesverifyMenubarshouldnotMove(DefinitionSteps.java:32)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

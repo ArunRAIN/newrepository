@@ -1,0 +1,8 @@
+#surefire_0
+#Fri Aug 17 18:59:10 IST 2018
+injected.tags=browser\:chrome
+user.dir=D\:\\Automation-2018\\newrepository-master1
+context=chrome
+webdriver.driver=chrome
+localRepository=C\:\\Users\\rabhinan\\.m2\\repository
+basedir=D\:\\Automation-2018\\newrepository-master1

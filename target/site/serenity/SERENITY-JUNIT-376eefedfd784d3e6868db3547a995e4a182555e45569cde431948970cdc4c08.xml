@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Menu" skipped="0" tests="1" time="49.29" timestamp="2018-08-229 06:59:37"><testcase name="Test case -Menu"><error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error><system-err>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#13;
+com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:55)&#13;
+com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)&#13;
+com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,8 @@
+#surefire_0
+#Fri Aug 17 18:57:49 IST 2018
+injected.tags=browser\:firefox
+user.dir=D\:\\Automation-2018\\newrepository-master1
+context=firefox
+webdriver.driver=firefox
+localRepository=C\:\\Users\\rabhinan\\.m2\\repository
+basedir=D\:\\Automation-2018\\newrepository-master1

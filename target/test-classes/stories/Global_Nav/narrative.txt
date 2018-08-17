@@ -1,0 +1,4 @@
+Global Nav
+In order to check Functionality
+As an Tester
+I want to verify Global Nav Feature

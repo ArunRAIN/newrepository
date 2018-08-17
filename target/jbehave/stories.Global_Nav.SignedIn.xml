@@ -1,0 +1,68 @@
+<story path="stories/Global_Nav/SignedIn.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">check Functionality</inOrderTo>
+  <asA keyword="As a">Tester</asA>
+  <iWantTo keyword="I want to">verify Global Nav application
+
+
+eta:@skip</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Test case -Signed-In">
+<step outcome="failed" keyword="FAILED">Given User on home page<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When User Signed In</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User see the Text &apos;Account&apos; must be displayed</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When User Hover Over &apos;Account&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verify Oracle account must have options:
+<parameter><parameters>
+<names><name>option</name></names>
+<values><value>Sign Out</value></values>
+<values><value>Account</value></values>
+<values><value>Help</value></values>
+</parameters>
+</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verify Cloud account must have only option:
+<parameter><parameters>
+<names><name>option</name></names>
+<values><value>Sign In</value></values>
+<values><value>Free Cloud Platform Trial</value></values>
+</parameters>
+</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User Click on Cloud Account each links:
+<parameter><parameters>
+<names><name>Option</name><name>Link</name><name>appropriate page</name></names>
+<values><value>Account</value><value>Sign In</value><value>Oracle Cloud</value></values>
+<values><value>Account</value><value>Free Cloud Platform Trial</value><value>Oracle Cloud</value></values>
+</parameters>
+</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User Clicks on oracle account each links:
+<parameter><parameters>
+<names><name>Option</name><name>Link</name><name>appropriate page</name></names>
+<values><value>Account</value><value>Help</value><value>About Your Oracle Account</value></values>
+<values><value>Account</value><value>Account</value><value>Update Account</value></values>
+<values><value>Account</value><value>Sign Out</value><value>Search</value></values>
+</parameters>
+</parameter></step>
+<failure>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:148)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:135)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:105)
+	at net.thucydides.core.webdriver.WebDriverFacade.manage(WebDriverFacade.java:379)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:55)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$8e1b28ee.CGLIB$is_the_home_page$3(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$8e1b28ee$$FastClassByCGLIB$$2b329332.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$8e1b28ee.is_the_home_page(&lt;generated&gt;)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
+</scenario>
+</story>
