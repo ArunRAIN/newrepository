@@ -157,7 +157,7 @@ As a n Tester
 I want to verify Global Nav application
 eta:@skip</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -260,54 +260,129 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
+                <failed>
                   <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
+                      <stackTrace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>ba2daa1a-36d0-4848-b8a7-545c0a9453da</uuid>
+                  </throwable>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>22964</durationInMillis>
-                  <start>1533663834677</start>
-                  <end>1533663857641</end>
-                </successful>
-                <successful>
+                  <durationInMillis>6519</durationInMillis>
+                  <start>1550240158731</start>
+                  <end>1550240165250</end>
+                </failed>
+                <notPerformed>
                   <step>When User verifies Menu bar should not Move while pageload</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-                  <durationInMillis>537</durationInMillis>
-                  <start>1533663858253</start>
-                  <end>1533663858790</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User verifies left Header contains:
 | Header1|
 | Logo   |
 | Search |
 |  Menu  |</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User verifies left Header contains:
 ?| Header1|
 | Logo   |
 | Search |
 |  Menu  |?</parametrisedStep>
-                  <durationInMillis>2661</durationInMillis>
-                  <start>1533663859256</start>
-                  <end>1533663861917</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User verifies right Header contains:
 | Header2|
 | Account|
 | Country|
 | Call   |</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User verifies right Header contains:
 ?| Header2|
 | Account|
 | Country|
 | Call   |?</parametrisedStep>
-                  <durationInMillis>7618</durationInMillis>
-                  <start>1533663862779</start>
-                  <end>1533663870397</end>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -406,15 +481,15 @@ eta:@skip</localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>53796</durationInMillis>
-        <start>1533663834498</start>
-        <end>1533663888294</end>
+        <durationInMillis>7391</durationInMillis>
+        <start>1550240158590</start>
+        <end>1550240165981</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -565,7 +640,7 @@ eta:@skip</localizedNarrative>
 I want to 
 So that </localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -660,38 +735,113 @@ So that </localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
+                <failed>
                   <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
+                      <stackTrace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>f683d83b-1894-4adc-81f6-e9c66390cac8</uuid>
+                  </throwable>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>33593</durationInMillis>
-                  <start>1533663888307</start>
-                  <end>1533663921900</end>
-                </successful>
-                <successful>
+                  <durationInMillis>3830</durationInMillis>
+                  <start>1550240166031</start>
+                  <end>1550240169861</end>
+                </failed>
+                <notPerformed>
                   <step>When User Hover over on &apos;Country&apos; text</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-                  <durationInMillis>1475</durationInMillis>
-                  <start>1533663922282</start>
-                  <end>1533663923757</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</parametrisedStep>
-                  <durationInMillis>673</durationInMillis>
-                  <start>1533663924084</start>
-                  <end>1533663924757</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then Depending upon which country the page belongs to,  pin must appear against it</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then Depending upon which country the page belongs to,  pin must appear against it</parametrisedStep>
-                  <durationInMillis>16785</durationInMillis>
-                  <start>1533663925000</start>
-                  <end>1533663941785</end>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -782,15 +932,15 @@ So that </localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>62619</durationInMillis>
-        <start>1533663888305</start>
-        <end>1533663950924</end>
+        <durationInMillis>4072</durationInMillis>
+        <start>1550240166028</start>
+        <end>1550240170100</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -943,7 +1093,7 @@ As a n Tester
 I want to verify Global Nav application
 eta:@skip</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -1038,38 +1188,113 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
+                <failed>
                   <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
+                      <stackTrace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>f57c82f1-4769-4ea0-9e43-7e7d715c3b48</uuid>
+                  </throwable>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>24502</durationInMillis>
-                  <start>1533663950938</start>
-                  <end>1533663975440</end>
-                </successful>
-                <successful>
+                  <durationInMillis>3773</durationInMillis>
+                  <start>1550240170127</start>
+                  <end>1550240173900</end>
+                </failed>
+                <notPerformed>
                   <step>When User hover on Menu Bar shows primary panel with categories</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-                  <durationInMillis>3043</durationInMillis>
-                  <start>1533663975863</start>
-                  <end>1533663978906</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User hover on primary categories panel shows secondary panel</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-                  <durationInMillis>2916</durationInMillis>
-                  <start>1533663979210</start>
-                  <end>1533663982126</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-                  <durationInMillis>3797</durationInMillis>
-                  <start>1533663982324</start>
-                  <end>1533663986121</end>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -1160,15 +1385,15 @@ eta:@skip</localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>44576</durationInMillis>
-        <start>1533663950936</start>
-        <end>1533663995512</end>
+        <durationInMillis>4096</durationInMillis>
+        <start>1550240170122</start>
+        <end>1550240174218</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1454,114 +1679,34 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
-                  <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>40984</durationInMillis>
-                  <start>1533663995526</start>
-                  <end>1533664036510</end>
-                </successful>
-                <successful>
-                  <step>When User Not signed In</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>When User Not signed In</parametrisedStep>
-                  <durationInMillis>391</durationInMillis>
-                  <start>1533664036838</start>
-                  <end>1533664037229</end>
-                </successful>
-                <successful>
-                  <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>10399</durationInMillis>
-                  <start>1533664037560</start>
-                  <end>1533664047959</end>
-                </successful>
-                <successful>
-                  <step>When User Hover over &apos;Sign In&apos;</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-                  <durationInMillis>1949</durationInMillis>
-                  <start>1533664048308</start>
-                  <end>1533664050257</end>
-                </successful>
-                <successful>
-                  <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>292</durationInMillis>
-                  <start>1533664050758</start>
-                  <end>1533664051050</end>
-                </successful>
-                <successful>
-                  <step>Then User verify Oracle Account must have options:
-|option           |
-|Sign in          |
-|Create an account|
-|Help             |</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User verify Oracle Account must have options:
-?|option           |
-|Sign in          |
-|Create an account|
-|Help             |?</parametrisedStep>
-                  <durationInMillis>887</durationInMillis>
-                  <start>1533664051319</start>
-                  <end>1533664052206</end>
-                </successful>
-                <successful>
-                  <step>Then User verify Cloud Account must have only option:
-|option |
-|Sign In|
-|Free Cloud Platform Trial|</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User verify Cloud Account must have only option:
-?|option |
-|Sign In|
-|Free Cloud Platform Trial|?</parametrisedStep>
-                  <durationInMillis>587</durationInMillis>
-                  <start>1533664052482</start>
-                  <end>1533664053069</end>
-                </successful>
                 <failed>
-                  <step>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Sign In |Sign In                  |Oracle Cloud            |
-|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</step>
+                  <step>Given User on home page</step>
                   <type>FAILED</type>
                   <throwable>
-                    <detailMessage>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Sign In |Sign In                  |Oracle Cloud            |
-|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</detailMessage>
-                    <cause class="java.lang.AssertionError">
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
                       <stackTrace>
-                        <trace>org.junit.Assert.fail(Assert.java:86)</trace>
-                        <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
-                        <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
-                        <trace>com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
-                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                         <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -1610,16 +1755,89 @@ eta:@skip</localizedNarrative>
                       <c class="list"/>
                       <list/>
                     </suppressedExceptions>
-                    <uuid>1461494e-4de0-4879-9d7e-428627dff617</uuid>
+                    <uuid>87990a97-c1e2-49c6-a645-daebb4dd7501</uuid>
                   </throwable>
+                  <parametrisedStep>Given User on home page</parametrisedStep>
+                  <durationInMillis>3738</durationInMillis>
+                  <start>1550240174231</start>
+                  <end>1550240177969</end>
+                </failed>
+                <notPerformed>
+                  <step>When User Not signed In</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When User Not signed In</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>When User Hover over &apos;Sign In&apos;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User verify Oracle Account must have options:
+|option           |
+|Sign in          |
+|Create an account|
+|Help             |</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User verify Oracle Account must have options:
+?|option           |
+|Sign in          |
+|Create an account|
+|Help             |?</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User verify Cloud Account must have only option:
+|option |
+|Sign In|
+|Free Cloud Platform Trial|</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User verify Cloud Account must have only option:
+?|option |
+|Sign In|
+|Free Cloud Platform Trial|?</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User Click on Cloud Account each links:
+|Option  |Link                     |appropriate page        |
+|Sign In |Sign In                  |Oracle Cloud            |
+|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</step>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link                     |appropriate page        |
 |Sign In |Sign In                  |Oracle Cloud            |
 |Sign In |Free Cloud Platform Trial|Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>69737</durationInMillis>
-                  <start>1533664053350</start>
-                  <end>1533664123087</end>
-                </failed>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
                 <notPerformed>
                   <step>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
@@ -1751,9 +1969,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>135993</durationInMillis>
-        <start>1533663995524</start>
-        <end>1533664131517</end>
+        <durationInMillis>4066</durationInMillis>
+        <start>1550240174230</start>
+        <end>1550240178296</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1908,7 +2126,7 @@ As a n Tester
 I want to verify Global Nav application
 eta:@skip</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -2005,54 +2223,129 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
+                <failed>
                   <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
+                      <stackTrace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>c96263c7-300d-47b2-bdd2-c03e290a74f8</uuid>
+                  </throwable>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>18741</durationInMillis>
-                  <start>1533664131547</start>
-                  <end>1533664150288</end>
-                </successful>
-                <successful>
+                  <durationInMillis>3808</durationInMillis>
+                  <start>1550240178306</start>
+                  <end>1550240182114</end>
+                </failed>
+                <notPerformed>
                   <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-                  <durationInMillis>7927</durationInMillis>
-                  <start>1533664150555</start>
-                  <end>1533664158482</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-                  <durationInMillis>7713</durationInMillis>
-                  <start>1533664158758</start>
-                  <end>1533664166471</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>48781</durationInMillis>
-                  <start>1533664166775</start>
-                  <end>1533664215556</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>49422</durationInMillis>
-                  <start>1533664215674</start>
-                  <end>1533664265096</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-                  <durationInMillis>6126</durationInMillis>
-                  <start>1533664265416</start>
-                  <end>1533664271542</end>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -2145,15 +2438,15 @@ eta:@skip</localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>148288</durationInMillis>
-        <start>1533664131539</start>
-        <end>1533664279827</end>
+        <durationInMillis>4086</durationInMillis>
+        <start>1550240178305</start>
+        <end>1550240182391</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2307,7 +2600,7 @@ As a n Tester
 I want to verify Global Nav application
 eta:@skip</localizedNarrative>
       <allowed>true</allowed>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -2403,46 +2696,121 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
+                <failed>
                   <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
+                      <stackTrace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>564c1122-7f83-4069-be0c-aea986a1db0a</uuid>
+                  </throwable>
                   <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>20885</durationInMillis>
-                  <start>1533664279838</start>
-                  <end>1533664300723</end>
-                </successful>
-                <successful>
+                  <durationInMillis>3878</durationInMillis>
+                  <start>1550240182402</start>
+                  <end>1550240186280</end>
+                </failed>
+                <notPerformed>
                   <step>When User click inside the search box must show the cursor</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-                  <durationInMillis>8980</durationInMillis>
-                  <start>1533664301038</start>
-                  <end>1533664310018</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-                  <durationInMillis>858</durationInMillis>
-                  <start>1533664310367</start>
-                  <end>1533664311225</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</parametrisedStep>
-                  <durationInMillis>4318</durationInMillis>
-                  <start>1533664311701</start>
-                  <end>1533664316019</end>
-                </successful>
-                <successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
                   <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
-                  <type>SUCCESSFUL</type>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-                  <durationInMillis>9561</durationInMillis>
-                  <start>1533664316586</start>
-                  <end>1533664326147</end>
-                </successful>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
               </results>
             </steps>
             <afterSteps>
@@ -2534,15 +2902,15 @@ eta:@skip</localizedNarrative>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>SUCCESSFUL</status>
+          <status>FAILED</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>54236</durationInMillis>
-        <start>1533664279837</start>
-        <end>1533664334073</end>
+        <durationInMillis>4221</durationInMillis>
+        <start>1550240182401</start>
+        <end>1550240186622</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -2832,114 +3200,34 @@ eta:@skip</localizedNarrative>
             <steps>
               <matches/>
               <results>
-                <successful>
-                  <step>Given User on home page</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Given User on home page</parametrisedStep>
-                  <durationInMillis>24815</durationInMillis>
-                  <start>1533664334085</start>
-                  <end>1533664358900</end>
-                </successful>
-                <successful>
-                  <step>When User Signed In</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>When User Signed In</parametrisedStep>
-                  <durationInMillis>25990</durationInMillis>
-                  <start>1533664359266</start>
-                  <end>1533664385256</end>
-                </successful>
-                <successful>
-                  <step>Then User see the Text &apos;Account&apos; must be displayed</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-                  <durationInMillis>381</durationInMillis>
-                  <start>1533664385557</start>
-                  <end>1533664385938</end>
-                </successful>
-                <successful>
-                  <step>When User Hover Over &apos;Account&apos;</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-                  <durationInMillis>3495</durationInMillis>
-                  <start>1533664386120</start>
-                  <end>1533664389615</end>
-                </successful>
-                <successful>
-                  <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-                  <durationInMillis>308</durationInMillis>
-                  <start>1533664390087</start>
-                  <end>1533664390395</end>
-                </successful>
-                <successful>
-                  <step>Then User verify Oracle account must have options:
-|option           |
-|Sign Out         |
-|Account          |
-|Help             |</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User verify Oracle account must have options:
-?|option           |
-|Sign Out         |
-|Account          |
-|Help             |?</parametrisedStep>
-                  <durationInMillis>913</durationInMillis>
-                  <start>1533664390751</start>
-                  <end>1533664391664</end>
-                </successful>
-                <successful>
-                  <step>Then User verify Cloud account must have only option:
-|option |
-|Sign In|
-|Free Cloud Platform Trial|</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then User verify Cloud account must have only option:
-?|option |
-|Sign In|
-|Free Cloud Platform Trial|?</parametrisedStep>
-                  <durationInMillis>586</durationInMillis>
-                  <start>1533664392001</start>
-                  <end>1533664392587</end>
-                </successful>
                 <failed>
-                  <step>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Account |Sign In                  |Oracle Cloud            |
-|Account |Free Cloud Platform Trial|Oracle Cloud            |</step>
+                  <step>Given User on home page</step>
                   <type>FAILED</type>
                   <throwable>
-                    <detailMessage>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Account |Sign In                  |Oracle Cloud            |
-|Account |Free Cloud Platform Trial|Oracle Cloud            |</detailMessage>
-                    <cause class="java.lang.AssertionError">
+                    <detailMessage>Given User on home page</detailMessage>
+                    <cause class="java.lang.NullPointerException">
+                      <detailMessage>null value in entry: url=null</detailMessage>
                       <stackTrace>
-                        <trace>org.junit.Assert.fail(Assert.java:86)</trace>
-                        <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
-                        <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
-                        <trace>com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
+                        <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                        <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                        <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                        <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                        <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                        <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
-                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(&lt;generated&gt;)</trace>
-                        <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)</trace>
+                        <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                        <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                         <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -2988,16 +3276,89 @@ eta:@skip</localizedNarrative>
                       <c class="list"/>
                       <list/>
                     </suppressedExceptions>
-                    <uuid>eb3aaea7-a2de-4684-9d4c-fdcf57ad9eb5</uuid>
+                    <uuid>fd903625-72a3-4e47-b43f-1293e316d173</uuid>
                   </throwable>
+                  <parametrisedStep>Given User on home page</parametrisedStep>
+                  <durationInMillis>3863</durationInMillis>
+                  <start>1550240186639</start>
+                  <end>1550240190502</end>
+                </failed>
+                <notPerformed>
+                  <step>When User Signed In</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When User Signed In</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User see the Text &apos;Account&apos; must be displayed</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>When User Hover Over &apos;Account&apos;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User verify Oracle account must have options:
+|option           |
+|Sign Out         |
+|Account          |
+|Help             |</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User verify Oracle account must have options:
+?|option           |
+|Sign Out         |
+|Account          |
+|Help             |?</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User verify Cloud account must have only option:
+|option |
+|Sign In|
+|Free Cloud Platform Trial|</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then User verify Cloud account must have only option:
+?|option |
+|Sign In|
+|Free Cloud Platform Trial|?</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then User Click on Cloud Account each links:
+|Option  |Link                     |appropriate page        |
+|Account |Sign In                  |Oracle Cloud            |
+|Account |Free Cloud Platform Trial|Oracle Cloud            |</step>
+                  <type>NOT_PERFORMED</type>
                   <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link                     |appropriate page        |
 |Account |Sign In                  |Oracle Cloud            |
 |Account |Free Cloud Platform Trial|Oracle Cloud            |?</parametrisedStep>
-                  <durationInMillis>50788</durationInMillis>
-                  <start>1533664392853</start>
-                  <end>1533664443641</end>
-                </failed>
+                  <durationInMillis>0</durationInMillis>
+                  <start>0</start>
+                  <end>0</end>
+                </notPerformed>
                 <notPerformed>
                   <step>Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |
@@ -3129,9 +3490,9 @@ eta:@skip</localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>118879</durationInMillis>
-        <start>1533664334084</start>
-        <end>1533664452963</end>
+        <durationInMillis>4171</durationInMillis>
+        <start>1550240186638</start>
+        <end>1550240190809</end>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -3237,54 +3598,129 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
+            <failed>
               <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
+                  <stackTrace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>ba2daa1a-36d0-4848-b8a7-545c0a9453da</uuid>
+              </throwable>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>22964</durationInMillis>
-              <start>1533663834677</start>
-              <end>1533663857641</end>
-            </successful>
-            <successful>
+              <durationInMillis>6519</durationInMillis>
+              <start>1550240158731</start>
+              <end>1550240165250</end>
+            </failed>
+            <notPerformed>
               <step>When User verifies Menu bar should not Move while pageload</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>When User verifies Menu bar should not Move while pageload</parametrisedStep>
-              <durationInMillis>537</durationInMillis>
-              <start>1533663858253</start>
-              <end>1533663858790</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User verifies left Header contains:
 | Header1|
 | Logo   |
 | Search |
 |  Menu  |</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User verifies left Header contains:
 ?| Header1|
 | Logo   |
 | Search |
 |  Menu  |?</parametrisedStep>
-              <durationInMillis>2661</durationInMillis>
-              <start>1533663859256</start>
-              <end>1533663861917</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User verifies right Header contains:
 | Header2|
 | Account|
 | Country|
 | Call   |</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User verifies right Header contains:
 ?| Header2|
 | Account|
 | Country|
 | Call   |?</parametrisedStep>
-              <durationInMillis>7618</durationInMillis>
-              <start>1533663862779</start>
-              <end>1533663870397</end>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -3383,7 +3819,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -3477,38 +3913,113 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
+            <failed>
               <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
+                  <stackTrace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>f683d83b-1894-4adc-81f6-e9c66390cac8</uuid>
+              </throwable>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>33593</durationInMillis>
-              <start>1533663888307</start>
-              <end>1533663921900</end>
-            </successful>
-            <successful>
+              <durationInMillis>3830</durationInMillis>
+              <start>1550240166031</start>
+              <end>1550240169861</end>
+            </failed>
+            <notPerformed>
               <step>When User Hover over on &apos;Country&apos; text</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>When User Hover over on &apos;Country&apos; text</parametrisedStep>
-              <durationInMillis>1475</durationInMillis>
-              <start>1533663922282</start>
-              <end>1533663923757</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed</parametrisedStep>
-              <durationInMillis>673</durationInMillis>
-              <start>1533663924084</start>
-              <end>1533663924757</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then Depending upon which country the page belongs to,  pin must appear against it</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then Depending upon which country the page belongs to,  pin must appear against it</parametrisedStep>
-              <durationInMillis>16785</durationInMillis>
-              <start>1533663925000</start>
-              <end>1533663941785</end>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -3599,7 +4110,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -3693,38 +4204,113 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
+            <failed>
               <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
+                  <stackTrace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>f57c82f1-4769-4ea0-9e43-7e7d715c3b48</uuid>
+              </throwable>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>24502</durationInMillis>
-              <start>1533663950938</start>
-              <end>1533663975440</end>
-            </successful>
-            <successful>
+              <durationInMillis>3773</durationInMillis>
+              <start>1550240170127</start>
+              <end>1550240173900</end>
+            </failed>
+            <notPerformed>
               <step>When User hover on Menu Bar shows primary panel with categories</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>When User hover on Menu Bar shows primary panel with categories</parametrisedStep>
-              <durationInMillis>3043</durationInMillis>
-              <start>1533663975863</start>
-              <end>1533663978906</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User hover on primary categories panel shows secondary panel</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User hover on primary categories panel shows secondary panel</parametrisedStep>
-              <durationInMillis>2916</durationInMillis>
-              <start>1533663979210</start>
-              <end>1533663982126</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User hover on Secondary panel should show categerioes and direct links with arrow pointing</parametrisedStep>
-              <durationInMillis>3797</durationInMillis>
-              <start>1533663982324</start>
-              <end>1533663986121</end>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -3815,7 +4401,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -3928,114 +4514,34 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
-              <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>40984</durationInMillis>
-              <start>1533663995526</start>
-              <end>1533664036510</end>
-            </successful>
-            <successful>
-              <step>When User Not signed In</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>When User Not signed In</parametrisedStep>
-              <durationInMillis>391</durationInMillis>
-              <start>1533664036838</start>
-              <end>1533664037229</end>
-            </successful>
-            <successful>
-              <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
-              <durationInMillis>10399</durationInMillis>
-              <start>1533664037560</start>
-              <end>1533664047959</end>
-            </successful>
-            <successful>
-              <step>When User Hover over &apos;Sign In&apos;</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
-              <durationInMillis>1949</durationInMillis>
-              <start>1533664048308</start>
-              <end>1533664050257</end>
-            </successful>
-            <successful>
-              <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>292</durationInMillis>
-              <start>1533664050758</start>
-              <end>1533664051050</end>
-            </successful>
-            <successful>
-              <step>Then User verify Oracle Account must have options:
-|option           |
-|Sign in          |
-|Create an account|
-|Help             |</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User verify Oracle Account must have options:
-?|option           |
-|Sign in          |
-|Create an account|
-|Help             |?</parametrisedStep>
-              <durationInMillis>887</durationInMillis>
-              <start>1533664051319</start>
-              <end>1533664052206</end>
-            </successful>
-            <successful>
-              <step>Then User verify Cloud Account must have only option:
-|option |
-|Sign In|
-|Free Cloud Platform Trial|</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User verify Cloud Account must have only option:
-?|option |
-|Sign In|
-|Free Cloud Platform Trial|?</parametrisedStep>
-              <durationInMillis>587</durationInMillis>
-              <start>1533664052482</start>
-              <end>1533664053069</end>
-            </successful>
             <failed>
-              <step>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Sign In |Sign In                  |Oracle Cloud            |
-|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</step>
+              <step>Given User on home page</step>
               <type>FAILED</type>
               <throwable>
-                <detailMessage>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Sign In |Sign In                  |Oracle Cloud            |
-|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</detailMessage>
-                <cause class="java.lang.AssertionError">
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
                   <stackTrace>
-                    <trace>org.junit.Assert.fail(Assert.java:86)</trace>
-                    <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
-                    <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
-                    <trace>com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
-                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                     <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -4084,16 +4590,89 @@ eta:@skip</localizedNarrative>
                   <c class="list"/>
                   <list/>
                 </suppressedExceptions>
-                <uuid>1461494e-4de0-4879-9d7e-428627dff617</uuid>
+                <uuid>87990a97-c1e2-49c6-a645-daebb4dd7501</uuid>
               </throwable>
+              <parametrisedStep>Given User on home page</parametrisedStep>
+              <durationInMillis>3738</durationInMillis>
+              <start>1550240174231</start>
+              <end>1550240177969</end>
+            </failed>
+            <notPerformed>
+              <step>When User Not signed In</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When User Not signed In</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User see the text &apos;Sign In&apos; must be displayed</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User see the text &apos;Sign In&apos; must be displayed</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>When User Hover over &apos;Sign In&apos;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When User Hover over &apos;Sign In&apos;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User verify Oracle Account must have options:
+|option           |
+|Sign in          |
+|Create an account|
+|Help             |</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User verify Oracle Account must have options:
+?|option           |
+|Sign in          |
+|Create an account|
+|Help             |?</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User verify Cloud Account must have only option:
+|option |
+|Sign In|
+|Free Cloud Platform Trial|</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User verify Cloud Account must have only option:
+?|option |
+|Sign In|
+|Free Cloud Platform Trial|?</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User Click on Cloud Account each links:
+|Option  |Link                     |appropriate page        |
+|Sign In |Sign In                  |Oracle Cloud            |
+|Sign In |Free Cloud Platform Trial|Oracle Cloud            |</step>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link                     |appropriate page        |
 |Sign In |Sign In                  |Oracle Cloud            |
 |Sign In |Free Cloud Platform Trial|Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>69737</durationInMillis>
-              <start>1533664053350</start>
-              <end>1533664123087</end>
-            </failed>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
             <notPerformed>
               <step>Then User Click on Oracle Account each links:
 |Option |Link             |appropriate page         |
@@ -4315,54 +4894,129 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
+            <failed>
               <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
+                  <stackTrace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>c96263c7-300d-47b2-bdd2-c03e290a74f8</uuid>
+              </throwable>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>18741</durationInMillis>
-              <start>1533664131547</start>
-              <end>1533664150288</end>
-            </successful>
-            <successful>
+              <durationInMillis>3808</durationInMillis>
+              <start>1550240178306</start>
+              <end>1550240182114</end>
+            </failed>
+            <notPerformed>
               <step>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options</parametrisedStep>
-              <durationInMillis>7927</durationInMillis>
-              <start>1533664150555</start>
-              <end>1533664158482</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear</parametrisedStep>
-              <durationInMillis>7713</durationInMillis>
-              <start>1533664158758</start>
-              <end>1533664166471</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>48781</durationInMillis>
-              <start>1533664166775</start>
-              <end>1533664215556</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>49422</durationInMillis>
-              <start>1533664215674</start>
-              <end>1533664265096</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts</parametrisedStep>
-              <durationInMillis>6126</durationInMillis>
-              <start>1533664265416</start>
-              <end>1533664271542</end>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -4455,7 +5109,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -4550,46 +5204,121 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
+            <failed>
               <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
+                  <stackTrace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:748)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>564c1122-7f83-4069-be0c-aea986a1db0a</uuid>
+              </throwable>
               <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>20885</durationInMillis>
-              <start>1533664279838</start>
-              <end>1533664300723</end>
-            </successful>
-            <successful>
+              <durationInMillis>3878</durationInMillis>
+              <start>1550240182402</start>
+              <end>1550240186280</end>
+            </failed>
+            <notPerformed>
               <step>When User click inside the search box must show the cursor</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>When User click inside the search box must show the cursor</parametrisedStep>
-              <durationInMillis>8980</durationInMillis>
-              <start>1533664301038</start>
-              <end>1533664310018</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</parametrisedStep>
-              <durationInMillis>858</durationInMillis>
-              <start>1533664310367</start>
-              <end>1533664311225</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User text is type &apos;jav&apos; in the search box options must be displayed to choose</parametrisedStep>
-              <durationInMillis>4318</durationInMillis>
-              <start>1533664311701</start>
-              <end>1533664316019</end>
-            </successful>
-            <successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
               <step>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</step>
-              <type>SUCCESSFUL</type>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page</parametrisedStep>
-              <durationInMillis>9561</durationInMillis>
-              <start>1533664316586</start>
-              <end>1533664326147</end>
-            </successful>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
           </results>
         </steps>
         <afterSteps>
@@ -4681,7 +5410,7 @@ eta:@skip</localizedNarrative>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>SUCCESSFUL</status>
+      <status>FAILED</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -4794,114 +5523,34 @@ eta:@skip</localizedNarrative>
         <steps>
           <matches/>
           <results>
-            <successful>
-              <step>Given User on home page</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Given User on home page</parametrisedStep>
-              <durationInMillis>24815</durationInMillis>
-              <start>1533664334085</start>
-              <end>1533664358900</end>
-            </successful>
-            <successful>
-              <step>When User Signed In</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>When User Signed In</parametrisedStep>
-              <durationInMillis>25990</durationInMillis>
-              <start>1533664359266</start>
-              <end>1533664385256</end>
-            </successful>
-            <successful>
-              <step>Then User see the Text &apos;Account&apos; must be displayed</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
-              <durationInMillis>381</durationInMillis>
-              <start>1533664385557</start>
-              <end>1533664385938</end>
-            </successful>
-            <successful>
-              <step>When User Hover Over &apos;Account&apos;</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
-              <durationInMillis>3495</durationInMillis>
-              <start>1533664386120</start>
-              <end>1533664389615</end>
-            </successful>
-            <successful>
-              <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
-              <durationInMillis>308</durationInMillis>
-              <start>1533664390087</start>
-              <end>1533664390395</end>
-            </successful>
-            <successful>
-              <step>Then User verify Oracle account must have options:
-|option           |
-|Sign Out         |
-|Account          |
-|Help             |</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User verify Oracle account must have options:
-?|option           |
-|Sign Out         |
-|Account          |
-|Help             |?</parametrisedStep>
-              <durationInMillis>913</durationInMillis>
-              <start>1533664390751</start>
-              <end>1533664391664</end>
-            </successful>
-            <successful>
-              <step>Then User verify Cloud account must have only option:
-|option |
-|Sign In|
-|Free Cloud Platform Trial|</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>Then User verify Cloud account must have only option:
-?|option |
-|Sign In|
-|Free Cloud Platform Trial|?</parametrisedStep>
-              <durationInMillis>586</durationInMillis>
-              <start>1533664392001</start>
-              <end>1533664392587</end>
-            </successful>
             <failed>
-              <step>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Account |Sign In                  |Oracle Cloud            |
-|Account |Free Cloud Platform Trial|Oracle Cloud            |</step>
+              <step>Given User on home page</step>
               <type>FAILED</type>
               <throwable>
-                <detailMessage>Then User Click on Cloud Account each links:
-|Option  |Link                     |appropriate page        |
-|Account |Sign In                  |Oracle Cloud            |
-|Account |Free Cloud Platform Trial|Oracle Cloud            |</detailMessage>
-                <cause class="java.lang.AssertionError">
+                <detailMessage>Given User on home page</detailMessage>
+                <cause class="java.lang.NullPointerException">
+                  <detailMessage>null value in entry: url=null</detailMessage>
                   <stackTrace>
-                    <trace>org.junit.Assert.fail(Assert.java:86)</trace>
-                    <trace>org.junit.Assert.assertTrue(Assert.java:41)</trace>
-                    <trace>org.junit.Assert.assertTrue(Assert.java:52)</trace>
-                    <trace>com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
+                    <trace>com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)</trace>
+                    <trace>com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)</trace>
+                    <trace>com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)</trace>
+                    <trace>com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)</trace>
+                    <trace>net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)</trace>
+                    <trace>com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(&lt;generated&gt;)</trace>
-                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(&lt;generated&gt;)</trace>
-                    <trace>com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)</trace>
+                    <trace>com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)</trace>
+                    <trace>com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                     <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -4950,16 +5599,89 @@ eta:@skip</localizedNarrative>
                   <c class="list"/>
                   <list/>
                 </suppressedExceptions>
-                <uuid>eb3aaea7-a2de-4684-9d4c-fdcf57ad9eb5</uuid>
+                <uuid>fd903625-72a3-4e47-b43f-1293e316d173</uuid>
               </throwable>
+              <parametrisedStep>Given User on home page</parametrisedStep>
+              <durationInMillis>3863</durationInMillis>
+              <start>1550240186639</start>
+              <end>1550240190502</end>
+            </failed>
+            <notPerformed>
+              <step>When User Signed In</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When User Signed In</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User see the Text &apos;Account&apos; must be displayed</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User see the Text &apos;Account&apos; must be displayed</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>When User Hover Over &apos;Account&apos;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When User Hover Over &apos;Account&apos;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User verify Oracle account must have options:
+|option           |
+|Sign Out         |
+|Account          |
+|Help             |</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User verify Oracle account must have options:
+?|option           |
+|Sign Out         |
+|Account          |
+|Help             |?</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User verify Cloud account must have only option:
+|option |
+|Sign In|
+|Free Cloud Platform Trial|</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then User verify Cloud account must have only option:
+?|option |
+|Sign In|
+|Free Cloud Platform Trial|?</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
+            <notPerformed>
+              <step>Then User Click on Cloud Account each links:
+|Option  |Link                     |appropriate page        |
+|Account |Sign In                  |Oracle Cloud            |
+|Account |Free Cloud Platform Trial|Oracle Cloud            |</step>
+              <type>NOT_PERFORMED</type>
               <parametrisedStep>Then User Click on Cloud Account each links:
 ?|Option  |Link                     |appropriate page        |
 |Account |Sign In                  |Oracle Cloud            |
 |Account |Free Cloud Platform Trial|Oracle Cloud            |?</parametrisedStep>
-              <durationInMillis>50788</durationInMillis>
-              <start>1533664392853</start>
-              <end>1533664443641</end>
-            </failed>
+              <durationInMillis>0</durationInMillis>
+              <start>0</start>
+              <end>0</end>
+            </notPerformed>
             <notPerformed>
               <step>Then User Clicks on oracle account each links:
 |Option |Link             |appropriate page         |

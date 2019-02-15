@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="946.654" tests="58" errors="1" skipped="2" failures="6">
+<testsuite name="com.bdd.sample.AcceptanceTestSuite" time="93.603" tests="58" errors="8" skipped="34" failures="14">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="java.vm.version" value="25.131-b11"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Execution\jbhaves"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,9 +17,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="D:\Execution\jbhaves"/>
-    <property name="webdriver.driver" value="edge"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
-    <property name="injected.tags" value="browser:edge"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
@@ -27,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\software\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6560359720960698091.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\arpannee\AppData\Local\Programs\Python\Python36-32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;C:\Users\arpannee\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin;C:\Program Files\nodejs;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\tools;D:\software\Andrios\android-sdk_r24.3.4-windows\android-sdk-windows\platforms;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\arpannee\AppData\Local\Programs\Python\Python36-32;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Users\arpannee\AppData\Local\Microsoft\WindowsApps;C:\Users\arpannee\AppData\Roaming\npm;C:\Users\arpannee\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;D:\software\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -40,12 +39,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="arpannee"/>
-    <property name="java.class.path" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.class.path" value="/D:/software/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher verify -Dcontext=edge -Dwebdriver.driver=edge -Dinjected.tags=browser:edge"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\Users\arpannee\Downloads\apache-maven-3.5.0-bin (1)\apache-maven-3.5.0\conf\settings.xml install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,78 +51,543 @@
     <property name="java.version" value="1.8.0_131"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\software\apache-maven-3.2.2-bin\apache-maven-3.2.2\bin\.."/>
+    <property name="maven.home" value="D:\Execution\jbhaves\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
-    <property name="context" value="edge"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.173"/>
-  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="22.928"/>
-  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="0.778"/>
-  <testcase name="Then User verifies left Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="2.889"/>
-  <testcase name="Then User verifies right Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="7.704"/>
-  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="7.908"/>
-  <testcase name="Accelerator.story" classname="Accelerator.story" time="25.715"/>
-  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="33.375"/>
-  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="1.653"/>
-  <testcase name="Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed" classname="com.bdd.sample.steps2.CountryListDefinition" time="0.845"/>
-  <testcase name="Then Depending upon which country the page belongs to,  pin must appear against it" classname="com.bdd.sample.steps2.CountryListDefinition" time="16.862"/>
-  <testcase name="Scenario: Show regions and its countries" classname="Scenario: Show regions and its countries" time="17.01"/>
-  <testcase name="CountryList.story" classname="CountryList.story" time="26.05"/>
-  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="24.291"/>
-  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="3.238"/>
-  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="3.075"/>
-  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="3.859"/>
-  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="4.183"/>
-  <testcase name="Menu.story" classname="Menu.story" time="13.253"/>
-  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="40.788"/>
-  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0.553"/>
-  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="10.562"/>
-  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="2.133"/>
-  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0.621"/>
-  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="1.014"/>
-  <testcase name="Then User verify Cloud Account must have only option:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0.728"/>
-  <testcase name="Then User Click on Cloud Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="69.888">
-    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.104"/>
+  <testcase name="Given User on home page" classname="com.bdd.sample.steps2.DefinitionSteps" time="6.528">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/Accelerator.story
+Using timeout for story Accelerator.story of 300 secs.
+
+(stories/Global_Nav/Accelerator.story)
+Narrative:
+In order to check Functionality
+As a n Tester
+I want to verify Global Nav application
+eta:@skip
+Scenario: Test case -Accelerator
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/Accelerator.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Accelerator
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Accelerator
+-------------------------------------------------------------------(stories/Global_Nav/Accelerator.story;Test case -Accelerator)
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 39639
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="When User verifies Menu bar should not Move while pageload" classname="com.bdd.sample.steps2.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verifies left Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User verifies Menu bar should not Move while pageload (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verifies right Header contains:" classname="com.bdd.sample.steps2.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User verifies left Header contains:
+
+|Header1|
+|Logo|
+|Search|
+|Menu|
+ (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Test case -Accelerator" classname="Scenario: Test case -Accelerator" time="6.578">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:187)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:905)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[Then User verifies right Header contains:
+
+|Header2|
+|Account|
+|Country|
+|Call|
+ (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Accelerator.story" classname="Accelerator.story" time="7.253">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:127)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:806)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)
-	at com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)
-]]></failure>
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Test case -Accelerator
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
+]]></system-err>
+  </testcase>
+  <testcase name="Given User on home page​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.84">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/CountryList.story
+
+(stories/Global_Nav/CountryList.story)
+Scenario: Show regions and its countries
+Using timeout for story CountryList.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/CountryList.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Country list
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Show regions and its countries
+-------------------------------------------------------------------(stories/Global_Nav/CountryList.story;Show regions and its countries)
+]]></system-err>
+  </testcase>
+  <testcase name="When User Hover over on &apos;Country&apos; text" classname="com.bdd.sample.steps2.CountryListDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed" classname="com.bdd.sample.steps2.CountryListDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User Hover over on 'Country' text (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then Depending upon which country the page belongs to,  pin must appear against it" classname="com.bdd.sample.steps2.CountryListDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Show regions and its countries" classname="Scenario: Show regions and its countries" time="3.841">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:187)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:905)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[Then Depending upon which country the page belongs to,  pin must appear against it (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="CountryList.story" classname="CountryList.story" time="4.077">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:127)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:806)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Show regions and its countries
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
+]]></system-err>
+  </testcase>
+  <testcase name="Given User on home page​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.755">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/Menu.story
+
+(stories/Global_Nav/Menu.story)
+Narrative:
+In order to check Functionality
+As a n Tester
+I want to verify Global Nav application
+eta:@skip
+Scenario: Test case -Menu
+Using timeout for story Menu.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/Menu.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Menu
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Menu
+-------------------------------------------------------------------(stories/Global_Nav/Menu.story;Test case -Menu)
+]]></system-err>
+  </testcase>
+  <testcase name="When User hover on Menu Bar shows primary panel with categories" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User hover on primary categories panel shows secondary panel" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User hover on Menu Bar shows primary panel with categories (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User hover on Secondary panel should show categerioes and direct links with arrow pointing" classname="com.bdd.sample.steps2.MenuDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User hover on primary categories panel shows secondary panel (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Test case -Menu" classname="Scenario: Test case -Menu" time="3.761">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:187)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:905)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[Then User hover on Secondary panel should show categerioes and direct links with arrow pointing (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Menu.story" classname="Menu.story" time="4.073">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:127)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:806)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Test case -Menu
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
+]]></system-err>
+  </testcase>
+  <testcase name="Given User on home page​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.738">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/NotSignedIn.story
+
+(stories/Global_Nav/NotSignedIn.story)
+Narrative:
+In order to check Functionality
+As a n Tester
+I want to verify Global Nav application
+eta:@skip
+Scenario: Test case -Not Signed-In
+Using timeout for story NotSignedIn.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/NotSignedIn.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Not signed in
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Not Signed-In
+-------------------------------------------------------------------(stories/Global_Nav/NotSignedIn.story;Test case -Not Signed-In)
+]]></system-err>
+  </testcase>
+  <testcase name="When User Not signed In" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User see the text &apos;Sign In&apos; must be displayed" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User Not signed In (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="When User Hover over &apos;Sign In&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User see the text 'Sign In' must be displayed (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User see the panel must slide down showing two account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User Hover over 'Sign In' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verify Oracle Account must have options:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verify Cloud Account must have only option:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User verify Oracle Account must have options:
+
+|option|
+|Sign in|
+|Create an account|
+|Help|
+ (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Click on Cloud Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
     <system-out><![CDATA[Then User verify Cloud Account must have only option:
 
 |option|
 |Sign In|
 |Free Cloud Platform Trial|
-
+ (NOT PERFORMED)
 ]]></system-out>
   </testcase>
   <testcase name="Then User Click on Oracle Account each links:" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
@@ -134,11 +597,10 @@
 |Option|Link|appropriate page|
 |Sign In|Sign In|Oracle Cloud|
 |Sign In|Free Cloud Platform Trial|Oracle Cloud|
- (FAILED)
-(java.lang.AssertionError)
+ (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="69.906">
+  <testcase name="Scenario: Test case -Not Signed-In" classname="Scenario: Test case -Not Signed-In" time="3.763">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
@@ -164,7 +626,7 @@
  (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="NotSignedIn.story" classname="NotSignedIn.story" time="78.364">
+  <testcase name="NotSignedIn.story" classname="NotSignedIn.story" time="4.066">
     <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
@@ -180,32 +642,27 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
     <system-out><![CDATA[
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)
-	at com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
 	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
@@ -219,68 +676,405 @@ java.lang.AssertionError
  (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
           \_\                                                            
 
-TEST FAILED: Test case -Not Signed-In
---------------------------------------------------------------------------&amp#27;[0m
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Page: Sign In, Free Cloud Platform Trial, Oracle Cloud&amp#27;[0m
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+TEST FAILED WITH ERROR: Test case -Not Signed-In
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
 ]]></system-err>
   </testcase>
-  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="18.586"/>
-  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="8"/>
-  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="7.844"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="48.921"/>
-  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="49.479"/>
-  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="6.283"/>
-  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="6.473"/>
-  <testcase name="SearchAutosuggestion.story" classname="SearchAutosuggestion.story" time="14.584"/>
-  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="20.736"/>
-  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="9.139"/>
-  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="1.043"/>
-  <testcase name="Then User text is type &apos;jav&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="4.596"/>
-  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="9.843"/>
-  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="9.953"/>
-  <testcase name="SearchBox.story" classname="SearchBox.story" time="17.805"/>
-  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="24.574"/>
-  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="26.168"/>
-  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="0.539"/>
-  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="3.592"/>
-  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="0.629"/>
-  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="1.055"/>
-  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="0.753"/>
-  <testcase name="Then User Click on Cloud Account each links:​" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="50.871">
-    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+  <testcase name="Given User on home page​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.796">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/SearchAutosuggestion.story
+
+(stories/Global_Nav/SearchAutosuggestion.story)
+Narrative:
+In order to check Functionality
+As a n Tester
+I want to verify Global Nav application
+eta:@skip
+Scenario: Test case -Search Autosuggestion
+Using timeout for story SearchAutosuggestion.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/SearchAutosuggestion.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Search autosuggestion
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Search Autosuggestion
+-------------------------------------------------------------------(stories/Global_Nav/SearchAutosuggestion.story;Test case -Search Autosuggestion)
+]]></system-err>
+  </testcase>
+  <testcase name="When User begins to type keyword &apos;ora&apos; in search box autosuggest must suggest options" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User start entering keyword &apos;jav&apos; again and autosuggest must reappear" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User begins to type keyword 'ora' in search box autosuggest must suggest options (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and hit enter results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User start entering keyword 'jav' again and autosuggest must reappear (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Enters keyword &apos;jav&apos; and click search icon results must be displayed in &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Enters keyword &apos;oracle&apos; and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts" classname="com.bdd.sample.steps2.SearchAutosuggestDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Test case -Search Autosuggestion" classname="Scenario: Test case -Search Autosuggestion" time="3.808">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:187)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:905)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="SearchAutosuggestion.story" classname="SearchAutosuggestion.story" time="4.073">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:127)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:806)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)
-	at com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)
-]]></failure>
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Test case -Search Autosuggestion
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
+]]></system-err>
+  </testcase>
+  <testcase name="Given User on home page​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.879">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/SearchBox.story
+
+(stories/Global_Nav/SearchBox.story)
+Narrative:
+In order to check Functionality
+As a n Tester
+I want to verify Global Nav application
+eta:@skip
+Scenario: Test case -Search Box
+Using timeout for story SearchBox.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/SearchBox.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Search box
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Search Box
+-------------------------------------------------------------------(stories/Global_Nav/SearchBox.story;Test case -Search Box)
+]]></system-err>
+  </testcase>
+  <testcase name="When User click inside the search box must show the cursor" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User click inside the search box must show the cursor (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User text is type &apos;jav&apos; in the search box options must be displayed to choose" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Click on the &apos;java me&apos; options should navigate to &apos;Oracle.com Search&apos; page" classname="com.bdd.sample.steps2.SearchBoxDefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User text is type 'jav' in the search box options must be displayed to choose (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Test case -Search Box" classname="Scenario: Test case -Search Box" time="3.887">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:187)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:905)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="SearchBox.story" classname="SearchBox.story" time="4.234">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:127)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:806)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+    <system-out><![CDATA[
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Test case -Search Box
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
+]]></system-err>
+  </testcase>
+  <testcase name="Given User on home page​​​​​​" classname="com.bdd.sample.steps2.DefinitionSteps" time="3.854">
+    <error message="null value in entry: url=null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+]]></error>
+    <system-out><![CDATA[
+Running story stories/Global_Nav/SignedIn.story
+
+(stories/Global_Nav/SignedIn.story)
+Narrative:
+In order to check Functionality
+As a Tester
+I want to verify Global Nav application
+
+
+eta:@skip
+Scenario: Test case -Signed-In
+Using timeout for story SignedIn.story of 300 secs.
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 48208774story running with path stories/Global_Nav/SignedIn.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Signed in
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Test case -Signed-In
+-------------------------------------------------------------------(stories/Global_Nav/SignedIn.story;Test case -Signed-In)
+]]></system-err>
+  </testcase>
+  <testcase name="When User Signed In" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given User on home page (FAILED)
+(java.lang.NullPointerException: null value in entry: url=null)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User see the Text &apos;Account&apos; must be displayed" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User Signed In (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="When User Hover Over &apos;Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User see the Text 'Account' must be displayed (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User see the panel must slide down showing two Account options &apos;Oracle Account&apos; and &apos;Cloud Account&apos;" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[When User Hover Over 'Account' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verify Oracle account must have options:" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User verify Cloud account must have only option:" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then User verify Oracle account must have options:
+
+|option|
+|Sign Out|
+|Account|
+|Help|
+ (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then User Click on Cloud Account each links:​" classname="com.bdd.sample.steps2.NotSignedInDefinition" time="0">
+    <skipped/>
     <system-out><![CDATA[Then User verify Cloud account must have only option:
 
 |option|
 |Sign In|
 |Free Cloud Platform Trial|
-
+ (NOT PERFORMED)
 ]]></system-out>
   </testcase>
   <testcase name="Then User Clicks on oracle account each links:" classname="com.bdd.sample.steps2.SignedInDefinition" time="0">
@@ -290,11 +1084,10 @@ TEST FAILED: Test case -Not Signed-In
 |Option|Link|appropriate page|
 |Account|Sign In|Oracle Cloud|
 |Account|Free Cloud Platform Trial|Oracle Cloud|
- (FAILED)
-(java.lang.AssertionError)
+ (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="50.89">
+  <testcase name="Scenario: Test case -Signed-In" classname="Scenario: Test case -Signed-In" time="3.876">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:44)
@@ -320,7 +1113,7 @@ TEST FAILED: Test case -Not Signed-In
  (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="SignedIn.story" classname="SignedIn.story" time="60.2">
+  <testcase name="SignedIn.story" classname="SignedIn.story" time="4.167">
     <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:51)
@@ -336,32 +1129,27 @@ TEST FAILED: Test case -Not Signed-In
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
     <system-out><![CDATA[
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)
-	at com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
 	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
@@ -375,16 +1163,16 @@ java.lang.AssertionError
  (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
           \_\                                                            
 
-TEST FAILED: Test case -Signed-In
---------------------------------------------------------------------------&amp#27;[0m
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Page: Account, Free Cloud Platform Trial, Oracle Cloud&amp#27;[0m
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+TEST FAILED WITH ERROR: Test case -Signed-In
+---------------------------------------------------------------------&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - &amp#27;[91mTEST FAILED AT STEP Is the home page&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - null value in entry: url=null
 ]]></system-err>
   </testcase>
   <testcase name="AfterStories" classname="java.lang.Object" time="0.001"/>
-  <testcase name="com.bdd.sample.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="3.751">
-    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@4071886f: java.lang.AssertionError" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
-org.jbehave.core.embedder.PerformableTree$SomethingHappened@4071886f: java.lang.AssertionError
+  <testcase name="com.bdd.sample.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="2.651">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@3be03f97: java.lang.NullPointerException: null value in entry: url=null" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@3be03f97: java.lang.NullPointerException: null value in entry: url=null
 	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
 	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
 	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
@@ -398,22 +1186,22 @@ org.jbehave.core.embedder.PerformableTree$SomethingHappened@4071886f: java.lang.
     <system-out><![CDATA[
 Generating reports view to 'D:\Execution\jbhaves\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
 Reports view generated with 8 stories (of which 0 pending) containing 7 scenarios (of which 0 pending)
-Failures in reports view: 2 scenarios failed
+Failures in reports view: 7 scenarios failed
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Show regions and its countries to file D:\Execution\jbhaves\target\site\serenity\7c08443e7c7b7373bd74ae9399681389c23a5507b643f0ebec58a38e581ba5de.json (using temp file D:\Execution\jbhaves\target\site\serenity\7c08443e7c7b7373bd74ae9399681389c23a5507b643f0ebec58a38e581ba5de.jsond99c6d2d-3151-4da4-8d67-16485800e548)
-[pool-2-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Not Signed-In to file D:\Execution\jbhaves\target\site\serenity\94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.json (using temp file D:\Execution\jbhaves\target\site\serenity\94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.json5621d1d2-46b3-4dd5-ac44-fad853d585af)
-[pool-2-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Accelerator to file D:\Execution\jbhaves\target\site\serenity\aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.json (using temp file D:\Execution\jbhaves\target\site\serenity\aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.json8bcfe9cb-7d1a-4327-8a03-0aeaaace7252)
-[pool-2-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Menu to file D:\Execution\jbhaves\target\site\serenity\de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.json (using temp file D:\Execution\jbhaves\target\site\serenity\de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.json2f2f126b-5d6d-4dff-8ba9-ce9d96c52f93)
-[pool-2-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Search Autosuggestion to file D:\Execution\jbhaves\target\site\serenity\2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.json (using temp file D:\Execution\jbhaves\target\site\serenity\2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.json08951ee2-d686-4144-8e60-b97bb8459157)
-[pool-2-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Search Box to file D:\Execution\jbhaves\target\site\serenity\e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.json (using temp file D:\Execution\jbhaves\target\site\serenity\e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.json32c3eb6f-aca9-4748-876b-ea9ca1a35ba6)
-[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Signed-In to file D:\Execution\jbhaves\target\site\serenity\bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.json (using temp file D:\Execution\jbhaves\target\site\serenity\bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.json3839b006-7f64-4c30-883f-8ab78a38e366)
-[pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Menu:Test case -Menu in de2b81b6836aa98fdd0a9ba0f12f2fe88009a3d67b19afbf0e4021581c8dd9fd.html in directory target\site\serenity  
-[pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Country list:Show regions and its countries in 7c08443e7c7b7373bd74ae9399681389c23a5507b643f0ebec58a38e581ba5de.html in directory target\site\serenity  
-[pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Not signed in:Test case -Not Signed-In in 94609d3689a7c21e0888521020cce89ede9d627fa7d795e41fd61f77857fb277.html in directory target\site\serenity  
-[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Accelerator:Test case -Accelerator in aeb321dee112e375b2d5d0aadf0687d5f6ea64b0645c37c72847129d934cb944.html in directory target\site\serenity  
-[pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search autosuggestion:Test case -Search Autosuggestion in 2fc7a5de1691c17ea01e96520cf6dad0992c966cf87603802f44a122461b3427.html in directory target\site\serenity  
-[pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search box:Test case -Search Box in e8b8c8676ec8b1754c7d5e6353c4d2954513b2e65e474979f68e42f75f0505a3.html in directory target\site\serenity  
-[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Signed in:Test case -Signed-In in bef668e138ab2bac370827ad469b129154a667d297237828837a5f712fa6a622.html in directory target\site\serenity  
+    <system-err><![CDATA[[pool-2-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Menu to file D:\Execution\jbhaves\target\site\serenity\3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.json (using temp file D:\Execution\jbhaves\target\site\serenity\3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.json6ea0875c-35eb-4311-92d7-321550dee7ee)
+[pool-2-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Accelerator to file D:\Execution\jbhaves\target\site\serenity\7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.json (using temp file D:\Execution\jbhaves\target\site\serenity\7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.json1200ca88-2484-4ac7-80cd-5844438d3dfc)
+[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Show regions and its countries to file D:\Execution\jbhaves\target\site\serenity\8f07b82738f8bd5f14a7cc1f704d7ebe898dd5600528667f5edd31f3878e8154.json (using temp file D:\Execution\jbhaves\target\site\serenity\8f07b82738f8bd5f14a7cc1f704d7ebe898dd5600528667f5edd31f3878e8154.jsoncb1e2a4b-73b3-4895-864e-a042622c4df5)
+[pool-2-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Not Signed-In to file D:\Execution\jbhaves\target\site\serenity\ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.json (using temp file D:\Execution\jbhaves\target\site\serenity\ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.json292ab458-4372-4713-a835-bef1dabd3e18)
+[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Search Autosuggestion to file D:\Execution\jbhaves\target\site\serenity\9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.json (using temp file D:\Execution\jbhaves\target\site\serenity\9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.jsondfdc18cc-649a-493b-bc0a-e7cfa748c049)
+[pool-2-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Search Box to file D:\Execution\jbhaves\target\site\serenity\44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.json (using temp file D:\Execution\jbhaves\target\site\serenity\44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.json03ff0234-50e0-4073-a64e-9a6884158408)
+[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Test case -Signed-In to file D:\Execution\jbhaves\target\site\serenity\530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.json (using temp file D:\Execution\jbhaves\target\site\serenity\530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.jsona31b05e2-b2a5-4d30-b159-572aebe95cff)
+[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Accelerator:Test case -Accelerator in 7978cce99d82cb5ac6d49a0660d65fbd27792858162ce7c9b9e0644934eada53.html in directory target\site\serenity  
+[pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Not signed in:Test case -Not Signed-In in ae64225937ba2fdc9f83ae4db8443ddef7968e1e60ae942359d2eafde4e15712.html in directory target\site\serenity  
+[pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Country list:Show regions and its countries in 8f07b82738f8bd5f14a7cc1f704d7ebe898dd5600528667f5edd31f3878e8154.html in directory target\site\serenity  
+[pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Menu:Test case -Menu in 3200ab7ea3c062620d4deecec10a49cbd23da9f70c0641d06793fc66c24a182e.html in directory target\site\serenity  
+[pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search box:Test case -Search Box in 44202ac40425c82409d6a19381db076f241df67029790d1c440327af03d8c592.html in directory target\site\serenity  
+[pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search autosuggestion:Test case -Search Autosuggestion in 9ff2586ceb1a69ae864d5c01510c374edd86681b4c056cf2c86978995cf2883b.html in directory target\site\serenity  
+[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Signed in:Test case -Signed-In in 530c522b0e1ca8372f10a1aed121986e51d65ca1364d512e702df77bf12c5ae8.html in directory target\site\serenity  
 ]]></system-err>
   </testcase>
 </testsuite>

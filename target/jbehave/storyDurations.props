@@ -1,12 +1,12 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Aug 07 23:24:13 IST 2018
-stories/Global_Nav/CountryList.story=62000
-stories/Global_Nav/NotSignedIn.story=135000
-stories/Global_Nav/SearchAutosuggestion.story=148000
-stories/Global_Nav/SignedIn.story=118000
-stories/Global_Nav/Menu.story=44000
-total=614000
-threadAverage=614000
-stories/Global_Nav/SearchBox.story=54000
+#Fri Feb 15 19:46:31 IST 2019
+stories/Global_Nav/CountryList.story=3000
+stories/Global_Nav/NotSignedIn.story=4000
+stories/Global_Nav/SearchAutosuggestion.story=4000
+stories/Global_Nav/SignedIn.story=4000
+stories/Global_Nav/Menu.story=4000
+total=30000
+threadAverage=30000
+stories/Global_Nav/SearchBox.story=4000
 threads=1
-stories/Global_Nav/Accelerator.story=53000
+stories/Global_Nav/Accelerator.story=7000

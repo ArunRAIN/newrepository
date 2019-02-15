@@ -268,6 +268,10 @@ public class SignedInPage extends PageObject
 	    	js.executeScript("arguments[0].click();", ele);
 		   waitABit(3000);	
 		    
+		   WebElement ele3 = getDriver().findElement(By.xpath("//a[contains(text(),'Sign Out')]"));
+		   JavascriptExecutor js2 = (JavascriptExecutor)getDriver();
+	    	js2.executeScript("arguments[0].click();", ele3);
+		   waitABit(3000);	
 		    
 		       
 	   }

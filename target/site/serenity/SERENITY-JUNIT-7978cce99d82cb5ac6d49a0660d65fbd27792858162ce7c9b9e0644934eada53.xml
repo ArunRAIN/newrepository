@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Accelerator" skipped="0" tests="1" time="6.7" timestamp="2019-02-46 07:45:58"><testcase name="Test case -Accelerator"><error message="null value in entry: url=null" type="java.lang.NullPointerException">null value in entry: url=null</error><system-err>null value in entry: url=null&#13;
+com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)&#13;
+com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)&#13;
+com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)&#13;
+com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)&#13;
+com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)&#13;
+com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)&#13;
+com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)&#13;
+</system-err></testcase></testsuite>

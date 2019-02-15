@@ -172,7 +172,7 @@
       },
       "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -287,35 +287,111 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given User on home page",
+                    "cause": {
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
+                      "stackTrace": [
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "ba2daa1a-36d0-4848-b8a7-545c0a9453da"
+                  },
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 22964,
-                  "start": 1533663834677,
-                  "end": 1533663857641
+                  "durationInMillis": 6519,
+                  "start": 1550240158731,
+                  "end": 1550240165250
                 },
                 {
                   "step": "When User verifies Menu bar should not Move while pageload",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
-                  "durationInMillis": 537,
-                  "start": 1533663858253,
-                  "end": 1533663858790
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User verifies left Header contains:\n| Header1|\n| Logo   |\n| Search |\n|  Menu  |",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User verifies left Header contains:\n?| Header1|\n| Logo   |\n| Search |\n|  Menu  |?",
-                  "durationInMillis": 2661,
-                  "start": 1533663859256,
-                  "end": 1533663861917
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User verifies right Header contains:\n| Header2|\n| Account|\n| Country|\n| Call   |",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User verifies right Header contains:\n?| Header2|\n| Account|\n| Country|\n| Call   |?",
-                  "durationInMillis": 7618,
-                  "start": 1533663862779,
-                  "end": 1533663870397
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 }
               ]
             },
@@ -425,15 +501,15 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 53796,
-        "start": 1533663834498,
-        "end": 1533663888294
+        "durationInMillis": 7391,
+        "start": 1550240158590,
+        "end": 1550240165981
       },
       "givenStory": false
     },
@@ -609,7 +685,7 @@
       },
       "localizedNarrative": "As a \nI want to \nSo that ",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -724,35 +800,111 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given User on home page",
+                    "cause": {
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
+                      "stackTrace": [
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "f683d83b-1894-4adc-81f6-e9c66390cac8"
+                  },
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 33593,
-                  "start": 1533663888307,
-                  "end": 1533663921900
+                  "durationInMillis": 3830,
+                  "start": 1550240166031,
+                  "end": 1550240169861
                 },
                 {
                   "step": "When User Hover over on 'Country' text",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When User Hover over on 'Country' text",
-                  "durationInMillis": 1475,
-                  "start": 1533663922282,
-                  "end": 1533663923757
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-                  "durationInMillis": 673,
-                  "start": 1533663924084,
-                  "end": 1533663924757
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then Depending upon which country the page belongs to,  pin must appear against it",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then Depending upon which country the page belongs to,  pin must appear against it",
-                  "durationInMillis": 16785,
-                  "start": 1533663925000,
-                  "end": 1533663941785
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 }
               ]
             },
@@ -862,15 +1014,15 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 62619,
-        "start": 1533663888305,
-        "end": 1533663950924
+        "durationInMillis": 4072,
+        "start": 1550240166028,
+        "end": 1550240170100
       },
       "givenStory": false
     },
@@ -1046,7 +1198,7 @@
       },
       "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -1161,35 +1313,111 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given User on home page",
+                    "cause": {
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
+                      "stackTrace": [
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "f57c82f1-4769-4ea0-9e43-7e7d715c3b48"
+                  },
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 24502,
-                  "start": 1533663950938,
-                  "end": 1533663975440
+                  "durationInMillis": 3773,
+                  "start": 1550240170127,
+                  "end": 1550240173900
                 },
                 {
                   "step": "When User hover on Menu Bar shows primary panel with categories",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
-                  "durationInMillis": 3043,
-                  "start": 1533663975863,
-                  "end": 1533663978906
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User hover on primary categories panel shows secondary panel",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
-                  "durationInMillis": 2916,
-                  "start": 1533663979210,
-                  "end": 1533663982126
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-                  "durationInMillis": 3797,
-                  "start": 1533663982324,
-                  "end": 1533663986121
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 }
               ]
             },
@@ -1299,15 +1527,15 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 44576,
-        "start": 1533663950936,
-        "end": 1533663995512
+        "durationInMillis": 4096,
+        "start": 1550240170122,
+        "end": 1550240174218
       },
       "givenStory": false
     },
@@ -1608,93 +1836,33 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 40984,
-                  "start": 1533663995526,
-                  "end": 1533664036510
-                },
-                {
-                  "step": "When User Not signed In",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "When User Not signed In",
-                  "durationInMillis": 391,
-                  "start": 1533664036838,
-                  "end": 1533664037229
-                },
-                {
-                  "step": "Then User see the text 'Sign In' must be displayed",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
-                  "durationInMillis": 10399,
-                  "start": 1533664037560,
-                  "end": 1533664047959
-                },
-                {
-                  "step": "When User Hover over 'Sign In'",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "When User Hover over 'Sign In'",
-                  "durationInMillis": 1949,
-                  "start": 1533664048308,
-                  "end": 1533664050257
-                },
-                {
-                  "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-                  "durationInMillis": 292,
-                  "start": 1533664050758,
-                  "end": 1533664051050
-                },
-                {
-                  "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
-                  "durationInMillis": 887,
-                  "start": 1533664051319,
-                  "end": 1533664052206
-                },
-                {
-                  "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
-                  "durationInMillis": 587,
-                  "start": 1533664052482,
-                  "end": 1533664053069
-                },
-                {
-                  "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
                   "type": "FAILED",
                   "throwable": {
-                    "detailMessage": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
+                    "detailMessage": "Given User on home page",
                     "cause": {
-                      "@class": "java.lang.AssertionError",
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
                       "stackTrace": [
-                        "org.junit.Assert.fail(Assert.java:86)",
-                        "org.junit.Assert.assertTrue(Assert.java:41)",
-                        "org.junit.Assert.assertTrue(Assert.java:52)",
-                        "com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
                         "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                         "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                         "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                         "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                         "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                         "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
-                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
-                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
-                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
-                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
-                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)",
-                        "com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
                         "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
@@ -1743,12 +1911,68 @@
                       [],
                       []
                     ],
-                    "uuid": "1461494e-4de0-4879-9d7e-428627dff617"
+                    "uuid": "87990a97-c1e2-49c6-a645-daebb4dd7501"
                   },
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 3738,
+                  "start": 1550240174231,
+                  "end": 1550240177969
+                },
+                {
+                  "step": "When User Not signed In",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When User Not signed In",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User see the text 'Sign In' must be displayed",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "When User Hover over 'Sign In'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When User Hover over 'Sign In'",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |?",
-                  "durationInMillis": 69737,
-                  "start": 1533664053350,
-                  "end": 1533664123087
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |",
@@ -1877,9 +2101,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 135993,
-        "start": 1533663995524,
-        "end": 1533664131517
+        "durationInMillis": 4066,
+        "start": 1550240174230,
+        "end": 1550240178296
       },
       "givenStory": false
     },
@@ -2057,7 +2281,7 @@
       },
       "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -2174,51 +2398,127 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given User on home page",
+                    "cause": {
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
+                      "stackTrace": [
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "c96263c7-300d-47b2-bdd2-c03e290a74f8"
+                  },
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 18741,
-                  "start": 1533664131547,
-                  "end": 1533664150288
+                  "durationInMillis": 3808,
+                  "start": 1550240178306,
+                  "end": 1550240182114
                 },
                 {
                   "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-                  "durationInMillis": 7927,
-                  "start": 1533664150555,
-                  "end": 1533664158482
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-                  "durationInMillis": 7713,
-                  "start": 1533664158758,
-                  "end": 1533664166471
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-                  "durationInMillis": 48781,
-                  "start": 1533664166775,
-                  "end": 1533664215556
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-                  "durationInMillis": 49422,
-                  "start": 1533664215674,
-                  "end": 1533664265096
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-                  "durationInMillis": 6126,
-                  "start": 1533664265416,
-                  "end": 1533664271542
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 }
               ]
             },
@@ -2330,15 +2630,15 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 148288,
-        "start": 1533664131539,
-        "end": 1533664279827
+        "durationInMillis": 4086,
+        "start": 1550240178305,
+        "end": 1550240182391
       },
       "givenStory": false
     },
@@ -2515,7 +2815,7 @@
       },
       "localizedNarrative": "In order to check Functionality\nAs a n Tester\nI want to verify Global Nav application\neta:@skip",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -2631,43 +2931,119 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Given User on home page",
+                    "cause": {
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
+                      "stackTrace": [
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:748)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:748)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "564c1122-7f83-4069-be0c-aea986a1db0a"
+                  },
                   "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 20885,
-                  "start": 1533664279838,
-                  "end": 1533664300723
+                  "durationInMillis": 3878,
+                  "start": 1550240182402,
+                  "end": 1550240186280
                 },
                 {
                   "step": "When User click inside the search box must show the cursor",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When User click inside the search box must show the cursor",
-                  "durationInMillis": 8980,
-                  "start": 1533664301038,
-                  "end": 1533664310018
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-                  "durationInMillis": 858,
-                  "start": 1533664310367,
-                  "end": 1533664311225
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User text is type 'jav' in the search box options must be displayed to choose",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User text is type 'jav' in the search box options must be displayed to choose",
-                  "durationInMillis": 4318,
-                  "start": 1533664311701,
-                  "end": 1533664316019
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-                  "durationInMillis": 9561,
-                  "start": 1533664316586,
-                  "end": 1533664326147
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 }
               ]
             },
@@ -2778,15 +3154,15 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 54236,
-        "start": 1533664279837,
-        "end": 1533664334073
+        "durationInMillis": 4221,
+        "start": 1550240182401,
+        "end": 1550240186622
       },
       "givenStory": false
     },
@@ -3087,93 +3463,33 @@
               "results": [
                 {
                   "step": "Given User on home page",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Given User on home page",
-                  "durationInMillis": 24815,
-                  "start": 1533664334085,
-                  "end": 1533664358900
-                },
-                {
-                  "step": "When User Signed In",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "When User Signed In",
-                  "durationInMillis": 25990,
-                  "start": 1533664359266,
-                  "end": 1533664385256
-                },
-                {
-                  "step": "Then User see the Text 'Account' must be displayed",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User see the Text 'Account' must be displayed",
-                  "durationInMillis": 381,
-                  "start": 1533664385557,
-                  "end": 1533664385938
-                },
-                {
-                  "step": "When User Hover Over 'Account'",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "When User Hover Over 'Account'",
-                  "durationInMillis": 3495,
-                  "start": 1533664386120,
-                  "end": 1533664389615
-                },
-                {
-                  "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-                  "durationInMillis": 308,
-                  "start": 1533664390087,
-                  "end": 1533664390395
-                },
-                {
-                  "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
-                  "durationInMillis": 913,
-                  "start": 1533664390751,
-                  "end": 1533664391664
-                },
-                {
-                  "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
-                  "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
-                  "durationInMillis": 586,
-                  "start": 1533664392001,
-                  "end": 1533664392587
-                },
-                {
-                  "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
                   "type": "FAILED",
                   "throwable": {
-                    "detailMessage": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
+                    "detailMessage": "Given User on home page",
                     "cause": {
-                      "@class": "java.lang.AssertionError",
+                      "@class": "java.lang.NullPointerException",
+                      "detailMessage": "null value in entry: url=null",
                       "stackTrace": [
-                        "org.junit.Assert.fail(Assert.java:86)",
-                        "org.junit.Assert.assertTrue(Assert.java:41)",
-                        "org.junit.Assert.assertTrue(Assert.java:52)",
-                        "com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
+                        "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                        "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                        "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                        "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                        "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                        "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
                         "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                         "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                         "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                         "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                         "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                         "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
-                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
-                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
-                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
-                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
-                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)",
-                        "com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)",
+                        "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                        "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
                         "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
@@ -3222,12 +3538,68 @@
                       [],
                       []
                     ],
-                    "uuid": "eb3aaea7-a2de-4684-9d4c-fdcf57ad9eb5"
+                    "uuid": "fd903625-72a3-4e47-b43f-1293e316d173"
                   },
+                  "parametrisedStep": "Given User on home page",
+                  "durationInMillis": 3863,
+                  "start": 1550240186639,
+                  "end": 1550240190502
+                },
+                {
+                  "step": "When User Signed In",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When User Signed In",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User see the Text 'Account' must be displayed",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User see the Text 'Account' must be displayed",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "When User Hover Over 'Account'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When User Hover Over 'Account'",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
+                },
+                {
+                  "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |?",
-                  "durationInMillis": 50788,
-                  "start": 1533664392853,
-                  "end": 1533664443641
+                  "durationInMillis": 0,
+                  "start": 0,
+                  "end": 0
                 },
                 {
                   "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |",
@@ -3356,9 +3728,9 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 118879,
-        "start": 1533664334084,
-        "end": 1533664452963
+        "durationInMillis": 4171,
+        "start": 1550240186638,
+        "end": 1550240190809
       },
       "givenStory": false
     }
@@ -3476,35 +3848,111 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given User on home page",
+                "cause": {
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
+                  "stackTrace": [
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "ba2daa1a-36d0-4848-b8a7-545c0a9453da"
+              },
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 22964,
-              "start": 1533663834677,
-              "end": 1533663857641
+              "durationInMillis": 6519,
+              "start": 1550240158731,
+              "end": 1550240165250
             },
             {
               "step": "When User verifies Menu bar should not Move while pageload",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When User verifies Menu bar should not Move while pageload",
-              "durationInMillis": 537,
-              "start": 1533663858253,
-              "end": 1533663858790
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User verifies left Header contains:\n| Header1|\n| Logo   |\n| Search |\n|  Menu  |",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User verifies left Header contains:\n?| Header1|\n| Logo   |\n| Search |\n|  Menu  |?",
-              "durationInMillis": 2661,
-              "start": 1533663859256,
-              "end": 1533663861917
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User verifies right Header contains:\n| Header2|\n| Account|\n| Country|\n| Call   |",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User verifies right Header contains:\n?| Header2|\n| Account|\n| Country|\n| Call   |?",
-              "durationInMillis": 7618,
-              "start": 1533663862779,
-              "end": 1533663870397
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             }
           ]
         },
@@ -3614,7 +4062,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -3728,35 +4176,111 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given User on home page",
+                "cause": {
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
+                  "stackTrace": [
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "f683d83b-1894-4adc-81f6-e9c66390cac8"
+              },
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 33593,
-              "start": 1533663888307,
-              "end": 1533663921900
+              "durationInMillis": 3830,
+              "start": 1550240166031,
+              "end": 1550240169861
             },
             {
               "step": "When User Hover over on 'Country' text",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When User Hover over on 'Country' text",
-              "durationInMillis": 1475,
-              "start": 1533663922282,
-              "end": 1533663923757
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then panel must show Regions in the 1st panel and their countries in the 2nd panel 2 column countries list must be displayed",
-              "durationInMillis": 673,
-              "start": 1533663924084,
-              "end": 1533663924757
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then Depending upon which country the page belongs to,  pin must appear against it",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then Depending upon which country the page belongs to,  pin must appear against it",
-              "durationInMillis": 16785,
-              "start": 1533663925000,
-              "end": 1533663941785
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             }
           ]
         },
@@ -3866,7 +4390,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -3980,35 +4504,111 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given User on home page",
+                "cause": {
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
+                  "stackTrace": [
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "f57c82f1-4769-4ea0-9e43-7e7d715c3b48"
+              },
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 24502,
-              "start": 1533663950938,
-              "end": 1533663975440
+              "durationInMillis": 3773,
+              "start": 1550240170127,
+              "end": 1550240173900
             },
             {
               "step": "When User hover on Menu Bar shows primary panel with categories",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When User hover on Menu Bar shows primary panel with categories",
-              "durationInMillis": 3043,
-              "start": 1533663975863,
-              "end": 1533663978906
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User hover on primary categories panel shows secondary panel",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User hover on primary categories panel shows secondary panel",
-              "durationInMillis": 2916,
-              "start": 1533663979210,
-              "end": 1533663982126
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User hover on Secondary panel should show categerioes and direct links with arrow pointing",
-              "durationInMillis": 3797,
-              "start": 1533663982324,
-              "end": 1533663986121
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             }
           ]
         },
@@ -4118,7 +4718,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -4237,93 +4837,33 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Given User on home page",
-              "durationInMillis": 40984,
-              "start": 1533663995526,
-              "end": 1533664036510
-            },
-            {
-              "step": "When User Not signed In",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "When User Not signed In",
-              "durationInMillis": 391,
-              "start": 1533664036838,
-              "end": 1533664037229
-            },
-            {
-              "step": "Then User see the text 'Sign In' must be displayed",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
-              "durationInMillis": 10399,
-              "start": 1533664037560,
-              "end": 1533664047959
-            },
-            {
-              "step": "When User Hover over 'Sign In'",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "When User Hover over 'Sign In'",
-              "durationInMillis": 1949,
-              "start": 1533664048308,
-              "end": 1533664050257
-            },
-            {
-              "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
-              "durationInMillis": 292,
-              "start": 1533664050758,
-              "end": 1533664051050
-            },
-            {
-              "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
-              "durationInMillis": 887,
-              "start": 1533664051319,
-              "end": 1533664052206
-            },
-            {
-              "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
-              "durationInMillis": 587,
-              "start": 1533664052482,
-              "end": 1533664053069
-            },
-            {
-              "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
               "type": "FAILED",
               "throwable": {
-                "detailMessage": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
+                "detailMessage": "Given User on home page",
                 "cause": {
-                  "@class": "java.lang.AssertionError",
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
                   "stackTrace": [
-                    "org.junit.Assert.fail(Assert.java:86)",
-                    "org.junit.Assert.assertTrue(Assert.java:41)",
-                    "org.junit.Assert.assertTrue(Assert.java:52)",
-                    "com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
                     "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                     "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                     "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                     "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                     "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                     "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
-                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
-                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
-                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
-                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
-                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)",
-                    "com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
                     "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
@@ -4372,12 +4912,68 @@
                   [],
                   []
                 ],
-                "uuid": "1461494e-4de0-4879-9d7e-428627dff617"
+                "uuid": "87990a97-c1e2-49c6-a645-daebb4dd7501"
               },
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 3738,
+              "start": 1550240174231,
+              "end": 1550240177969
+            },
+            {
+              "step": "When User Not signed In",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When User Not signed In",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User see the text 'Sign In' must be displayed",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User see the text 'Sign In' must be displayed",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "When User Hover over 'Sign In'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When User Hover over 'Sign In'",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User see the panel must slide down showing two account options 'Oracle Account' and 'Cloud Account'",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User verify Oracle Account must have options:\n|option           |\n|Sign in          |\n|Create an account|\n|Help             |",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User verify Oracle Account must have options:\n?|option           |\n|Sign in          |\n|Create an account|\n|Help             |?",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User verify Cloud Account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User verify Cloud Account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link                     |appropriate page        |\n|Sign In |Sign In                  |Oracle Cloud            |\n|Sign In |Free Cloud Platform Trial|Oracle Cloud            |?",
-              "durationInMillis": 69737,
-              "start": 1533664053350,
-              "end": 1533664123087
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Click on Oracle Account each links:\n|Option |Link             |appropriate page         |\n|Sign In|Help             |About Your Oracle Account|\n|Sign In|Create an account|Create Account           |\n|Sign In|Sign in          |Single Sign On - Login   |",
@@ -4616,51 +5212,127 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given User on home page",
+                "cause": {
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
+                  "stackTrace": [
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "c96263c7-300d-47b2-bdd2-c03e290a74f8"
+              },
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 18741,
-              "start": 1533664131547,
-              "end": 1533664150288
+              "durationInMillis": 3808,
+              "start": 1550240178306,
+              "end": 1550240182114
             },
             {
               "step": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When User begins to type keyword 'ora' in search box autosuggest must suggest options",
-              "durationInMillis": 7927,
-              "start": 1533664150555,
-              "end": 1533664158482
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User start entering keyword 'jav' again and autosuggest must reappear",
-              "durationInMillis": 7713,
-              "start": 1533664158758,
-              "end": 1533664166471
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Enters keyword 'oracle' and hit enter results must be displayed in 'Oracle.com Search' page",
-              "durationInMillis": 48781,
-              "start": 1533664166775,
-              "end": 1533664215556
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Enters keyword 'jav' and click search icon results must be displayed in 'Oracle.com Search' page",
-              "durationInMillis": 49422,
-              "start": 1533664215674,
-              "end": 1533664265096
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Enters keyword 'oracle' and once autosuggestion appears, click outside the search field and verify that the autosuggest retracts",
-              "durationInMillis": 6126,
-              "start": 1533664265416,
-              "end": 1533664271542
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             }
           ]
         },
@@ -4772,7 +5444,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -4887,43 +5559,119 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Given User on home page",
+                "cause": {
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
+                  "stackTrace": [
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:748)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ]
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:752)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1088)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:953)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:992)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:902)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:748)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "564c1122-7f83-4069-be0c-aea986a1db0a"
+              },
               "parametrisedStep": "Given User on home page",
-              "durationInMillis": 20885,
-              "start": 1533664279838,
-              "end": 1533664300723
+              "durationInMillis": 3878,
+              "start": 1550240182402,
+              "end": 1550240186280
             },
             {
               "step": "When User click inside the search box must show the cursor",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When User click inside the search box must show the cursor",
-              "durationInMillis": 8980,
-              "start": 1533664301038,
-              "end": 1533664310018
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear",
-              "durationInMillis": 858,
-              "start": 1533664310367,
-              "end": 1533664311225
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User text is type 'jav' in the search box options must be displayed to choose",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User text is type 'jav' in the search box options must be displayed to choose",
-              "durationInMillis": 4318,
-              "start": 1533664311701,
-              "end": 1533664316019
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page",
-              "durationInMillis": 9561,
-              "start": 1533664316586,
-              "end": 1533664326147
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             }
           ]
         },
@@ -5034,7 +5782,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -5153,93 +5901,33 @@
           "results": [
             {
               "step": "Given User on home page",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Given User on home page",
-              "durationInMillis": 24815,
-              "start": 1533664334085,
-              "end": 1533664358900
-            },
-            {
-              "step": "When User Signed In",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "When User Signed In",
-              "durationInMillis": 25990,
-              "start": 1533664359266,
-              "end": 1533664385256
-            },
-            {
-              "step": "Then User see the Text 'Account' must be displayed",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User see the Text 'Account' must be displayed",
-              "durationInMillis": 381,
-              "start": 1533664385557,
-              "end": 1533664385938
-            },
-            {
-              "step": "When User Hover Over 'Account'",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "When User Hover Over 'Account'",
-              "durationInMillis": 3495,
-              "start": 1533664386120,
-              "end": 1533664389615
-            },
-            {
-              "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
-              "durationInMillis": 308,
-              "start": 1533664390087,
-              "end": 1533664390395
-            },
-            {
-              "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
-              "durationInMillis": 913,
-              "start": 1533664390751,
-              "end": 1533664391664
-            },
-            {
-              "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
-              "type": "SUCCESSFUL",
-              "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
-              "durationInMillis": 586,
-              "start": 1533664392001,
-              "end": 1533664392587
-            },
-            {
-              "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
               "type": "FAILED",
               "throwable": {
-                "detailMessage": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
+                "detailMessage": "Given User on home page",
                 "cause": {
-                  "@class": "java.lang.AssertionError",
+                  "@class": "java.lang.NullPointerException",
+                  "detailMessage": "null value in entry: url=null",
                   "stackTrace": [
-                    "org.junit.Assert.fail(Assert.java:86)",
-                    "org.junit.Assert.assertTrue(Assert.java:41)",
-                    "org.junit.Assert.assertTrue(Assert.java:52)",
-                    "com.bdd.sample.pages.NotSignedInPage.is_page_(NotSignedInPage.java:172)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep.Page(NotSignedInStep.java:79)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$Page$3(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
+                    "com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)",
+                    "com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)",
+                    "com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)",
+                    "com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)",
+                    "net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)",
+                    "com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(<generated>)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(<generated>)",
                     "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                     "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                     "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                     "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                     "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                     "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.Page(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep.is_page_(NotSignedInStep.java:87)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.CGLIB$is_page_$1(<generated>)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441$$FastClassByCGLIB$$5115546f.invoke(<generated>)",
-                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
-                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
-                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
-                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
-                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
-                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "com.bdd.sample.steps.serenity.NotSignedInStep$$EnhancerByCGLIB$$143e4441.is_page_(<generated>)",
-                    "com.bdd.sample.steps2.NotSignedInDefinition.UserClickoneachoptions(NotSignedInDefinition.java:97)",
+                    "com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(<generated>)",
+                    "com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
                     "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
@@ -5288,12 +5976,68 @@
                   [],
                   []
                 ],
-                "uuid": "eb3aaea7-a2de-4684-9d4c-fdcf57ad9eb5"
+                "uuid": "fd903625-72a3-4e47-b43f-1293e316d173"
               },
+              "parametrisedStep": "Given User on home page",
+              "durationInMillis": 3863,
+              "start": 1550240186639,
+              "end": 1550240190502
+            },
+            {
+              "step": "When User Signed In",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When User Signed In",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User see the Text 'Account' must be displayed",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User see the Text 'Account' must be displayed",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "When User Hover Over 'Account'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When User Hover Over 'Account'",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User see the panel must slide down showing two Account options 'Oracle Account' and 'Cloud Account'",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User verify Oracle account must have options:\n|option           |\n|Sign Out         |\n|Account          |\n|Help             |",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User verify Oracle account must have options:\n?|option           |\n|Sign Out         |\n|Account          |\n|Help             |?",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User verify Cloud account must have only option:\n|option |\n|Sign In|\n|Free Cloud Platform Trial|",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then User verify Cloud account must have only option:\n?|option |\n|Sign In|\n|Free Cloud Platform Trial|?",
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
+            },
+            {
+              "step": "Then User Click on Cloud Account each links:\n|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then User Click on Cloud Account each links:\n?|Option  |Link                     |appropriate page        |\n|Account |Sign In                  |Oracle Cloud            |\n|Account |Free Cloud Platform Trial|Oracle Cloud            |?",
-              "durationInMillis": 50788,
-              "start": 1533664392853,
-              "end": 1533664443641
+              "durationInMillis": 0,
+              "start": 0,
+              "end": 0
             },
             {
               "step": "Then User Clicks on oracle account each links:\n|Option |Link             |appropriate page         |\n|Account|Help             |About Your Oracle Account|\n|Account|Account          |Update Account           |\n|Account|Sign Out         |Search                   |",

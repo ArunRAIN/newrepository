@@ -9,10 +9,35 @@ eta:@skip</div>
 </div>
 <div class="scenario">
 <h2>Scenario: Test case -Search Box</h2>
-<div class="step successful">Given User on home page</div>
-<div class="step successful">When User click inside the search box must show the cursor</div>
-<div class="step successful">Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear</div>
-<div class="step successful">Then User text is type 'jav' in the search box options must be displayed to choose</div>
-<div class="step successful">Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page</div>
+<div class="step failed">Given User on home page <span class="keyword failed">(FAILED)</span><br/><span class="message failed">java.lang.NullPointerException: null value in entry: url=null</span></div>
+<div class="step notPerformed">When User click inside the search box must show the cursor <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User checks Without entering any text in the search box hit return key Search field must flash in red and disappear <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User text is type 'jav' in the search box options must be displayed to choose <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<div class="step notPerformed">Then User Click on the 'java me' options should navigate to 'Oracle.com Search' page <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</pre>
 </div>
 </div>

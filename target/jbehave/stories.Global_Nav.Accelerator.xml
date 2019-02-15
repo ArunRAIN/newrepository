@@ -6,9 +6,9 @@
 eta:@skip</iWantTo>
 </narrative>
 <scenario keyword="Scenario:" title="Test case -Accelerator">
-<step outcome="successful">Given User on home page</step>
-<step outcome="successful">When User verifies Menu bar should not Move while pageload</step>
-<step outcome="successful">Then User verifies left Header contains:
+<step outcome="failed" keyword="FAILED">Given User on home page<failure>java.lang.NullPointerException: null value in entry: url=null</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When User verifies Menu bar should not Move while pageload</step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verifies left Header contains:
 <parameter><parameters>
 <names><name>Header1</name></names>
 <values><value>Logo</value></values>
@@ -16,7 +16,7 @@ eta:@skip</iWantTo>
 <values><value>Menu</value></values>
 </parameters>
 </parameter></step>
-<step outcome="successful">Then User verifies right Header contains:
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then User verifies right Header contains:
 <parameter><parameters>
 <names><name>Header2</name></names>
 <values><value>Account</value></values>
@@ -24,5 +24,30 @@ eta:@skip</iWantTo>
 <values><value>Call</value></values>
 </parameters>
 </parameter></step>
+<failure>java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:34)
+	at com.google.common.collect.SingletonImmutableBiMap.&lt;init&gt;(SingletonImmutableBiMap.java:42)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:73)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:120)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at net.thucydides.core.webdriver.WebDriverFacade.ignoreUndefinedErrorsIfTheUrlIsCorrectFor(WebDriverFacade.java:191)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:180)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:175)
+	at com.bdd.sample.pages.DictionaryPage.home_page(DictionaryPage.java:57)
+	at com.bdd.sample.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:20)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.CGLIB$is_the_home_page$3(&lt;generated&gt;)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7$$FastClassByCGLIB$$2f3fae3c.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.bdd.sample.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$6d6e98e7.is_the_home_page(&lt;generated&gt;)
+	at com.bdd.sample.steps2.DefinitionSteps.Useronhomepage(DefinitionSteps.java:26)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...</failure>
 </scenario>
 </story>

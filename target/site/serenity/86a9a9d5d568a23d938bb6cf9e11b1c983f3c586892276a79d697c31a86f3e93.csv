@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Not signed in","Test case -Not Signed-In","FAILURE","2018-08-07T23:16:35.524+05:30","0.0","127.59"
+"Not signed in","Test case -Not Signed-In","ERROR","2019-02-15T19:46:14.230+05:30","0.0","3.76"
